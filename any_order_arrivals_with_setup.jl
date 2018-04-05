@@ -1,20 +1,15 @@
 using JuMP, Cbc
 
-## LP Solver
+## MIP Solver
 solver = CbcSolver()
 
 ## Parameters
-c = [1, 1]	# Cost of delays for each plane
+c = [2, 1]	# Cost of delays for each plane
 t = [1, 2]	# Ideal arrival time
 l = [2, 0.5] # Time spent on the runway
 set_up = [	[0 5]
-			[0 0]	] # Set-up times
+			[1 0]	] # Set-up times
 d_max = 10 # Maximum allowable delay
-
-## Pre-checks
-assert(all(l.>=0))
-assert(length(t)==length(c))
-assert(length(l)==length(c))
 
 ## Computed values
 P = length(c) # Number of planes
@@ -24,6 +19,12 @@ for p = 1:P
 		BigM[p,q] = 4*d_max + 2*abs(t[p]-t[q]) + l[p]+l[q] # This is chosen based on traignle inequality arguments.
 	end
 end
+
+## Pre-checks
+assert(all(l.>=0))
+assert(length(t)==P)
+assert(length(l)==P)
+assert(size(set_up)==(P,P))
 
 ## Model
 m = Model(solver = solver)
@@ -35,26 +36,26 @@ m = Model(solver = solver)
 @variable(m, L[1:P,1:P]) # Time between the first plane, p, finishing and the second, q, arriving
 @variable(m, W[1:P,1:P] >= 0) # The smallest window of time that contains all intervals of time in which either plane p or plane q is landing.
 @variable(m, G[1:P,1:P] >= 0) # The gap between plane p ad q's landings
-@variable(m, A[1:P,1:P], Bin) # Binary matrix; entry (p,q) is equal to 1 if plane p arrives after plane q, and 0 otherwise.
-@variable(m, S[1:P,1:P] >= 0) # Slack variable for difference between L and L transpose.
-
+@variable(m, A[1:P,1:P], Bin) # Binary matrix; entry (p,q) is equal to 1 if plane p arrives before plane q, and 0 otherwise.
 ## Objective
 @objective(m, Min, dot(c,d)) # Minimise the total cost of delays
 
 ## Constraints
 @constraint(m, a .== t + d) # The arrival time is the ideal arrival time, plus delay
 @constraint(m, e .== a + l) # The ending time is the arrival time plus time spent on runway
-@constraint(m, W .== L + S) # By the definition of W
 for p = 1:P
 	for q = 1:P
 		@constraint(m, L[p,q] == e[p] - a[q]) # By the definition of L
 		
-		@constraint(m, S[p,q] <= L[p,q] - L[q,p] + BigM[p,q]*A[p,q]) # S <= abs(L-transpose(L)), positive abs case (see below for an explanation)
-		@constraint(m, S[p,q] <= L[q,p] - L[p,q] + BigM[p,q]*(1-A[p,q]) ) # S <= abs(L-transpose(L)), non-positive abs case
+		@constraint(m, W[p,q] >= L[p,q]) # W[p,q] == max(L[p,q], L[q,p]), constraint I
+		@constraint(m, W[p,q] >= L[q,p]) # W[p,q] == max(L[p,q], L[q,p]), constraint II
+		@constraint(m, W[p,q] <= L[p,q] + BigM[p,q]*A[p,q]) # W[p,q] == max(L[p,q], L[q,p]), constraint III
+		@constraint(m, W[p,q] <= L[q,p] + BigM[p,q]*(1-A[p,q])) # W[p,q] == max(L[p,q], L[q,p]), constraint IV
 
 		if p != q
 			@constraint(m, G[p,q]+l[p]+l[q] == W[p,q]) # The window W is the time the two planes spend each on the runway, plus the gap between these planes.
-			@constraint(m, G[p,q] >= set_up[p,q]) # Enforce set-up times
+			@constraint(m, G[p,q] >= set_up[p,q].*A[p,q]) # Enforce set-up times
+			@constraint(m, A[p,q] + A[q,p] == 1) # Plane p comes before plane q, or q before p, but not both.
 		end
 	end
 end
@@ -77,7 +78,6 @@ end
 
 # In the first case, W[p,q] >= l[p] + l[q], while in the second, that inequality is violated. Since G >= 0, this forces no overlap.
 # Notice also how W[p,q] = max(L[p,q], L[q,p]).
-# The slacks S[p,q] are added to L[p,q] to get L[q,p] if the latter is greater than the first, simply by constraining S <= abs(L-transpose(L)).
 
 ## Solve
 status = solve(m)
@@ -90,3 +90,4 @@ if status == :Optimal
 else
 	println("Status: ", status)
 end
+
