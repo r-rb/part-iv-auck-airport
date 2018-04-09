@@ -1,5 +1,7 @@
 using JuMP, Cbc
 
+print("Creating model...\n")
+
 ## MIP Solver
 solver = CbcSolver()
 
@@ -81,11 +83,33 @@ for p = 1:P
 		if p != q
 			@constraint(m, G[p,q]+l[p]+l[q] == W[p,q]) # The window W is the time the two planes spend each on the runway, plus the gap between these planes.
 			@constraint(m, G[p,q] >= set_up[p,q].*A[p,q]) # Enforce set-up times
-			@constraint(m, A[p,q] + A[q,p] == 1) # Plane p comes before plane q, or q before p, but not both. This constraint is not strictly necessary, but it may decrease the feasible region.
+			@constraint(m, A[p,q] + A[q,p] == 1) # Plane p comes before plane q, or q before p, but not both.
 		end
 	end
 end
+# Now for some constraints that should help make the problem easier to solve, but aren't necessary in enforcing the logic of the problem.
+# The first is to get an upper bound on each delay.
+# In the very worst case scenario, plane p is scheduled to arrive first, but arrives last, after all the other planes have arrived one after the other, incurring times of sum(l)-l[p]+(P-1)*maximum(set_up) in total. Therefore
+for p = 1:P
+	@constraint(m, d[p] <= sum(l)-l[p] + (P-1)*maximum(set_up))
+end
+# Given a sequence of planes pqrs..., plane p comes before all of them and so will have (P-1) ones in its row of the A matrix.
+# Plane q has one fewer, (P-2), and plane r has (P-3). This continues up until the final plane numbered P, which has all zeros.
+# The total number of ones in the A matrix is therefore
+# \sum_{p=1}^{P} (P-p) = \sum_{p=1}^{P} P - \sum_{p=1}^{P} p
+#					   = P^2 - P(P+1)/2
+#					   = P(P-1)/2
+@constraint(m, sum(A)==P*(P-1)/2)
 
+# "Coming before" is a transitive property. What this means is that if p comes before q, and q comes before r, then p comes before r.
+# This fact can put some more constraints on the A matrix.
+for p = 1:P
+	for q = 1:P
+		for r = 1:P
+			@constraint(m, A[p,q] + A[q,r] <= 1 + A[p,r])
+		end
+	end
+end
 
 
 
@@ -117,6 +141,7 @@ end
 
 
 ## Solve
+print("Solving model...\n")
 status = solve(m)
 
 ## Get solution
@@ -126,6 +151,7 @@ exits = getvalue(e)
 ideals = t
 
 ## Print solution
+print("Solving finished.\n")
 if status == :Optimal
 	println("Objective value: ", objective_value)
 	println("Arrival schedule: ", arrivals)
