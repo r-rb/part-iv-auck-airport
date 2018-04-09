@@ -42,6 +42,14 @@ for p = 1:P
 	end
 end
 
+
+
+
+###########################################################################################################
+
+
+
+
 ## Model
 m = Model(solver = solver)
 
@@ -78,6 +86,9 @@ for p = 1:P
 	end
 end
 
+
+
+
 # The idea behind this formulation is that if the planes land one after the other you will have a situation like this:
 
 # |----(l[p])----|
@@ -97,6 +108,14 @@ end
 # In the first case, W[p,q] >= l[p] + l[q], while in the second, that inequality is violated. Since G >= 0, this forces no overlap.
 # Notice also how W[p,q] = maximum(L[p,q], L[q,p]). At least one of the two arguments must be positive, so W must be too.
 
+
+
+
+###########################################################################################################
+
+
+
+
 ## Solve
 status = solve(m)
 
@@ -114,6 +133,14 @@ if status == :Optimal
 else
 	println("Status: ", status)
 end
+
+
+
+
+###########################################################################################################
+
+
+
 
 ## Post-processing
 event_times = sort(union(ideals,arrivals,exits))
