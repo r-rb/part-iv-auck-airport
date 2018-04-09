@@ -11,14 +11,21 @@ set_up = [	[0 5 2 3]
 			[1 0 2 3]
 			[2 0 3 4]
 			[2 0 4 4]	] # Set-up times: entry (p,q) is the minimum time required between the finish of plane p and the arrival of plane q
-d_max = 20 # Maximum allowable delay
+d_max = [20, 20, 20, 20] # Maximum allowable delay for each plane
 
-## Computed values
+## Pre-checks
 P = length(c) # Number of planes
+assert(all(l.>=0))
+assert(length(t)==P)
+assert(length(l)==P)
+assert(length(d_max)==P)
+assert(size(set_up)==(P,P))
+
+## Computed value
 BigM = Array(Float64,P,P)
 for p = 1:P
 	for q = 1:P
-		BigM[p,q] = 4*d_max + 2*abs(t[p]-t[q]) + l[p]+l[q] # This is chosen based on a traignle inequality argument, below.
+		BigM[p,q] = 2*d_max[p] + 2*d_max[q] + 2*abs(t[p]-t[q]) + l[p]+l[q] # This is chosen based on a traignle inequality argument, below.
 		# We would like BigM[p,q] >= W[p,q].
 
 		# W == maximum(L[p,q],L[q,p])
@@ -30,17 +37,10 @@ for p = 1:P
 		#	== l[p]+l[q] + 2*abs(t[p]+d[p]-t[q]-d[q])
 		#	<= l[p]+l[q] + 2*( abs(t[p]-t[q])+abs(d[p])+abs(d[q]) )		By the triangle inequality
 		#	== 2*abs(d[p])+2*abs(d[q]) + 2*abs(t[p]-t[q]) + l[p]+l[q]
-		#	<= 2*d_max+2*d_max + 2*abs(t[p]-t[q]) + l[p]+l[q]
-		#	== 4*d_max + 2*abs(t[p]-t[q]) + l[p]+l[q]
+		#	<= 2*d_max[p]+2*d_max[q] + 2*abs(t[p]-t[q]) + l[p]+l[q]
 		#	== BigM[p.q]
 	end
 end
-
-## Pre-checks
-assert(all(l.>=0))
-assert(length(t)==P)
-assert(length(l)==P)
-assert(size(set_up)==(P,P))
 
 ## Model
 m = Model(solver = solver)
@@ -48,7 +48,7 @@ m = Model(solver = solver)
 ## Variables
 @variable(m, a[1:P]) # Scheduled arrival times
 @variable(m, e[1:P]) # Scheduled ending times
-@variable(m, 0 <= d[1:P] <= d_max) # Scheduled delays
+@variable(m, d[1:P] >= 0) # Scheduled delays
 @variable(m, L[1:P,1:P]) # Time between the first plane, p, finishing and the second, q, arriving
 @variable(m, W[1:P,1:P] >= 0) # The smallest window of time that contains all intervals of time in which either plane p or plane q is landing.
 @variable(m, G[1:P,1:P] >= 0) # The gap between plane p ad q's landings
@@ -60,6 +60,7 @@ m = Model(solver = solver)
 ## Constraints
 @constraint(m, a .== t + d) # The arrival time is the ideal arrival time, plus delay
 @constraint(m, e .== a + l) # The ending time is the arrival time plus time spent on runway
+@constraint(m, d .<= d_max) # Maximum delay
 for p = 1:P
 	for q = 1:P
 		@constraint(m, L[p,q] == e[p] - a[q]) # By the definition of L
