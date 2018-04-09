@@ -18,7 +18,21 @@ P = length(c) # Number of planes
 BigM = Array(Float64,P,P)
 for p = 1:P
 	for q = 1:P
-		BigM[p,q] = 4*d_max + 2*abs(t[p]-t[q]) + l[p]+l[q] # This is chosen based on traignle inequality arguments.
+		BigM[p,q] = 4*d_max + 2*abs(t[p]-t[q]) + l[p]+l[q] # This is chosen based on a traignle inequality argument, below.
+		# We would like BigM[p,q] >= W[p,q].
+
+		# W == maximum(L[p,q],L[q,p])
+		#   <= abs(L[p,q]) + abs(L[q,p])
+		#	== abs(e[p]-a[q]) + abs(e[q]-a[p])
+		#	== abs(l[p]+a[p]-a[q]) + abs(l[q]+a[q]-a[p])
+		#	<= abs(l[p])+abs(a[p]-a[q]) + abs(l[q])+ abs(a[q]-a[p])		By the triangle inequality
+		#	== l[p]+l[q] + 2*abs(a[p]-a[q])								Since l >= 0
+		#	== l[p]+l[q] + 2*abs(t[p]+d[p]-t[q]-d[q])
+		#	<= l[p]+l[q] + 2*( abs(t[p]-t[q])+abs(d[p])+abs(d[q]) )		By the triangle inequality
+		#	== 2*abs(d[p])+2*abs(d[q]) + 2*abs(t[p]-t[q]) + l[p]+l[q]
+		#	<= 2*d_max+2*d_max + 2*abs(t[p]-t[q]) + l[p]+l[q]
+		#	== 4*d_max + 2*abs(t[p]-t[q]) + l[p]+l[q]
+		#	== BigM[p.q]
 	end
 end
 
@@ -50,10 +64,10 @@ for p = 1:P
 	for q = 1:P
 		@constraint(m, L[p,q] == e[p] - a[q]) # By the definition of L
 		
-		@constraint(m, W[p,q] >= L[p,q]) # W[p,q] == max(L[p,q], L[q,p]), constraint I
-		@constraint(m, W[p,q] >= L[q,p]) # W[p,q] == max(L[p,q], L[q,p]), constraint II
-		@constraint(m, W[p,q] <= L[p,q] + BigM[p,q]*A[p,q]) # W[p,q] == max(L[p,q], L[q,p]), constraint III
-		@constraint(m, W[p,q] <= L[q,p] + BigM[p,q]*(1-A[p,q])) # W[p,q] == max(L[p,q], L[q,p]), constraint IV
+		@constraint(m, W[p,q] >= L[p,q]) # W[p,q] == maximum(L[p,q], L[q,p]), constraint I
+		@constraint(m, W[p,q] >= L[q,p]) # W[p,q] == maximum(L[p,q], L[q,p]), constraint II
+		@constraint(m, W[p,q] <= L[p,q] + BigM[p,q]*A[p,q]) # W[p,q] == maximum(L[p,q], L[q,p]), constraint III
+		@constraint(m, W[p,q] <= L[q,p] + BigM[p,q]*(1-A[p,q])) # W[p,q] == maximum(L[p,q], L[q,p]), constraint IV
 
 		if p != q
 			@constraint(m, G[p,q]+l[p]+l[q] == W[p,q]) # The window W is the time the two planes spend each on the runway, plus the gap between these planes.
@@ -80,7 +94,7 @@ end
 # 				|--(L[q,p])--|
 
 # In the first case, W[p,q] >= l[p] + l[q], while in the second, that inequality is violated. Since G >= 0, this forces no overlap.
-# Notice also how W[p,q] = max(L[p,q], L[q,p]). At least one of the two arguments must be positive, so W must be too.
+# Notice also how W[p,q] = maximum(L[p,q], L[q,p]). At least one of the two arguments must be positive, so W must be too.
 
 ## Solve
 status = solve(m)
