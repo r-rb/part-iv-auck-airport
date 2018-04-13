@@ -1,0 +1,868 @@
+12:10 AM	NZ126	
+Melbourne (MEL)
+Air New Zealand	B772 (ZK-OKF)	
+Unknown
+12:45 AM	NZ997	
+Apia (APW)
+Air New Zealand	A320 (ZK-OJI)	
+Landed 12:36 AM
+4:45 AM	QR920	
+Doha (DOH)
+Qatar Airways	B77L (A7-BBC)	
+Landed 4:42 AM
+4:45 AM	QF151	
+Melbourne (MEL)
+Qantas	A332 (VH-EBS)	
+Landed 4:51 AM
+5:00 AM	NZ23	
+Vancouver (YVR)
+Air New Zealand	B772 (ZK-OKC)	
+Landed 5:11 AM
+5:05 AM	LA801	
+Santiago (SCL)
+LATAM Chile	B789 (CC-BGL)	
+Landed 4:53 AM
+5:15 AM	NZ1	
+Los Angeles (LAX)
+Air New Zealand	B77W (ZK-OKR)	
+Landed 6:27 AM
+5:20 AM	JQ217	
+Melbourne (MEL)
+Jetstar Airways	A320 (VH-VFJ)	
+Landed 5:29 AM
+5:30 AM	NZ7	
+San Francisco (SFO)
+Air New Zealand	B77W (ZK-OKS)	
+Landed 5:33 AM
+5:45 AM	NZ176	
+Perth (PER)
+Air New Zealand	B789 (ZK-NZI)	
+Landed 4:57 AM
+6:05 AM	NZ29	
+Houston (IAH)
+Air New Zealand	B789 (ZK-NZL)	
+Landed 6:05 AM
+6:15 AM	NZ5	
+Los Angeles (LAX)
+Air New Zealand	B77W (ZK-OKO)	
+Unknown
+6:45 AM	NZ5612	
+Tauranga (TRG)
+Air New Zealand Link	AT76 (ZK-MVF)	
+Unknown
+6:45 AM	NZ8275	
+Kerikeri (KKE)
+Air New Zealand Link	DH8C (ZK-NEO)	
+Landed 6:37 AM
+7:10 AM	KE129	
+Seoul (ICN)
+Korean Air	B772 (HL7526)	
+Landed 7:42 AM
+7:20 AM	NZ402	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OXI)	
+Landed 7:21 AM
+7:20 AM	NZ516	
+Christchurch (CHC)
+Air New Zealand	A320 (ZK-OXD)	
+Landed 7:15 AM
+7:20 AM	NZ8160	
+Gisborne (GIS)
+Air New Zealand Link	DH8C (ZK-NEH)	
+Landed 7:08 AM
+7:25 AM	QF7552	
+Honolulu (HNL)
+Atlas Air	B744 (N493MC)	
+Unknown
+7:25 AM	NZ5002	
+Napier (NPE)
+Air New Zealand Link	AT76 (ZK-MVH)	
+Landed 7:24 AM
+7:30 AM	3C821	
+Whakatane (WHK)
+Air Chathams	SWM	
+Unknown
+7:30 AM	NZ8064	
+Nelson (NSN)
+Air New Zealand Link	DH8C (ZK-NFA)	
+Landed 7:21 AM
+7:30 AM	NZ8202	
+Blenheim (BHE)
+Air New Zealand Link	DH8C (ZK-NFB)	
+Landed 7:17 AM
+7:30 AM	NZ8217	
+Whangarei (WRE)
+Air New Zealand Link	DH8C (ZK-NEF)	
+Estimated 7:41 AM
+7:30 AM	NZ5030	
+New Plymouth (NPL)
+Air New Zealand Link	AT76 (ZK-MVG)	
+Unknown
+7:30 AM	NZ5100	
+Palmerston North (PMR)
+Air New Zealand Link	AT75 (ZK-MCY)	
+Landed 7:29 AM
+7:30 AM	NZ8148	
+Rotorua (ROT)
+Air New Zealand Link	DH8C (ZK-NER)	
+Landed 7:18 AM
+7:35 AM	NZ5126	
+Tauranga (TRG)
+Air New Zealand Link	AT75 (ZK-MCX)	
+Unknown
+7:50 AM	NZ404	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OJS)	
+Landed 7:47 AM
+7:50 AM	JQ226	
+Christchurch (CHC)
+Jetstar Airways	A320 (VH-VFQ)	
+Landed 8:05 AM
+7:50 AM	JQ250	
+Wellington (WLG)
+Jetstar Airways	A320 (VH-VGZ)	
+Landed 7:40 AM
+7:55 AM	3C701	
+Wanganui (WAG)
+Air Chathams	CV5	
+Unknown
+8:05 AM	NZ90	
+Tokyo (NRT)
+Air New Zealand	B789 (ZK-NZG)	
+Landed 7:51 AM
+8:20 AM	NZ406	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OJQ)	
+Landed 9:11 AM
+8:20 AM	NZ522	
+Christchurch (CHC)
+Air New Zealand	A320 (ZK-OJR)	
+Landed 8:21 AM
+8:30 AM	NZ8032	
+New Plymouth (NPL)
+Air New Zealand Link	DH8C (ZK-NEQ)	
+Landed 8:22 AM
+8:45 AM	NZ5062	
+Nelson (NSN)
+Air New Zealand Link	AT75 (ZK-MCC)	
+Landed 8:33 AM
+8:50 AM	NZ408	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OXE)	
+Landed 9:01 AM
+8:50 AM	NZ610	
+Queenstown (ZQN)
+Air New Zealand	A320 (ZK-OXM)	
+Landed 8:42 AM
+8:55 AM	NZ80	
+Hong Kong (HKG)
+Air New Zealand	B772 (ZK-OKG)	
+Landed 8:54 AM
+9:15 AM	NZ5004	
+Napier (NPE)
+Air New Zealand Link	AT75 (ZK-MCO)	
+Unknown
+9:20 AM	NZ410	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OXJ)	
+Landed 9:27 AM
+9:20 AM	NZ526	
+Christchurch (CHC)
+Air New Zealand	A320 (ZK-OXG)	
+Landed 9:14 AM
+9:50 AM	NZ412	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OXK)	
+Landed 9:51 AM
+9:50 AM	EK448	
+Dubai (DXB)
+Emirates	A388 (A6-EOH)	
+Landed 9:13 AM
+9:50 AM	QF7552	
+Honolulu (HNL)
+Atlas Air	B744 (N493MC)	
+Landed 11:24 AM
+9:55 AM	JQ382	
+Palmerston North (PMR)
+Jetstar Airways	DH8C (VH-SBI)	
+Landed 10:04 AM
+9:55 AM	NZ5036	
+New Plymouth (NPL)
+Air New Zealand Link	AT76 (ZK-MVH)	
+Landed 11:38 AM
+9:55 AM	NZ5104	
+Palmerston North (PMR)
+Air New Zealand Link	AT76 (ZK-MVF)	
+Landed 9:59 AM
+9:55 AM	NZ8128	
+Tauranga (TRG)
+Air New Zealand Link	DH8C (ZK-NEH)	
+Unknown
+9:55 AM	JQ228	
+Christchurch (CHC)
+Jetstar Airways	A320 (VH-VQC)	
+Landed 9:47 AM
+10:00 AM	JQ352	
+Napier (NPE)
+Jetstar Airways	DH8C (VH-TQK)	
+Landed 10:07 AM
+10:10 AM	NZ8092	
+Taupo (TUO)
+Air New Zealand Link	DH8C (ZK-NEF)	
+Landed 10:02 AM
+10:15 AM	JQ254	
+Wellington (WLG)
+Jetstar Airways	A320 (VH-VFJ)	
+Landed 10:13 AM
+10:15 AM	NZ5066	
+Nelson (NSN)
+Air New Zealand Link	AT75 (ZK-MCU)	
+Unknown
+10:15 AM	OL731	
+Apia (APW)
+Neos	B738 (I-NEOS)	
+Landed 10:05 AM
+10:20 AM	NZ530	
+Christchurch (CHC)
+Air New Zealand	A320 (ZK-OXF)	
+Landed 10:39 AM
+10:25 AM	NZ8150	
+Rotorua (ROT)
+Air New Zealand Link	DH8C (ZK-NFB)	
+Landed 10:23 AM
+10:30 AM	NZ8221	
+Whangarei (WRE)
+Air New Zealand Link	DH8C (ZK-NEK)	
+Landed 10:36 AM
+10:30 AM	NZ8267	
+Kerikeri (KKE)
+Air New Zealand Link	DH8C (ZK-NFA)	
+Landed 10:31 AM
+10:35 AM	NZ19	
+Avarua (RAR)
+Air New Zealand	B772 (ZK-OKA)	
+Landed 10:29 AM
+10:45 AM	TG491	
+Bangkok (BKK)
+Thai Airways	B789 (HS-TWB)	
+Landed 10:32 AM
+10:45 AM	NZ8164	
+Gisborne (GIS)
+Air New Zealand Link	DH8C (ZK-NER)	
+Landed 10:40 AM
+10:50 AM	NZ416	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OXI)	
+Landed 10:47 AM
+10:50 AM	SQ285	
+Singapore (SIN)
+Singapore Airlines	B77W (9V-SWL)	
+Landed 10:50 AM
+10:55 AM	NZ5008	
+Napier (NPE)
+Air New Zealand Link	AT75 (ZK-MCY)	
+Landed 11:01 AM
+11:00 AM	JQ232	
+Christchurch (CHC)
+Jetstar Airways	A320 (VH-VFH)	
+Landed 10:51 AM
+11:00 AM	NZ5106	
+Palmerston North (PMR)
+Air New Zealand Link	AT76 (ZK-MVG)	
+Landed 11:14 AM
+11:20 AM	NZ8204	
+Blenheim (BHE)
+Air New Zealand Link	DH8C (ZK-NEO)	
+Landed 12:53 PM
+11:20 AM	NZ418	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OJS)	
+Landed 11:09 AM
+11:25 AM	NZ614	
+Queenstown (ZQN)
+Air New Zealand	A320 (ZK-OXL)	
+Landed 11:27 AM
+11:30 AM	3C707	
+Wanganui (WAG)
+Air Chathams	SF34 (ZK-KRA)	
+Landed 11:27 AM
+11:35 AM	VA151	
+Brisbane (BNE)
+Virgin Australia	B738 (VH-YIO)	
+Landed 11:37 AM
+11:40 AM	NZ676	
+Dunedin (DUD)
+Air New Zealand (All Blacks Livery)	A320 (ZK-OAB)	
+Landed 11:44 AM
+11:40 AM	JQ372	
+Nelson (NSN)
+Jetstar Airways	DH8C (VH-TQM)	
+Landed 11:33 AM
+11:45 AM	3C827	
+Whakatane (WHK)
+Air Chathams	SWM	
+Unknown
+11:45 AM	NZ5068	
+Nelson (NSN)
+Air New Zealand Link	AT75 (ZK-MCX)	
+Landed 12:02 PM
+11:50 AM	NZ420	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OJQ)	
+Landed 12:16 PM
+11:55 AM	CX113	
+Hong Kong (HKG)
+Cathay Pacific	A359 (B-LRX)	
+Landed 12:18 PM
+11:55 AM	FJ411	
+Nadi (NAN)
+Fiji Airways	B738 (DQ-FJH)	
+Unknown
+11:55 AM	NZ8146	
+Tauranga (TRG)
+Air New Zealand Link	DH8C (ZK-NEG)	
+Landed 11:51 AM
+11:55 AM	NZ8166	
+Gisborne (GIS)
+Air New Zealand Link	DH8C (ZK-NEC)	
+Landed 11:48 AM
+12:01 PM	JQ234	
+Christchurch (CHC)
+Jetstar Airways	A320 (VH-VFQ)	
+Landed 12:10 PM
+12:05 PM	VA165	
+Melbourne (MEL)
+Virgin Australia	B738 (VH-YIQ)	
+Unknown
+12:15 PM	NZ5012	
+Napier (NPE)
+Air New Zealand Link	AT75 (ZK-MCO)	
+Landed 12:20 PM
+12:15 PM	QF141	
+Sydney (SYD)
+Qantas	B738 (VH-XZF)	
+Landed 12:03 PM
+12:20 PM	NZ594	
+Christchurch (CHC)
+Air New Zealand	B789 (ZK-NZL)	
+Landed 12:20 PM
+12:20 PM	NZ8219	
+Whangarei (WRE)
+Air New Zealand Link	DH8C (ZK-NEH)	
+Landed 12:11 PM
+12:30 PM	HX27	
+Hong Kong (HKG)
+Hong Kong Airlines	A332 (B-LNI)	
+Landed 12:39 PM
+12:30 PM	JQ362	
+New Plymouth (NPL)
+Jetstar Airways	DH8C (VH-SBI)	
+Landed 12:23 PM
+12:45 PM	NZ5108	
+Palmerston North (PMR)
+Air New Zealand Link	AT75 (ZK-MCJ)	
+Landed 12:58 PM
+12:45 PM	JQ292	
+Queenstown (ZQN)
+Jetstar Airways	A320 (VH-VGZ)	
+Landed 12:43 PM
+12:45 PM	NZ8134	
+Tauranga (TRG)
+Air New Zealand Link	DH8C (ZK-NEF)	
+Landed 12:46 PM
+12:50 PM	NZ424	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OJR)	
+Landed 12:51 PM
+12:55 PM	NZ8200	
+Blenheim (BHE)
+Air New Zealand Link	DH8C (ZK-NEQ)	
+Landed 12:48 PM
+1:05 PM	PR218	
+Manila (MNL)
+Philippine Airlines	A343 (RP-C3438)	
+Landed 1:35 PM
+1:10 PM	NZ8040	
+New Plymouth (NPL)
+Air New Zealand Link	DH8C (ZK-NFB)	
+Landed 1:06 PM
+1:15 PM	JQ354	
+Napier (NPE)
+Jetstar Airways	DH8C (VH-TQK)	
+Landed 1:01 PM
+1:20 PM	NZ542	
+Christchurch (CHC)
+Air New Zealand	A320 (ZK-OXJ)	
+Landed 1:54 PM
+1:20 PM	NZ5110	
+Palmerston North (PMR)
+Air New Zealand Link	AT76 (ZK-MVF)	
+Landed 1:29 PM
+1:20 PM	QF153	
+Melbourne (MEL)
+Qantas	B738 (ZK-ZQF)	
+Landed 12:56 PM
+1:20 PM	NZ5014	
+Napier (NPE)
+Air New Zealand Link	AT76 (ZK-MVC)	
+Landed 1:18 PM
+1:25 PM	JQ256	
+Wellington (WLG)
+Jetstar Airways	A320 (VH-VGR)	
+Landed 1:27 PM
+1:45 PM	NZ616	
+Queenstown (ZQN)
+Air New Zealand	A320 (ZK-OXM)	
+Landed 1:44 PM
+1:45 PM	NZ5070	
+Nelson (NSN)
+Air New Zealand Link	AT75 (ZK-MCC)	
+Unknown
+1:45 PM	NZ286	
+Shanghai (PVG)
+Air New Zealand	B789 (ZK-NZD)	
+Landed 1:22 PM
+1:50 PM	NZ428	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OXK)	
+Landed 1:50 PM
+1:55 PM	QF123	
+Brisbane (BNE)
+Qantas	A333 (VH-QPD)	
+Landed 1:59 PM
+1:55 PM	NZ732	
+Brisbane (BNE)
+Air New Zealand	A320 (ZK-OJB)	
+Landed 1:38 PM
+2:10 PM	FJ431	
+Suva (SUV)
+Fiji Airways	B737 (DQ-FJF)	
+Landed 2:11 PM
+2:15 PM	NZ722	
+Melbourne (MEL)
+Air New Zealand	A320 (ZK-OJC)	
+Scheduled
+2:20 PM	NZ546	
+Christchurch (CHC)
+Air New Zealand	A320 (ZK-OXF)	
+Landed 2:33 PM
+2:20 PM	NZ5016	
+Napier (NPE)
+Air New Zealand Link	AT75 (ZK-MCY)	
+Landed 2:07 PM
+2:25 PM	NZ8112	
+Palmerston North (PMR)
+Air New Zealand Link	DH8C (ZK-NEK)	
+Landed 2:24 PM
+2:30 PM	NZ5042	
+New Plymouth (NPL)
+Air New Zealand Link	AT75 (ZK-MCX)	
+Estimated 2:32 PM
+2:30 PM	JQ258	
+Wellington (WLG)
+Jetstar Airways	A320 (VH-VFJ)	
+Landed 2:18 PM
+2:40 PM	JQ374	
+Nelson (NSN)
+Jetstar Airways	DH8C (VH-TQL)	
+Estimated 2:43 PM
+2:30 PM	NZ5042	
+New Plymouth (NPL)
+Air New Zealand Link	AT75 (ZK-MCX)	
+Estimated 2:32 PM
+2:30 PM	JQ258	
+Wellington (WLG)
+Jetstar Airways	A320 (VH-VFJ)	
+Landed 2:18 PM
+2:40 PM	JQ374	
+Nelson (NSN)
+Jetstar Airways	DH8C (VH-TQL)	
+Estimated 2:41 PM
+2:45 PM	NZ938	
+Gold Coast (OOL)
+Air New Zealand (Star Alliance livery)	A320 (ZK-OJH)	
+Landed 2:31 PM
+2:45 PM	NZ5076	
+Nelson (NSN)
+Air New Zealand Link	AT75 (ZK-MCU)	
+Estimated 2:43 PM
+2:50 PM	NZ432	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OXI)	
+Estimated 2:45 PM
+2:50 PM	NZ548	
+Christchurch (CHC)
+Air New Zealand	A320 (ZK-OXC)	
+Estimated 2:46 PM
+2:50 PM	NZ620	
+Queenstown (ZQN)
+Air New Zealand	A320 (ZK-OXE)	
+Scheduled
+2:55 PM	NZ102	
+Sydney (SYD)
+Air New Zealand	B772 (ZK-OKF)	
+Scheduled
+3:00 PM	NZ8170	
+Gisborne (GIS)
+Air New Zealand Link	DH8C (ZK-NEG)	
+Estimated 2:46 PM
+3:00 PM	JQ201	
+Sydney (SYD)
+Jetstar Airways	A320 (VH-VFN)	
+Estimated 3:11 PM
+3:00 PM	QF143	
+Sydney (SYD)
+Qantas	A332 (VH-EBF)	
+Estimated 2:41 PM
+3:20 PM	NZ550	
+Christchurch (CHC)
+Air New Zealand	A320 (ZK-OJM)	
+Scheduled
+3:20 PM	VA167	
+Melbourne (MEL)
+Virgin Australia	B738 (VH-YIZ)	
+Delayed 4:19 PM
+3:20 PM	JQ236	
+Christchurch (CHC)
+Jetstar Airways	A320 (VH-VFH)	
+Estimated 3:03 PM
+3:40 PM	VA143	
+Sydney (SYD)
+Virgin Australia	B738 (VH-VOR)	
+Estimated 3:40 PM
+3:40 PM	NZ8136	
+Tauranga (TRG)
+Air New Zealand Link	DH8C (ZK-NEQ)	
+Scheduled
+3:45 PM	NZ8044	
+New Plymouth (NPL)
+Air New Zealand Link	DH8C (ZK-NEH)	
+Scheduled
+3:50 PM	NZ436	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OXH)	
+Scheduled
+3:50 PM	NZ783	
+Noumea (NOU)
+Air New Zealand	A320 (ZK-OJG)	
+Estimated 3:45 PM
+3:50 PM	CZ305	
+Guangzhou (CAN)
+China Southern Airlines	B788 (B-2787)	
+Estimated 3:13 PM
+3:50 PM	NZ8269	
+Kerikeri (KKE)
+Air New Zealand Link	DH8C (ZK-NEC)	
+Scheduled
+4:10 PM	D7206	
+Gold Coast (OOL)
+AirAsia X	A333 (9M-XXJ)	
+Estimated 3:59 PM
+4:10 PM	MU779	
+Shanghai (PVG)
+China Eastern Airlines	A332 (B-5920)	
+Estimated 3:45 PM
+4:20 PM	LA800	
+Sydney (SYD)
+LATAM Chile	B789 (CC-BGL)	
+Estimated 4:17 PM
+4:20 PM	NZ438	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OXL)	
+Scheduled
+4:20 PM	NZ554	
+Christchurch (CHC)
+Air New Zealand (All Blacks Livery)	A320 (ZK-OAB)	
+Scheduled
+4:20 PM	NZ622	
+Queenstown (ZQN)
+Air New Zealand	A320 (ZK-OXD)	
+Scheduled
+4:20 PM	QF159	
+Melbourne (MEL)
+Qantas	A332 (VH-EBO)	
+Estimated 4:29 PM
+4:30 PM	NZ5022	
+Napier (NPE)
+Air New Zealand Link	AT75 (ZK-MCO)	
+Scheduled
+4:30 PM	NZ9	
+Honolulu (HNL)
+Air New Zealand	B789 (ZK-NZJ)	
+Estimated 4:12 PM
+4:35 PM	NZ674	
+Dunedin (DUD)
+Air New Zealand	A320 (ZK-OJS)	
+Scheduled
+4:40 PM	QF145	
+Sydney (SYD)
+Qantas	B738 (ZK-ZQD)	
+Estimated 4:33 PM
+4:40 PM	JQ364	
+New Plymouth (NPL)
+Jetstar Airways	DH3	
+Scheduled
+4:45 PM	NZ973	
+Tongatapu (TBU)
+Air New Zealand	A320 (ZK-OJI)	
+Estimated 4:02 PM
+4:50 PM	NZ440	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OJR)	
+Scheduled
+4:50 PM	JQ356	
+Napier (NPE)
+Jetstar Airways	DH3	
+Scheduled
+4:55 PM	NZ104	
+Sydney (SYD)
+Air New Zealand	B772 (ZK-OKC)	
+Estimated 5:06 PM
+5:15 PM	GS7957	
+Chongqing (CKG)
+Tianjin Airlines	A332 (B-8776)	
+Estimated 5:02 PM
+5:20 PM	NZ558	
+Christchurch (CHC)
+Air New Zealand	A320 (ZK-OJQ)	
+Scheduled
+5:20 PM	NZ8138	
+Tauranga (TRG)
+Air New Zealand Link	DH8C (ZK-NEG)	
+Scheduled
+5:20 PM	NZ53	
+Nadi (NAN)
+Air New Zealand	B772 (ZK-OKA)	
+Scheduled
+5:25 PM	NZ136	
+Brisbane (BNE)
+Air New Zealand	B77W (ZK-OKR)	
+Estimated 5:13 PM
+5:25 PM	NZ5080	
+Nelson (NSN)
+Air New Zealand Link	AT76 (ZK-MVG)	
+Scheduled
+5:30 PM	3C829	
+Whakatane (WHK)
+Air Chathams	SWM	
+Scheduled
+5:30 PM	NZ8223	
+Whangarei (WRE)
+Air New Zealand Link	DH8C (ZK-NEK)	
+Scheduled
+5:30 PM	JQ298	
+Queenstown (ZQN)
+Jetstar Airways	320	
+Scheduled
+5:45 PM	3C709	
+Wanganui (WAG)
+Air Chathams	SF3	
+Scheduled
+5:45 PM	NZ124	
+Melbourne (MEL)
+Air New Zealand	B77W (ZK-OKS)	
+Scheduled
+5:50 PM	JQ284	
+Dunedin (DUD)
+Jetstar Airways	320	
+Scheduled
+5:50 PM	NZ444	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OXF)	
+Scheduled
+5:55 PM	NZ5020	
+Napier (NPE)
+Air New Zealand Link	AT76 (ZK-MVF)	
+Scheduled
+5:55 PM	NZ5050	
+New Plymouth (NPL)
+Air New Zealand Link	AT75 (ZK-MCX)	
+Scheduled
+6:00 PM	CI53	
+Brisbane (BNE)
+China Airlines	A359 (B-18905)	
+Scheduled
+6:05 PM	NZ5118	
+Palmerston North (PMR)
+Air New Zealand Link	AT75 (ZK-MCC)	
+Scheduled
+6:10 PM	NZ8156	
+Rotorua (ROT)
+Air New Zealand Link	DH8C (ZK-NEQ)	
+Scheduled
+6:15 PM	NZ8172	
+Gisborne (GIS)
+Air New Zealand Link	DH8C (ZK-NEO)	
+Scheduled
+6:20 PM	NZ446	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OXI)	
+Scheduled
+6:20 PM	NZ562	
+Christchurch (CHC)
+Air New Zealand	A320 (ZK-OXM)	
+Scheduled
+6:20 PM	NZ8214	
+Blenheim (BHE)
+Air New Zealand Link	DH8C (ZK-NEM)	
+Scheduled
+6:25 PM	JQ386	
+Palmerston North (PMR)
+Jetstar Airways	DH3	
+Scheduled
+6:30 PM	NZ792	
+Adelaide (ADL)
+Air New Zealand	A320 (ZK-OJD)	
+Estimated 6:34 PM
+6:30 PM	NZ5082	
+Nelson (NSN)
+Air New Zealand Link	AT75 (ZK-MCY)	
+Scheduled
+6:30 PM	NZ8271	
+Kerikeri (KKE)
+Air New Zealand Link	DH8C (ZK-NER)	
+Scheduled
+6:40 PM	NZ626	
+Queenstown (ZQN)
+Air New Zealand	A320 (ZK-OXK)	
+Scheduled
+6:40 PM	JQ262	
+Wellington (WLG)
+Jetstar Airways	320	
+Scheduled
+6:40 PM	JQ376	
+Nelson (NSN)
+Jetstar Airways	DH3	
+Scheduled
+6:50 PM	NZ448	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OJM)	
+Scheduled
+6:55 PM	NZ8142	
+Tauranga (TRG)
+Air New Zealand Link	DH8C (ZK-NEF)	
+Scheduled
+7:00 PM	NZ5024	
+Napier (NPE)
+Air New Zealand Link	AT76 (ZK-MVC)	
+Scheduled
+7:10 PM	NZ8096	
+Taupo (TUO)
+Air New Zealand Link	DH8C (ZK-NEH)	
+Scheduled
+7:20 PM	NZ566	
+Christchurch (CHC)
+Air New Zealand	A320 (ZK-OXC)	
+Scheduled
+7:20 PM	JQ240	
+Christchurch (CHC)
+Jetstar Airways	320	
+Scheduled
+7:30 PM	NZ8084	
+Nelson (NSN)
+Air New Zealand Link	DH8C (ZK-NEC)	
+Scheduled
+7:50 PM	NZ452	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OXH)	
+Scheduled
+7:50 PM	NZ5122	
+Palmerston North (PMR)
+Air New Zealand Link	AT75 (ZK-MCU)	
+Scheduled
+7:50 PM	NZ678	
+Dunedin (DUD)
+Air New Zealand	A320 (ZK-OXB)	
+Scheduled
+8:00 PM	NZ634	
+Queenstown (ZQN)
+Air New Zealand	A320 (ZK-OXE)	
+Scheduled
+8:00 PM	VA113	
+Gold Coast (OOL)
+Virgin Australia	B738 (VH-YIO)	
+Scheduled
+8:05 PM	NZ45	
+Avarua (RAR)
+Air New Zealand	B772 (ZK-OKG)	
+Scheduled
+8:05 PM	JQ388	
+Palmerston North (PMR)
+Jetstar Airways	DH3	
+Scheduled
+8:20 PM	NZ570	
+Christchurch (CHC)
+Air New Zealand (All Blacks Livery)	A320 (ZK-OAB)	
+Scheduled
+8:50 PM	NZ456	
+Wellington (WLG)
+Air New Zealand	A320 (ZK-OJQ)	
+Scheduled
+8:55 PM	VA145	
+Sydney (SYD)
+Virgin Australia	B738 (VH-YIQ)	
+Scheduled
+9:00 PM	NZ5026	
+Napier (NPE)
+Air New Zealand Link	AT75 (ZK-MCX)	
+Scheduled
+9:00 PM	JQ378	
+Nelson (NSN)
+Jetstar Airways	DH3	
+Scheduled
+9:05 PM	QF147	
+Sydney (SYD)
+Qantas	737	
+Scheduled
+9:10 PM	JQ266	
+Wellington (WLG)
+Jetstar Airways	320	
+Scheduled
+9:20 PM	JQ242	
+Christchurch (CHC)
+Jetstar Airways	320	
+Scheduled
+9:20 PM	NZ574	
+Christchurch (CHC)
+Air New Zealand	A320 (ZK-OXJ)	
+Scheduled
+9:30 PM	NZ41	
+Papeete (PPT)
+Air New Zealand	B789 (ZK-NZI)	
+Scheduled
+9:30 PM	JQ358	
+Napier (NPE)
+Jetstar Airways	DH3	
+Scheduled
+10:25 PM	NZ281	
+Singapore (SIN)
+Air New Zealand	B789 (ZK-NZH)	
+Estimated 10:31 PM
+10:55 PM	NZ706	
+Sydney (SYD)
+Air New Zealand	A320 (ZK-OJO)	
+Scheduled
+11:00 PM	MH133	
+Kuala Lumpur (KUL)
+Malaysia Airlines (Oneworld Livery)	A333 (9M-MTO)	
+Delayed 11:39 PM
+11:10 PM	JQ133	
+Gold Coast (OOL)
+Jetstar Airways	A320 (VH-VFN)	
+Scheduled
+11:15 PM	VA159	
+Brisbane (BNE)
+Virgin Australia	B738 (VH-YIV)	
+Scheduled
+11:30 PM	QF149	
+Sydney (SYD)
+Qantas	330	
+Scheduled
+11:50 PM	QF125	
+Brisbane (BNE)
+Qantas	737	
+Scheduled
+11:50 PM	QF155	
+Melbourne (MEL)
+Qantas	73H	
+Scheduled

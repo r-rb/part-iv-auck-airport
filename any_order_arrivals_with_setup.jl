@@ -6,14 +6,18 @@ print("Creating model...\n")
 solver = CbcSolver()
 
 ## Parameters
-c = [2, 1, 2, 4]	# Cost of delays for each plane
-t = [1, 2, 2, 3]	# Ideal arrival time
-l = [2, 0.5, 1, 2] # Time spent on the runway
-set_up = [	[0 5 2 3]
-			[1 0 2 3]
-			[2 0 3 4]
-			[2 0 4 4]	] # Set-up times: entry (p,q) is the minimum time required between the finish of plane p and the arrival of plane q
-d_max = [20, 20, 20, 20] # Maximum allowable delay for each plane
+c = [2, 1, 2, 4, 10, 2, 2 , 2]	# Cost of delays for each plane
+t = [1, 2, 2, 3,3,3,3,4]	# Ideal arrival time
+l = [2, 0.5, 1, 2,3,3,2,1] # Time spent on the runway
+set_up = [	[0 5 2 3 2 3 4 3]
+			[1 0 2 3 5 3 1 2]
+			[2 0 3 4 2 1 1 2]
+			[2 0 4 4 2 2 2 2]
+			[2 0 4 4 2 2 2 2]
+			[2 0 4 4 2 2 2 2]
+			[2 0 4 4 2 2 2 2]
+			[2 0 4 4 2 2 2 2]	] # Set-up times: entry (p,q) is the minimum time required between the finish of plane p and the arrival of plane q
+d_max = [50, 50, 50, 50,50, 50, 50, 50] # Maximum allowable delay for each plane
 
 ## Pre-checks
 P = length(c) # Number of planes
@@ -74,7 +78,7 @@ m = Model(solver = solver)
 for p = 1:P
 	for q = 1:P
 		@constraint(m, L[p,q] == e[p] - a[q]) # By the definition of L
-		
+
 		@constraint(m, W[p,q] >= L[p,q]) # W[p,q] == maximum(L[p,q], L[q,p]), constraint I
 		@constraint(m, W[p,q] >= L[q,p]) # W[p,q] == maximum(L[p,q], L[q,p]), constraint II
 		@constraint(m, W[p,q] <= L[p,q] + BigM[p,q]*A[p,q]) # W[p,q] == maximum(L[p,q], L[q,p]), constraint III
