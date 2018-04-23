@@ -1,26 +1,21 @@
-using JuMP, Cbc
+using JuMP, Gurobi
 
 print("Creating model...\n")
 
 ## MIP Solver
-solver = CbcSolver()
+solver=GurobiSolver(Presolve=1)
 
 ## Parameters
-c = [2, 1, 2, 4, 10, 2, 2 , 2]	# Cost of delays for each plane
-t = [1, 2, 2, 3,3,3,3,4]	# Ideal arrival time
-l = [2, 0.5, 1, 2,3,3,2,1] # Time spent on the runway
-set_up = [	[0 5 2 3 2 3 4 3]
-			[1 0 2 3 5 3 1 2]
-			[2 0 3 4 2 1 1 2]
-			[2 0 4 4 2 2 2 2]
-			[2 0 4 4 2 2 2 2]
-			[2 0 4 4 2 2 2 2]
-			[2 0 4 4 2 2 2 2]
-			[2 0 4 4 2 2 2 2]	] # Set-up times: entry (p,q) is the minimum time required between the finish of plane p and the arrival of plane q
-d_max = [50, 50, 50, 50,50, 50, 50, 50] # Maximum allowable delay for each plane
+srand(1234)
+P = 10
+c = fill(rand(1:10),P)	# Cost of delays for each plane
+t = fill(rand(1:10),P)	# Ideal arrival time
+l = fill(rand(1:5),P) # Time spent on the runway
+set_up = fill(rand(1:10),(P,P)) # Set-up times: entry (p,q) is the minimum time required between the finish of plane p and the arrival of plane q
+d_max = fill(100,P) # Maximum allowable delay for each plane
 
 ## Pre-checks
-P = length(c) # Number of planes
+# Number of planes
 assert(all(l.>=0))
 assert(length(t)==P)
 assert(length(l)==P)
@@ -28,23 +23,11 @@ assert(length(d_max)==P)
 assert(size(set_up)==(P,P))
 
 ## Computed value
-BigM = Array(Float64,P,P)
+BigM = Array{Float64}(P,P)
 for p = 1:P
 	for q = 1:P
 		BigM[p,q] = 2*d_max[p] + 2*d_max[q] + 2*abs(t[p]-t[q]) + l[p]+l[q] # This is chosen based on a traignle inequality argument, below.
-		# We would like BigM[p,q] >= W[p,q].
 
-		# W == maximum(L[p,q],L[q,p])
-		#   <= abs(L[p,q]) + abs(L[q,p])
-		#	== abs(e[p]-a[q]) + abs(e[q]-a[p])
-		#	== abs(l[p]+a[p]-a[q]) + abs(l[q]+a[q]-a[p])
-		#	<= abs(l[p])+abs(a[p]-a[q]) + abs(l[q])+ abs(a[q]-a[p])		By the triangle inequality
-		#	== l[p]+l[q] + 2*abs(a[p]-a[q])								Since l >= 0
-		#	== l[p]+l[q] + 2*abs(t[p]+d[p]-t[q]-d[q])
-		#	<= l[p]+l[q] + 2*( abs(t[p]-t[q])+abs(d[p])+abs(d[q]) )		By the triangle inequality
-		#	== 2*abs(d[p])+2*abs(d[q]) + 2*abs(t[p]-t[q]) + l[p]+l[q]
-		#	<= 2*d_max[p]+2*d_max[q] + 2*abs(t[p]-t[q]) + l[p]+l[q]
-		#	== BigM[p.q]
 	end
 end
 

@@ -10,20 +10,20 @@ lines = open('aircraft_code.txt','r').readlines()
 
 iata = [x.split('\t')[0] for x in lines]
 icao = [x.split('\t')[1] for x in lines]
+classes = [x.split('\t')[-1] for x in lines]
 
-for index,model in enumerate(plane_models):
-    i = None
+wake_class = []
+
+for model in plane_models:
 
     try:
-        i = iata.index(model)
-    except  ValueError:
+        wake_class.append(classes[iata.index(model)])
+    except  (IndexError, ValueError) as e:
         try:
-            i = icao.index(model)
-        except  ValueError:
-            pass
-    
-    print(i)
+            wake_class.append(classes[icao.index(model)])
+        except  (IndexError, ValueError) as e:
+            wake_class.append('M')
     
 
-
-# pp.pprint(plane_models)
+pp.pprint(len(plane_models))
+pp.pprint(len(wake_class))
