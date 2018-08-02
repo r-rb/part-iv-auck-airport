@@ -2,14 +2,15 @@ import math
 import numpy as np
 class Plane:
 
-    def __init__(self,flight_id,weight_class,eta,delay_cost = 1):
-        self.flight_id = flight_id
-        self.weight_class = weight_class
-        self.delay = 0
-        self.appearance_time = None
-        self.eta = eta
-        self.done = False
-        self.delay_cost = delay_cost
+    def __init__(self,flight_id,weight_class,eta,delay_cost = 1,max_delay = 36000):
+        self.id          = flight_id
+        self.weight_class       = weight_class
+        self.delay              = 0
+        self.appearance_time    = None
+        self.eta                = eta
+        self.done               = False
+        self.delay_cost         = delay_cost
+        self.max_delay          = max_delay
 
     def update(self):
         pass
