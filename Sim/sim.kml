@@ -23,61 +23,61 @@
         <Placemark id="feat_4">
             <name>Rayner</name>
             <Point id="geom_2">
-                <coordinates>172.43449284154923,-36.03185296750524,0.0</coordinates>
+                <coordinates>170.80373752892544,-35.34241011011809,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_5">
             <name>Raynerpath</name>
             <LineString id="geom_3">
-                <coordinates>170.0,-35.0,0.0 170.8035416935091,-35.342326903659085,0.0 171.61547294939592,-35.68642052797934,0.0 172.43449284154923,-36.03185296750524,0.0</coordinates>
+                <coordinates>170.0,-35.0,0.0 170.80373752892544,-35.34241011011809,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="feat_6">
             <name>Nathan</name>
             <Point id="geom_4">
-                <coordinates>174.779962,-37.013383,0.0</coordinates>
+                <coordinates>175.57830828485717,-38.31938804738319,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_7">
             <name>Nathanpath</name>
             <LineString id="geom_5">
-                <coordinates>176.0,-39.0,0.0 175.578489219302,-38.31968139668164,0.0 175.16469142273624,-37.64571617818885,0.0 174.779962,-37.013383,0.0</coordinates>
+                <coordinates>176.0,-39.0,0.0 175.57830828485717,-38.31938804738319,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="feat_8">
             <name>John</name>
             <Point id="geom_6">
-                <coordinates>178.3297198150431,-38.713250918314564,0.0</coordinates>
+                <coordinates>180.0,-39.5,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_9">
             <name>Johnpath</name>
             <LineString id="geom_7">
-                <coordinates>180.0,-39.5,0.0 179.16057139463942,-39.105460255251536,0.0 178.3297198150431,-38.713250918314564,0.0</coordinates>
+                <coordinates>180.0,-39.5,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="feat_10">
             <name>Joe</name>
             <Point id="geom_8">
-                <coordinates>174.54375827586193,-36.927765067119445,0.0</coordinates>
+                <coordinates>172.84113738310234,-36.30805967073863,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_11">
             <name>Joepath</name>
             <LineString id="geom_9">
-                <coordinates>172.0,-36.0,0.0 172.84079872396615,-36.30793591497732,0.0 173.68906184424017,-36.617273406635654,0.0 174.54375827586193,-36.927765067119445,0.0</coordinates>
+                <coordinates>172.0,-36.0,0.0 172.84113738310234,-36.30805967073863,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="feat_12">
             <name>Anne</name>
             <Point id="geom_10">
-                <coordinates>173.52888770939566,-35.60368812873475,0.0</coordinates>
+                <coordinates>173.0,-35.0,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_13">
             <name>Annepath</name>
             <LineString id="geom_11">
-                <coordinates>173.0,-35.0,0.0 173.52888770939566,-35.60368812873475,0.0</coordinates>
+                <coordinates>173.0,-35.0,0.0</coordinates>
             </LineString>
         </Placemark>
     </Document>

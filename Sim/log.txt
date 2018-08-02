@@ -177,3 +177,27 @@ Anne has been delayed by an estimated 1 minute(s)
 Minute 2: 
 Nathan has landed
 Minute 3: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+John has been delayed by an estimated 1 minute(s)
+Anne has been delayed by an estimated 2 minute(s)
+Minute 1: 
+Minute 0: 
+John has been delayed by an estimated 1 minute(s)
+Anne has been delayed by an estimated 2 minute(s)
+Minute 0: 
+Minute 0: 
+John has been delayed by an estimated 1 minute(s)
+Anne has been delayed by an estimated 2 minute(s)
+Minute 0: 
+John has been delayed by an estimated 1 minute(s)
+Anne has been delayed by an estimated 2 minute(s)
+Minute 0: 
+John has been delayed by an estimated 1 minute(s)
+Anne has been delayed by an estimated 2 minute(s)
+Minute 1: 

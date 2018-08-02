@@ -5,6 +5,8 @@ import math
 from polycircles import polycircles
 from subprocess import DEVNULL, STDOUT, check_call
 from coordinates import earth2rect, rect2earth
+from solve import solve
+from visualize import visualize
 
 ###################################################
 
@@ -14,7 +16,9 @@ from coordinates import earth2rect, rect2earth
 
 tol = 1e-6 # Tolerance in floating point comparisons
 kml_name = "sim.kml"
-solve_jl_name = "spp_solver.jl"
+solver_name = "spp"
+#solver_name = "mip"
+#solver_name = "dp"
 log_name = "log.txt"
 
 ###################################################
@@ -139,32 +143,17 @@ while not all([pl.landed for pl in plane]):
 					proc_row.append(sep_t[pl.class_num,next.class_num])
 			proc_t.append(proc_row)
 
-	np.savetxt("./tmp/arrival_t.txt", id_arr, newline="\n")
-	np.savetxt("./tmp/delay_cost.txt", delay_cost, newline="\n")
-	np.savetxt("./tmp/max_delay.txt", max_delay, newline="\n")
-	np.savetxt("./tmp/class_num.txt", class_num, newline="\n")
-	np.savetxt("./tmp/proc_t.txt", proc_t, newline="\n")
-	np.savetxt("./tmp/sep_t.txt", sep_t, newline="\n")
-
-	with open(os.devnull, 'wb') as devnull:
-		check_call(['julia', solve_jl_name], stderr=STDOUT)
-
-	schedule = np.loadtxt("./tmp/schedule.txt").tolist()
+	schedule = solve(id_arr,delay_cost,max_delay,class_num,proc_t,sep_t,solver_name)
 	for pl in reversed(plane):
 		if not pl.landed:
-			if isinstance(schedule, float): #Just make sure this isn't the last element of the schedule, since pop makes lists floats for the last element
-				pl.sch_arr = schedule
-			else:
-				pl.sch_arr = schedule.pop()
-
-	# Update plane positions based on the schedule
-	for pl in plane:
-		pl.update()
+			pl.sch_arr = schedule.pop()
+		pl.update()		
 
 	minute += 1
 	# Create the file
 	kml.save(kml_name);
-	with open(os.devnull, 'wb') as devnull:
-		check_call(['gnome-maps', kml_name], stdout=DEVNULL, stderr=STDOUT)
+
+	# Visualize the kml file
+	visualize(kml_name)
 
 
