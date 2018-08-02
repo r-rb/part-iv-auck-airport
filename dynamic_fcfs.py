@@ -2,14 +2,13 @@ import numpy as np
 import pprint as pp
 import random
 import math
+import time
 from copy import deepcopy
+
+
 # Dynamic programming implementation
     # Using FCFS within classes -> cost function is a function of class
-    # Allows for a polynomial time as a function of planes
-# R = number of runways
-# W = number of classes
-# States are:
-    # (k_H,k_M,k_L,((O_1,w_1,......,O_R))
+    # General case if number of classes == number of planes
 
 def valid(state,cl,r,cl_info):
 
@@ -32,9 +31,7 @@ def valid(state,cl,r,cl_info):
     return None,None
     
 def get_states(cl,r,stage,cl_info):
-
     set_states = []
-
     for state in stage:
         t,new_state = valid(state,cl,r,cl_info)
         if t is not None:
@@ -71,8 +68,10 @@ def dp_fcfs(targ,w_class,cost,sep,R = 1,deg = 2):
     cl_info["max"]      = {k: w_class.count(k) for k in w_class}
     cl_info["total"]    = len(cl_info["classes"])
     cl_info["targets"]  = {cl:sorted([t for t,c in zip(targ,w_class) if c == cl]) for cl in cl_info["classes"]} 
-    cl_info["deg"] = deg
+    cl_info["deg"]      = deg
+
     #pp.pprint(cl_info)   
+
     # Number of each class
     n_stages            = len(targ) + 1
     stages              = [None] * n_stages
@@ -82,15 +81,16 @@ def dp_fcfs(targ,w_class,cost,sep,R = 1,deg = 2):
     init["rop"]         = {i:(-1,-1) for i in range(0,R)}
     init["cost"]        = 0
     init["prev"]        = None
-    init["sched"] = [(-1,-1,-1,0)]
+    init["sched"]       = [(-1,-1,-1,0)]
 
-    stages[0]= [init]
+    # Intialise 
+    stages[0]           = [init]
 
     #pp.pprint(stages[0])
 
     for n,stage in enumerate(stages):
         if n < len(targ):
-            new_states = expand(stage,cl_info,R)
+            new_states  = expand(stage,cl_info,R)
             stages[n+1] = new_states
 
     
@@ -100,21 +100,31 @@ def dp_fcfs(targ,w_class,cost,sep,R = 1,deg = 2):
 
     assert(sum([ math.pow(s[3],deg) for s in min_st["sched"] ]) == min_st["cost"] )
 
+    # return a schedule which is an array of tuples:
+    #           (class, time of usage, runway number, deviation from target)
+
+    print(min_st["cost"])
+
     return min_st["sched"]
 
 if __name__ == '__main__':
 
-    # test case with unit spaced arrivals and randomised seperation and arrival times
-    n = 10
-    R = 1
+    # Test case with unit spaced arrivals and randomised seperation and costs.
+    # This is the general case as number of classes == number of planes
+
+    n = 30  # number of planes
+    R = 1   # number of runways
+    deg = 1 # degree on deviation from target in objective cost
+
     targets         = [i+1 for i in range(0,n)]
-    wake_classes    = [str(i+1) for i in range(0,n)]
-    cost = {k:random.randint(1,1) for k in set(wake_classes)}
-    sep = {k:{k1:random.randint(2,2) for k1 in set(wake_classes)} for k in set(wake_classes)}
+    plane_classes   = [str(i+1) for i in range(0,n)]
+    cost            = {k:random.randint(1,1) for k in set(plane_classes)}
+    sep             = {k:{k1:random.randint(2,2) for k1 in set(plane_classes)} for k in set(plane_classes)}
 
-    sched = dp_fcfs(targets,wake_classes,cost,sep,R,1)
-
-    print(sched)
+    t0 = time.clock()
+    sched           = dp_fcfs(targets,plane_classes,cost,sep,R,deg)
+    t1 = time.clock()
+    pp.pprint(t1 - t0)
 
 
 
