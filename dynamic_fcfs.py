@@ -1,6 +1,7 @@
 import numpy as np
 import pprint as pp
 import random
+import math
 from copy import deepcopy
 # Dynamic programming implementation
     # Using FCFS within classes -> cost function is a function of class
@@ -9,8 +10,6 @@ from copy import deepcopy
 # W = number of classes
 # States are:
     # (k_H,k_M,k_L,((O_1,w_1,......,O_R))
-
-# Algorithm
 
 def valid(state,cl,r,cl_info):
 
@@ -25,7 +24,7 @@ def valid(state,cl,r,cl_info):
         new_state[cl]           += 1
         new_state["prev"]       = rop[0]
         new_state["rop"][r]     = (cl,t)
-        new_state["cost"]       += cl_info["cost"][cl] * (t - targ)
+        new_state["cost"]       += cl_info["cost"][cl] * math.pow((t - targ),cl_info["deg"])
         new_state["sched"].append((cl,t,r,t-targ))
     
         return t,new_state
@@ -37,18 +36,7 @@ def get_states(cl,r,stage,cl_info):
     set_states = []
 
     for state in stage:
-        # print("#################")
-        # print ('BEFORE')
-        # print("#################")
-        # print(state)
-
         t,new_state = valid(state,cl,r,cl_info)
-
-        # print("#################")
-        # print ('AFTER')
-        # print("#################")
-        # print(state)
-
         if t is not None:
             added = False
             for idx,st in enumerate(set_states):
@@ -76,14 +64,14 @@ def expand(stage,cl_info,R):
     #pp.pprint(new_states)
     return new_states
 
-def dp_fcfs(targ,w_class,cost,sep,R = 1):
+def dp_fcfs(targ,w_class,cost,sep,R = 1,deg = 2):
                
     cl_info             = {"cost":cost,"sep":sep}
     cl_info["classes"]  = list(sorted(set(w_class)))
     cl_info["max"]      = {k: w_class.count(k) for k in w_class}
     cl_info["total"]    = len(cl_info["classes"])
     cl_info["targets"]  = {cl:sorted([t for t,c in zip(targ,w_class) if c == cl]) for cl in cl_info["classes"]} 
-
+    cl_info["deg"] = deg
     #pp.pprint(cl_info)   
     # Number of each class
     n_stages            = len(targ) + 1
@@ -94,41 +82,39 @@ def dp_fcfs(targ,w_class,cost,sep,R = 1):
     init["rop"]         = {i:(-1,-1) for i in range(0,R)}
     init["cost"]        = 0
     init["prev"]        = None
-    init["sched"] = [(-1,-1,-1)]
+    init["sched"] = [(-1,-1,-1,0)]
 
     stages[0]= [init]
 
-    pp.pprint(stages[0])
+    #pp.pprint(stages[0])
 
     for n,stage in enumerate(stages):
         if n < len(targ):
             new_states = expand(stage,cl_info,R)
             stages[n+1] = new_states
-            print('STAGE ' + str(n) )
-    
-    print(len(stages[-1]))
-    
-    # Backtrack
 
-    # return a landing order
-
+    
+    #print(len(stages[-1]))
+    
     min_st  = min(stages[-1],key = lambda st : st["cost"])
 
-    pp.pprint(stages[-1])
+    assert(sum([ math.pow(s[3],deg) for s in min_st["sched"] ]) == min_st["cost"] )
 
-    return True
+    return min_st["sched"]
 
 if __name__ == '__main__':
 
     # test case with unit spaced arrivals and randomised seperation and arrival times
-    n = 20
-    R = 2 
+    n = 10
+    R = 1
     targets         = [i+1 for i in range(0,n)]
     wake_classes    = [str(i+1) for i in range(0,n)]
     cost = {k:random.randint(1,1) for k in set(wake_classes)}
     sep = {k:{k1:random.randint(2,2) for k1 in set(wake_classes)} for k in set(wake_classes)}
 
-    dp_fcfs(targets,wake_classes,cost,sep,R)
+    sched = dp_fcfs(targets,wake_classes,cost,sep,R,1)
+
+    print(sched)
 
 
 
