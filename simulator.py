@@ -39,15 +39,19 @@ for pl in data:
     t = math.floor(pl["adj_trail"][-1]["ts"]/60)
     intp = interpolate_trail(t,pl["adj_trail"])
     plane_list.append(Arrival(pl["id"],pl["class"],pl["has_landed"],pl["adj_trail"],intp["lng"],intp["lat"]))
-    pp.pprint(len(plane_list))
+    #pp.pprint(plane_list[-1].appearance_time)
 
-assert(1==0)
+
 for t in range(0,T_MAX,T_STEP):
 
     # Update candidate list ( list of planes in the box at time )
     for idx,pl in enumerate(plane_list):
-        if pl.appearance_time > t * 60:
+        if pl.appearance_time < (t+1) * 60:
+            print(pl.appearance_time)
             cand_list.append(plane_list.pop(idx))  
+
+    print(len(cand_list))
+    assert(1==0)
  
     for idx,pl in enumerate(cand_list):
         if pl.done:
