@@ -1,30 +1,27 @@
-using JuMP, Cbc
-
-print("Creating model...\n")
+using JuMP, Gurobi
 
 ## MIP Solver
-solver = CbcSolver()
+solver = GurobiSolver(OutputFlag = 0)
 
 ## Parameters
-c = [2, 1, 2, 4]	# Cost of delays for each plane
-t = [1, 2, 2, 3]	# Ideal arrival time
-l = [2, 0.5, 1, 2] # Time spent on the runway
-set_up = [	[0 5 2 3]
-			[1 0 2 3]
-			[2 0 3 4]
-			[2 0 4 4]	] # Set-up times: entry (p,q) is the minimum time required between the finish of plane p and the arrival of plane q
-d_max = [20, 20, 20, 20] # Maximum allowable delay for each plane
+
+t = vec(readdlm("./tmp/arrival_t.txt"))
+c = vec(readdlm("./tmp/delay_cost.txt"))
+set_up = readdlm("./tmp/proc_t.txt")
+d_max = vec(readdlm("./tmp/max_delay.txt"))
 
 ## Pre-checks
 P = length(c) # Number of planes
-assert(all(l.>=0))
-assert(length(t)==P)
-assert(length(l)==P)
-assert(length(d_max)==P)
-assert(size(set_up)==(P,P))
+l = zeros(P)
+
+#assert(all(l.>=0))
+#assert(length(t)==P)
+#assert(length(l)==P)
+#assert(length(d_max)==P)
+#assert(size(set_up)==(P,P))
 
 ## Computed value
-BigM = Array(Float64,P,P)
+BigM = Array{Float64}(P,P)
 for p = 1:P
 	for q = 1:P
 		BigM[p,q] = 2*d_max[p] + 2*d_max[q] + 2*abs(t[p]-t[q]) + l[p]+l[q] # This is chosen based on a traignle inequality argument, below.
@@ -100,7 +97,6 @@ end
 #					   = P^2 - P(P+1)/2
 #					   = P(P-1)/2
 @constraint(m, sum(A)==P*(P-1)/2)
-
 # "Coming before" is a transitive property. What this means is that if p comes before q, and q comes before r, then p comes before r.
 # This fact can put some more constraints on the A matrix.
 for p = 1:P
@@ -141,7 +137,6 @@ end
 
 
 ## Solve
-print("Solving model...\n")
 status = solve(m)
 
 ## Get solution
@@ -150,69 +145,6 @@ arrivals = getvalue(a)
 exits = getvalue(e)
 ideals = t
 
-## Print solution
-print("Solving finished.\n")
-if status == :Optimal
-	println("Objective value: ", objective_value)
-	println("Arrival schedule: ", arrivals)
-	println("Runway exit times: ", exits)
-else
-	println("Status: ", status)
-end
+# Save file
+writedlm("./tmp/schedule.txt", arrivals, "\n")
 
-
-
-
-###########################################################################################################
-
-
-
-
-## Post-processing
-event_times = sort(union(ideals,arrivals,exits))
-T = length(event_times)
-
-is_ideally_arrived = Array(Bool, P, T)
-is_arrived = Array(Bool, P, T)
-is_finished = Array(Bool, P, T)
-for p=1:P
-	is_ideally_arrived[p,:] = (event_times .>= ideals[p])
-	is_arrived[p,:] = (event_times .>= arrivals[p])
-	is_finished[p,:] = (event_times .>= exits[p])
-end
-is_delayed = is_ideally_arrived & !is_arrived
-is_landing = is_arrived & !is_finished
-
-## Display schedule
-print("\n")
-event_line = "|"
-for ev = 1:T
-	added = "--$(round(event_times[ev],1))"
-	event_line *= added * "-"^(7-length(added))
-end
-event_line *= "--|\n"
-print(event_line)
-
-for p = 1:P
-	plane_line = "|"
-	plane_land = false
-	for ev = 1:T
-		if is_landing[p,ev]
-			if plane_land
-				plane_line *= "======="
-			else
-				plane_land = true
-				plane_line *= "---<==="
-			end
-		else
-			if plane_land
-				plane_land = false
-				plane_line *= "===>---"
-			else
-				plane_line *= "-------"
-			end
-		end
-	end
-	plane_line *= "--|\n"
-	print(plane_line)
-end

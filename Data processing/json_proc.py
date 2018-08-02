@@ -20,9 +20,9 @@ fields = {"To", "From"} # These are the fields in the JSON file which we check f
 auck_names = {"Auckland", "auckland"} # These are the phrases we search for in the JSON file to show that a plane is leaving or bound for Auckland Airport.
 
 json_min = 0
-json_max = 50 # The number of minutes worth of JSON files we process, in this range
+json_max = 800 # The number of minutes worth of JSON files we process, in this range
 
-dec_horiz_rad = 1e6 # metres, Decision horizon radius
+dec_horiz_rad = 1e20 # metres, Decision horizon radius
 
 ###################################################
 

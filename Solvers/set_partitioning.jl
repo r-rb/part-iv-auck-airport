@@ -1,8 +1,5 @@
 using JuMP, Gurobi
 
-## Parameter
-prechecks_on = false
-
 ## MIP Solver
 solver = GurobiSolver()
 
@@ -14,57 +11,55 @@ p = [ [1 2 4]
 	  [1 3 4] 
 	  [2 3 5] ] # Processing times for each class, sequence dependent
 
-P = length(c) # Number of planes
-C = size(p,1) # Number of classes
 
 ## Pre-checks
-if prechecks_on
-	assert(all(r.>=0))
-	assert(minimum(r)==0)
-	assert(length(r)==P)
-	assert(length(s)==P)
-	assert(length(d_max)==P)
-	assert(maximum(s)==C)
-end
+P = length(c) # Number of planes
+C = size(p)[1] # Number of classes
 
-D = Int(ceil(maximum(p)/minimum(p)))
+assert(all(r.>=0))
+assert(minimum(r)==0)
+assert(length(r)==P)
+assert(length(s)==P)
+assert(length(d_max)==P)
+assert(maximum(s)==C)
+min_p = minimum(p,2)
+max_p = maximum(p,2)
+for cl = 1:C
+	assert(minimum(p[cl,:]+min_p).>=max_p[cl])
+end
+exit()
+
 N = maximum(r) + maximum(d_max) + maximum(p)
-K = N*C*(C+1)/2
-row_num = P + D*K
-col_num = D*sum(d_max)
+K = N*C^2
+row_num = P + K
+col_num = sum(d_max)#+ K
 
 A = zeros(Int8, row_num, col_num)
 cost = zeros(Float64, col_num)
 
 i = 1
 for pl = 1:P
-	for de = 1:D
-		for d = 1:d_max[pl]
-			for cl = 1:C
-				for pr = 1:p[s[pl],cl]
-					if cl <= s[pl]
-						triang = (s[pl]*(s[pl]-1)/2 + cl -1)
-					else
-						triang = (cl*(cl-1)/2 + s[pl] -1)
-					end
-
-					A[Int(P+triang*N+r[pl]+d+pr-1+mod(de-1,D)*K),i] = 1
-					A[Int(P+triang*N+r[pl]+d+pr-1+mod(de,D)*K),i] = 1
-				end
+	for d = 1:d_max[pl]
+		for cl = 1:C
+			for pr = 1:p[s[pl],cl]
+				A[P+(cl-1)*N*C+(s[pl]-1)*N+r[pl]+d+pr-1,i] = 1
+				A[P+(s[pl]-1)*N*C+(cl-1)*N+r[pl]+d+pr-1,i] = 1
 			end
-		
-			A[pl,i] = 1
-			cost[i] = (d-1)^2*c[pl]
-			i = i + 1
 		end
+		A[pl,i] = 1
+		cost[i] = (d-1)^2*c[pl]
+		i = i + 1
 	end
 end
+#for k = 1:K
+#	A[P+k,i+k-1] = 1
+#end
 
-## Solve
-print("Solving...")
+# Solve
 m = Model(solver = solver)
 @variable(m, x[1:col_num], Bin)
 @objective(m, Min, dot(cost,x))
 @constraint(m, A*x .<= 1)
 @constraint(m, A[1:P,:]*x .== 1)
 status = solve(m)
+print(getvalue(x)[1:sum(d_max)])
