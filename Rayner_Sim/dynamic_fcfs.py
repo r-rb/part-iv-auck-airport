@@ -23,7 +23,7 @@ def valid(state,cl,r,cl_info):
         new_state["rop"][r] = (cl,t)
         new_state["cost"]  += cl_info["cost"][cl] * math.pow((t - targ),cl_info["deg"])\
                                 if (t-targ)<cl_info["max_delay"][cl] else float("inf")
-        new_state["sched"].append((cl,t,r,t-targ))
+        new_state["sched"].append((cl,t,r,targ,t-targ,))
     
         return t,new_state
 
@@ -60,7 +60,7 @@ def expand(stage,cl_info,R):
     #pp.pprint(new_states)
     return new_states
 
-def dp_fcfs(targ,w_class,cost,sep,max_delay = None,R = 1,deg = 2, ):
+def dp_fcfs(targ,w_class,cost,sep,max_delay = None,R = 1,deg = 2):
 
     #pp.pprint(cl_info)   
 
@@ -77,13 +77,13 @@ def dp_fcfs(targ,w_class,cost,sep,max_delay = None,R = 1,deg = 2, ):
 
     #print(cl_info)
 
-    print(cl_info["max_delay"])
+    #print(cl_info["max_delay"])
 
     # Intial state
     init                = {k: 0 for k in cl_info["classes"]}
     init["rop"]         = {i:(-1,-1) for i in range(0,R)}
     init["cost"]        = 0
-    init["sched"]       = [(-1,-1,-1,0)]
+    init["sched"]       = [(-1,-1,-1,0,None)]
 
     # Intialise 
     stages[0]           = [init]
@@ -102,11 +102,12 @@ def dp_fcfs(targ,w_class,cost,sep,max_delay = None,R = 1,deg = 2, ):
     #assert(sum([ math.pow(s[3],deg) for s in min_st["sched"] ]) == min_st["cost"] )
 
     # return a schedule which is an array of tuples that look like:
-    # (class, time of usage, runway number, deviation from target)
+    # (class, time of usage, runway number,targ, deviation from target)
 
-    print(min_st["cost"])
+    #print(min_st["cost"])
+    sched =  [list(filter(lambda sch: sch[-2] == t,min_st["sched"]))[0][-1] for t in targ]
 
-    return min_st["sched"]
+    return sched
 
 if __name__ == '__main__':
 

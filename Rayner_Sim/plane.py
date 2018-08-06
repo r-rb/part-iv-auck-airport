@@ -25,6 +25,7 @@ class Plane:
 class Arrival(Plane):
 
     def __init__(self,flight_id,weight_class,eta,trail,lng,lat,delay_cost = 1):
+        
         Plane.__init__(self,flight_id,weight_class,eta,delay_cost)
         self.trail = trail
         self.lng = lng
@@ -32,9 +33,15 @@ class Arrival(Plane):
         self.appearance_time = trail[-1]["ts"]
 
     def update(self,t):
-        new_coords = coordinates.interpolate_trail(t+1,self.trail)
-        self.lng = new_coords["lng"]
-        self.lat = new_coords["lat"]
+
+        if (t+1) * 60 >= self.delay + self.eta:
+            self.done = True
+            print("plane with id " + self.id + " has landed")
+            return
+
+        new_coords  = coordinates.interpolate_trail(t+1,self.trail)
+        self.lng    = new_coords["lng"]
+        self.lat    = new_coords["lat"]
 
 
 earth_radius = 6.371e6 # metres
