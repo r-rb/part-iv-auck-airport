@@ -1,2 +1,4 @@
 **/*.json
 **/*.kml
+**/.vscode
+**/__pycache__
