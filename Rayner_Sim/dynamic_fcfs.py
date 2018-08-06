@@ -73,7 +73,9 @@ def dp_fcfs(targ,w_class,cost,sep,max_delay = None,R = 1,deg = 2, ):
     cl_info["max"]      = {k: w_class.count(k) for k in w_class}
     cl_info["total"]    = len(cl_info["classes"])
     cl_info["targets"]  = {cl:sorted([t for t,c in zip(targ,w_class) if c == cl]) for cl in cl_info["classes"]} 
-    cl_info["max_delay"]= {c: n_planes* 2 for c in cl_info["classes"]} if max_delay == None else max_delay
+    cl_info["max_delay"]= {d:c for c,d in zip(max_delay,cl_info["classes"])}
+
+    #print(cl_info)
 
     print(cl_info["max_delay"])
 
