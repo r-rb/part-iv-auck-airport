@@ -3,13 +3,15 @@ import simplekml
 import os
 import math
 from subprocess import DEVNULL, STDOUT, check_call
-from test_data import data
+
 import pprint as pp
 from plane import Plane,Arrival
 from dynamic_fcfs import *
 import coordinates
+#from test_data import data
+import pickle
 
-T_MAX = 20
+T_MAX = 30
 T_STEP = 1
 
 cand_list   = []
@@ -18,10 +20,13 @@ plane_list  = []
 
 wake_sep = {'H':{'H':3,'M':2,'L':1},'M':{'H':2,'M':10,'L':2},'L':{'H':4,'M':5,'L':2}}
 
+with open("./Rayner_Sim/out/parsed_flights.pkl","rb") as f:
+    data = pickle.load(f)
+
 for pl in data:
     t           = math.floor(pl["adj_trail"][-1]["ts"]/60)
     intp        = coordinates.interpolate_trail(t,pl["adj_trail"])
-    plane_list.append(Arrival(pl["id"],pl["class"],pl["has_landed"],pl["adj_trail"],intp["lng"],intp["lat"]))
+    plane_list.append(Arrival(pl["id"],pl["class"],pl["has_landed"],pl["adj_trail"],intp["lng"],intp["lat"],None))
 
 for t in range(0,T_MAX,T_STEP):
 
@@ -48,14 +53,14 @@ for t in range(0,T_MAX,T_STEP):
     sched = dp_fcfs(id_arr,class_arr,delay_cost,sep,max_delay,R=1,deg =1)
 
     for sch,pl in zip(sched,cand_list):
-        pl.delay += sch
-        if sch:
-            print("plane with id: " + pl.id + ' is delayed by a further ' + str(sch) + ' seconds')
-        pl.update(t+1)
+        pl.delay_by(sch)
+        pl.update(t)
 
     cand_list = [cd for cd in cand_list if not cd.done]
 
     #print('\n' + str(len([cd for cd in cand_list if not cd.done])) + '\n')
+
+
 
 
 

@@ -27,18 +27,18 @@ def rect2earth(coords):
 # Return weighted averages of positions at a specific time interval
 def interpolate_trail(t,trail):
 
-    max_targ = (t+1) *60 
-    
-    for idx,entry in enumerate(trail):
+	max_targ = (t+1) *60 
 
-        if entry["ts"] <= max_targ:
+	for idx,entry in enumerate(trail):
 
-            if idx is 0:
-                return entry
-            else:
-                v1 = entry
-                t1 = v1["ts"] - t *60
-                v0 = trail[idx-1]
-                t0 = v0["ts"] - t *60
+		if entry["ts"] <= max_targ:
 
-                return {k:(v1[k]*t1  + v0[k]*t0) / (t0+t1)  for k in entry}
+			if idx == 0:
+				return entry
+			else:
+				v1 = entry
+				t1 = v1["ts"] - t *60
+				v0 = trail[idx-1]
+				t0 = v0["ts"] - t *60
+
+				return {k:np.interp(0,[t0,t1],[v0[k],v1[k]]) for k in entry}
