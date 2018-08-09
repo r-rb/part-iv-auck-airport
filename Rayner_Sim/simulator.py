@@ -31,7 +31,6 @@ for pl in data:
 for t in range(0,T_MAX,T_STEP):
 
     # Update candidate list ( list of planes in the box at time )
-
     rm_list = []
 
     for idx,pl in enumerate(plane_list):
@@ -49,7 +48,6 @@ for t in range(0,T_MAX,T_STEP):
     sep         = {i.id : {k.id: wake_sep[i.weight_class][k.weight_class] * 60 for k in cand_list} for i in cand_list}
 
     # Update with postions at new times
-
     sched = dp_fcfs(id_arr,class_arr,delay_cost,sep,max_delay,R=1,deg =1)
 
     for sch,pl in zip(sched,cand_list):
