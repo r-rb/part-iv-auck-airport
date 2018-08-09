@@ -20,14 +20,17 @@ plane_list  = []
 
 wake_sep = {'H':{'H':3,'M':2,'L':1},'M':{'H':2,'M':10,'L':2},'L':{'H':4,'M':5,'L':2}}
 
-with open("./Rayner_Sim/out/parsed_flights.pkl","rb") as f:
+with open("./out/parsed_flights.pkl","rb") as f:
     data = pickle.load(f)
 
 for pl in data:
-    t           = math.floor(pl["adj_trail"][-1]["ts"]/60)
-    intp        = coordinates.interpolate_trail(t,pl["adj_trail"])
-    plane_list.append(Arrival(pl["id"],pl["class"],pl["has_landed"],pl["adj_trail"],intp["lng"],intp["lat"],None))
+    if pl["adj_trail"]:
+        t           = math.floor(pl["adj_trail"][-1]["ts"]/60)
+        intp        = coordinates.interpolate_trail(t,pl["adj_trail"])
+        plane_list.append(Arrival(pl["id"],pl["class"],pl["has_landed"],pl["adj_trail"],intp["lng"],intp["lat"],None))
 
+print(len(plane_list))
+assert(1==0)
 for t in range(0,T_MAX,T_STEP):
 
     # Update candidate list ( list of planes in the box at time )

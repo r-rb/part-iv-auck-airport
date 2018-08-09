@@ -101,7 +101,7 @@ if __name__ == "__main__":
     recording_interval = 1
     start_t = time.time()
     data = {}
-    n_max = 30 # number of time periods
+    n_max = 360 # number of time periods
     
 
     for n in range(0,n_max):

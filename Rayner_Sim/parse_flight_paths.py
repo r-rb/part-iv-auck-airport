@@ -46,8 +46,8 @@ for fl_id,fl in fl_data["data"].items():
     
     data.append(new_field)
 
-    if landed:
-        pp.pprint(new_field)
+    #if landed:
+        #pp.pprint(new_field)
 
 with open("./out/parsed_flights.pkl","wb") as f:
     pickle.dump(data,f)
