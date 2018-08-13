@@ -1,5 +1,7 @@
 import numpy as np
 import simplekml
+import math
+from coordinates import rect2earth
 from location import Location, dist
 
 tol = 1e-6 # Tolerance in floating point comparisons

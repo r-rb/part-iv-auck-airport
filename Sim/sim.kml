@@ -23,25 +23,25 @@
         <Placemark id="feat_4">
             <name>Rayner</name>
             <Point id="geom_2">
-                <coordinates>170.80405889103972,-35.342546650072066,0.0</coordinates>
+                <coordinates>170.80404850576355,-35.34254223759269,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_5">
             <name>Raynerpath</name>
             <LineString id="geom_3">
-                <coordinates>170.0,-35.0,0.0 170.80405889103972,-35.342546650072066,0.0</coordinates>
+                <coordinates>170.0,-35.0,0.0 170.80404850576355,-35.34254223759269,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="feat_6">
             <name>Nathan</name>
             <Point id="geom_4">
-                <coordinates>175.57842697900142,-38.31958048651526,0.0</coordinates>
+                <coordinates>175.5781925166649,-38.31920035162611,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_7">
             <name>Nathanpath</name>
             <LineString id="geom_5">
-                <coordinates>176.0,-39.0,0.0 175.57842697900142,-38.31958048651526,0.0</coordinates>
+                <coordinates>176.0,-39.0,0.0 175.5781925166649,-38.31920035162611,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="feat_8">
@@ -59,13 +59,13 @@
         <Placemark id="feat_10">
             <name>Joe</name>
             <Point id="geom_8">
-                <coordinates>172.8411214907658,-36.30805386322781,0.0</coordinates>
+                <coordinates>172.8414670369315,-36.30818013549758,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_11">
             <name>Joepath</name>
             <LineString id="geom_9">
-                <coordinates>172.0,-36.0,0.0 172.8411214907658,-36.30805386322781,0.0</coordinates>
+                <coordinates>172.0,-36.0,0.0 172.8414670369315,-36.30818013549758,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="feat_12">
