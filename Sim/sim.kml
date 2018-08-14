@@ -9,6 +9,14 @@
                 <outline>1</outline>
             </PolyStyle>
         </Style>
+        <Style id="stylesel_1">
+            <PolyStyle id="substyle_1">
+                <color>c8008000</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
         <Placemark id="feat_2">
             <name>Auckland Airport</name>
             <styleUrl>#stylesel_0</styleUrl>
@@ -21,63 +29,26 @@
             </Polygon>
         </Placemark>
         <Placemark id="feat_4">
-            <name>Rayner</name>
-            <Point id="geom_2">
-                <coordinates>170.80404850576355,-35.34254223759269,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_5">
-            <name>Raynerpath</name>
-            <LineString id="geom_3">
-                <coordinates>170.0,-35.0,0.0 170.80404850576355,-35.34254223759269,0.0</coordinates>
-            </LineString>
+            <name>Wellington Airport</name>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Polygon id="geom_2">
+                <outerBoundaryIs>
+                    <LinearRing id="geom_3">
+                        <coordinates>174.807598,-41.29157749887482,0.0 174.81589039429534,-41.29212437486486,0.0 174.8239312336258,-41.29374841289715,0.0 174.83147655763068,-41.296400344034474,0.0 174.83829737025115,-41.299999708133086,0.0 174.84418656575198,-41.30443728445211,0.0 174.8489652044632,-41.3095783929219,0.0 174.852487949623,-41.315266967847336,0.0 174.85464750016519,-41.32133028249135,0.0 174.8553778827669,-41.32758418307998,0.0 174.85465649932829,-41.33383867491279,0.0 174.85250486251877,-41.3399036919767,0.0 174.84898799114907,-41.34559487516114,0.0 174.8442124778193,-41.35073918313489,0.0 174.838323282323,-41.35518016429568,0.0 174.83149934432797,-41.35878272789969,0.0 174.82394814653455,-41.361437267298236,0.0 174.81589939346688,-41.36306300775241,0.0 174.807598,-41.36361047498738,0.0 174.79929660653315,-41.36306300775241,0.0 174.79124785346548,-41.361437267298236,0.0 174.78369665567206,-41.35878272789969,0.0 174.77687271767704,-41.35518016429568,0.0 174.77098352218073,-41.35073918313489,0.0 174.76620800885095,-41.34559487516114,0.0 174.76269113748126,-41.3399036919767,0.0 174.76053950067174,-41.33383867491279,0.0 174.75981811723312,-41.32758418307998,0.0 174.76054849983484,-41.32133028249135,0.0 174.76270805037703,-41.315266967847336,0.0 174.7662307955368,-41.3095783929219,0.0 174.77100943424804,-41.30443728445211,0.0 174.77689862974887,-41.299999708133086,0.0 174.78371944236935,-41.296400344034474,0.0 174.7912647663742,-41.29374841289715,0.0 174.7993056057047,-41.29212437486486,0.0 174.807598,-41.29157749887482,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
         </Placemark>
         <Placemark id="feat_6">
-            <name>Nathan</name>
+            <name>AKL-WLG1</name>
             <Point id="geom_4">
-                <coordinates>175.5781925166649,-38.31920035162611,0.0</coordinates>
+                <coordinates>174.7880429179758,-38.30280725974826,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_7">
-            <name>Nathanpath</name>
+            <name>AKL-WLG1path</name>
             <LineString id="geom_5">
-                <coordinates>176.0,-39.0,0.0 175.5781925166649,-38.31920035162611,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_8">
-            <name>John</name>
-            <Point id="geom_6">
-                <coordinates>180.0,-39.5,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_9">
-            <name>Johnpath</name>
-            <LineString id="geom_7">
-                <coordinates>180.0,-39.5,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_10">
-            <name>Joe</name>
-            <Point id="geom_8">
-                <coordinates>172.8414670369315,-36.30818013549758,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_11">
-            <name>Joepath</name>
-            <LineString id="geom_9">
-                <coordinates>172.0,-36.0,0.0 172.8414670369315,-36.30818013549758,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_12">
-            <name>Anne</name>
-            <Point id="geom_10">
-                <coordinates>173.0,-35.0,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_13">
-            <name>Annepath</name>
-            <LineString id="geom_11">
-                <coordinates>173.0,-35.0,0.0</coordinates>
+                <coordinates>174.80759839999996,-41.3275941,0.0 174.8075984,-41.327594100000006,0.0 174.80255035630466,-40.558766256674595,0.0 174.79761151498667,-39.798756913538746,0.0 174.7927787144277,-39.047196733498275,0.0 174.78804521957287,-38.30315889777385,0.0 174.78341017924683,-37.566636557516844,0.0 174.78341017924683,-37.566636557516844,0.0 174.7880429179758,-38.30280725974826,0.0</coordinates>
             </LineString>
         </Placemark>
     </Document>

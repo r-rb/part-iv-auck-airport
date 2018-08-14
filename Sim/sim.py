@@ -5,7 +5,7 @@ import math
 from subprocess import DEVNULL, STDOUT, check_call
 from solve import solve
 from visualize import visualize
-from location import Location, dist, Landmark
+from location import Location, dist
 from plane import Plane
 from loaddata import loadplane, loadsep
 
@@ -31,16 +31,13 @@ plotAfter = True
 # File
 kml=simplekml.Kml()
 
-# Aiport
-apt = Landmark("Auckland Airport", 174.779962, -37.013383, 4000, kml)
-
 ###################################################
 
 ### GET DATA
 
 ###################################################
 
-plane = loadplane(apt,kml)
+plane = loadplane(kml)
 sep_t = loadsep(kml)
 
 ###################################################
@@ -71,11 +68,14 @@ while not all([pl.landed for pl in plane]):
 	schedule = solve(id_arr,delay_cost,max_delay,class_num,proc_t,sep_t,solver_name)
 	for pl in reversed(plane):
 		if not pl.landed:
-			pl.sch_arr = schedule.pop()
+			if not isinstance(schedule, float):
+				pl.sch_arr = schedule.pop()
+			else:
+				pl.sch_arr = schedule
 		pl.update(log_name)
 
 	# Visualize the kml file
-	if plotDuring visualize(kml)
-if plotAfter visualize(kml)
+	if plotDuring: visualize(kml)
+if plotAfter: visualize(kml)
 
 

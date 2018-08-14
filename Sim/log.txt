@@ -21,3 +21,21 @@ Minute 0:
 Anne has been delayed by an estimated 2 minute(s)
 John has been delayed by an estimated 1 minute(s)
 Minute 1: 
+Minute 0: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 0: 
+Minute 1: 
+Minute 0: 
+Minute 0: 
+AKL-WLG1 has landed
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+AKL-WLG1 has landed
+Minute 7: 
+Minute 8: 
