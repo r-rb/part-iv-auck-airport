@@ -39,3 +39,11 @@ Minute 6:
 AKL-WLG1 has landed
 Minute 7: 
 Minute 8: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+AKL-WLG2 has landed
+Minute 4: 
+AKL-WLG2 has landed
+Minute 5: 

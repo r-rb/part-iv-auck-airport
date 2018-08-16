@@ -35,8 +35,8 @@ class Plane(Location):
 					with open(log_name, 'a') as file:
 						file.write(self.name+" has landed\n")
 				else:
-					self.apt.pop()
 					self.rect = self.apt[-1].rect
+					self.apt.pop()			
 					self.id_arr = self.swap_time + dist(self, self.apt[-1])/self.speed
 					self.sch_arr = self.id_arr		
 					with open(log_name, 'a') as file:

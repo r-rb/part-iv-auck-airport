@@ -13,7 +13,8 @@ def loadplane(kml):
 	#plane.append(Plane("John", 180.0, -39.5, 0, 4, apt, kml))
 	#plane.append(Plane("Joe", 172.0, -36.0, 0, 5, apt, kml))
 	#plane.append(Plane("Anne", 173.0, -35.0, 1, 2, apt, kml))
-	plane.append(Plane("AKL-WLG1", 174.80759839999996, -41.3275941, 3, 2, [akl,wlg,akl,wlg], kml))
+	plane.append(Plane("AKL-WLG1", 174.80759839999996, -41.3275941, 3, 1, [akl,wlg,akl,wlg,akl], kml))
+	plane.append(Plane("AKL-WLG2", 174.78, -40, 3, 1, [akl,wlg,akl,wlg,akl], kml))
 	return plane
 
 def loadsep(kml):
