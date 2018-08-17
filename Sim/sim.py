@@ -21,6 +21,7 @@ solver_name = "spp"
 log_name = "log.txt"
 plotDuring = True
 plotAfter = True
+isManual = False # Manual data entry or not
 
 ###################################################
 
@@ -37,7 +38,7 @@ kml=simplekml.Kml()
 
 ###################################################
 
-plane = loadplane(kml)
+plane = loadplane(kml,isManual)
 sep_t = loadsep(kml)
 
 ###################################################
@@ -69,9 +70,9 @@ while not all([pl.landed for pl in plane]):
 	for pl in reversed(plane):
 		if not pl.landed:
 			if not isinstance(schedule, float):
-				pl.sch_arr = schedule.pop()
+				pl.eta = schedule.pop()
 			else:
-				pl.sch_arr = schedule
+				pl.eta = schedule
 		pl.update(log_name)
 
 	# Visualize the kml file

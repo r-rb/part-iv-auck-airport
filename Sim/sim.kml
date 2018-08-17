@@ -40,27 +40,15 @@
             </Polygon>
         </Placemark>
         <Placemark id="feat_6">
-            <name>AKL-WLG1</name>
+            <name>AKL-WLG2</name>
             <Point id="geom_4">
-                <coordinates>174.78340997119085,-37.566603314518275,0.0</coordinates>
+                <coordinates>174.77999016802644,-39.23895678580638,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_7">
-            <name>AKL-WLG1path</name>
-            <LineString id="geom_5">
-                <coordinates>174.80759839999996,-41.3275941,0.0 174.80255081897585,-40.558837086123496,0.0 174.79761032807673,-39.7985733058874,0.0 174.79277571967188,-39.04672851854751,0.0 174.78804253626325,-38.30273482548541,0.0 174.78340997119085,-37.566603314518275,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_8">
-            <name>AKL-WLG2</name>
-            <Point id="geom_6">
-                <coordinates>174.779962,-37.013383,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_9">
             <name>AKL-WLG2path</name>
-            <LineString id="geom_7">
-                <coordinates>174.78,-40,0.0 174.7799901677297,-39.23893369722383,0.0 174.7799805347834,-38.48561950150948,0.0 174.77997110312762,-37.74031912159207,0.0 174.807598,-41.327594100000006,0.0 174.779962,-37.013383,0.0</coordinates>
+            <LineString id="geom_5">
+                <coordinates>174.78,-40,0.0 174.77999016802644,-39.23895678580638,0.0</coordinates>
             </LineString>
         </Placemark>
     </Document>

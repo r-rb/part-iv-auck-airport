@@ -23,3 +23,4 @@ def rect2earth(coords):
 	lat = np.rad2deg( math.asin(z/R) )
 	lon = np.rad2deg( math.atan2(y,x) )
 	return (lat, lon)
+

@@ -47,3 +47,5 @@ AKL-WLG2 has landed
 Minute 4: 
 AKL-WLG2 has landed
 Minute 5: 
+Minute 0: 
+Minute 1: 
