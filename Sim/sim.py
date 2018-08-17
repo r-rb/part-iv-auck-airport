@@ -73,7 +73,7 @@ while not all([pl.landed for pl in plane]):
 				pl.eta = schedule.pop()
 			else:
 				pl.eta = schedule
-		pl.update(log_name)
+		pl.update(log_name,minute)
 
 	# Visualize the kml file
 	if plotDuring: visualize(kml)

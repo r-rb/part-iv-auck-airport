@@ -1,17 +1,17 @@
 import numpy as np
 import simplekml
 import math
-from coordinates import rect2earth
+from coordinates import rect2earth, earth2rect
 from location import Location, dist
 
 tol = 1e-6 # Tolerance in floating point comparisons
 SEC_PER_MIN = 60 # Seconds per minute
 
 class Plane(Location):
-    def __init__(self, name, lng, lat, class_num,apt,kml,delay_cost = 1,speed=83300.0,max_delay = 10,swap_time = 10):
+    def __init__(self, name, lng, lat, class_num,apt,kml,delay_cost = 1,speed=83300.0,max_delay = 10000,swap_time = 10):
         Location.__init__(self, name, lng, lat)
-        self.pt = kml.newpoint(name=name,coords = [(lng,lat)])
-        self.ls = kml.newlinestring(name=name+"path",coords = [(lng,lat)])
+        self.pt = kml.newpoint(name=name,coords = [(lng,lat)]) # Create the kml point entity
+        self.ls = kml.newlinestring(name=name+"path",coords = [(lng,lat)]) # Create the list of points the plane has visited.
         self.class_num = class_num
         self.delay_cost = delay_cost
         self.landed = False
@@ -19,12 +19,14 @@ class Plane(Location):
         self.max_delay = max_delay
         self.swap_time = swap_time
         self.apt = apt
-        self.id_arr = dist(self, apt[-1])/self.speed
-        self.eta = self.id_arr
+        if apt:
+            self.id_arr = dist(self, apt[-1])/self.speed # The ideal arrival time were we to travel at speed at the way to the airport
+            self.eta = self.id_arr
+        self.delay = 0
 
-    def update(self,log_name):
+    def update(self,log_name,minute):
         if not self.landed:
-            if dist(self, self.apt[-1]) + tol>= self.eta*self.speed:
+            if dist(self, self.apt[-1]) + tol >= self.eta*self.speed:
                 step = self.speed
 
                 if step <= tol + dist(self, self.apt[-1]):
@@ -47,12 +49,19 @@ class Plane(Location):
                 self.ls.coords.addcoordinates([(self.lng,self.lat)])
                 self.pt.coords = [(self.lng,self.lat)]
             else:
-                with open(log_name, 'a') as file:
-                    file.write(self.name+" has been delayed by an estimated "+str(math.ceil(self.eta - dist(self, self.apt[[-1]])/self.speed))+" minute(s)\n")
+                self.set_delay(dist(self, self.apt[-1])/self.speed - self.eta)
+
+    def set_delay(self, delay):
+        if extra_delay:
+            self.delay = delay
+            with open(log_name, 'a') as file:
+                file.write(self.name+" is estimated to be delayed by "+str(delay)+" minute(s)\n")
 
 class Arrival(Plane):
-    def __init__(self, name, lng, lat, class_num,eta,trail,kml,delay_cost = 1,speed=83300.0,max_delay=10,swap_time = 10):
-        Plane.__init__(self, name, lng, lat, class_num,None,kml,delay_cost,speed,max_delay,swap_time)
+    def __init__(self, name, lng, lat, class_num,eta,trail,kml,delay_cost = 1,speed=83300.0,max_delay=1000):
+        Plane.__init__(self, name, lng, lat, class_num,None,kml,delay_cost,speed,max_delay,0)
+        final_dest = Location(name+" end",trail[0]["lng"],trail[0]["lat"])
+        self.id_arr = dist(self, final_dest)/self.speed
         self.eta = eta
         self.trail = trail
 
@@ -73,4 +82,15 @@ class Arrival(Plane):
         # If the plane has not started a trail yet, just return None.
         return None
 
-    
+    def update(self, log_name, minute):
+        if  (self.delay + self.eta)/SEC_PER_MIN <= minute + 1:
+            self.landed = True
+            with open(log_name, 'a') as file:
+                file.write(self.name+" has landed\n")
+        else:
+            new_point = interpolate_trail(self.trail,minute+1)
+            if new_point:
+                self.lng = new_point["lng"]
+                self.lat = new_point["lat"]
+                self.rect = earth2rect(self.lon, self.lat)
+

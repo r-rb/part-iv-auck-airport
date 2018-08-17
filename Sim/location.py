@@ -4,11 +4,11 @@ from coordinates import earth2rect
 from polycircles import polycircles
 
 class Location:
-	def __init__(self, name, lon, lat):
+	def __init__(self, name, lng, lat):
 		self.name = name
-		self.lon = lon
+		self.lng = lng
 		self.lat = lat
-		self.rect = earth2rect(lon, lat)
+		self.rect = earth2rect(lng, lat)
 
 def dist(loc1, loc2):
 	return np.linalg.norm(loc1.rect - loc2.rect)

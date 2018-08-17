@@ -26,20 +26,21 @@ def loadplane(kml, isManual):
             data = pickle.load(f)
 
         for pl in data:
-            first_minute = math.floor(pl["adj_trail"][-1]["ts"]/SEC_PER_MIN)
-            start_point = Arrival.get_point(pl["adj_trail"],first_minute)
+            if pl["adj_trail"]:
+                first_minute = math.floor(pl["adj_trail"][-1]["ts"]/SEC_PER_MIN)
+                start_point = Arrival.get_point(pl["adj_trail"],first_minute)
 
-            # Find the class of the plane
-            if pl["class"]=='H':
-                class_num = 2
-            elif pl["class"]=='M':
-                class_num = 3
-            elif pl["class"]=='L':
-                class_num = 4
-            else:
-                raise ValueError('The class could not be identified for a plane in the pickled data.')
+                # Find the class of the plane
+                if pl["class"]=='H':
+                    class_num = 2
+                elif pl["class"]=='M':
+                    class_num = 3
+                elif pl["class"]=='L':
+                    class_num = 4
+                else:
+                    raise ValueError('The class could not be identified for a plane in the pickled data.')
 
-            plane.append(Arrival(pl["id"], start_point["lng"], start_point["lat"], class_num, pl["has_landed"], pl["adj_trail"], kml))
+                plane.append(Arrival(pl["id"], start_point["lng"], start_point["lat"], class_num, pl["has_landed"], pl["adj_trail"], kml))
     return plane
 
 def loadsep(kml):
