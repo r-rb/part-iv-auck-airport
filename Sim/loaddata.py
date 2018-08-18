@@ -40,7 +40,7 @@ def loadplane(kml, isManual):
                 else:
                     raise ValueError('The class could not be identified for a plane in the pickled data.')
 
-                plane.append(Arrival(pl["id"], start_point["lng"], start_point["lat"], class_num, pl["has_landed"], pl["adj_trail"], kml))
+                plane.append(Arrival(pl["id"], start_point["lng"], start_point["lat"], class_num, pl["adj_trail"], kml))
     return plane
 
 def loadsep(kml):

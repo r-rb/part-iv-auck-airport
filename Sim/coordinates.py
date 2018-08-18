@@ -21,6 +21,6 @@ def rect2earth(coords):
 	z = coords[2]
 	R = earth_radius
 	lat = np.rad2deg( math.asin(z/R) )
-	lon = np.rad2deg( math.atan2(y,x) )
-	return (lat, lon)
+	lng = np.rad2deg( math.atan2(y,x) )
+	return (lng, lat)
 

@@ -7,7 +7,7 @@ tol = 1e-6
 res = 1
 
 ## MIP Solver
-solver = GurobiSolver(OutputFlag = 0)
+solver = GurobiSolver(OutputFlag = 1)
 
 c = vec(readdlm("./tmp/delay_cost.txt"))
 r_min = minimum(readdlm("./tmp/arrival_t.txt"))
@@ -15,7 +15,6 @@ r = floor.(Int, res*(vec(readdlm("./tmp/arrival_t.txt")) - r_min))
 s = round.(Int, vec(readdlm("./tmp/class_num.txt")))
 d_max = floor.(Int, res*vec(readdlm("./tmp/max_delay.txt")))
 p = round.(Int, res*readdlm("./tmp/sep_t.txt"))
-
 
 ## Pre-checks
 P = length(c) # Number of planes
@@ -38,7 +37,7 @@ K = N*C*(C+1)/2
 row_num = P + K
 col_num = sum(d_max)
 
-A = zeros(Int8, row_num, col_num)
+A = zeros(Bool, row_num, col_num)
 cost = zeros(Float64, col_num)
 plane = zeros(Int, col_num)
 sch_t = zeros(Float64, col_num)

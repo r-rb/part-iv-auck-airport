@@ -5,7 +5,7 @@ import math
 from subprocess import DEVNULL, STDOUT, check_call
 from solve import solve
 from visualize import visualize
-from location import Location, dist
+from location import Location, dist, Landmark
 from plane import Plane
 from loaddata import loadplane, loadsep
 
@@ -19,7 +19,7 @@ solver_name = "spp"
 #solver_name = "mip"
 #solver_name = "dp"
 log_name = "log.txt"
-plotDuring = True
+plotDuring = False
 plotAfter = True
 isManual = False # Manual data entry or not
 
@@ -31,6 +31,9 @@ isManual = False # Manual data entry or not
 
 # File
 kml=simplekml.Kml()
+
+# AKL airport
+akl = Landmark("Auckland Airport", 174.779962, -37.013383, 4000, kml)
 
 ###################################################
 
@@ -55,7 +58,7 @@ while not all([pl.landed for pl in plane]):
 
 	id_arr,delay_cost,max_delay,class_num,proc_t = [],[],[],[],[]
 	for pl in plane:
-		if not pl.landed:
+		if not pl.landed and dist(pl,akl)<=100000:
 			id_arr.append(pl.id_arr)
 			delay_cost.append(pl.delay_cost)
 			max_delay.append(pl.max_delay)
@@ -68,7 +71,7 @@ while not all([pl.landed for pl in plane]):
 
 	schedule = solve(id_arr,delay_cost,max_delay,class_num,proc_t,sep_t,solver_name)
 	for pl in reversed(plane):
-		if not pl.landed:
+		if not pl.landed and dist(pl,akl)<=100000:
 			if not isinstance(schedule, float):
 				pl.eta = schedule.pop()
 			else:

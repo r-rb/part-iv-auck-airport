@@ -225,3 +225,436 @@ Minute 0:
 1d67f975 has landed
 1d691909 has landed
 Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+1d6a025e has landed
+1d6a101f has landed
+1d69fdaf has landed
+1d69f63b has landed
+1d69ef28 has landed
+1d69e5e4 has landed
+1d69e1b9 has landed
+1d69ddcc has landed
+1d69dbaf has landed
+1d69d6df has landed
+1d69d31f has landed
+1d69cfd3 has landed
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+1d69af7d has landed
+1d69ace0 has landed
+1d6994e9 has landed
+1d698d10 has landed
+1d6986b5 has landed
+1d697bb4 has landed
+1d682441 has landed
+1d695d08 has landed
+1d695683 has landed
+1d694084 has landed
+1d695640 has landed
+1d6920a4 has landed
+1d691106 has landed
+1d695574 has landed
+1d695bcf has landed
+1d6949e1 has landed
+1d6951e3 has landed
+1d694d9c has landed
+1d69528e has landed
+1d691704 has landed
+1d6946ea has landed
+1d694c0d has landed
+1d6839c2 has landed
+1d6950e6 has landed
+1d67f975 has landed
+1d691909 has landed
+Minute 1: 
+Minute 0: 
+1d69af7d has landed
+1d69ace0 has landed
+1d6994e9 has landed
+1d698d10 has landed
+1d6986b5 has landed
+1d697bb4 has landed
+1d682441 has landed
+1d695d08 has landed
+1d695683 has landed
+1d694084 has landed
+1d695640 has landed
+1d6920a4 has landed
+1d691106 has landed
+1d695574 has landed
+1d695bcf has landed
+1d6949e1 has landed
+1d6951e3 has landed
+1d694d9c has landed
+1d69528e has landed
+1d691704 has landed
+1d6946ea has landed
+1d694c0d has landed
+1d6839c2 has landed
+1d6950e6 has landed
+1d67f975 has landed
+1d691909 has landed
+Minute 1: 
+Minute 0: 
+1d69af7d has landed
+1d69ace0 has landed
+1d6994e9 has landed
+1d698d10 has landed
+1d6986b5 has landed
+1d697bb4 has landed
+1d682441 has landed
+1d695d08 has landed
+1d695683 has landed
+1d694084 has landed
+1d695640 has landed
+1d6920a4 has landed
+1d691106 has landed
+1d695574 has landed
+1d695bcf has landed
+1d6949e1 has landed
+1d6951e3 has landed
+1d694d9c has landed
+1d69528e has landed
+1d691704 has landed
+1d6946ea has landed
+1d694c0d has landed
+1d6839c2 has landed
+1d6950e6 has landed
+1d67f975 has landed
+1d691909 has landed
+Minute 1: 
+Minute 0: 
+1d69af7d has landed
+1d69ace0 has landed
+1d6994e9 has landed
+1d698d10 has landed
+1d6986b5 has landed
+1d697bb4 has landed
+1d682441 has landed
+1d695d08 has landed
+1d695683 has landed
+1d694084 has landed
+1d695640 has landed
+1d6920a4 has landed
+1d691106 has landed
+1d695574 has landed
+1d695bcf has landed
+1d6949e1 has landed
+1d6951e3 has landed
+1d694d9c has landed
+1d69528e has landed
+1d691704 has landed
+1d6946ea has landed
+1d694c0d has landed
+1d6839c2 has landed
+1d6950e6 has landed
+1d67f975 has landed
+1d691909 has landed
+Minute 1: 
+Minute 0: 
+1d69af7d has landed
+1d69ace0 has landed
+1d6994e9 has landed
+1d698d10 has landed
+1d6986b5 has landed
+1d697bb4 has landed
+1d682441 has landed
+1d695d08 has landed
+1d695683 has landed
+1d694084 has landed
+1d695640 has landed
+1d6920a4 has landed
+1d691106 has landed
+1d695574 has landed
+1d695bcf has landed
+1d6949e1 has landed
+1d6951e3 has landed
+1d694d9c has landed
+1d69528e has landed
+1d691704 has landed
+1d6946ea has landed
+1d694c0d has landed
+1d6839c2 has landed
+1d6950e6 has landed
+1d67f975 has landed
+1d691909 has landed
+Minute 1: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+1d69af7d has landed
+1d69ace0 has landed
+1d6994e9 has landed
+1d698d10 has landed
+1d6986b5 has landed
+1d697bb4 has landed
+1d682441 has landed
+1d695d08 has landed
+1d695683 has landed
+1d694084 has landed
+1d695640 has landed
+1d6920a4 has landed
+1d691106 has landed
+1d695574 has landed
+1d695bcf has landed
+1d6949e1 has landed
+1d6951e3 has landed
+1d694d9c has landed
+1d69528e has landed
+1d691704 has landed
+1d6946ea has landed
+1d694c0d has landed
+1d6839c2 has landed
+1d6950e6 has landed
+1d67f975 has landed
+1d691909 has landed
+Minute 1: 
+Minute 0: 
+1d69ace0 has landed
+1d6994e9 has landed
+1d6986b5 has landed
+1d697bb4 has landed
+1d682441 has landed
+1d695d08 has landed
+1d695683 has landed
+1d694084 has landed
+1d695640 has landed
+1d6920a4 has landed
+1d691106 has landed
+1d695574 has landed
+1d695bcf has landed
+1d6949e1 has landed
+1d6951e3 has landed
+1d694d9c has landed
+1d69528e has landed
+1d691704 has landed
+1d6946ea has landed
+1d694c0d has landed
+1d6839c2 has landed
+1d6950e6 has landed
+1d67f975 has landed
+1d691909 has landed
+Minute 1: 
+1d69af7d has landed
+1d69ace0 has landed
+1d6994e9 has landed
+1d698d10 has landed
+1d6986b5 has landed
+1d697bb4 has landed
+1d682441 has landed
+1d695d08 has landed
+1d695683 has landed
+1d694084 has landed
+1d695640 has landed
+1d6920a4 has landed
+1d691106 has landed
+1d695574 has landed
+1d695bcf has landed
+1d6949e1 has landed
+1d6951e3 has landed
+1d694d9c has landed
+1d69528e has landed
+1d691704 has landed
+1d6946ea has landed
+1d694c0d has landed
+1d6839c2 has landed
+1d6950e6 has landed
+1d67f975 has landed
+1d691909 has landed
+Minute 2: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+1d6a025e is estimated to be delayed by -24554.452185359747 minute(s)
+1d6a101f is estimated to be delayed by -24204.259544067416 minute(s)
+1d69fdaf is estimated to be delayed by -21624.114877636806 minute(s)
+1d69f63b is estimated to be delayed by -20785.69309946666 minute(s)
+1d69ef28 is estimated to be delayed by -19690.02166084817 minute(s)
+1d69e5e4 is estimated to be delayed by -18752.269828930883 minute(s)
+1d69e1b9 is estimated to be delayed by -18346.57333177901 minute(s)
+1d69ddcc is estimated to be delayed by -17545.027972227424 minute(s)
+1d69dbaf is estimated to be delayed by -17274.764575996633 minute(s)
+1d69d6df is estimated to be delayed by -16666.68584697665 minute(s)
+1d69d31f is estimated to be delayed by -16504.737093077765 minute(s)
+1d69cfd3 is estimated to be delayed by -15767.839953518074 minute(s)
+1d69c91c is estimated to be delayed by -14686.518610841018 minute(s)
+1d69c19a is estimated to be delayed by -14062.617074653908 minute(s)
+1d69bfa1 is estimated to be delayed by -13792.329138053177 minute(s)
+1d69bb85 is estimated to be delayed by -13299.629664781502 minute(s)
+1d69b620 is estimated to be delayed by -12278.19885714348 minute(s)
+1d69b07b is estimated to be delayed by -11722.65535896039 minute(s)
+1d69af7d is estimated to be delayed by 0.2881442079290366 minute(s)
+1d69ad5b is estimated to be delayed by -11370.372816168447 minute(s)
+1d69ace0 has landed
+1d69a92e is estimated to be delayed by -11414.003637489452 minute(s)
+1d691589 is estimated to be delayed by 2099.866503201577 minute(s)
+1d69a9ad is estimated to be delayed by -10327.787901787475 minute(s)
+1d699c98 is estimated to be delayed by -8908.808418667284 minute(s)
+1d699eca is estimated to be delayed by -8795.645469394012 minute(s)
+1d699ce0 is estimated to be delayed by -9070.531489799218 minute(s)
+1d699ca1 is estimated to be delayed by -8722.767268990665 minute(s)
+1d699bb0 is estimated to be delayed by -7502.885978136806 minute(s)
+1d699b35 is estimated to be delayed by -8836.704273342822 minute(s)
+1d6999d3 is estimated to be delayed by -8309.959043226796 minute(s)
+1d6996d7 is estimated to be delayed by -8059.4979510131925 minute(s)
+1d698f60 is estimated to be delayed by -5798.548387279175 minute(s)
+1d6994e9 has landed
+1d6994a7 is estimated to be delayed by -7687.987483395253 minute(s)
+1d699352 is estimated to be delayed by -7763.801838869936 minute(s)
+1d6992f6 is estimated to be delayed by -7518.044005849677 minute(s)
+1d696e90 is estimated to be delayed by 26.284590270913668 minute(s)
+1d698d10 is estimated to be delayed by 0.2085824365052531 minute(s)
+1d698f46 is estimated to be delayed by -7010.613392445707 minute(s)
+1d698c6a is estimated to be delayed by -5276.976240827236 minute(s)
+1d6988e8 is estimated to be delayed by -6239.6440511188985 minute(s)
+1d698a46 is estimated to be delayed by -6313.374954192085 minute(s)
+1d69890f is estimated to be delayed by -6147.954989594308 minute(s)
+1d698873 is estimated to be delayed by -6206.576204959236 minute(s)
+1d6986b5 has landed
+1d698640 is estimated to be delayed by -5341.504902168596 minute(s)
+1d6981ae is estimated to be delayed by -4966.625437233711 minute(s)
+1d698123 is estimated to be delayed by -5180.033116675752 minute(s)
+1d697f17 is estimated to be delayed by -4772.65510414466 minute(s)
+1d697dd6 is estimated to be delayed by -3058.7431135935212 minute(s)
+1d697bb4 has landed
+1d697b10 is estimated to be delayed by -4194.482145115844 minute(s)
+1d697812 is estimated to be delayed by -3783.566299188113 minute(s)
+1d696f38 is estimated to be delayed by -2009.182541167518 minute(s)
+1d696e9f is estimated to be delayed by -1089.8642766248922 minute(s)
+1d696edd is estimated to be delayed by -2275.4017569257458 minute(s)
+1d696926 is estimated to be delayed by -1348.5699033984733 minute(s)
+1d6968bf is estimated to be delayed by -1485.3300611657432 minute(s)
+1d6965ab is estimated to be delayed by -598.9758578037935 minute(s)
+1d69634f is estimated to be delayed by -781.5440972813484 minute(s)
+1d682441 has landed
+1d6960af is estimated to be delayed by -440.9569555671786 minute(s)
+1d692f33 is estimated to be delayed by -4972.049934518438 minute(s)
+1d695d08 has landed
+1d695683 has landed
+1d694084 has landed
+1d695640 has landed
+1d6920a4 has landed
+1d691106 has landed
+1d695574 has landed
+1d695bcf has landed
+1d6949e1 has landed
+1d6951e3 has landed
+1d694d9c has landed
+1d69528e has landed
+1d691704 has landed
+1d693970 is estimated to be delayed by -2519.938908096061 minute(s)
+1d690c32 is estimated to be delayed by -1013.957864608412 minute(s)
+1d6946ea has landed
+1d694c0d has landed
+1d6839c2 has landed
+1d6950e6 has landed
+1d67f975 has landed
+1d691909 has landed
+Minute 1: 
+1d6a025e has landed
+1d6a101f has landed
+1d69fdaf is estimated to be delayed by -21624.114877636806 minute(s)
+1d69f63b is estimated to be delayed by -20785.69309946666 minute(s)
+1d69ef28 is estimated to be delayed by -19690.02166084817 minute(s)
+1d69e5e4 is estimated to be delayed by -18752.269828930883 minute(s)
+1d69e1b9 is estimated to be delayed by -18346.57333177901 minute(s)
+1d69ddcc is estimated to be delayed by -17545.027972227424 minute(s)
+1d69dbaf is estimated to be delayed by -17274.764575996633 minute(s)
+1d69d6df is estimated to be delayed by -16666.68584697665 minute(s)
+1d69d31f is estimated to be delayed by -16504.737093077765 minute(s)
+1d69cfd3 is estimated to be delayed by -15767.839953518074 minute(s)
+1d69c91c is estimated to be delayed by -14686.518610841018 minute(s)
+1d69c19a is estimated to be delayed by -14062.617074653908 minute(s)
+1d69bfa1 is estimated to be delayed by -13792.329138053177 minute(s)
+1d69bb85 is estimated to be delayed by -13299.629664781502 minute(s)
+1d69b620 is estimated to be delayed by -12278.19885714348 minute(s)
+1d69b07b is estimated to be delayed by -11722.65535896039 minute(s)
+1d69af7d has landed
+1d69ad5b is estimated to be delayed by -11370.372816168447 minute(s)
+1d69ace0 has landed
+1d69a92e has landed
+1d691589 is estimated to be delayed by 2099.866503201577 minute(s)
+1d69a9ad is estimated to be delayed by -10327.787901787475 minute(s)
+1d699c98 is estimated to be delayed by -8908.808418667284 minute(s)
+1d699eca is estimated to be delayed by -8795.645469394012 minute(s)
+1d699ce0 is estimated to be delayed by -9070.531489799218 minute(s)
+1d699ca1 is estimated to be delayed by -8722.767268990665 minute(s)
+1d699bb0 is estimated to be delayed by -7502.885978136806 minute(s)
+1d699b35 is estimated to be delayed by -8836.704273342822 minute(s)
+1d6999d3 is estimated to be delayed by -8309.959043226796 minute(s)
+1d6996d7 is estimated to be delayed by -8059.4979510131925 minute(s)
+1d698f60 is estimated to be delayed by -5798.548387279175 minute(s)
+1d6994e9 has landed
+1d6994a7 is estimated to be delayed by -7687.987483395253 minute(s)
+1d699352 has landed
+1d6992f6 is estimated to be delayed by -7518.044005849677 minute(s)
+1d696e90 is estimated to be delayed by 26.284590270913668 minute(s)
+1d698d10 has landed
+1d698f46 is estimated to be delayed by -7010.613392445707 minute(s)
+1d698c6a is estimated to be delayed by -5276.976240827236 minute(s)
+1d6988e8 is estimated to be delayed by -6239.6440511188985 minute(s)
+1d698a46 is estimated to be delayed by -6313.374954192085 minute(s)
+1d69890f is estimated to be delayed by -6147.954989594308 minute(s)
+1d698873 is estimated to be delayed by -6206.576204959236 minute(s)
+1d6986b5 has landed
+1d698640 is estimated to be delayed by -5341.504902168596 minute(s)
+1d6981ae is estimated to be delayed by -4966.625437233711 minute(s)
+1d698123 is estimated to be delayed by -5180.033116675752 minute(s)
+1d697f17 is estimated to be delayed by -4772.65510414466 minute(s)
+1d697dd6 is estimated to be delayed by -3058.7431135935212 minute(s)
+1d697bb4 has landed
+1d697b10 is estimated to be delayed by -4194.482145115844 minute(s)
+1d697812 is estimated to be delayed by -3783.566299188113 minute(s)
+1d696f38 is estimated to be delayed by -2009.182541167518 minute(s)
+1d696e9f is estimated to be delayed by -1089.8642766248922 minute(s)
+1d696edd is estimated to be delayed by -2275.4017569257458 minute(s)
+1d696926 is estimated to be delayed by -1348.5699033984733 minute(s)
+1d6968bf is estimated to be delayed by -1485.3300611657432 minute(s)
+1d6965ab is estimated to be delayed by -598.9758578037935 minute(s)
+1d69634f is estimated to be delayed by -781.5440972813484 minute(s)
+1d682441 has landed
+1d6960af has landed
+1d692f33 is estimated to be delayed by -4972.049934518438 minute(s)
+1d695d08 has landed
+1d695683 has landed
+1d694084 has landed
+1d695640 has landed
+1d6920a4 has landed
+1d691106 has landed
+1d695574 has landed
+1d695bcf has landed
+1d6949e1 has landed
+1d6951e3 has landed
+1d694d9c has landed
+1d69528e has landed
+1d691704 has landed
+1d693970 is estimated to be delayed by -2519.938908096061 minute(s)
+1d690c32 is estimated to be delayed by -1013.957864608412 minute(s)
+1d6946ea has landed
+1d694c0d has landed
+1d6839c2 has landed
+1d6950e6 has landed
+1d67f975 has landed
+1d691909 has landed
+Minute 2: 
+Minute 0: 
+Minute 0: 
