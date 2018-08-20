@@ -2,3 +2,4 @@
 **/*.kml
 **/.vscode
 **/__pycache__
+**/spp_mat.txt

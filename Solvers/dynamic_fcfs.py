@@ -13,13 +13,13 @@ def valid(state,cl,r,cl_info):
 
     if state[cl] + 1 <= cl_info["max"][cl]:
 
-        targ    = cl_info["targets"][cl][state[cl]]
-        rop     = state["rop"][r]
-        t       = targ if rop[0] == -1 else \
+        targ = cl_info["targets"][cl][state[cl]]
+        rop = state["rop"][r]
+        t  = targ if rop[0] == -1 else \
                     max(targ,rop[1] + cl_info["sep"][rop[0]][cl])
         
-        new_state           = deepcopy(state)
-        new_state[cl]      += 1
+        new_state  = deepcopy(state)
+        new_state[cl] += 1
         new_state["rop"][r] = (cl,t)
         new_state["cost"]  += cl_info["cost"][cl] * math.pow((t - targ),cl_info["deg"])\
                                 if (t-targ)<cl_info["max_delay"][cl] else float("inf")
@@ -64,40 +64,36 @@ def dp_fcfs(targ,w_class,cost,sep,max_delay = None,R = 1,deg = 2):
 
     #pp.pprint(cl_info)   
 
-    n_planes            = len(targ)
-    n_stages            = n_planes + 1
-    stages              = [None] * n_stages
+    n_planes = len(targ)
+    n_stages = n_planes + 1
+    stages = [None] * n_stages
 
-    cl_info             = {"cost":cost,"sep":sep, "deg":deg}
-    cl_info["classes"]  = list(sorted(set(w_class)))
-    cl_info["max"]      = {k: w_class.count(k) for k in w_class}
-    cl_info["total"]    = len(cl_info["classes"])
-    cl_info["targets"]  = {cl:sorted([t for t,c in zip(targ,w_class) if c == cl]) for cl in cl_info["classes"]} 
-    cl_info["max_delay"]= {d:c for c,d in zip(max_delay,cl_info["classes"])}
-
-    #print(cl_info)
-
-    #print(cl_info["max_delay"])
+    cl_info = {"cost":cost,"sep":sep, "deg":deg}
+    cl_info["classes"] = list(sorted(set(w_class)))
+    cl_info["max"] = {k: w_class.count(k) for k in w_class}
+    cl_info["total"] = len(cl_info["classes"])
+    cl_info["targets"] = {cl:sorted([t for t,c in zip(targ,w_class) if c == cl]) for cl in cl_info["classes"]} 
+    cl_info["max_delay"] = {d:c for c,d in zip(max_delay,cl_info["classes"])}
 
     # Intial state
-    init                = {k: 0 for k in cl_info["classes"]}
-    init["rop"]         = {i:(-1,-1) for i in range(0,R)}
-    init["cost"]        = 0
-    init["sched"]       = [(-1,-1,-1,0,None)]
+    init = {k: 0 for k in cl_info["classes"]}
+    init["rop"] = {i:(-1,-1) for i in range(0,R)}
+    init["cost"] = 0
+    init["sched"] = [(-1,-1,-1,0,None)]
 
     # Intialise 
-    stages[0]           = [init]
+    stages[0] = [init]
 
     #pp.pprint(stages[0])
 
     for n,stage in enumerate(stages):
         if n < len(targ):
-            new_states  = expand(stage,cl_info,R)
+            new_states = expand(stage,cl_info,R)
             stages[n+1] = new_states
 
     #print(len(stages[-1]))
     
-    min_st  = min(stages[-1],key = lambda st : st["cost"])
+    min_st = min(stages[-1],key = lambda st : st["cost"])
 
     #assert(sum([ math.pow(s[3],deg) for s in min_st["sched"] ]) == min_st["cost"] )
 
@@ -105,7 +101,7 @@ def dp_fcfs(targ,w_class,cost,sep,max_delay = None,R = 1,deg = 2):
     # (class, time of usage, runway number,targ, deviation from target)
 
     #print(min_st["cost"])
-    sched =  [list(filter(lambda sch: sch[-2] == t,min_st["sched"]))[0][-1] for t in targ]
+    sched = [list(filter(lambda sch: sch[-2] == t,min_st["sched"]))[0][-1] for t in targ]
 
     return sched
 
@@ -118,14 +114,13 @@ if __name__ == '__main__':
     R = 1   # number of runways
     deg = 1 # degree on deviation from target in objective cost
 
-    targets         = [i+1 for i in range(0,n)]
-    plane_classes   = [str(i+1) for i in range(0,n)]
-    cost            = {k:random.randint(1,1) for k in set(plane_classes)}
-    sep             = {k:{k1:random.randint(2,2) for k1 in set(plane_classes)} for k in set(plane_classes)}
+    targets = [i+1 for i in range(0,n)]
+    plane_classes = [str(i+1) for i in range(0,n)]
+    cost = {k:random.randint(1,1) for k in set(plane_classes)}
+    sep = {k:{k1:random.randint(2,2) for k1 in set(plane_classes)} for k in set(plane_classes)}
 
     t0 = time.clock()
-    sched           = dp_fcfs(targets,plane_classes,cost,sep,None,R,deg)
+    sched = dp_fcfs(targets,plane_classes,cost,sep,None,R,deg)
     pp.pprint(sched)
     t1 = time.clock()
     pp.pprint(t1 - t0)
-    
