@@ -32,7 +32,34 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
 
     stagetable = Array{Dict{Int64,State}}(1, S)
 
-    init = Dict(1 => State([(-1.0, -1) for i = 1:F], 0.0, [(-1.0, -1) for i = 1:R]))
+    stagetable[1] = Dict(1 => State([(-1.0, -1) for i = 1:F], 0.0, [(-1.0, -1) for i = 1:R]))
+    
+    function generatestate(state::State, f, r)
+        if state.schedule[f][2] == -1
+            assigntime = 0
+            # Check if there is an dependency
+            if dependency[f] != 0
+                # Check if the dependency has been satisfied
+                if state.schedule[dependency[f]][1] == -1
+                    return (-1, -1)
+                end
+                assigntime = state.schedule[dependency[f]][1] + turnovertime
+            end
+
+            new_schedule, new_rop, new_cost  = copy(state.schedule), copy(state.rop), copy(state.cost)
+            prev, precedingflight = state.rop[r]
+            precedingflight = precedingflight == -1 ? f : precedingflight
+            assigntime = max(assigntime, targets[f], prev + proctimes[f,precedingflight])
+            addedcost = fcost(assigntime, targets[f])
+
+            if addedcost == Inf32
+                return (-1, -1)
+            end
+
+            new_schedule[f] = (assigntime, r)
+            new_cost = new_cost + addedcost
+            new_rop[r] = (assigntime, f)
+            new_state = State(new_schedule, new_cost, new_rop)
 
     #println(init)
 
