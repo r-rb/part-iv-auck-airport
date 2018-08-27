@@ -1,7 +1,7 @@
 using JuMP, Gurobi
 
 ## MIP Solver
-solver = GurobiSolver(OutputFlag=0)
+solver = GurobiSolver(OutputFlag=1)
 
 ## Parameters
 
@@ -12,8 +12,11 @@ solver = GurobiSolver(OutputFlag=0)
 
 t = [1,2,3,4]
 c = [1,1,1,1]
-set_up = [3 3 3 3;3 3 3 3;3 3 3 3;3 3 3 3]
-d_max = [100 100 100 100]
+set_up = [	[3 3 3 3]
+			[3 3 3 3]
+			[3 3 3 3]
+			[3 3 3 3]	]
+d_max = [100,100,100,100]
 
 ## Pre-checks
 P = length(c) # Number of planes
@@ -133,9 +136,6 @@ end
 # In the first case, W[p,q] >= l[p] + l[q], while in the second, that inequality is violated. Since G >= 0, this forces no overlap.
 # Notice also how W[p,q] = maximum(L[p,q], L[q,p]). At least one of the two arguments must be positive, so W must be too.
 
-
-
-
 ###########################################################################################################
 
 
@@ -150,6 +150,8 @@ arrivals = getvalue(a)
 exits = getvalue(e)
 ideals = t
 
+println(arrivals)
+
 # Save file
-writedlm("./tmp/schedule.txt", arrivals, "\n")
+# writedlm("./tmp/schedule.txt", arrivals, "\n")
 

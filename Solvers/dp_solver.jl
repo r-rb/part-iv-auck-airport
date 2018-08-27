@@ -3,32 +3,33 @@
 # classes = readdlm("../Sim/tmp/class_num.txt", UInt8)
 
 # Targets for the flights
-targets = Float32[1,2,3,4]
+# planes = 10
+# targets = Float32[i for i = 1:planes]
 
-# Index of flights that to be processed before the corresponding flight as the same plane is being used.
-dependency = UInt8[0,0,0,0]
+# # Index of flights that to be processed before the corresponding flight as the same plane is being used.
+# dependency = UInt8[0,0,0,0]
 
-# Processing times
-proctimes = convert(Array{Float32,2}, [0 3 3 3;
-                                        3 0 3 3;
-                                        3 3 0 3; 
-                                        3 3 3 0])
+# # Processing times
+# proctimes = convert(Array{Float32,2},  [0 3 3 3;
+#                                         3 0 3 3;
+#                                         3 3 0 3; 
+#                                         3 3 3 0])
 
-# flights = 12
+flights = 70
 
-# targets = Float32[t for t = 1:flights]
-# dependency = UInt8[0 for t = 1:flights]
-# proctimes = Float32.(rand(1:10, flights, flights))
+targets = Float32[t for t = 1:flights]
+dependency = UInt8[0 for t = 1:flights]
+proctimes = Float32.(rand(3:3, flights, flights))
 
-# for d = 1:flights
-#     proctimes[d,d] = 0
-# end
+for d = 1:flights
+    proctimes[d,d] = 0
+end
 
 # Number of runways
 runways = convert(UInt8, 1)
 
 # Cost function
-fcost(t, target, coeff=1, deg=1, max_delay=100) = t - target < max_delay ? coeff * (t - target)^deg : Inf32
+fcost(t, target, coeff=1, deg=1, max_delay=1000) = t - target < max_delay ? coeff * (t - target)^deg : Inf32
 
 struct State
     schedule::Array{Tuple{Float32,Int8}}
@@ -63,13 +64,13 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
         if state.schedule[f][2] == -1
             assigntime = 0
             # Check if there is an dependency
-            if dependency[f] != 0
-                # Check if the dependency has been satisfied
-                if state.schedule[dependency[f]][1] == -1
-                    return (-1, -1)
-                end
-                assigntime = state.schedule[dependency[f]][1] + turnovertime
-            end
+            # if dependency[f] != 0
+            #     # Check if the dependency has been satisfied
+            #     if state.schedule[dependency[f]][1] == -1
+            #         return (-1, -1)
+            #     end
+            #     assigntime = state.schedule[dependency[f]][1] + turnovertime
+            # end
 
             # copy over information from the old state
             new_schedule, new_rop, new_cost  = copy(state.schedule), copy(state.rop), copy(state.cost)
@@ -107,7 +108,8 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
                     explored = false
                     if t != -1
                         for (idx, state) in setofstates
-                            if t == state.rop[r][1] && samedependency(new_state, state)
+                            if t == state.rop[r][1] 
+                                #&& samedependency(new_state, state)
                                 explored = true
                                 if new_state.cost < state.cost
                                     setofstates[idx] = new_state
@@ -129,6 +131,8 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
     # Main loop
     for n = 1:F
         expand!()
+        stagetable[n] = Dict{Int64,State}()
+        println(length(stagetable[n]))
         statesexpanded += length(stagetable[n + 1])
     end
 

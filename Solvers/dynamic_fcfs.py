@@ -104,7 +104,7 @@ def dp_fcfs(targ, w_class, cost, sep, max_delay=None, R=1, deg=2):
     # return a schedule which is an array of tuples that look like:
     # (class, time of usage, runway number,targ, deviation from target)
 
-    # print(min_st["cost"])
+    print(min_st["cost"])
     sched = [list(filter(lambda sch: sch[-2] == t, min_st["sched"]))[0][1]
              for t in targ]
 
@@ -116,14 +116,14 @@ if __name__ == '__main__':
     # Test case with unit spaced arrivals and randomised seperation and costs.
     # This is the general case as number of classes == number of planes
 
-    n = 25  # number of planes
+    n = 20  # number of planes
     R = 1   # number of runways
     deg = 1  # degree on deviation from target in objective cost
 
     targets = [i+1 for i in range(0, n)]
     plane_classes = [str(i+1) for i in range(0, n)]
     cost = {k: random.randint(1, 1) for k in set(plane_classes)}
-    sep = {k: {k1: random.randint(2, 2) for k1 in set(
+    sep = {k: {k1: random.randint(3, 3) for k1 in set(
         plane_classes)} for k in set(plane_classes)}
 
     t0 = time.clock()
