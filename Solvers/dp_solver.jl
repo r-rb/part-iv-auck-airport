@@ -15,9 +15,10 @@
 #                                         3 3 0 3;
 #                                         3 3 3 0])
 
-targets = vec(readdlm("./tmp/arrival_t.txt",Float32))
-proctimes = readdlm("./tmp/sep_t.txt",Float32)
-classes = convert(Array{UInt8,1},vec(readdlm("./tmp/class_num.txt",Float32)))
+targets = vec(readdlm("./tmp/arrival_t.txt", Float32))
+proctimes = readdlm("./tmp/proc_t.txt", Float32)
+println(proctimes)
+classes = convert(Array{UInt8,1}, vec(readdlm("./tmp/class_num.txt", Float32)))
 dependency = UInt8[0,0,0,0,0]
 #depedency = convert(Array{UInt8,1},vec(readdlm("./tmp/depends.txt",Float32)))
 
@@ -49,7 +50,7 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
     R = runways # number of runways
     n = 1   # initialising stage counter
     turnovertime = 3    # turnaround time for a plane before they can make another flight
-
+    #println(proctimes)
     dependentflights = [dependency[i] for i = 1:F if dependency[i] != 0]
 
     stagetable = Array{Dict{Int64,State}}(1, S)
@@ -69,13 +70,13 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
         if state.schedule[f][2] == -1
             assigntime = 0
             # Check if there is an dependency
-            # if dependency[f] != 0
-            #     # Check if the dependency has been satisfied
-            #     if state.schedule[dependency[f]][1] == -1
-            #         return (-1, -1)
-            #     end
-            #     assigntime = state.schedule[dependency[f]][1] + turnovertime
-            # end
+            if dependency[f] != 0
+                # Check if the dependency has been satisfied
+                if state.schedule[dependency[f]][1] == -1
+                    return (-1, -1)
+                end
+                assigntime = state.schedule[dependency[f]][1] + turnovertime
+            end
 
             # copy over information from the old state
             new_schedule, new_rop, new_cost  = copy(state.schedule), copy(state.rop), copy(state.cost)
@@ -113,8 +114,7 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
                     explored = false
                     if t != -1
                         for (idx, state) in setofstates
-                            if t == state.rop[r][1]
-                                #&& samedependency(new_state, state)
+                            if t == state.rop[r][1] && samedependency(new_state, state)
                                 explored = true
                                 if new_state.cost < state.cost
                                     setofstates[idx] = new_state
@@ -137,18 +137,21 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
     for n = 1:F
         expand!()
         stagetable[n] = Dict{Int64,State}()
-        println(length(stagetable[n]))
+        #println(length(stagetable[n]))
         statesexpanded += length(stagetable[n + 1])
     end
 
-    println(statesexpanded)
-    println(length(stagetable[end]))
+    #println(statesexpanded)
+    #println(length(stagetable[end]))
 
     min_cost_key = reduce((x, y) -> stagetable[end][x].cost <= stagetable[end][y].cost ? x : y, keys(stagetable[end]))
 
-    println(stagetable[end][min_cost_key])
+    #println(stagetable[end][min_cost_key])
 
+    minsched = [x[1] for x in stagetable[end][min_cost_key].schedule]
+
+    writedlm("./tmp/schedule.txt", minsched)
 
 end
 
-@time solvedp(targets, dependency, proctimes, fcost, runways)
+solvedp(targets, dependency, proctimes, fcost, runways)

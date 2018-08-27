@@ -856,3 +856,1065 @@ Minute 0:
 Minute 0: 
 Minute 0: 
 Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 0: 
+Minute 1: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 0: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+Minute 0: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+Minute 1: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+Minute 2: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+Minute 3: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 4: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 5: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 6: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 7: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 8: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 9: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 10: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 11: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 12: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 13: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 14: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 15: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 16: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 17: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 18: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 19: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 20: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 21: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 22: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 23: 
+Rayner is estimated to be delayed by -14.347032625680221 minute(s)
+Nathan is estimated to be delayed by -35.744523467772964 minute(s)
+John is estimated to be delayed by -0.6351652558641625 minute(s)
+Joe is estimated to be delayed by -0.6365949135245383 minute(s)
+Anne is estimated to be delayed by -0.4506479184694996 minute(s)
+Minute 24: 
+Minute 25: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 0: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 1: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 2: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 3: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 4: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 5: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 6: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 7: 
+Minute 8: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 0: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 1: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 2: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 3: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 4: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 5: 
+Rayner is estimated to be delayed by -47.89284286141847 minute(s)
+Nathan is estimated to be delayed by -52.732591945627746 minute(s)
+John is estimated to be delayed by -28.521656124436863 minute(s)
+Joe is estimated to be delayed by -14.5217990902029 minute(s)
+Anne is estimated to be delayed by -15.503204390697393 minute(s)
+Minute 6: 
+Minute 7: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 0: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 1: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 2: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 3: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 4: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 5: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 6: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 7: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 8: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 9: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 10: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 11: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 12: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 13: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 14: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 15: 
+Minute 16: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 0: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 1: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 2: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 3: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 4: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 5: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 6: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 7: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 8: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 9: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 10: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 11: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 12: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 13: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 14: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 15: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 16: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 17: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 18: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 19: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 20: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 21: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 22: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 23: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 24: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 25: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 26: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 27: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 28: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 29: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 30: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 31: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 32: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 33: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 34: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 35: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 36: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 37: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 38: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 39: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 40: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 41: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 42: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 43: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 44: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 45: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 46: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 47: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 48: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 49: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 50: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 51: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 52: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 53: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 54: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 55: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 56: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 57: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 58: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 59: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 60: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 61: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 62: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 63: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 64: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 65: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 66: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 67: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 68: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 69: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 70: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 71: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 72: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 73: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 74: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 75: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 76: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 77: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 78: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 79: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 80: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 81: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 82: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 83: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 84: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 85: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 86: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 87: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 88: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 89: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 90: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 91: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 92: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 93: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 94: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 95: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 96: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 97: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 98: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 99: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 100: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 101: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 102: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 103: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 104: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 105: 
+Minute 106: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 0: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 0: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 1: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 2: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 3: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 4: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 5: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 6: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 7: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 8: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 9: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 10: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 11: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 12: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+Nathan is estimated to be delayed by -3.5793896735469843e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 13: 
+Minute 14: 

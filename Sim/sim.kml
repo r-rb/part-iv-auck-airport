@@ -9,1035 +9,113 @@
                 <outline>1</outline>
             </PolyStyle>
         </Style>
+        <Style id="stylesel_1">
+            <PolyStyle id="substyle_1">
+                <color>c8008000</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
+        <Style id="stylesel_2">
+            <PolyStyle id="substyle_2">
+                <color>c8008000</color>
+                <colorMode>normal</colorMode>
+                <fill>1</fill>
+                <outline>1</outline>
+            </PolyStyle>
+        </Style>
         <Placemark id="feat_2">
             <name>Auckland Airport</name>
             <styleUrl>#stylesel_0</styleUrl>
             <Polygon id="geom_0">
                 <outerBoundaryIs>
                     <LinearRing id="geom_1">
-                        <coordinates>174.779962,-36.97733967584429,0.0 174.78776313012096,-36.97788700013166,0.0 174.79532755379125,-36.9795123656288,0.0 174.8024257174161,-36.982166452103826,0.0 174.80884216050055,-36.98576871712684,0.0 174.8143820365648,-36.99020983119931,0.0 174.8188770196963,-36.99535498480707,0.0 174.82219041893492,-37.00104796869988,0.0 174.82422134512535,-37.00711590532523,0.0 174.8249078020129,-37.01337448945003,0.0 174.8242286045943,-37.019633580207135,0.0 174.82220406227472,-37.02570297562211,0.0 174.8188954013203,-37.0313981945106,0.0 174.8144029393793,-37.0365460897469,0.0 174.80886306331806,-37.040990121400085,0.0 174.80244409904785,-37.044595128052684,0.0 174.7953411971398,-37.04725144952503,0.0 174.78777038959564,-37.04887827381325,0.0 174.779962,-37.04942610473347,0.0 174.7721536104044,-37.04887827381325,0.0 174.76458280286022,-37.04725144952503,0.0 174.75747990095218,-37.044595128052684,0.0 174.75106093668197,-37.040990121400085,0.0 174.74552106062072,-37.0365460897469,0.0 174.74102859867972,-37.0313981945106,0.0 174.7377199377253,-37.02570297562211,0.0 174.7356953954057,-37.019633580207135,0.0 174.73501619798714,-37.01337448945003,0.0 174.73570265487467,-37.00711590532523,0.0 174.7377335810651,-37.00104796869988,0.0 174.74104698030374,-36.99535498480707,0.0 174.74554196343522,-36.99020983119931,0.0 174.75108183949948,-36.98576871712684,0.0 174.75749828258392,-36.982166452103826,0.0 174.76459644620877,-36.9795123656288,0.0 174.77216086987906,-36.97788700013166,0.0 174.779962,-36.97733967584429,0.0</coordinates>
+                        <coordinates>174.779962,-36.97733967584429,0.0 174.78776313012096,-36.97788700013166,0.0 174.79532755379125,-36.9795123656288,0.0 174.8024257174161,-36.98216645210382,0.0 174.80884216050055,-36.985768717126845,0.0 174.8143820365648,-36.99020983119931,0.0 174.8188770196963,-36.995354984807065,0.0 174.82219041893492,-37.00104796869988,0.0 174.82422134512535,-37.00711590532523,0.0 174.8249078020129,-37.01337448945003,0.0 174.8242286045943,-37.019633580207135,0.0 174.82220406227472,-37.02570297562211,0.0 174.8188954013203,-37.0313981945106,0.0 174.8144029393793,-37.036546089746906,0.0 174.80886306331806,-37.04099012140008,0.0 174.80244409904785,-37.044595128052684,0.0 174.7953411971398,-37.04725144952503,0.0 174.78777038959564,-37.04887827381325,0.0 174.779962,-37.04942610473347,0.0 174.7721536104044,-37.04887827381325,0.0 174.76458280286022,-37.04725144952503,0.0 174.75747990095218,-37.044595128052684,0.0 174.75106093668197,-37.04099012140008,0.0 174.74552106062072,-37.036546089746906,0.0 174.74102859867972,-37.0313981945106,0.0 174.7377199377253,-37.02570297562211,0.0 174.7356953954057,-37.019633580207135,0.0 174.73501619798714,-37.01337448945003,0.0 174.73570265487467,-37.00711590532523,0.0 174.7377335810651,-37.00104796869988,0.0 174.74104698030374,-36.995354984807065,0.0 174.74554196343522,-36.99020983119931,0.0 174.75108183949948,-36.985768717126845,0.0 174.75749828258392,-36.98216645210382,0.0 174.76459644620877,-36.9795123656288,0.0 174.77216086987906,-36.97788700013166,0.0 174.779962,-36.97733967584429,0.0</coordinates>
                     </LinearRing>
                 </outerBoundaryIs>
             </Polygon>
         </Placemark>
         <Placemark id="feat_4">
-            <name>1d691909</name>
-            <Point id="geom_2">
-                <coordinates>174.771103,-37.016243,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_5">
-            <name>1d691909path</name>
-            <LineString id="geom_3">
-                <coordinates>170.928757,-38.077869,0.0 174.771103,-37.016243,0.0 174.771103,-37.016243,0.0</coordinates>
-            </LineString>
+            <name>Auckland Airport</name>
+            <styleUrl>#stylesel_1</styleUrl>
+            <Polygon id="geom_2">
+                <outerBoundaryIs>
+                    <LinearRing id="geom_3">
+                        <coordinates>174.779962,-36.97733967584429,0.0 174.78776313012096,-36.97788700013166,0.0 174.79532755379125,-36.9795123656288,0.0 174.8024257174161,-36.98216645210382,0.0 174.80884216050055,-36.985768717126845,0.0 174.8143820365648,-36.99020983119931,0.0 174.8188770196963,-36.995354984807065,0.0 174.82219041893492,-37.00104796869988,0.0 174.82422134512535,-37.00711590532523,0.0 174.8249078020129,-37.01337448945003,0.0 174.8242286045943,-37.019633580207135,0.0 174.82220406227472,-37.02570297562211,0.0 174.8188954013203,-37.0313981945106,0.0 174.8144029393793,-37.036546089746906,0.0 174.80886306331806,-37.04099012140008,0.0 174.80244409904785,-37.044595128052684,0.0 174.7953411971398,-37.04725144952503,0.0 174.78777038959564,-37.04887827381325,0.0 174.779962,-37.04942610473347,0.0 174.7721536104044,-37.04887827381325,0.0 174.76458280286022,-37.04725144952503,0.0 174.75747990095218,-37.044595128052684,0.0 174.75106093668197,-37.04099012140008,0.0 174.74552106062072,-37.036546089746906,0.0 174.74102859867972,-37.0313981945106,0.0 174.7377199377253,-37.02570297562211,0.0 174.7356953954057,-37.019633580207135,0.0 174.73501619798714,-37.01337448945003,0.0 174.73570265487467,-37.00711590532523,0.0 174.7377335810651,-37.00104796869988,0.0 174.74104698030374,-36.995354984807065,0.0 174.74554196343522,-36.99020983119931,0.0 174.75108183949948,-36.985768717126845,0.0 174.75749828258392,-36.98216645210382,0.0 174.76459644620877,-36.9795123656288,0.0 174.77216086987906,-36.97788700013166,0.0 174.779962,-36.97733967584429,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
         </Placemark>
         <Placemark id="feat_6">
-            <name>1d67f975</name>
-            <Point id="geom_4">
-                <coordinates>174.772675,-37.015823,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_7">
-            <name>1d67f975path</name>
-            <LineString id="geom_5">
-                <coordinates>173.409317,-34.041962,0.0 174.772675,-37.015823,0.0 174.772675,-37.015823,0.0</coordinates>
-            </LineString>
+            <name>Wellington Airport</name>
+            <styleUrl>#stylesel_2</styleUrl>
+            <Polygon id="geom_4">
+                <outerBoundaryIs>
+                    <LinearRing id="geom_5">
+                        <coordinates>174.807598,-41.29157749887482,0.0 174.81589039429534,-41.29212437486486,0.0 174.8239312336258,-41.29374841289715,0.0 174.83147655763068,-41.296400344034474,0.0 174.83829737025115,-41.29999970813308,0.0 174.84418656575198,-41.30443728445211,0.0 174.84896520446318,-41.3095783929219,0.0 174.852487949623,-41.31526696784734,0.0 174.85464750016519,-41.32133028249135,0.0 174.8553778827669,-41.32758418307998,0.0 174.85465649932829,-41.33383867491279,0.0 174.85250486251877,-41.3399036919767,0.0 174.84898799114907,-41.34559487516115,0.0 174.8442124778193,-41.35073918313489,0.0 174.838323282323,-41.355180164295675,0.0 174.83149934432797,-41.35878272789969,0.0 174.82394814653455,-41.361437267298236,0.0 174.81589939346688,-41.36306300775241,0.0 174.807598,-41.36361047498738,0.0 174.79929660653315,-41.36306300775241,0.0 174.79124785346548,-41.361437267298236,0.0 174.78369665567206,-41.35878272789969,0.0 174.77687271767704,-41.355180164295675,0.0 174.77098352218073,-41.35073918313489,0.0 174.76620800885095,-41.34559487516115,0.0 174.76269113748126,-41.3399036919767,0.0 174.76053950067174,-41.33383867491279,0.0 174.75981811723312,-41.32758418307998,0.0 174.76054849983484,-41.32133028249135,0.0 174.76270805037703,-41.31526696784734,0.0 174.76623079553684,-41.3095783929219,0.0 174.77100943424804,-41.30443728445211,0.0 174.77689862974887,-41.29999970813308,0.0 174.78371944236935,-41.296400344034474,0.0 174.7912647663742,-41.29374841289715,0.0 174.7993056057047,-41.29212437486486,0.0 174.807598,-41.29157749887482,0.0</coordinates>
+                    </LinearRing>
+                </outerBoundaryIs>
+            </Polygon>
         </Placemark>
         <Placemark id="feat_8">
-            <name>1d6950e6</name>
+            <name>Rayner</name>
             <Point id="geom_6">
-                <coordinates>174.791153,-37.009174,0.0</coordinates>
+                <coordinates>170.75259839238612,-35.320678540280454,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_9">
-            <name>1d6950e6path</name>
+            <name>Raynerpath</name>
             <LineString id="geom_7">
-                <coordinates>172.427475,-43.659481,0.0 174.791153,-37.009174,0.0 174.791153,-37.009174,0.0</coordinates>
+                <coordinates>170.0,-35.0,0.0 170.1249583213253,-35.05335882184601,0.0 170.25010756190707,-35.106752530500984,0.0 170.37544696271857,-35.160181240943025,0.0 170.50097575514462,-35.2136450686495,0.0 170.62669316097282,-35.267144129600155,0.0 170.75259839238612,-35.320678540280454,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="feat_10">
-            <name>1d6839c2</name>
+            <name>Nathan</name>
             <Point id="geom_8">
-                <coordinates>174.793869,-37.009926,0.0</coordinates>
+                <coordinates>175.28098334889165,-37.83575392854787,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_11">
-            <name>1d6839c2path</name>
+            <name>Nathanpath</name>
             <LineString id="geom_9">
-                <coordinates>156.861374,-26.073442,0.0 174.793869,-37.009926,0.0 174.793869,-37.009926,0.0</coordinates>
+                <coordinates>176.0,-39.0,0.0 175.93368952100295,-38.8933762484747,0.0 175.8675700435856,-38.78691232424964,0.0 175.80164091903623,-38.68060714479028,0.0 175.73590150035668,-38.574459637789886,0.0 175.67035114226877,-38.46846874103041,0.0 175.60498920122092,-38.36263340224582,0.0 175.5398150353941,-38.256952578987864,0.0 175.47482800470806,-38.151425238494014,0.0 175.41002747082695,-38.046050357557654,0.0 175.34541279716493,-37.94082692240067,0.0 175.28098334889165,-37.83575392854787,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="feat_12">
-            <name>1d694c0d</name>
+            <name>John</name>
             <Point id="geom_10">
-                <coordinates>174.782532,-37.007469,0.0</coordinates>
+                <coordinates>180.0,-39.5,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_13">
-            <name>1d694c0dpath</name>
+            <name>Johnpath</name>
             <LineString id="geom_11">
-                <coordinates>156.466583,-28.921928,0.0 174.782532,-37.007469,0.0 174.782532,-37.007469,0.0</coordinates>
+                <coordinates>180.0,-39.5,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="feat_14">
-            <name>1d6946ea</name>
+            <name>Joe</name>
             <Point id="geom_12">
-                <coordinates>174.77301,-37.015686,0.0</coordinates>
+                <coordinates>172.0,-36.0,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_15">
-            <name>1d6946eapath</name>
+            <name>Joepath</name>
             <LineString id="geom_13">
-                <coordinates>172.350952,-41.305069,0.0 174.77301,-37.015686,0.0 174.77301,-37.015686,0.0</coordinates>
+                <coordinates>172.0,-36.0,0.0</coordinates>
             </LineString>
         </Placemark>
         <Placemark id="feat_16">
-            <name>1d690c32</name>
+            <name>Anne</name>
             <Point id="geom_14">
-                <coordinates>168.772552,-37.12344399999999,0.0</coordinates>
+                <coordinates>173.0,-35.0,0.0</coordinates>
             </Point>
         </Placemark>
         <Placemark id="feat_17">
-            <name>1d690c32path</name>
+            <name>Annepath</name>
             <LineString id="geom_15">
-                <coordinates>168.772552,-37.123444,0.0 168.772552,-37.12344399999999,0.0 168.772552,-37.12344399999999,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_18">
-            <name>1d693970</name>
-            <Point id="geom_16">
-                <coordinates>168.830475,-37.12802099999999,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_19">
-            <name>1d693970path</name>
-            <LineString id="geom_17">
-                <coordinates>168.830475,-37.128021,0.0 168.830475,-37.12802099999999,0.0 168.830475,-37.12802099999999,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_20">
-            <name>1d691704</name>
-            <Point id="geom_18">
-                <coordinates>174.797333,-37.007423,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_21">
-            <name>1d691704path</name>
-            <LineString id="geom_19">
-                <coordinates>172.13443,-37.208084,0.0 174.797333,-37.007423,0.0 174.797333,-37.007423,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_22">
-            <name>1d69528e</name>
-            <Point id="geom_20">
-                <coordinates>174.770508,-37.016384,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_23">
-            <name>1d69528epath</name>
-            <LineString id="geom_21">
-                <coordinates>173.416321,-41.748001,0.0 174.770508,-37.016384,0.0 174.770508,-37.016384,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_24">
-            <name>1d694d9c</name>
-            <Point id="geom_22">
-                <coordinates>174.787933,-37.011589,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_25">
-            <name>1d694d9cpath</name>
-            <LineString id="geom_23">
-                <coordinates>155.006592,-28.353945,0.0 174.787933,-37.011589,0.0 174.787933,-37.011589,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_26">
-            <name>1d6951e3</name>
-            <Point id="geom_24">
-                <coordinates>174.79209900000004,-37.007248,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_27">
-            <name>1d6951e3path</name>
-            <LineString id="geom_25">
-                <coordinates>174.80777,-39.214828,0.0 174.79209900000004,-37.007248,0.0 174.79209900000004,-37.007248,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_28">
-            <name>1d6949e1</name>
-            <Point id="geom_26">
-                <coordinates>174.795746,-37.007492,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_29">
-            <name>1d6949e1path</name>
-            <LineString id="geom_27">
-                <coordinates>152.352325,-34.288189,0.0 174.795746,-37.007492,0.0 174.795746,-37.007492,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_30">
-            <name>1d695bcf</name>
-            <Point id="geom_28">
-                <coordinates>174.746964,-37.03376,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_31">
-            <name>1d695bcfpath</name>
-            <LineString id="geom_29">
-                <coordinates>174.115219,-35.907677,0.0 174.746964,-37.03376,0.0 174.746964,-37.03376,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_32">
-            <name>1d695574</name>
-            <Point id="geom_30">
-                <coordinates>174.739822,-37.024998,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_33">
-            <name>1d695574path</name>
-            <LineString id="geom_31">
-                <coordinates>175.437866,-37.270279,0.0 174.739822,-37.024998,0.0 174.739822,-37.024998,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_34">
-            <name>1d691106</name>
-            <Point id="geom_32">
-                <coordinates>174.786667,-37.009995,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_35">
-            <name>1d691106path</name>
-            <LineString id="geom_33">
-                <coordinates>173.99025,-37.116394,0.0 174.786667,-37.009995,0.0 174.786667,-37.009995,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_36">
-            <name>1d6920a4</name>
-            <Point id="geom_34">
-                <coordinates>174.796616,-37.007217,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_37">
-            <name>1d6920a4path</name>
-            <LineString id="geom_35">
-                <coordinates>174.329681,-36.912853,0.0 174.796616,-37.007217,0.0 174.796616,-37.007217,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_38">
-            <name>1d695640</name>
-            <Point id="geom_36">
-                <coordinates>174.754211,-37.020901,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_39">
-            <name>1d695640path</name>
-            <LineString id="geom_37">
-                <coordinates>174.315643,-38.868851,0.0 174.754211,-37.020901,0.0 174.754211,-37.020901,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_40">
-            <name>1d694084</name>
-            <Point id="geom_38">
-                <coordinates>174.790527,-37.007229,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_41">
-            <name>1d694084path</name>
-            <LineString id="geom_39">
-                <coordinates>174.716446,-37.192337,0.0 174.790527,-37.007229,0.0 174.790527,-37.007229,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_42">
-            <name>1d695683</name>
-            <Point id="geom_40">
-                <coordinates>174.776001,-37.014847,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_43">
-            <name>1d695683path</name>
-            <LineString id="geom_41">
-                <coordinates>174.891586,-36.82296,0.0 174.776001,-37.014847,0.0 174.776001,-37.014847,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_44">
-            <name>1d695d08</name>
-            <Point id="geom_42">
-                <coordinates>174.782349,-37.013065,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_45">
-            <name>1d695d08path</name>
-            <LineString id="geom_43">
-                <coordinates>176.872314,-39.465351,0.0 174.782349,-37.013065,0.0 174.782349,-37.013065,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_46">
-            <name>1d692f33</name>
-            <Point id="geom_44">
-                <coordinates>177.87146,-32.786865,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_47">
-            <name>1d692f33path</name>
-            <LineString id="geom_45">
-                <coordinates>177.87146,-32.786865,0.0 177.87146,-32.786865,0.0 177.87146,-32.786865,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_48">
-            <name>1d6960af</name>
-            <Point id="geom_46">
-                <coordinates>174.787109,-37.007263,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_49">
-            <name>1d6960afpath</name>
-            <LineString id="geom_47">
-                <coordinates>174.179489,-39.009087,0.0 174.179489,-39.009087,0.0 174.787109,-37.007263,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_50">
-            <name>1d682441</name>
-            <Point id="geom_48">
-                <coordinates>174.77372700000004,-37.015503,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_51">
-            <name>1d682441path</name>
-            <LineString id="geom_49">
-                <coordinates>166.727097,-22.963381,0.0 174.77372700000004,-37.015503,0.0 174.77372700000004,-37.015503,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_52">
-            <name>1d69634f</name>
-            <Point id="geom_50">
-                <coordinates>176.871521,-39.466564,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_53">
-            <name>1d69634fpath</name>
-            <LineString id="geom_51">
-                <coordinates>176.871521,-39.466564,0.0 176.871521,-39.466564,0.0 176.871521,-39.466564,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_54">
-            <name>1d6965ab</name>
-            <Point id="geom_52">
-                <coordinates>168.740723,-45.020911999999996,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_55">
-            <name>1d6965abpath</name>
-            <LineString id="geom_53">
-                <coordinates>168.740723,-45.020912,0.0 168.740723,-45.020911999999996,0.0 168.740723,-45.020911999999996,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_56">
-            <name>1d6968bf</name>
-            <Point id="geom_54">
-                <coordinates>174.80986,-41.32996,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_57">
-            <name>1d6968bfpath</name>
-            <LineString id="geom_55">
-                <coordinates>174.80986,-41.32996,0.0 174.80986,-41.32996,0.0 174.80986,-41.32996,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_58">
-            <name>1d696926</name>
-            <Point id="geom_56">
-                <coordinates>172.53794900000003,-43.48872800000001,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_59">
-            <name>1d696926path</name>
-            <LineString id="geom_57">
-                <coordinates>172.537949,-43.488728,0.0 172.53794900000003,-43.48872800000001,0.0 172.53794900000003,-43.48872800000001,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_60">
-            <name>1d696edd</name>
-            <Point id="geom_58">
-                <coordinates>175.650055,-31.337264999999995,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_61">
-            <name>1d696eddpath</name>
-            <LineString id="geom_59">
-                <coordinates>175.650055,-31.337265,0.0 175.650055,-31.337264999999995,0.0 175.650055,-31.337264999999995,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_62">
-            <name>1d696e9f</name>
-            <Point id="geom_60">
-                <coordinates>151.164429,-33.938663,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_63">
-            <name>1d696e9fpath</name>
-            <LineString id="geom_61">
-                <coordinates>151.164429,-33.938663,0.0 151.164429,-33.938663,0.0 151.164429,-33.938663,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_64">
-            <name>1d696f38</name>
-            <Point id="geom_62">
-                <coordinates>170.193649,-45.930988000000006,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_65">
-            <name>1d696f38path</name>
-            <LineString id="geom_63">
-                <coordinates>170.193649,-45.930988,0.0 170.193649,-45.930988000000006,0.0 170.193649,-45.930988000000006,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_66">
-            <name>1d697812</name>
-            <Point id="geom_64">
-                <coordinates>173.224472,-41.298672,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_67">
-            <name>1d697812path</name>
-            <LineString id="geom_65">
-                <coordinates>173.224472,-41.298672,0.0 173.224472,-41.298672,0.0 173.224472,-41.298672,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_68">
-            <name>1d697b10</name>
-            <Point id="geom_66">
-                <coordinates>174.809799,-41.329146999999985,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_69">
-            <name>1d697b10path</name>
-            <LineString id="geom_67">
-                <coordinates>174.809799,-41.329147,0.0 174.809799,-41.329146999999985,0.0 174.809799,-41.329146999999985,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_70">
-            <name>1d697bb4</name>
-            <Point id="geom_68">
-                <coordinates>174.788452,-37.011303000000005,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_71">
-            <name>1d697bb4path</name>
-            <LineString id="geom_69">
-                <coordinates>176.188553,-37.672806,0.0 174.788452,-37.011303000000005,0.0 174.788452,-37.011303000000005,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_72">
-            <name>1d697dd6</name>
-            <Point id="geom_70">
-                <coordinates>144.847824,-37.66389100000001,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_73">
-            <name>1d697dd6path</name>
-            <LineString id="geom_71">
-                <coordinates>144.847824,-37.663891,0.0 144.847824,-37.66389100000001,0.0 144.847824,-37.66389100000001,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_74">
-            <name>1d697f17</name>
-            <Point id="geom_72">
-                <coordinates>173.224075,-41.29986199999999,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_75">
-            <name>1d697f17path</name>
-            <LineString id="geom_73">
-                <coordinates>173.224075,-41.299862,0.0 173.224075,-41.29986199999999,0.0 173.224075,-41.29986199999999,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_76">
-            <name>1d698123</name>
-            <Point id="geom_74">
-                <coordinates>175.620407,-40.322868,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_77">
-            <name>1d698123path</name>
-            <LineString id="geom_75">
-                <coordinates>175.620407,-40.322868,0.0 175.620407,-40.322868,0.0 175.620407,-40.322868,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_78">
-            <name>1d6981ae</name>
-            <Point id="geom_76">
-                <coordinates>172.537613,-43.48900600000001,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_79">
-            <name>1d6981aepath</name>
-            <LineString id="geom_77">
-                <coordinates>172.537613,-43.489006,0.0 172.537613,-43.48900600000001,0.0 172.537613,-43.48900600000001,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_80">
-            <name>1d698640</name>
-            <Point id="geom_78">
-                <coordinates>168.740677,-45.02130900000002,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_81">
-            <name>1d698640path</name>
-            <LineString id="geom_79">
-                <coordinates>168.740677,-45.021309,0.0 168.740677,-45.02130900000002,0.0 168.740677,-45.02130900000002,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_82">
-            <name>1d6986b5</name>
-            <Point id="geom_80">
-                <coordinates>174.793518,-37.005409,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_83">
-            <name>1d6986b5path</name>
-            <LineString id="geom_81">
-                <coordinates>175.449783,-36.268894,0.0 174.793518,-37.005409,0.0 174.793518,-37.005409,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_84">
-            <name>1d698873</name>
-            <Point id="geom_82">
-                <coordinates>176.718903,-39.094936,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_85">
-            <name>1d698873path</name>
-            <LineString id="geom_83">
-                <coordinates>176.718903,-39.094936,0.0 176.718903,-39.094936,0.0 176.718903,-39.094936,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_86">
-            <name>1d69890f</name>
-            <Point id="geom_84">
-                <coordinates>174.81030300000003,-41.32971600000001,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_87">
-            <name>1d69890fpath</name>
-            <LineString id="geom_85">
-                <coordinates>174.810303,-41.329716,0.0 174.81030300000003,-41.32971600000001,0.0 174.81030300000003,-41.32971600000001,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_88">
-            <name>1d698a46</name>
-            <Point id="geom_86">
-                <coordinates>174.80986,-41.32993700000001,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_89">
-            <name>1d698a46path</name>
-            <LineString id="geom_87">
-                <coordinates>174.80986,-41.329937,0.0 174.80986,-41.32993700000001,0.0 174.80986,-41.32993700000001,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_90">
-            <name>1d6988e8</name>
-            <Point id="geom_88">
-                <coordinates>177.982117,-38.662331,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_91">
-            <name>1d6988e8path</name>
-            <LineString id="geom_89">
-                <coordinates>177.982117,-38.662331,0.0 177.982117,-38.662331,0.0 177.982117,-38.662331,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_92">
-            <name>1d698c6a</name>
-            <Point id="geom_90">
-                <coordinates>153.509964,-28.165674,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_93">
-            <name>1d698c6apath</name>
-            <LineString id="geom_91">
-                <coordinates>153.509964,-28.165674,0.0 153.509964,-28.165674,0.0 153.509964,-28.165674,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_94">
-            <name>1d698f46</name>
-            <Point id="geom_92">
-                <coordinates>173.832108,-41.577347,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_95">
-            <name>1d698f46path</name>
-            <LineString id="geom_93">
-                <coordinates>173.832108,-41.577347,0.0 173.832108,-41.577347,0.0 173.832108,-41.577347,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_96">
-            <name>1d698d10</name>
-            <Point id="geom_94">
-                <coordinates>174.792145,-37.008598,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_97">
-            <name>1d698d10path</name>
-            <LineString id="geom_95">
-                <coordinates>176.316986,-38.109341,0.0 176.316986,-38.10934099999999,0.0 174.792145,-37.008598,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_98">
-            <name>1d696e90</name>
-            <Point id="geom_96">
-                <coordinates>145.755081,-16.871658,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_99">
-            <name>1d696e90path</name>
-            <LineString id="geom_97">
-                <coordinates>145.755081,-16.871658,0.0 145.755081,-16.871658,0.0 145.755081,-16.871658,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_100">
-            <name>1d6992f6</name>
-            <Point id="geom_98">
-                <coordinates>174.81015,-41.328495,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_101">
-            <name>1d6992f6path</name>
-            <LineString id="geom_99">
-                <coordinates>174.81015,-41.328495,0.0 174.81015,-41.328495,0.0 174.81015,-41.328495,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_102">
-            <name>1d699352</name>
-            <Point id="geom_100">
-                <coordinates>174.754501,-37.020859,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_103">
-            <name>1d699352path</name>
-            <LineString id="geom_101">
-                <coordinates>173.913651,-35.262726,0.0 173.913651,-35.26272600000001,0.0 174.754501,-37.020859,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_104">
-            <name>1d6994a7</name>
-            <Point id="geom_102">
-                <coordinates>177.853058,-32.824997,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_105">
-            <name>1d6994a7path</name>
-            <LineString id="geom_103">
-                <coordinates>177.853058,-32.824997,0.0 177.853058,-32.824997,0.0 177.853058,-32.824997,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_106">
-            <name>1d6994e9</name>
-            <Point id="geom_104">
-                <coordinates>174.744431,-37.023251,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_107">
-            <name>1d6994e9path</name>
-            <LineString id="geom_105">
-                <coordinates>174.308929,-36.052238,0.0 174.744431,-37.023251,0.0 174.744431,-37.023251,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_108">
-            <name>1d698f60</name>
-            <Point id="geom_106">
-                <coordinates>151.164703,-33.939411,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_109">
-            <name>1d698f60path</name>
-            <LineString id="geom_107">
-                <coordinates>151.164703,-33.939411,0.0 151.164703,-33.939411,0.0 151.164703,-33.939411,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_110">
-            <name>1d6996d7</name>
-            <Point id="geom_108">
-                <coordinates>173.224777,-41.29893500000001,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_111">
-            <name>1d6996d7path</name>
-            <LineString id="geom_109">
-                <coordinates>173.224777,-41.298935,0.0 173.224777,-41.29893500000001,0.0 173.224777,-41.29893500000001,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_112">
-            <name>1d6999d3</name>
-            <Point id="geom_110">
-                <coordinates>172.537125,-43.487606,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_113">
-            <name>1d6999d3path</name>
-            <LineString id="geom_111">
-                <coordinates>172.537125,-43.487606,0.0 172.537125,-43.487606,0.0 172.537125,-43.487606,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_114">
-            <name>1d699b35</name>
-            <Point id="geom_112">
-                <coordinates>175.283707,-39.921337,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_115">
-            <name>1d699b35path</name>
-            <LineString id="geom_113">
-                <coordinates>175.283707,-39.921337,0.0 175.283707,-39.921337,0.0 175.283707,-39.921337,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_116">
-            <name>1d699bb0</name>
-            <Point id="geom_114">
-                <coordinates>151.17012,-33.936291,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_117">
-            <name>1d699bb0path</name>
-            <LineString id="geom_115">
-                <coordinates>151.17012,-33.936291,0.0 151.17012,-33.936291,0.0 151.17012,-33.936291,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_118">
-            <name>1d699ca1</name>
-            <Point id="geom_116">
-                <coordinates>172.537628,-43.489014000000005,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_119">
-            <name>1d699ca1path</name>
-            <LineString id="geom_117">
-                <coordinates>172.537628,-43.489014,0.0 172.537628,-43.489014000000005,0.0 172.537628,-43.489014000000005,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_120">
-            <name>1d699ce0</name>
-            <Point id="geom_118">
-                <coordinates>176.871536,-39.46657600000001,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_121">
-            <name>1d699ce0path</name>
-            <LineString id="geom_119">
-                <coordinates>176.871536,-39.466576,0.0 176.871536,-39.46657600000001,0.0 176.871536,-39.46657600000001,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_122">
-            <name>1d699eca</name>
-            <Point id="geom_120">
-                <coordinates>168.740555,-45.02152599999999,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_123">
-            <name>1d699ecapath</name>
-            <LineString id="geom_121">
-                <coordinates>168.740555,-45.021526,0.0 168.740555,-45.02152599999999,0.0 168.740555,-45.02152599999999,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_124">
-            <name>1d699c98</name>
-            <Point id="geom_122">
-                <coordinates>173.224365,-41.299473,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_125">
-            <name>1d699c98path</name>
-            <LineString id="geom_123">
-                <coordinates>173.224365,-41.299473,0.0 173.224365,-41.299473,0.0 173.224365,-41.299473,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_126">
-            <name>1d69a9ad</name>
-            <Point id="geom_124">
-                <coordinates>170.2005,-45.924831,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_127">
-            <name>1d69a9adpath</name>
-            <LineString id="geom_125">
-                <coordinates>170.2005,-45.924831,0.0 170.2005,-45.924831,0.0 170.2005,-45.924831,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_128">
-            <name>1d691589</name>
-            <Point id="geom_126">
-                <coordinates>122.84651899999999,-13.245275,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_129">
-            <name>1d691589path</name>
-            <LineString id="geom_127">
-                <coordinates>122.846519,-13.245275,0.0 122.84651899999999,-13.245275,0.0 122.84651899999999,-13.245275,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_130">
-            <name>1d69a92e</name>
-            <Point id="geom_128">
-                <coordinates>174.793335,-37.006199,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_131">
-            <name>1d69a92epath</name>
-            <LineString id="geom_129">
-                <coordinates>176.06189,-38.668476,0.0 176.06189,-38.668476,0.0 174.793335,-37.006199,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_132">
-            <name>1d69ace0</name>
-            <Point id="geom_130">
-                <coordinates>174.792023,-37.00864800000001,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_133">
-            <name>1d69ace0path</name>
-            <LineString id="geom_131">
-                <coordinates>176.196106,-37.673157,0.0 174.792023,-37.00864800000001,0.0 174.792023,-37.00864800000001,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_134">
-            <name>1d69ad5b</name>
-            <Point id="geom_132">
-                <coordinates>175.620407,-40.322891000000006,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_135">
-            <name>1d69ad5bpath</name>
-            <LineString id="geom_133">
-                <coordinates>175.620407,-40.322891,0.0 175.620407,-40.322891000000006,0.0 175.620407,-40.322891000000006,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_136">
-            <name>1d69af7d</name>
-            <Point id="geom_134">
-                <coordinates>174.725235,-37.016056,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_137">
-            <name>1d69af7dpath</name>
-            <LineString id="geom_135">
-                <coordinates>174.535172,-38.539185,0.0 174.535172,-38.539185,0.0 174.725235,-37.016056,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_138">
-            <name>1d69b07b</name>
-            <Point id="geom_136">
-                <coordinates>174.80986,-41.329948,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_139">
-            <name>1d69b07bpath</name>
-            <LineString id="geom_137">
-                <coordinates>174.80986,-41.329948,0.0 174.80986,-41.329948,0.0 174.80986,-41.329948,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_140">
-            <name>1d69b620</name>
-            <Point id="geom_138">
-                <coordinates>172.538452,-43.487652000000004,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_141">
-            <name>1d69b620path</name>
-            <LineString id="geom_139">
-                <coordinates>172.538452,-43.487652,0.0 172.538452,-43.487652000000004,0.0 172.538452,-43.487652000000004,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_142">
-            <name>1d69bb85</name>
-            <Point id="geom_140">
-                <coordinates>175.620346,-40.32243,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_143">
-            <name>1d69bb85path</name>
-            <LineString id="geom_141">
-                <coordinates>175.620346,-40.32243,0.0 175.620346,-40.32243,0.0 175.620346,-40.32243,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_144">
-            <name>1d69bfa1</name>
-            <Point id="geom_142">
-                <coordinates>174.809937,-41.33036800000001,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_145">
-            <name>1d69bfa1path</name>
-            <LineString id="geom_143">
-                <coordinates>174.809937,-41.330368,0.0 174.809937,-41.33036800000001,0.0 174.809937,-41.33036800000001,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_146">
-            <name>1d69c19a</name>
-            <Point id="geom_144">
-                <coordinates>173.224091,-41.29985,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_147">
-            <name>1d69c19apath</name>
-            <LineString id="geom_145">
-                <coordinates>173.224091,-41.29985,0.0 173.224091,-41.29985,0.0 173.224091,-41.29985,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_148">
-            <name>1d69c91c</name>
-            <Point id="geom_146">
-                <coordinates>168.74054,-45.021538,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_149">
-            <name>1d69c91cpath</name>
-            <LineString id="geom_147">
-                <coordinates>168.74054,-45.021538,0.0 168.74054,-45.021538,0.0 168.74054,-45.021538,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_150">
-            <name>1d69cfd3</name>
-            <Point id="geom_148">
-                <coordinates>172.537308,-43.489288,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_151">
-            <name>1d69cfd3path</name>
-            <LineString id="geom_149">
-                <coordinates>172.537308,-43.489288,0.0 172.537308,-43.489288,0.0 172.537308,-43.489288,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_152">
-            <name>1d69d31f</name>
-            <Point id="geom_150">
-                <coordinates>176.872314,-39.46532799999999,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_153">
-            <name>1d69d31fpath</name>
-            <LineString id="geom_151">
-                <coordinates>176.872314,-39.465328,0.0 176.872314,-39.46532799999999,0.0 176.872314,-39.46532799999999,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_154">
-            <name>1d69d6df</name>
-            <Point id="geom_152">
-                <coordinates>144.842117,-37.667709,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_155">
-            <name>1d69d6dfpath</name>
-            <LineString id="geom_153">
-                <coordinates>144.842117,-37.667709,0.0 144.842117,-37.667709,0.0 144.842117,-37.667709,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_156">
-            <name>1d69dbaf</name>
-            <Point id="geom_154">
-                <coordinates>172.537628,-43.489014000000005,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_157">
-            <name>1d69dbafpath</name>
-            <LineString id="geom_155">
-                <coordinates>172.537628,-43.489014,0.0 172.537628,-43.489014000000005,0.0 172.537628,-43.489014000000005,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_158">
-            <name>1d69ddcc</name>
-            <Point id="geom_156">
-                <coordinates>172.53772000000004,-43.487785,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_159">
-            <name>1d69ddccpath</name>
-            <LineString id="geom_157">
-                <coordinates>172.53772,-43.487785,0.0 172.53772000000004,-43.487785,0.0 172.53772000000004,-43.487785,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_160">
-            <name>1d69e1b9</name>
-            <Point id="geom_158">
-                <coordinates>176.871597,-39.466442,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_161">
-            <name>1d69e1b9path</name>
-            <LineString id="geom_159">
-                <coordinates>176.871597,-39.466442,0.0 176.871597,-39.466442,0.0 176.871597,-39.466442,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_162">
-            <name>1d69e5e4</name>
-            <Point id="geom_160">
-                <coordinates>174.809845,-41.330917,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_163">
-            <name>1d69e5e4path</name>
-            <LineString id="geom_161">
-                <coordinates>174.809845,-41.330917,0.0 174.809845,-41.330917,0.0 174.809845,-41.330917,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_164">
-            <name>1d69ef28</name>
-            <Point id="geom_162">
-                <coordinates>144.842377,-37.670677,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_165">
-            <name>1d69ef28path</name>
-            <LineString id="geom_163">
-                <coordinates>144.842377,-37.670677,0.0 144.842377,-37.670677,0.0 144.842377,-37.670677,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_166">
-            <name>1d69f63b</name>
-            <Point id="geom_164">
-                <coordinates>151.169296,-33.937267,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_167">
-            <name>1d69f63bpath</name>
-            <LineString id="geom_165">
-                <coordinates>151.169296,-33.937267,0.0 151.169296,-33.937267,0.0 151.169296,-33.937267,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_168">
-            <name>1d69fdaf</name>
-            <Point id="geom_166">
-                <coordinates>177.757278,-32.964336,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_169">
-            <name>1d69fdafpath</name>
-            <LineString id="geom_167">
-                <coordinates>177.757278,-32.964336,0.0 177.757278,-32.964336,0.0 177.757278,-32.964336,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_170">
-            <name>1d6a101f</name>
-            <Point id="geom_168">
-                <coordinates>153.11824,-27.396376,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_171">
-            <name>1d6a101fpath</name>
-            <LineString id="geom_169">
-                <coordinates>153.112183,-27.40316,0.0 153.112183,-27.40316,0.0 153.11824,-27.396376,0.0</coordinates>
-            </LineString>
-        </Placemark>
-        <Placemark id="feat_172">
-            <name>1d6a025e</name>
-            <Point id="geom_170">
-                <coordinates>172.534012,-43.490379,0.0</coordinates>
-            </Point>
-        </Placemark>
-        <Placemark id="feat_173">
-            <name>1d6a025epath</name>
-            <LineString id="geom_171">
-                <coordinates>172.537903,-43.496128,0.0 172.537903,-43.496128,0.0 172.534012,-43.490379,0.0</coordinates>
+                <coordinates>173.0,-35.0,0.0</coordinates>
             </LineString>
         </Placemark>
     </Document>
