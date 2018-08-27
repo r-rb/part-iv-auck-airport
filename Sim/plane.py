@@ -9,12 +9,14 @@ SEC_PER_MIN = 60  # Seconds per minute
 
 
 class Plane(Location):
-    def __init__(self, name, lng, lat, class_num, apt, kml, delay_cost=1, speed=13000.0, max_delay=1000, swap_time=10, pred=None):
+    def __init__(self, name, lng, lat, class_num, apt, kml, delay_cost=1, speed=13000.0, max_delay=1000, swap_time=10, arr_time=None, pred=None):
         Location.__init__(self, name, lng, lat)
+
         # Create the kml point entity
-        self.pt = kml.newpoint(name=name, coords=[(lng, lat)])
-        # Create the list of points the plane has visited.
-        self.ls = kml.newlinestring(name=name+"path", coords=[(lng, lat)])
+        self.fol = kml.newfolder(name=name)
+
+        self.coord_path = [(lng, lat)]
+
         self.class_num = class_num
         self.delay_cost = delay_cost
         self.landed = False
@@ -22,44 +24,71 @@ class Plane(Location):
         self.max_delay = max_delay
         self.swap_time = swap_time
         self.apt = apt
+        # The ideal arrival time were we to travel at speed at the way to the airport
         if apt:
-            # The ideal arrival time were we to travel at speed at the way to the airport
-            self.id_arr = dist(self, apt[-1])/self.speed
-            self.eta = self.id_arr
+            self.eta = dist(self, apt)/self.speed
         self.delay = 0
-        self.pred = None
+        self.arr_time = arr_time
+        if arr_time != None and arr_time > 1:
+            self.arrived = False
+        else:
+            self.arrived = True
+        self.pred = pred
+        if apt and self.pred:
+            self.eta += self.pred.eta
+
+    def step(self, log_name, minute):
+        if dist(self, self.apt) + tol >= self.eta * self.speed:
+            step = self.speed
+
+            if step <= tol + dist(self, self.apt):
+                self.rect += step * \
+                    (self.apt.rect - self.rect) / dist(self, self.apt)
+            else:
+                self.rect = self.apt.rect
+                self.landed = True
+                with open(log_name, 'a') as file:
+                    file.write(self.name+" has landed\n")
+
+            self.lng, self.lat = rect2earth(self.rect)
+            self.id_arr = dist(self, self.apt)/self.speed
+            self.coord_path.append((self.lng, self.lat))
+            self.delay = 0
+        else:
+            self.set_delay(
+                dist(self, self.apt)/self.speed - self.eta, log_name)
+    pass
 
     def update(self, log_name, minute):
-        if not self.landed:
-            if dist(self, self.apt[-1]) + tol >= self.eta*self.speed:
-                step = self.speed
+        if self.pred:
+            pred_landed = self.pred.landed
+        else:
+            pred_landed = True
+        if not self.landed and self.arrived:
+            if pred_landed:
+                self.step(log_name, minute)
 
-                if step <= tol + dist(self, self.apt[-1]):
-                    self.rect += step * \
-                        (self.apt[-1].rect - self.rect) / \
-                        dist(self, self.apt[-1])
-                elif len(self.apt) == 1:
-                    self.rect = self.apt[-1].rect
-                    self.landed = True
-                    with open(log_name, 'a') as file:
-                        file.write(self.name+" has landed\n")
-                else:
-                    self.rect = self.apt[-1].rect
-                    self.apt.pop()
-                    self.id_arr = self.swap_time + \
-                        dist(self, self.apt[-1])/self.speed
-                    self.eta = self.id_arr
-                    with open(log_name, 'a') as file:
-                        file.write(self.name+" has landed\n")
+                pt = self.fol.newpoint(name=self.name, coords=[
+                    (self.lng, self.lat)])
+                pt.timestamp.when = minute
+                ls = self.fol.newlinestring(
+                    name=self.name, coords=self.coord_path)
+                ls.style.linestyle.width = 1
+                ls.timestamp.when = minute
 
-                self.lng, self.lat = rect2earth(self.rect)
-                self.id_arr = dist(self, self.apt[-1])/self.speed
-                self.ls.coords.addcoordinates([(self.lng, self.lat)])
-                self.pt.coords = [(self.lng, self.lat)]
-                print(self.pt.coords)
-            else:
-                self.set_delay(
-                    dist(self, self.apt[-1])/self.speed - self.eta, log_name)
+                if self.arrived:
+                    if self.delay:
+                        ls.style.linestyle.color = simplekml.Color.red
+                        pt.style.labelstyle.color = simplekml.Color.red
+                    else:
+                        ls.style.linestyle.color = simplekml.Color.green
+                        #pt.style.labelstyle.color = simplekml.Color.green
+                        pt.style.iconstyle.scale = 0.8
+                        pt.style.iconstyle.icon.href = "http://www.iconarchive.com/download/i91814/icons8/windows-8/Transport-Airplane-Mode-On.ico"
+            self.eta -= 1
+        elif not self.arrived and self.arr_time != None:
+            if minute+1 >= self.arr_time:
+                self.arrived = True
 
     def set_delay(self, delay, log_name):
         self.delay = delay
@@ -69,13 +98,14 @@ class Plane(Location):
 
 
 class Arrival(Plane):
-    def __init__(self, name, lng, lat, class_num, trail, kml, delay_cost=1, speed=13000.0, max_delay=1000):
+    def __init__(self, name, lng, lat, class_num, trail, kml, delay_cost=1, speed=13000.0, max_delay=1000, arr_time=None):
         Plane.__init__(self, name, lng, lat, class_num, None,
-                       kml, delay_cost, speed, max_delay, 0)
+                       kml, delay_cost, speed, max_delay, 0, arr_time=arr_time)
         self.final_dest = Location(
             name+" end", trail[0]["lng"], trail[0]["lat"])
         self.id_arr = dist(self, self.final_dest)/self.speed
-        self.eta = trail[-1]["ts"]
+        self.final_time = trail[0]["ts"]
+        self.eta = self.final_time
         self.trail = trail
 
     @staticmethod
@@ -95,8 +125,8 @@ class Arrival(Plane):
         # If the plane has not started a trail yet, just return None.
         return None
 
-    def update(self, log_name, minute):
-        if (self.delay + self.eta)/SEC_PER_MIN <= minute + 1:
+    def step(self, log_name, minute):
+        if self.delay + self.eta <= minute + 1:
             self.landed = True
             self.rect = self.final_dest.rect
             self.lng, self.lat = rect2earth(self.rect)
@@ -111,5 +141,4 @@ class Arrival(Plane):
                 self.lat = new_point["lat"]
                 self.rect = earth2rect(self.lng, self.lat)
         self.id_arr = dist(self, self.final_dest)/self.speed
-        self.ls.coords.addcoordinates([(self.lng, self.lat)])
-        self.pt.coords = [(self.lng, self.lat)]
+        pass

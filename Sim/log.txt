@@ -1918,3 +1918,3905 @@ Joe is estimated to be delayed by -1.185947803690727 minute(s)
 Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
 Minute 13: 
 Minute 14: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 0: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 1: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 2: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 3: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 4: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 5: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 6: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 7: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 8: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 9: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 10: 
+Minute 11: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 0: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 1: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 2: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 3: 
+Minute 4: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 0: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 1: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 2: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 3: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 4: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 5: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 6: 
+Rayner is estimated to be delayed by -5.158464091437054e-07 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Minute 7: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 0: 
+Rayner is estimated to be delayed by -0.9999975158463954 minute(s)
+Nathan is estimated to be delayed by -0.9999993579391138 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 1: 
+Rayner is estimated to be delayed by -0.9999975158463954 minute(s)
+Nathan is estimated to be delayed by -0.9999993579391138 minute(s)
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 2: 
+Minute 3: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 0: 
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Nathan has landed
+Minute 18: 
+Nathan has landed
+Minute 19: 
+Nathan has landed
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Minute 20: 
+Nathan has landed
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 21: 
+Nathan has landed
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 22: 
+Nathan has landed
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 23: 
+Nathan has landed
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 24: 
+Nathan has landed
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 25: 
+Nathan has landed
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 26: 
+Nathan has landed
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 27: 
+Nathan has landed
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 28: 
+Nathan has landed
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 29: 
+Nathan has landed
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 30: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 31: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 32: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 33: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 34: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 35: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 36: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 37: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 38: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 39: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 40: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 41: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 42: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 43: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 44: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 45: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 46: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 47: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 48: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 49: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 50: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 51: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 52: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 53: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 54: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 55: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 56: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 57: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 58: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 59: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 60: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 61: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 62: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 63: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 64: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 65: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 66: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 67: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 68: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 69: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 70: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 71: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 72: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 73: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 74: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 75: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 76: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 77: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 78: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 79: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 80: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 81: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 82: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 83: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 84: 
+Rayner is estimated to be delayed by -0.7268775158464287 minute(s)
+Nathan has landed
+John is estimated to be delayed by -0.015010146030326688 minute(s)
+Joe is estimated to be delayed by -0.016439803690688315 minute(s)
+Anne is estimated to be delayed by -0.8304928086357146 minute(s)
+Minute 85: 
+Minute 86: 
+Minute 0: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Rayner is estimated to be delayed by -5.158464233545601e-07 minute(s)
+John is estimated to be delayed by -1.4603033093862905e-07 minute(s)
+Joe is estimated to be delayed by -1.1859468036906957 minute(s)
+Minute 9: 
+Joe is estimated to be delayed by -0.18594680369069572 minute(s)
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Nathan has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Anne has landed
+Minute 21: 
+Joe has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Rayner has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+John has landed
+Minute 41: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Rayner is estimated to be delayed by -5.158464233545601e-07 minute(s)
+John is estimated to be delayed by -1.4603033093862905e-07 minute(s)
+Joe is estimated to be delayed by -1.1859468036906957 minute(s)
+Minute 9: 
+Joe is estimated to be delayed by -0.18594680369069572 minute(s)
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Nathan has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Anne has landed
+Minute 21: 
+Joe has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Rayner has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+John has landed
+Minute 41: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Rayner is estimated to be delayed by -5.158464233545601e-07 minute(s)
+John is estimated to be delayed by -1.4603033093862905e-07 minute(s)
+Joe is estimated to be delayed by -1.1859468036906957 minute(s)
+Minute 9: 
+Joe is estimated to be delayed by -0.18594680369069572 minute(s)
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Nathan has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Anne has landed
+Minute 21: 
+Joe has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Rayner has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+John has landed
+Minute 41: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Rayner is estimated to be delayed by -5.158464233545601e-07 minute(s)
+John is estimated to be delayed by -1.4603033093862905e-07 minute(s)
+Joe is estimated to be delayed by -1.1859468036906957 minute(s)
+Minute 9: 
+Joe is estimated to be delayed by -0.18594680369069572 minute(s)
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Nathan has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Anne has landed
+Minute 21: 
+Joe has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Rayner has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+John has landed
+Minute 41: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Rayner is estimated to be delayed by -5.158464233545601e-07 minute(s)
+John is estimated to be delayed by -1.4603033093862905e-07 minute(s)
+Joe is estimated to be delayed by -1.1859468036906957 minute(s)
+Minute 9: 
+Joe is estimated to be delayed by -0.18594680369069572 minute(s)
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Nathan has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Anne has landed
+Minute 21: 
+Joe has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Rayner has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+John has landed
+Minute 41: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Rayner is estimated to be delayed by -5.158464233545601e-07 minute(s)
+John is estimated to be delayed by -1.4603033093862905e-07 minute(s)
+Joe is estimated to be delayed by -1.1859468036906957 minute(s)
+Minute 9: 
+Joe is estimated to be delayed by -0.18594680369069572 minute(s)
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Nathan has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Anne has landed
+Minute 21: 
+Joe has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Rayner has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+John has landed
+Minute 41: 
+1d691909 has landed
+Minute 0: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Rayner is estimated to be delayed by -5.158464233545601e-07 minute(s)
+John is estimated to be delayed by -1.4603033093862905e-07 minute(s)
+Joe is estimated to be delayed by -1.1859468036906957 minute(s)
+Minute 9: 
+Joe is estimated to be delayed by -0.18594680369069572 minute(s)
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Nathan has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Anne has landed
+Minute 21: 
+Joe has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Rayner has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+John has landed
+Minute 41: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Rayner is estimated to be delayed by -5.158464233545601e-07 minute(s)
+John is estimated to be delayed by -1.4603033093862905e-07 minute(s)
+Joe is estimated to be delayed by -1.1859468036906957 minute(s)
+Minute 9: 
+Joe is estimated to be delayed by -0.18594680369069572 minute(s)
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Nathan has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Anne has landed
+Minute 21: 
+Joe has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Rayner has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+John has landed
+Minute 41: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Rayner is estimated to be delayed by -5.158464233545601e-07 minute(s)
+John is estimated to be delayed by -1.4603033093862905e-07 minute(s)
+Joe is estimated to be delayed by -1.1859468036906957 minute(s)
+Minute 9: 
+Joe is estimated to be delayed by -0.18594680369069572 minute(s)
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Nathan has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Anne has landed
+Minute 21: 
+Joe has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Rayner has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+John has landed
+Minute 41: 
+Minute 0: 
+John is estimated to be delayed by -1.460303380440564e-07 minute(s)
+Joe is estimated to be delayed by -1.1859478036907198 minute(s)
+Anne is estimated to be delayed by -8.086356615422119e-07 minute(s)
+Minute 1: 
+Joe is estimated to be delayed by -0.18594780369071984 minute(s)
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 0: 
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Nathan has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Joe has landed
+Anne has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Rayner has landed
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+John has landed
+Minute 41: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 0: 
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Nathan has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Joe has landed
+Anne has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Rayner has landed
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+John has landed
+Minute 41: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 0: 
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Nathan has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Joe has landed
+Anne has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Rayner has landed
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+John has landed
+Minute 41: 
+John is estimated to be delayed by -1.460303238332017e-07 minute(s)
+Joe is estimated to be delayed by -1.185947803690727 minute(s)
+Anne is estimated to be delayed by -8.086356544367845e-07 minute(s)
+Minute 0: 
+Joe is estimated to be delayed by -0.18594780369072694 minute(s)
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Nathan has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Joe has landed
+Anne has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Rayner has landed
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+John has landed
+Minute 41: 
+Minute 0: 
+Minute 0: 
+1d691909 has landed
+1d67f975 has landed
+1d6950e6 has landed
+1d6839c2 has landed
+1d694c0d has landed
+1d6946ea has landed
+1d690c32 is estimated to be delayed by -1383.8957864608412 minute(s)
+1d693970 is estimated to be delayed by -2885.393890809606 minute(s)
+1d691704 has landed
+1d69528e has landed
+1d694d9c has landed
+1d6951e3 has landed
+1d6949e1 has landed
+1d695bcf has landed
+1d695574 has landed
+1d691106 has landed
+1d6920a4 has landed
+1d695640 has landed
+1d694084 has landed
+1d695683 has landed
+1d695d08 has landed
+1d692f33 is estimated to be delayed by -5350.904993451843 minute(s)
+1d6960af is estimated to be delayed by -599.3956955567179 minute(s)
+1d682441 has landed
+1d69634f is estimated to be delayed by -1008.7544097281349 minute(s)
+1d6965ab is estimated to be delayed by -1307.2975857803794 minute(s)
+1d6968bf is estimated to be delayed by -1818.0330061165744 minute(s)
+1d696926 is estimated to be delayed by -1863.7569903398476 minute(s)
+1d696edd is estimated to be delayed by -2715.1401756925743 minute(s)
+1d696e9f is estimated to be delayed by -2577.686427662489 minute(s)
+1d696f38 is estimated to be delayed by -2744.3182541167516 minute(s)
+1d697812 is estimated to be delayed by -4126.856629918811 minute(s)
+1d697b10 is estimated to be delayed by -4527.048214511585 minute(s)
+1d697bb4 is estimated to be delayed by -4650.925038658027 minute(s)
+1d697dd6 is estimated to be delayed by -4871.574311359353 minute(s)
+1d697f17 is estimated to be delayed by -5115.865510414466 minute(s)
+1d698123 is estimated to be delayed by -5440.103311667575 minute(s)
+1d6981ae is estimated to be delayed by -5481.762543723371 minute(s)
+1d698640 is estimated to be delayed by -6050.250490216859 minute(s)
+1d6986b5 is estimated to be delayed by -6195.255738719764 minute(s)
+1d698873 is estimated to be delayed by -6406.757620495923 minute(s)
+1d69890f is estimated to be delayed by -6480.095498959431 minute(s)
+1d698a46 is estimated to be delayed by -6646.037495419208 minute(s)
+1d6988e8 is estimated to be delayed by -6472.16440511189 minute(s)
+1d698c6a is estimated to be delayed by -6803.397624082723 minute(s)
+1d698f46 is estimated to be delayed by -7365.561339244571 minute(s)
+1d698d10 is estimated to be delayed by -7070.017126245366 minute(s)
+1d696e90 is estimated to be delayed by -2446.2715409729085 minute(s)
+1d6992f6 is estimated to be delayed by -7850.104400584968 minute(s)
+1d699352 is estimated to be delayed by -7908.880183886993 minute(s)
+1d6994a7 is estimated to be delayed by -8063.298748339525 minute(s)
+1d6994e9 is estimated to be delayed by -8133.171827131059 minute(s)
+1d698f60 is estimated to be delayed by -7286.654838727917 minute(s)
+1d6996d7 is estimated to be delayed by -8402.84979510132 minute(s)
+1d6999d3 is estimated to be delayed by -8825.69590432268 minute(s)
+1d699b35 is estimated to be delayed by -9062.870427334283 minute(s)
+1d699bb0 is estimated to be delayed by -8990.68859781368 minute(s)
+1d699ca1 is estimated to be delayed by -9237.776726899066 minute(s)
+1d699ce0 is estimated to be delayed by -9297.753148979922 minute(s)
+1d699eca is estimated to be delayed by -9504.264546939401 minute(s)
+1d699c98 is estimated to be delayed by -9251.880841866729 minute(s)
+1d69a9ad is estimated to be delayed by -11062.378790178747 minute(s)
+1d691589 is estimated to be delayed by -1760.1133496798425 minute(s)
+1d69a92e is estimated to be delayed by -11563.400363748946 minute(s)
+1d69ace0 is estimated to be delayed by -11567.888500433299 minute(s)
+1d69ad5b is estimated to be delayed by -11630.137281616844 minute(s)
+1d69af7d is estimated to be delayed by -11924.909170068224 minute(s)
+1d69b07b is estimated to be delayed by -12055.06553589604 minute(s)
+1d69b620 is estimated to be delayed by -12793.719885714348 minute(s)
+1d69bb85 is estimated to be delayed by -13559.16296647815 minute(s)
+1d69bfa1 is estimated to be delayed by -14125.032913805318 minute(s)
+1d69c19a is estimated to be delayed by -14405.86170746539 minute(s)
+1d69c91c is estimated to be delayed by -15395.251861084102 minute(s)
+1d69cfd3 is estimated to be delayed by -16283.683995351807 minute(s)
+1d69d31f is estimated to be delayed by -16731.773709307778 minute(s)
+1d69d6df is estimated to be delayed by -17183.568584697667 minute(s)
+1d69dbaf is estimated to be delayed by -17790.676457599664 minute(s)
+1d69ddcc is estimated to be delayed by -18060.702797222744 minute(s)
+1d69e1b9 is estimated to be delayed by -18573.757333177902 minute(s)
+1d69e5e4 is estimated to be delayed by -19085.026982893087 minute(s)
+1d69ef28 is estimated to be delayed by -20222.802166084817 minute(s)
+1d69f63b is estimated to be delayed by -21079.369309946665 minute(s)
+1d69fdaf is estimated to be delayed by -21981.31148776368 minute(s)
+1d6a101f is estimated to be delayed by -24204.925954406743 minute(s)
+1d6a025e is estimated to be delayed by -24554.945218535973 minute(s)
+Minute 0: 
+1d690c32 has landed
+1d693970 has landed
+1d692f33 has landed
+1d6960af has landed
+1d69634f has landed
+1d6965ab has landed
+1d6968bf has landed
+1d696926 has landed
+1d696edd has landed
+1d696e9f has landed
+1d696f38 has landed
+1d697812 has landed
+1d697b10 has landed
+1d697bb4 has landed
+1d697dd6 is estimated to be delayed by -4870.574311359353 minute(s)
+1d697f17 has landed
+1d698123 has landed
+1d6981ae has landed
+1d698640 has landed
+1d6986b5 has landed
+1d698873 has landed
+1d69890f has landed
+1d698a46 has landed
+1d6988e8 has landed
+1d698c6a has landed
+1d698f46 has landed
+1d698d10 has landed
+1d696e90 is estimated to be delayed by -2445.2715409729085 minute(s)
+1d6992f6 has landed
+1d699352 has landed
+1d6994a7 has landed
+1d6994e9 has landed
+1d698f60 has landed
+1d6996d7 has landed
+1d6999d3 has landed
+1d699b35 has landed
+1d699bb0 has landed
+1d699ca1 has landed
+1d699ce0 has landed
+1d699eca has landed
+1d699c98 has landed
+1d69a9ad has landed
+1d691589 is estimated to be delayed by -1759.1133496798425 minute(s)
+1d69a92e has landed
+1d69ace0 has landed
+1d69ad5b has landed
+1d69af7d has landed
+1d69b07b has landed
+1d69b620 has landed
+1d69bb85 has landed
+1d69bfa1 has landed
+1d69c19a has landed
+1d69c91c has landed
+1d69cfd3 has landed
+1d69d31f has landed
+1d69d6df has landed
+1d69dbaf has landed
+1d69ddcc has landed
+1d69e1b9 has landed
+1d69e5e4 has landed
+1d69ef28 has landed
+1d69f63b has landed
+1d69fdaf has landed
+1d6a101f has landed
+1d6a025e has landed
+Minute 1: 
+1d697dd6 has landed
+1d696e90 is estimated to be delayed by -2444.2715409729085 minute(s)
+1d691589 is estimated to be delayed by -1758.1133496798425 minute(s)
+Minute 2: 
+1d696e90 has landed
+1d691589 is estimated to be delayed by -1757.1133496798425 minute(s)
+Minute 3: 
+1d691589 is estimated to be delayed by -1756.1133496798425 minute(s)
+Minute 4: 
+1d691589 is estimated to be delayed by -1755.1133496798425 minute(s)
+Minute 5: 
+1d691589 has landed
+Minute 6: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+1d67f975 has landed
+Minute 0: 
+1d691909 has landed
+1d6950e6 has landed
+1d6839c2 has landed
+1d694c0d has landed
+1d6946ea has landed
+1d691704 has landed
+1d69528e has landed
+1d694d9c has landed
+1d6951e3 has landed
+1d6949e1 has landed
+1d695bcf has landed
+1d695574 has landed
+1d691106 has landed
+1d6920a4 has landed
+1d695640 has landed
+1d694084 has landed
+1d695683 has landed
+1d695d08 has landed
+1d682441 has landed
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+1d6960af has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+1d69634f has landed
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+1d67f975 has landed
+Minute 0: 
+1d691909 has landed
+1d6950e6 has landed
+1d6839c2 has landed
+1d694c0d has landed
+1d6946ea has landed
+1d691704 has landed
+1d69528e has landed
+1d694d9c has landed
+1d6951e3 has landed
+1d6949e1 has landed
+1d695bcf has landed
+1d695574 has landed
+1d691106 has landed
+1d6920a4 has landed
+1d695640 has landed
+1d694084 has landed
+1d695683 has landed
+1d695d08 has landed
+1d682441 has landed
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+1d6960af has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+1d69634f has landed
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+1d690c32 has landed
+1d6965ab has landed
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+1d6968bf has landed
+Minute 30: 
+Minute 31: 
+1d696926 has landed
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+1d691589 has landed
+Minute 36: 
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Minute 43: 
+Minute 44: 
+1d696e9f has landed
+1d696e90 has landed
+Minute 45: 
+1d696edd has landed
+Minute 46: 
+1d696f38 has landed
+Minute 47: 
+1d693970 has landed
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+1d697812 has landed
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+Minute 74: 
+Minute 75: 
+1d697b10 has landed
+Minute 76: 
+1d697bb4 has landed
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+Minute 83: 
+1d697dd6 has landed
+Minute 84: 
+1d697f17 has landed
+Minute 85: 
+Minute 86: 
+Minute 87: 
+Minute 88: 
+1d692f33 has landed
+Minute 89: 
+Minute 90: 
+1d698123 has landed
+Minute 91: 
+1d6981ae has landed
+Minute 92: 
+Minute 93: 
+Minute 94: 
+Minute 95: 
+Minute 96: 
+Minute 97: 
+Minute 98: 
+Minute 99: 
+Minute 100: 
+Minute 101: 
+1d698640 has landed
+Minute 102: 
+1d6986b5 has landed
+Minute 103: 
+Minute 104: 
+Minute 105: 
+Minute 106: 
+1d698873 has landed
+Minute 107: 
+1d69890f has landed
+1d6988e8 has landed
+Minute 108: 
+Minute 109: 
+Minute 110: 
+1d698a46 has landed
+Minute 111: 
+Minute 112: 
+Minute 113: 
+Minute 114: 
+Minute 115: 
+1d698c6a has landed
+Minute 116: 
+Minute 117: 
+1d698d10 has landed
+Minute 118: 
+1d67f975 has landed
+Minute 0: 
+1d691909 has landed
+1d6950e6 has landed
+1d6839c2 has landed
+1d694c0d has landed
+1d6946ea has landed
+1d691704 has landed
+1d69528e has landed
+1d694d9c has landed
+1d6951e3 has landed
+1d6949e1 has landed
+1d695bcf has landed
+1d695574 has landed
+1d691106 has landed
+1d6920a4 has landed
+1d695640 has landed
+1d694084 has landed
+1d695683 has landed
+1d695d08 has landed
+1d682441 has landed
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+1d6960af has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+1d69634f has landed
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+1d690c32 has landed
+1d6965ab has landed
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+1d6968bf has landed
+Minute 30: 
+Minute 31: 
+1d696926 has landed
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+1d691589 has landed
+Minute 36: 
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Minute 43: 
+Minute 44: 
+1d696e9f has landed
+1d696e90 has landed
+Minute 45: 
+1d696edd has landed
+Minute 46: 
+1d696f38 has landed
+Minute 47: 
+1d693970 has landed
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+1d697812 has landed
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+Minute 74: 
+Minute 75: 
+1d697b10 has landed
+Minute 76: 
+1d697bb4 has landed
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+Minute 83: 
+1d697dd6 has landed
+Minute 84: 
+1d697f17 has landed
+Minute 85: 
+Minute 86: 
+Minute 87: 
+Minute 88: 
+1d692f33 has landed
+Minute 89: 
+Minute 90: 
+1d698123 has landed
+Minute 91: 
+1d6981ae has landed
+Minute 92: 
+Minute 93: 
+Minute 94: 
+Minute 95: 
+Minute 96: 
+Minute 97: 
+Minute 98: 
+Minute 99: 
+Minute 100: 
+Minute 101: 
+1d698640 has landed
+Minute 102: 
+1d6986b5 has landed
+Minute 103: 
+Minute 104: 
+Minute 105: 
+Minute 106: 
+1d698873 has landed
+Minute 107: 
+1d69890f has landed
+1d6988e8 has landed
+Minute 108: 
+Minute 109: 
+Minute 110: 
+1d698a46 has landed
+Minute 111: 
+1d67f975 has landed
+Minute 0: 
+1d691909 has landed
+1d6950e6 has landed
+1d6839c2 has landed
+1d694c0d has landed
+1d6946ea has landed
+1d691704 has landed
+1d69528e has landed
+1d694d9c has landed
+1d6951e3 has landed
+1d6949e1 has landed
+1d695bcf has landed
+1d695574 has landed
+1d691106 has landed
+1d6920a4 has landed
+1d695640 has landed
+1d694084 has landed
+1d695683 has landed
+1d695d08 has landed
+1d682441 has landed
+Minute 1: 
+1d67f975 has landed
+Minute 0: 
+1d691909 has landed
+1d6950e6 has landed
+1d6839c2 has landed
+1d694c0d has landed
+1d6946ea has landed
+1d691704 has landed
+1d69528e has landed
+1d694d9c has landed
+1d6951e3 has landed
+1d6949e1 has landed
+1d695bcf has landed
+1d695574 has landed
+1d691106 has landed
+1d6920a4 has landed
+1d695640 has landed
+1d694084 has landed
+1d695683 has landed
+1d695d08 has landed
+1d682441 has landed
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+1d6960af has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+1d69634f has landed
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+1d690c32 has landed
+1d6965ab has landed
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+1d6968bf has landed
+Minute 30: 
+Minute 31: 
+1d696926 has landed
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+1d691589 has landed
+Minute 36: 
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Minute 43: 
+Minute 44: 
+1d696e9f has landed
+1d696e90 has landed
+Minute 45: 
+1d696edd has landed
+Minute 46: 
+1d696f38 has landed
+Minute 47: 
+1d693970 has landed
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+1d697812 has landed
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+Minute 74: 
+Minute 75: 
+1d697b10 has landed
+Minute 76: 
+1d697bb4 has landed
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+Minute 83: 
+1d697dd6 has landed
+Minute 84: 
+1d697f17 has landed
+Minute 85: 
+Minute 86: 
+Minute 87: 
+Minute 88: 
+1d692f33 has landed
+Minute 89: 
+Minute 90: 
+1d698123 has landed
+Minute 91: 
+1d6981ae has landed
+Minute 92: 
+Minute 93: 
+Minute 94: 
+Minute 95: 
+Minute 96: 
+Minute 97: 
+Minute 98: 
+Minute 99: 
+Minute 100: 
+Minute 101: 
+1d698640 has landed
+Minute 102: 
+1d6986b5 has landed
+Minute 103: 
+Minute 104: 
+Minute 105: 
+Minute 106: 
+1d698873 has landed
+Minute 107: 
+1d69890f has landed
+1d6988e8 has landed
+Minute 108: 
+Minute 109: 
+Minute 110: 
+1d698a46 has landed
+Minute 111: 
+Minute 112: 
+1d67f975 has landed
+Minute 0: 
+Minute 1: 
+1d67f975 has landed
+Minute 0: 
+Minute 1: 
+Minute 0: 
+1d67f975 has landed
+Minute 0: 
+1d691909 has landed
+1d6950e6 has landed
+1d6839c2 has landed
+1d694c0d has landed
+1d6946ea has landed
+1d691704 has landed
+1d69528e has landed
+1d694d9c has landed
+1d6951e3 has landed
+1d6949e1 has landed
+1d695bcf has landed
+1d695574 has landed
+1d691106 has landed
+1d6920a4 has landed
+1d695640 has landed
+1d694084 has landed
+1d695683 has landed
+1d695d08 has landed
+1d682441 has landed
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+1d6960af has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+1d69634f has landed
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+1d690c32 has landed
+1d6965ab has landed
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+1d6968bf has landed
+Minute 30: 
+Minute 31: 
+1d696926 has landed
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+1d691589 has landed
+Minute 36: 
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Minute 43: 
+Minute 44: 
+1d696e9f has landed
+1d696e90 has landed
+Minute 45: 
+1d696edd has landed
+Minute 46: 
+1d696f38 has landed
+Minute 47: 
+Minute 48: 
+1d691909 has landed
+1d67f975 has landed
+1d6950e6 has landed
+1d694c0d has landed
+1d6946ea has landed
+1d691704 has landed
+1d69528e has landed
+1d694d9c has landed
+1d6951e3 has landed
+1d695bcf has landed
+1d695574 has landed
+1d691106 has landed
+1d6920a4 has landed
+1d695640 has landed
+1d694084 has landed
+1d695683 has landed
+1d695d08 has landed
+1d682441 has landed
+Minute 0: 
+1d6839c2 has landed
+1d6949e1 has landed
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+1d6960af has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+1d691909 is estimated to be delayed by -15.412056797569921 minute(s)
+1d67f975 has landed
+1d6950e6 is estimated to be delayed by 37.891107460142706 minute(s)
+1d694c0d is estimated to be delayed by 127.59622100071485 minute(s)
+1d6946ea is estimated to be delayed by 12.035682989211011 minute(s)
+1d691704 is estimated to be delayed by -4.756036246564939 minute(s)
+1d69528e is estimated to be delayed by -8.563940557008529 minute(s)
+1d694d9c is estimated to be delayed by 101.34833082574767 minute(s)
+1d6951e3 is estimated to be delayed by -21.11843541634831 minute(s)
+1d695bcf is estimated to be delayed by -44.43355662708854 minute(s)
+1d695574 is estimated to be delayed by -7.798993913143275 minute(s)
+1d691106 is estimated to be delayed by -3.4885160811264315 minute(s)
+1d6920a4 has landed
+1d695640 is estimated to be delayed by 12.080016849322224 minute(s)
+1d694084 is estimated to be delayed by -1.337984489016617 minute(s)
+1d695683 is estimated to be delayed by -5.178296528321484 minute(s)
+1d695d08 is estimated to be delayed by -4.763527222550167 minute(s)
+1d682441 is estimated to be delayed by 96.60894421522113 minute(s)
+Minute 0: 
+1d691909 is estimated to be delayed by -17.32318685096483 minute(s)
+1d6950e6 is estimated to be delayed by 36.6660772269463 minute(s)
+1d6839c2 is estimated to be delayed by 65.56759613971315 minute(s)
+1d694c0d is estimated to be delayed by 126.19056954073875 minute(s)
+1d6946ea is estimated to be delayed by 10.587455648956414 minute(s)
+1d691704 is estimated to be delayed by -6.150752488536725 minute(s)
+1d69528e is estimated to be delayed by -9.803479495354729 minute(s)
+1d694d9c is estimated to be delayed by 99.53311191636726 minute(s)
+1d6951e3 is estimated to be delayed by -22.305633199310833 minute(s)
+1d6949e1 is estimated to be delayed by 93.6709623966801 minute(s)
+1d695bcf is estimated to be delayed by -44.442922244877465 minute(s)
+1d695574 is estimated to be delayed by -7.957095287153496 minute(s)
+1d691106 is estimated to be delayed by -3.8665752181413016 minute(s)
+1d695640 is estimated to be delayed by 12.289079008338621 minute(s)
+1d694084 has landed
+1d695683 has landed
+1d695d08 is estimated to be delayed by -3.763581131278336 minute(s)
+1d682441 is estimated to be delayed by 95.12548609282987 minute(s)
+Minute 1: 
+1d691909 is estimated to be delayed by -17.837172581534407 minute(s)
+1d6950e6 is estimated to be delayed by 36.54834558364625 minute(s)
+1d6839c2 is estimated to be delayed by 63.40394713908751 minute(s)
+1d694c0d is estimated to be delayed by 125.63449784215473 minute(s)
+1d6946ea is estimated to be delayed by 10.390313401246196 minute(s)
+1d691704 is estimated to be delayed by -6.242127301813182 minute(s)
+1d69528e is estimated to be delayed by -9.933212286491361 minute(s)
+1d694d9c is estimated to be delayed by 100.53311191636726 minute(s)
+1d6951e3 is estimated to be delayed by -22.42687152979727 minute(s)
+1d6949e1 is estimated to be delayed by 91.69655546199431 minute(s)
+1d695bcf is estimated to be delayed by -44.316538586305946 minute(s)
+1d695574 has landed
+1d691106 has landed
+1d695640 is estimated to be delayed by 12.852756475379365 minute(s)
+1d695d08 is estimated to be delayed by -2.7636170704279266 minute(s)
+1d682441 is estimated to be delayed by 94.85213863687886 minute(s)
+Minute 2: 
+1d691909 is estimated to be delayed by -17.50910282414224 minute(s)
+1d6950e6 is estimated to be delayed by 36.41342957298163 minute(s)
+1d6839c2 is estimated to be delayed by 63.03995995483564 minute(s)
+1d694c0d is estimated to be delayed by 125.15109343688667 minute(s)
+1d6946ea is estimated to be delayed by 10.134850544986534 minute(s)
+1d691704 is estimated to be delayed by -6.296348942128388 minute(s)
+1d69528e is estimated to be delayed by -10.150240627698409 minute(s)
+1d694d9c is estimated to be delayed by 100.06677685803737 minute(s)
+1d6951e3 is estimated to be delayed by -21.633604967100812 minute(s)
+1d6949e1 is estimated to be delayed by 91.0605436286906 minute(s)
+1d695bcf is estimated to be delayed by -43.95180826004026 minute(s)
+1d695640 is estimated to be delayed by 13.398823600067121 minute(s)
+1d695d08 is estimated to be delayed by -1.7636607963905924 minute(s)
+1d682441 is estimated to be delayed by 94.59830958409734 minute(s)
+Minute 3: 
+1d691909 is estimated to be delayed by -18.599253787483523 minute(s)
+1d6950e6 is estimated to be delayed by 36.2867505505446 minute(s)
+1d6839c2 is estimated to be delayed by 62.95172567891325 minute(s)
+1d694c0d is estimated to be delayed by 124.69041067740343 minute(s)
+1d6946ea is estimated to be delayed by 9.944435265711611 minute(s)
+1d691704 is estimated to be delayed by -6.326601453545008 minute(s)
+1d69528e is estimated to be delayed by -10.3161489021373 minute(s)
+1d694d9c is estimated to be delayed by 99.67039098110524 minute(s)
+1d6951e3 is estimated to be delayed by -21.7017366984103 minute(s)
+1d6949e1 is estimated to be delayed by 90.69693891918266 minute(s)
+1d695bcf is estimated to be delayed by -43.22140316003599 minute(s)
+1d695640 is estimated to be delayed by 14.16076785949729 minute(s)
+1d695d08 is estimated to be delayed by -0.7636422380535777 minute(s)
+1d682441 is estimated to be delayed by 94.3061234563449 minute(s)
+Minute 4: 
+1d691909 is estimated to be delayed by -19.00905137451216 minute(s)
+1d6950e6 is estimated to be delayed by 36.15235925305301 minute(s)
+1d6839c2 is estimated to be delayed by 63.634668265115806 minute(s)
+1d694c0d is estimated to be delayed by 123.86893063200014 minute(s)
+1d6946ea is estimated to be delayed by 9.705575069048798 minute(s)
+1d691704 is estimated to be delayed by -6.347180799959171 minute(s)
+1d69528e is estimated to be delayed by -10.469700954635215 minute(s)
+1d694d9c is estimated to be delayed by 99.18967103349138 minute(s)
+1d6951e3 is estimated to be delayed by -21.951481721739682 minute(s)
+1d6949e1 is estimated to be delayed by 90.29968029176194 minute(s)
+1d695bcf has landed
+1d695640 is estimated to be delayed by 13.62078450389589 minute(s)
+1d695d08 is estimated to be delayed by 0.23638856090280314 minute(s)
+1d682441 is estimated to be delayed by 94.05952952220474 minute(s)
+Minute 5: 
+1d691909 is estimated to be delayed by -19.354514580984073 minute(s)
+1d6950e6 is estimated to be delayed by 35.77053800601994 minute(s)
+1d6839c2 is estimated to be delayed by 62.981827848933676 minute(s)
+1d694c0d is estimated to be delayed by 123.90431263902249 minute(s)
+1d6946ea is estimated to be delayed by 9.478446113012396 minute(s)
+1d691704 is estimated to be delayed by -6.30285684125864 minute(s)
+1d69528e is estimated to be delayed by -10.64419903595497 minute(s)
+1d694d9c is estimated to be delayed by 98.68816253591976 minute(s)
+1d6951e3 is estimated to be delayed by -21.99341074787015 minute(s)
+1d6949e1 is estimated to be delayed by 89.53127573051106 minute(s)
+1d695640 is estimated to be delayed by 13.052247860223577 minute(s)
+1d695d08 is estimated to be delayed by 1.2376738313995297 minute(s)
+1d682441 is estimated to be delayed by 93.79032107254523 minute(s)
+Minute 6: 
+1d691909 is estimated to be delayed by -19.561575717816265 minute(s)
+1d6950e6 is estimated to be delayed by 35.63557844899033 minute(s)
+1d6839c2 is estimated to be delayed by 62.88489012262602 minute(s)
+1d694c0d is estimated to be delayed by 123.42069750655003 minute(s)
+1d6946ea is estimated to be delayed by 9.21391125860557 minute(s)
+1d691704 is estimated to be delayed by -6.234564369677649 minute(s)
+1d69528e is estimated to be delayed by -10.81633273974603 minute(s)
+1d694d9c is estimated to be delayed by 98.263425058856 minute(s)
+1d6951e3 is estimated to be delayed by -21.94258588160121 minute(s)
+1d6949e1 is estimated to be delayed by 89.11488755780493 minute(s)
+1d695640 is estimated to be delayed by 12.461068266067171 minute(s)
+1d695d08 is estimated to be delayed by 2.228372547566071 minute(s)
+1d682441 is estimated to be delayed by 93.4152952643915 minute(s)
+Minute 7: 
+1d691909 is estimated to be delayed by -19.772514732329086 minute(s)
+1d6950e6 is estimated to be delayed by 35.53465779193445 minute(s)
+1d6839c2 is estimated to be delayed by 62.48487892937652 minute(s)
+1d694c0d is estimated to be delayed by 122.93758883049105 minute(s)
+1d6946ea is estimated to be delayed by 9.010461344403318 minute(s)
+1d691704 has landed
+1d69528e is estimated to be delayed by -10.995701678228851 minute(s)
+1d694d9c is estimated to be delayed by 97.54490945433594 minute(s)
+1d6951e3 is estimated to be delayed by -21.919232767657206 minute(s)
+1d6949e1 is estimated to be delayed by 90.04547641190268 minute(s)
+1d695640 is estimated to be delayed by 11.911293324556867 minute(s)
+1d695d08 is estimated to be delayed by 3.2648043788367573 minute(s)
+1d682441 is estimated to be delayed by 93.1285953223273 minute(s)
+Minute 8: 
+1d691909 is estimated to be delayed by -19.92036141252261 minute(s)
+1d6950e6 is estimated to be delayed by 35.32763205500983 minute(s)
+1d6839c2 is estimated to be delayed by 62.08524887148815 minute(s)
+1d694c0d is estimated to be delayed by 122.45499386151587 minute(s)
+1d6946ea is estimated to be delayed by 8.77185517850095 minute(s)
+1d69528e is estimated to be delayed by -10.014651071551253 minute(s)
+1d694d9c is estimated to be delayed by 96.33722718584966 minute(s)
+1d6951e3 has landed
+1d6949e1 is estimated to be delayed by 89.58831051700912 minute(s)
+1d695640 is estimated to be delayed by 11.349491531172998 minute(s)
+1d695d08 is estimated to be delayed by 4.2989324330979315 minute(s)
+1d682441 is estimated to be delayed by 94.1285953223273 minute(s)
+Minute 9: 
+1d691909 is estimated to be delayed by -18.92036141252261 minute(s)
+1d6950e6 is estimated to be delayed by 35.17943353285969 minute(s)
+1d6839c2 is estimated to be delayed by 61.68600599886119 minute(s)
+1d694c0d is estimated to be delayed by 121.97291986046218 minute(s)
+1d6946ea is estimated to be delayed by 8.574689573837833 minute(s)
+1d69528e is estimated to be delayed by -10.226639084890802 minute(s)
+1d694d9c is estimated to be delayed by 95.87978549296088 minute(s)
+1d6949e1 is estimated to be delayed by 89.19542500354015 minute(s)
+1d695640 has landed
+1d695d08 is estimated to be delayed by 5.276358098479605 minute(s)
+1d6960af is estimated to be delayed by -599.3956955567179 minute(s)
+1d682441 is estimated to be delayed by 93.88920691612495 minute(s)
+Minute 10: 
+1d691909 is estimated to be delayed by -18.972633737466776 minute(s)
+1d6950e6 is estimated to be delayed by 35.045545201659756 minute(s)
+1d6839c2 is estimated to be delayed by 61.28715636077152 minute(s)
+1d694c0d is estimated to be delayed by 121.4913740989351 minute(s)
+1d6946ea is estimated to be delayed by 8.318694404732387 minute(s)
+1d69528e is estimated to be delayed by -10.467669760542918 minute(s)
+1d694d9c is estimated to be delayed by 95.59667223602327 minute(s)
+1d6949e1 is estimated to be delayed by 88.79909215007567 minute(s)
+1d695d08 is estimated to be delayed by 5.906448952537307 minute(s)
+1d6960af is estimated to be delayed by -598.4930873742463 minute(s)
+1d682441 is estimated to be delayed by 93.64986136060638 minute(s)
+Minute 11: 
+1d691909 has landed
+1d6950e6 is estimated to be delayed by 34.786411597312224 minute(s)
+1d6839c2 is estimated to be delayed by 60.888706005844114 minute(s)
+1d694c0d is estimated to be delayed by 121.01036385994763 minute(s)
+1d6946ea is estimated to be delayed by 8.075841391030423 minute(s)
+1d69528e is estimated to be delayed by -10.645584619504177 minute(s)
+1d694d9c is estimated to be delayed by 96.357966269705 minute(s)
+1d6949e1 is estimated to be delayed by 88.20423426633295 minute(s)
+1d695d08 is estimated to be delayed by 6.547557510754331 minute(s)
+1d6960af is estimated to be delayed by -597.5497553102655 minute(s)
+1d682441 is estimated to be delayed by 93.4105619109372 minute(s)
+Minute 12: 
+1d6950e6 is estimated to be delayed by 35.786411597312224 minute(s)
+1d6839c2 is estimated to be delayed by 60.49066098202792 minute(s)
+1d694c0d is estimated to be delayed by 120.5298964386075 minute(s)
+1d6946ea is estimated to be delayed by 7.841499103011291 minute(s)
+1d69528e is estimated to be delayed by -10.996892478829647 minute(s)
+1d694d9c is estimated to be delayed by 95.1149050872672 minute(s)
+1d6949e1 is estimated to be delayed by 87.79271526416179 minute(s)
+1d695d08 is estimated to be delayed by 7.178184930301725 minute(s)
+1d6960af is estimated to be delayed by -596.6063746628477 minute(s)
+1d682441 is estimated to be delayed by 93.17131182155987 minute(s)
+Minute 13: 
+1d6950e6 is estimated to be delayed by 35.61725427922391 minute(s)
+1d6839c2 is estimated to be delayed by 60.09302733657202 minute(s)
+1d694c0d is estimated to be delayed by 120.04997914285596 minute(s)
+1d6946ea is estimated to be delayed by 7.6655401481434176 minute(s)
+1d69528e is estimated to be delayed by -11.741748053662743 minute(s)
+1d694d9c is estimated to be delayed by 94.15240409987936 minute(s)
+1d6949e1 is estimated to be delayed by 87.76095689189094 minute(s)
+1d695d08 is estimated to be delayed by 7.87215794056042 minute(s)
+1d6960af is estimated to be delayed by -595.662944931101 minute(s)
+1d682441 is estimated to be delayed by 92.93211434621327 minute(s)
+Minute 14: 
+1d6950e6 is estimated to be delayed by 35.44977670499187 minute(s)
+1d6839c2 is estimated to be delayed by 59.69581111599916 minute(s)
+1d694c0d is estimated to be delayed by 119.57061929425822 minute(s)
+1d6946ea is estimated to be delayed by 7.495644373360506 minute(s)
+1d69528e is estimated to be delayed by -11.935422690983529 minute(s)
+1d694d9c is estimated to be delayed by 95.05498419194325 minute(s)
+1d6949e1 is estimated to be delayed by 87.38598708333703 minute(s)
+1d695d08 is estimated to be delayed by 8.506710395520155 minute(s)
+1d6960af has landed
+1d682441 is estimated to be delayed by 92.69297273795384 minute(s)
+Minute 15: 
+1d6950e6 is estimated to be delayed by 35.28431459677258 minute(s)
+1d6839c2 is estimated to be delayed by 59.299018366082294 minute(s)
+1d694c0d is estimated to be delayed by 119.09182422885438 minute(s)
+1d6946ea is estimated to be delayed by 8.495644373360506 minute(s)
+1d69528e is estimated to be delayed by -12.155935336294856 minute(s)
+1d694d9c is estimated to be delayed by 94.59394362846552 minute(s)
+1d6949e1 is estimated to be delayed by 87.011844940662 minute(s)
+1d695d08 is estimated to be delayed by 9.10546808206038 minute(s)
+1d682441 is estimated to be delayed by 92.4538902491786 minute(s)
+Minute 16: 
+1d6950e6 is estimated to be delayed by 35.116771680603804 minute(s)
+1d6839c2 is estimated to be delayed by 58.90265513182112 minute(s)
+1d694c0d is estimated to be delayed by 118.61360129807255 minute(s)
+1d6946ea is estimated to be delayed by 7.5931754150226 minute(s)
+1d69528e is estimated to be delayed by -12.37459587247848 minute(s)
+1d694d9c is estimated to be delayed by 94.13339165640224 minute(s)
+1d6949e1 is estimated to be delayed by 86.3868743812416 minute(s)
+1d695d08 is estimated to be delayed by 9.75886785222723 minute(s)
+1d682441 is estimated to be delayed by 92.21487013165047 minute(s)
+1d69634f is estimated to be delayed by -1008.7544097281349 minute(s)
+Minute 17: 
+1d6950e6 is estimated to be delayed by 34.949121958788986 minute(s)
+1d6839c2 is estimated to be delayed by 58.506727457417924 minute(s)
+1d694c0d is estimated to be delayed by 118.13595786971233 minute(s)
+1d6946ea has landed
+1d69528e has landed
+1d694d9c is estimated to be delayed by 93.67333515825467 minute(s)
+1d6949e1 is estimated to be delayed by 86.17283515829502 minute(s)
+1d695d08 is estimated to be delayed by 10.395567096742369 minute(s)
+1d682441 is estimated to be delayed by 91.97591563652698 minute(s)
+1d69634f is estimated to be delayed by -1007.752326991515 minute(s)
+Minute 18: 
+1d6950e6 is estimated to be delayed by 34.76230579984959 minute(s)
+1d6839c2 is estimated to be delayed by 58.11124138625425 minute(s)
+1d694c0d is estimated to be delayed by 117.65890132900022 minute(s)
+1d694d9c is estimated to be delayed by 93.21378102453554 minute(s)
+1d6949e1 is estimated to be delayed by 85.68638525973986 minute(s)
+1d695d08 is estimated to be delayed by 10.928876499008105 minute(s)
+1d682441 is estimated to be delayed by 91.73703001439027 minute(s)
+1d69634f is estimated to be delayed by -1006.7245493639931 minute(s)
+Minute 19: 
+1d6950e6 is estimated to be delayed by 34.58436110367376 minute(s)
+1d6839c2 is estimated to be delayed by 57.716202960868856 minute(s)
+1d694c0d is estimated to be delayed by 117.18243907972928 minute(s)
+1d694d9c is estimated to be delayed by 92.7547361542376 minute(s)
+1d6949e1 is estimated to be delayed by 85.20008468264092 minute(s)
+1d695d08 has landed
+1d682441 is estimated to be delayed by 91.49821651528083 minute(s)
+1d69634f is estimated to be delayed by -1005.6963765937793 minute(s)
+Minute 20: 
+1d6950e6 is estimated to be delayed by 33.40206774085648 minute(s)
+1d6839c2 is estimated to be delayed by 57.32161822293486 minute(s)
+1d694c0d is estimated to be delayed by 115.7065785454849 minute(s)
+1d694d9c is estimated to be delayed by 92.29620745533506 minute(s)
+1d6949e1 is estimated to be delayed by 84.71394160512368 minute(s)
+1d682441 is estimated to be delayed by 90.474984701403 minute(s)
+1d69634f is estimated to be delayed by -1004.7717391173916 minute(s)
+Minute 21: 
+1d6950e6 is estimated to be delayed by 32.211660046938384 minute(s)
+1d6839c2 is estimated to be delayed by 56.927493213237994 minute(s)
+1d694c0d is estimated to be delayed by 114.23132717096647 minute(s)
+1d694d9c is estimated to be delayed by 91.83820184532165 minute(s)
+1d6949e1 is estimated to be delayed by 84.22796431262414 minute(s)
+1d682441 is estimated to be delayed by 91.02829491215367 minute(s)
+1d69634f is estimated to be delayed by -1004.0204780120359 minute(s)
+Minute 22: 
+1d6950e6 is estimated to be delayed by 31.024398790489776 minute(s)
+1d6839c2 is estimated to be delayed by 56.53383397165675 minute(s)
+1d694c0d is estimated to be delayed by 112.75669242341488 minute(s)
+1d690c32 is estimated to be delayed by -1383.8957864608412 minute(s)
+1d694d9c is estimated to be delayed by 91.38072625178573 minute(s)
+1d6949e1 is estimated to be delayed by 83.74216120428179 minute(s)
+1d682441 is estimated to be delayed by 90.81013022734015 minute(s)
+1d69634f has landed
+1d6965ab is estimated to be delayed by -1307.2975857803794 minute(s)
+Minute 23: 
+1d6950e6 is estimated to be delayed by 29.840247712839037 minute(s)
+1d6839c2 is estimated to be delayed by 56.14064653713973 minute(s)
+1d694c0d is estimated to be delayed by 111.28268179415292 minute(s)
+1d690c32 is estimated to be delayed by -1385.126401739607 minute(s)
+1d694d9c is estimated to be delayed by 90.92378761303094 minute(s)
+1d6949e1 is estimated to be delayed by 83.25654079979107 minute(s)
+1d682441 is estimated to be delayed by 90.59208560487266 minute(s)
+1d6965ab is estimated to be delayed by -1306.2856221711336 minute(s)
+Minute 24: 
+1d6950e6 is estimated to be delayed by 28.63185982132199 minute(s)
+1d6839c2 is estimated to be delayed by 55.747936947687165 minute(s)
+1d694c0d is estimated to be delayed by 109.80930280025117 minute(s)
+1d690c32 is estimated to be delayed by -1385.6203993444215 minute(s)
+1d694d9c is estimated to be delayed by 90.46739287873721 minute(s)
+1d6949e1 is estimated to be delayed by 82.77111174675305 minute(s)
+1d682441 is estimated to be delayed by 90.37416448026691 minute(s)
+1d6965ab is estimated to be delayed by -1305.287197504074 minute(s)
+Minute 25: 
+1d6950e6 is estimated to be delayed by 27.4271202012103 minute(s)
+1d6839c2 is estimated to be delayed by 55.355711240330905 minute(s)
+1d694c0d is estimated to be delayed by 108.33656298632829 minute(s)
+1d690c32 is estimated to be delayed by -1386.181722733534 minute(s)
+1d694d9c is estimated to be delayed by 90.01154901067608 minute(s)
+1d6949e1 is estimated to be delayed by 82.28588282856467 minute(s)
+1d682441 is estimated to be delayed by 90.1563702991961 minute(s)
+1d6965ab is estimated to be delayed by -1304.3003816205312 minute(s)
+Minute 26: 
+1d6950e6 has landed
+1d6839c2 is estimated to be delayed by 54.96397545111711 minute(s)
+1d694c0d is estimated to be delayed by 106.86446992650251 minute(s)
+1d690c32 is estimated to be delayed by -1386.6782670264647 minute(s)
+1d694d9c is estimated to be delayed by 89.55626298347413 minute(s)
+1d6949e1 is estimated to be delayed by 81.80086297289662 minute(s)
+1d682441 is estimated to be delayed by 89.93870651818254 minute(s)
+1d6965ab is estimated to be delayed by -1303.5374935816944 minute(s)
+Minute 27: 
+1d6839c2 is estimated to be delayed by 54.57273561508674 minute(s)
+1d694c0d is estimated to be delayed by 105.39303122650401 minute(s)
+1d690c32 is estimated to be delayed by -1387.2310361946734 minute(s)
+1d694d9c is estimated to be delayed by 89.10154178543786 minute(s)
+1d6949e1 is estimated to be delayed by 81.31606126081049 minute(s)
+1d682441 is estimated to be delayed by 89.72117660533934 minute(s)
+1d6965ab is estimated to be delayed by -1302.8229490227643 minute(s)
+Minute 28: 
+Minute 29: 
+Minute 0: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+WLG-AKL1 has landed
+WLG-AKL1 has landed
+Minute 36: 
+WLG-AKL2 is estimated to be delayed by -0.9999983704078161 minute(s)
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+WLG-AKL1 has landed
+WLG-AKL2 is estimated to be delayed by -0.9999983704078161 minute(s)
+Minute 36: 
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+WLG-AKL1 has landed
+WLG-AKL2 is estimated to be delayed by -0.8931516295921824 minute(s)
+Minute 36: 
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+WLG-AKL2 is estimated to be delayed by -0.9999983704078161 minute(s)
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+WLG-AKL2 is estimated to be delayed by -0.9999983704078161 minute(s)
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+WLG-AKL2 is estimated to be delayed by -0.9999983704078161 minute(s)
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+WLG-AKL2 is estimated to be delayed by -0.9999983704078161 minute(s)
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+WLG-AKL2 is estimated to be delayed by -0.9999983704078161 minute(s)
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+WLG-AKL2 is estimated to be delayed by -0.9999983704078161 minute(s)
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 0: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+WLG-AKL1 has landed
+WLG-AKL2 is estimated to be delayed by -36.89315162959218 minute(s)
+Minute 36: 
+WLG-AKL2 is estimated to be delayed by -35.89315162959218 minute(s)
+Minute 37: 
+WLG-AKL2 is estimated to be delayed by -34.89315162959218 minute(s)
+Minute 38: 
+WLG-AKL2 is estimated to be delayed by -33.89315162959218 minute(s)
+Minute 39: 
+Minute 40: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+WLG-AKL1 has landed
+WLG-AKL2 is estimated to be delayed by -0.8931516295921824 minute(s)
+Minute 36: 
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Minute 43: 
+Minute 44: 
+Minute 45: 
+Minute 46: 
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+WLG-AKL2 has landed
+Minute 73: 
+WLG-AKL0 is estimated to be delayed by -1.9999983704078161 minute(s)
+SYD-AKL0 is estimated to be delayed by -2.0000037195875393 minute(s)
+WLG-AKL1 is estimated to be delayed by -0.9999983704078161 minute(s)
+SYD-AKL1 is estimated to be delayed by -5.000003719587539 minute(s)
+Minute 0: 
+WLG-AKL0 is estimated to be delayed by -0.9999983704078161 minute(s)
+SYD-AKL0 is estimated to be delayed by -1.0000037195875393 minute(s)
+SYD-AKL1 is estimated to be delayed by -4.000003719587539 minute(s)
+Minute 1: 
+SYD-AKL0 is estimated to be delayed by -3.7195875393081224e-06 minute(s)
+SYD-AKL1 is estimated to be delayed by -3.0000037195875393 minute(s)
+Minute 2: 
+SYD-AKL1 is estimated to be delayed by -2.0000037195875393 minute(s)
+Minute 3: 
+SYD-AKL1 is estimated to be delayed by -1.0000037195875393 minute(s)
+Minute 4: 
+SYD-AKL1 is estimated to be delayed by -3.7195875393081224e-06 minute(s)
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+WLG-AKL0 is estimated to be delayed by -1.9999983704078161 minute(s)
+SYD-AKL0 is estimated to be delayed by -2.0000037195875393 minute(s)
+WLG-AKL1 is estimated to be delayed by -0.9999983704078161 minute(s)
+SYD-AKL1 is estimated to be delayed by -5.000003719587539 minute(s)
+Minute 0: 
+WLG-AKL0 is estimated to be delayed by -0.9999983704078161 minute(s)
+SYD-AKL0 is estimated to be delayed by -1.0000037195875393 minute(s)
+SYD-AKL1 is estimated to be delayed by -4.000003719587539 minute(s)
+Minute 1: 
+SYD-AKL0 is estimated to be delayed by -3.7195875393081224e-06 minute(s)
+SYD-AKL1 is estimated to be delayed by -3.0000037195875393 minute(s)
+Minute 2: 
+SYD-AKL1 is estimated to be delayed by -2.0000037195875393 minute(s)
+Minute 3: 
+SYD-AKL1 is estimated to be delayed by -1.0000037195875393 minute(s)
+Minute 4: 
+SYD-AKL1 is estimated to be delayed by -3.7195875393081224e-06 minute(s)
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+WLG-AKL0 is estimated to be delayed by -3.7040741318605797e-07 minute(s)
+WLG-AKL1 is estimated to be delayed by -3.7040738121163486e-07 minute(s)
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+WLG-AKL1 has landed
+AKL-WLG1 has landed
+Minute 38: 
+WLG-AKL0 has landed
+AKL-WLG0 has landed
+Minute 39: 
+SYD-AKL1 is estimated to be delayed by -3.719587766681798e-06 minute(s)
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Minute 43: 
+Minute 44: 
+Minute 45: 
+Minute 46: 
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+Minute 74: 
+Minute 75: 
+Minute 76: 
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+Minute 83: 
+Minute 84: 
+Minute 85: 
+Minute 86: 
+Minute 87: 
+Minute 88: 
+Minute 89: 
+Minute 90: 
+Minute 91: 
+Minute 92: 
+Minute 93: 
+Minute 94: 
+Minute 95: 
+Minute 96: 
+Minute 97: 
+Minute 98: 
+Minute 99: 
+Minute 100: 
+Minute 101: 
+Minute 102: 
+Minute 103: 
+Minute 104: 
+Minute 105: 
+Minute 106: 
+Minute 107: 
+Minute 108: 
+Minute 109: 
+Minute 110: 
+Minute 111: 
+Minute 112: 
+Minute 113: 
+Minute 114: 
+Minute 115: 
+Minute 116: 
+Minute 117: 
+Minute 118: 
+Minute 119: 
+Minute 120: 
+Minute 121: 
+Minute 122: 
+Minute 123: 
+Minute 124: 
+Minute 125: 
+Minute 126: 
+Minute 127: 
+Minute 128: 
+Minute 129: 
+Minute 130: 
+Minute 131: 
+Minute 132: 
+Minute 133: 
+Minute 134: 
+Minute 135: 
+Minute 136: 
+Minute 137: 
+Minute 138: 
+Minute 139: 
+Minute 140: 
+Minute 141: 
+Minute 142: 
+Minute 143: 
+Minute 144: 
+Minute 145: 
+Minute 146: 
+Minute 147: 
+Minute 148: 
+Minute 149: 
+Minute 150: 
+Minute 151: 
+Minute 152: 
+Minute 153: 
+Minute 154: 
+Minute 155: 
+Minute 156: 
+Minute 157: 
+Minute 158: 
+Minute 159: 
+Minute 160: 
+Minute 161: 
+Minute 162: 
+Minute 163: 
+Minute 164: 
+Minute 165: 
+Minute 166: 
+Minute 167: 
+Minute 168: 
+Minute 169: 
+Minute 170: 
+Minute 171: 
+Minute 172: 
+Minute 173: 
+Minute 174: 
+Minute 175: 
+Minute 176: 
+Minute 177: 
+Minute 178: 
+Minute 179: 
+Minute 180: 
+Minute 181: 
+Minute 182: 
+Minute 183: 
+Minute 184: 
+Minute 185: 
+Minute 186: 
+Minute 187: 
+Minute 188: 
+Minute 189: 
+Minute 190: 
+Minute 191: 
+Minute 192: 
+Minute 193: 
+Minute 194: 
+Minute 195: 
+Minute 196: 
+Minute 197: 
+Minute 198: 
+Minute 199: 
+Minute 200: 
+Minute 201: 
+Minute 202: 
+Minute 203: 
+Minute 204: 
+Minute 205: 
+Minute 206: 
+Minute 207: 
+Minute 208: 
+Minute 209: 
+Minute 210: 
+Minute 211: 
+Minute 212: 
+Minute 213: 
+Minute 214: 
+Minute 215: 
+Minute 216: 
+Minute 217: 
+Minute 218: 
+Minute 219: 
+Minute 220: 
+Minute 221: 
+Minute 222: 
+Minute 223: 
+Minute 224: 
+Minute 225: 
+Minute 226: 
+Minute 227: 
+Minute 228: 
+Minute 229: 
+Minute 230: 
+Minute 231: 
+Minute 232: 
+Minute 233: 
+Minute 234: 
+Minute 235: 
+Minute 236: 
+Minute 237: 
+Minute 238: 
+Minute 239: 
+Minute 240: 
+Minute 241: 
+Minute 242: 
+Minute 243: 
+Minute 244: 
+Minute 245: 
+Minute 246: 
+Minute 247: 
+Minute 248: 
+Minute 249: 
+Minute 250: 
+Minute 251: 
+Minute 252: 
+Minute 253: 
+Minute 254: 
+Minute 255: 
+Minute 256: 
+Minute 257: 
+Minute 258: 
+Minute 259: 
+Minute 260: 
+Minute 0: 
+WLG-AKL0 is estimated to be delayed by -0.9999983704078161 minute(s)
+SYD-AKL0 is estimated to be delayed by -3.7195875393081224e-06 minute(s)
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+WLG-AKL0 is estimated to be delayed by -3.7040738121163486e-07 minute(s)
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+WLG-AKL0 has landed
+AKL-WLG0 has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Minute 43: 
+Minute 44: 
+Minute 45: 
+Minute 46: 
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+WLG-AKL0 is estimated to be delayed by -0.9999983704078161 minute(s)
+SYD-AKL0 is estimated to be delayed by -2.0000037195875393 minute(s)
+Minute 0: 
+SYD-AKL0 is estimated to be delayed by -1.0000037195875393 minute(s)
+Minute 1: 
+SYD-AKL0 is estimated to be delayed by -3.7195875393081224e-06 minute(s)
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+WLG-AKL0 is estimated to be delayed by -3.7040738121163486e-07 minute(s)
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+WLG-AKL0 has landed
+AKL-WLG0 has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Minute 43: 
+Minute 44: 
+Minute 45: 
+Minute 46: 
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+WLG-AKL1 has landed
+AKL-WLG1 has landed
+Minute 74: 
+Minute 75: 
+Minute 76: 
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+Minute 83: 
+Minute 84: 
+Minute 85: 
+Minute 86: 
+Minute 87: 
+Minute 88: 
+Minute 89: 
+Minute 90: 
+Minute 91: 
+Minute 92: 
+Minute 93: 
+Minute 94: 
+Minute 95: 
+Minute 96: 
+Minute 97: 
+Minute 98: 
+Minute 99: 
+Minute 100: 
+Minute 101: 
+Minute 102: 
+Minute 103: 
+Minute 104: 
+Minute 105: 
+Minute 106: 
+Minute 107: 
+Minute 108: 
+Minute 109: 
+Minute 110: 
+Minute 111: 
+Minute 112: 
+Minute 113: 
+Minute 114: 
+Minute 115: 
+Minute 116: 
+Minute 117: 
+Minute 118: 
+Minute 119: 
+Minute 120: 
+Minute 121: 
+Minute 122: 
+Minute 123: 
+Minute 124: 
+Minute 125: 
+Minute 126: 
+Minute 127: 
+Minute 128: 
+Minute 129: 
+Minute 130: 
+Minute 131: 
+Minute 132: 
+Minute 133: 
+Minute 134: 
+Minute 135: 
+Minute 136: 
+Minute 137: 
+Minute 138: 
+Minute 139: 
+Minute 140: 
+Minute 141: 
+Minute 142: 
+Minute 143: 
+Minute 144: 
+Minute 145: 
+Minute 146: 
+Minute 147: 
+Minute 148: 
+Minute 149: 
+Minute 150: 
+Minute 151: 
+Minute 152: 
+Minute 153: 
+Minute 154: 
+Minute 155: 
+Minute 156: 
+Minute 157: 
+Minute 158: 
+Minute 159: 
+Minute 160: 
+Minute 161: 
+Minute 162: 
+Minute 163: 
+Minute 164: 
+Minute 165: 
+Minute 166: 
+Minute 167: 
+Minute 168: 
+Minute 169: 
+Minute 170: 
+Minute 171: 
+Minute 172: 
+Minute 173: 
+Minute 174: 
+Minute 175: 
+Minute 176: 
+Minute 177: 
+Minute 178: 
+Minute 179: 
+Minute 180: 
+Minute 181: 
+Minute 182: 
+Minute 183: 
+Minute 184: 
+Minute 185: 
+Minute 186: 
+Minute 187: 
+Minute 188: 
+Minute 189: 
+Minute 190: 
+Minute 191: 
+Minute 192: 
+Minute 193: 
+Minute 194: 
+Minute 195: 
+Minute 196: 
+Minute 197: 
+Minute 198: 
+Minute 199: 
+Minute 200: 
+Minute 201: 
+Minute 202: 
+Minute 203: 
+Minute 204: 
+Minute 205: 
+Minute 206: 
+Minute 207: 
+Minute 208: 
+Minute 209: 
+Minute 210: 
+Minute 211: 
+Minute 212: 
+Minute 213: 
+Minute 214: 
+Minute 215: 
+Minute 216: 
+Minute 217: 
+Minute 218: 
+Minute 219: 
+Minute 220: 
+Minute 221: 
+Minute 222: 
+Minute 223: 
+Minute 224: 
+Minute 225: 
+Minute 226: 
+Minute 227: 
+Minute 228: 
+Minute 229: 
+Minute 230: 
+Minute 231: 
+Minute 232: 
+Minute 233: 
+Minute 234: 
+Minute 235: 
+Minute 236: 
+Minute 237: 
+Minute 238: 
+Minute 239: 
+Minute 240: 
+Minute 241: 
+Minute 242: 
+Minute 243: 
+Minute 244: 
+Minute 245: 
+Minute 246: 
+Minute 247: 
+Minute 248: 
+Minute 249: 
+Minute 250: 
+Minute 251: 
+Minute 252: 
+Minute 253: 
+Minute 254: 
+Minute 255: 
+Minute 256: 
+Minute 257: 
+Minute 258: 
+Minute 259: 
+Minute 260: 
+Minute 261: 
+Minute 262: 
+Minute 263: 
+Minute 264: 
+Minute 265: 
+Minute 266: 
+Minute 267: 
+Minute 268: 
+Minute 269: 
+Minute 270: 
+Minute 271: 
+Minute 272: 
+Minute 273: 
+Minute 274: 
+Minute 275: 
+Minute 276: 
+Minute 277: 
+Minute 278: 
+Minute 279: 
+Minute 280: 
+Minute 281: 
+Minute 282: 
+Minute 283: 
+Minute 284: 
+Minute 285: 
+Minute 286: 
+Minute 287: 
+Minute 288: 
+Minute 289: 
+Minute 290: 
+Minute 291: 
+Minute 292: 
+Minute 293: 
+Minute 294: 
+Minute 295: 
+Minute 296: 
+Minute 297: 
+Minute 298: 
+Minute 299: 
+Minute 300: 
+Minute 301: 
+Minute 302: 
+Minute 303: 
+Minute 304: 
+Minute 305: 
+Minute 306: 
+Minute 307: 
+Minute 308: 
+WLG-AKL0 is estimated to be delayed by -0.9999983704078161 minute(s)
+SYD-AKL0 is estimated to be delayed by -2.000000944540716 minute(s)
+Minute 0: 
+SYD-AKL0 is estimated to be delayed by -1.0000009445407159 minute(s)
+Minute 1: 
+SYD-AKL0 is estimated to be delayed by -9.445407158636954e-07 minute(s)
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+WLG-AKL0 is estimated to be delayed by -3.7040738121163486e-07 minute(s)
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+WLG-AKL0 has landed
+AKL-WLG0 has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+WLG-AKL0 is estimated to be delayed by -0.9999983704078161 minute(s)
+SYD-AKL0 is estimated to be delayed by -9.445407158636954e-07 minute(s)
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+WLG-AKL0 is estimated to be delayed by -3.7040738121163486e-07 minute(s)
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+WLG-AKL0 has landed
+AKL-WLG0 has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Minute 43: 
+Minute 44: 
+Minute 45: 
+Minute 46: 
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+WLG-AKL1 has landed
+Minute 74: 
+Minute 75: 
+Minute 76: 
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+SYD-AKL0 is estimated to be delayed by -9.445407158636954e-07 minute(s)
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+WLG-AKL0 has landed
+AKL-WLG0 is estimated to be delayed by -0.8931516295921824 minute(s)
+Minute 36: 
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Minute 43: 
+Minute 44: 
+Minute 45: 
+Minute 46: 
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+AKL-WLG0 has landed
+WLG-AKL1 is estimated to be delayed by -0.7863032591843648 minute(s)
+Minute 73: 
+Minute 74: 
+Minute 75: 
+Minute 76: 
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+Minute 83: 
+Minute 84: 
+Minute 85: 
+Minute 86: 
+Minute 87: 
+Minute 88: 
+Minute 89: 
+Minute 90: 
+Minute 91: 
+Minute 92: 
+Minute 93: 
+Minute 94: 
+Minute 95: 
+Minute 96: 
+Minute 97: 
+Minute 98: 
+Minute 99: 
+Minute 100: 
+Minute 101: 
+Minute 102: 
+Minute 103: 
+Minute 104: 
+Minute 105: 
+Minute 106: 
+Minute 107: 
+Minute 108: 
+Minute 109: 
+WLG-AKL1 has landed
+Minute 110: 
+Minute 111: 
+Minute 112: 
+Minute 113: 
+Minute 114: 
+Minute 115: 
+Minute 116: 
+Minute 117: 
+Minute 118: 
+Minute 119: 
+Minute 120: 
+Minute 121: 
+Minute 122: 
+Minute 123: 
+Minute 124: 
+Minute 125: 
+Minute 126: 
+Minute 127: 
+Minute 128: 
+Minute 129: 
+Minute 130: 
+Minute 131: 
+Minute 132: 
+Minute 133: 
+Minute 134: 
+Minute 135: 
+Minute 136: 
+Minute 137: 
+Minute 138: 
+Minute 139: 
+Minute 140: 
+Minute 141: 
+Minute 142: 
+Minute 143: 
+Minute 144: 
+Minute 145: 
+Minute 146: 
+Minute 147: 
+Minute 148: 
+Minute 149: 
+Minute 150: 
+Minute 151: 
+Minute 152: 
+Minute 153: 
+Minute 154: 
+Minute 155: 
+Minute 156: 
+Minute 157: 
+Minute 158: 
+Minute 159: 
+Minute 160: 
+Minute 161: 
+Minute 162: 
+Minute 163: 
+Minute 164: 
+Minute 165: 
+SYD-AKL0 has landed
+Minute 166: 
+Minute 167: 
+Minute 168: 
+Minute 169: 
+Minute 170: 
+Minute 171: 
+Minute 172: 
+Minute 173: 
+Minute 174: 
+Minute 175: 
+Minute 176: 
+Minute 177: 
+Minute 178: 
+Minute 179: 
+Minute 180: 
+Minute 181: 
+Minute 182: 
+Minute 183: 
+Minute 184: 
+Minute 185: 
+Minute 186: 
+Minute 187: 
+Minute 188: 
+Minute 189: 
+Minute 190: 
+Minute 191: 
+Minute 192: 
+Minute 193: 
+Minute 194: 
+Minute 195: 
+Minute 196: 
+Minute 197: 
+Minute 198: 
+Minute 199: 
+Minute 200: 
+Minute 201: 
+Minute 202: 
+Minute 203: 
+Minute 204: 
+Minute 205: 
+Minute 206: 
+Minute 207: 
+Minute 208: 
+Minute 209: 
+Minute 210: 
+Minute 211: 
+Minute 212: 
+Minute 213: 
+Minute 214: 
+Minute 215: 
+Minute 216: 
+Minute 217: 
+Minute 218: 
+Minute 219: 
+Minute 220: 
+Minute 221: 
+Minute 222: 
+Minute 223: 
+Minute 224: 
+Minute 225: 
+Minute 226: 
+Minute 227: 
+Minute 228: 
+Minute 229: 
+Minute 230: 
+Minute 231: 
+Minute 232: 
+Minute 233: 
+Minute 234: 
+Minute 235: 
+Minute 236: 
+Minute 237: 
+Minute 238: 
+Minute 239: 
+Minute 240: 
+Minute 241: 
+Minute 242: 
+Minute 243: 

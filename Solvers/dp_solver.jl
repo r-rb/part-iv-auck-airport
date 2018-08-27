@@ -17,10 +17,10 @@
 
 targets = vec(readdlm("./tmp/arrival_t.txt", Float32))
 proctimes = readdlm("./tmp/proc_t.txt", Float32)
-println(proctimes)
+#println(proctimes)
 classes = convert(Array{UInt8,1}, vec(readdlm("./tmp/class_num.txt", Float32)))
-dependency = UInt8[0,0,0,0,0]
-#depedency = convert(Array{UInt8,1},vec(readdlm("./tmp/depends.txt",Float32)))
+#dependency = UInt8[0,0,0,0,0]
+dependency = convert(Array{UInt8,1}, vec(readdlm("./tmp/depends.txt", Float32)))
 
 
 #targets = Float32[t for t = 1:flights]
@@ -146,7 +146,7 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
 
     min_cost_key = reduce((x, y) -> stagetable[end][x].cost <= stagetable[end][y].cost ? x : y, keys(stagetable[end]))
 
-    #println(stagetable[end][min_cost_key])
+    println(stagetable[end][min_cost_key])
 
     minsched = [x[1] for x in stagetable[end][min_cost_key].schedule]
 
