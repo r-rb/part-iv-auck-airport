@@ -7,23 +7,28 @@
 # targets = Float32[i for i = 1:planes]
 
 # # Index of flights that to be processed before the corresponding flight as the same plane is being used.
-# dependency = UInt8[0,0,0,0]
+# dependency = UInt8[0,1,0,0]
 
 # # Processing times
 # proctimes = convert(Array{Float32,2},  [0 3 3 3;
 #                                         3 0 3 3;
-#                                         3 3 0 3; 
+#                                         3 3 0 3;
 #                                         3 3 3 0])
 
-flights = 70
+targets = vec(readdlm("./tmp/arrival_t.txt",Float32))
+proctimes = readdlm("./tmp/sep_t.txt",Float32)
+classes = convert(Array{UInt8,1},vec(readdlm("./tmp/class_num.txt",Float32)))
+dependency = UInt8[0,0,0,0,0]
+#depedency = convert(Array{UInt8,1},vec(readdlm("./tmp/depends.txt",Float32)))
 
-targets = Float32[t for t = 1:flights]
-dependency = UInt8[0 for t = 1:flights]
-proctimes = Float32.(rand(3:3, flights, flights))
 
-for d = 1:flights
-    proctimes[d,d] = 0
-end
+#targets = Float32[t for t = 1:flights]
+#dependency = UInt8[0 for t = 1:flights]
+#proctimes = Float32.(rand(3:3, flights, flights))
+
+#for d = 1:flights
+#    proctimes[d,d] = 0
+#end
 
 # Number of runways
 runways = convert(UInt8, 1)
@@ -59,7 +64,7 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
         end
         return true
     end
-    
+
     function generatestate(state::State, f, r)
         if state.schedule[f][2] == -1
             assigntime = 0
@@ -74,7 +79,7 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
 
             # copy over information from the old state
             new_schedule, new_rop, new_cost  = copy(state.schedule), copy(state.rop), copy(state.cost)
-           
+
             prev, precedingflight = state.rop[r]
 
             precedingflight = precedingflight == -1 ? f : precedingflight
@@ -108,7 +113,7 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
                     explored = false
                     if t != -1
                         for (idx, state) in setofstates
-                            if t == state.rop[r][1] 
+                            if t == state.rop[r][1]
                                 #&& samedependency(new_state, state)
                                 explored = true
                                 if new_state.cost < state.cost
@@ -126,7 +131,7 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
             end
         end
     end
-    
+
     statesexpanded = 1
     # Main loop
     for n = 1:F
@@ -143,7 +148,7 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
 
     println(stagetable[end][min_cost_key])
 
-    
+
 end
 
 @time solvedp(targets, dependency, proctimes, fcost, runways)

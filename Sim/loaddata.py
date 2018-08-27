@@ -14,13 +14,14 @@ def loadplane(kml, isManual):
         akl = Landmark("Auckland Airport", 174.779962, -37.013383, 4000, kml)
         wlg = Landmark("Wellington Airport", 174.807598, -41.3275941, 4000, kml)
 
-        #plane.append(Plane("Rayner", 170.0, -35.0, 1, apt, kml))
-        #plane.append(Plane("Nathan", 176.0, -39.0, 2, apt, kml))
-        #plane.append(Plane("John", 180.0, -39.5, 4, apt, kml))
-        #plane.append(Plane("Joe", 172.0, -36.0, 5, apt, kml))
-        #plane.append(Plane("Anne", 173.0, -35.0, 2, apt, kml))
+		#plane.append(Plane(name, lng, lat, class_num,apt,kml))
+        plane.append(Plane("Rayner", 170.0, -35.0, 1, [akl], kml))
+        plane.append(Plane("Nathan", 176.0, -39.0, 2, [akl], kml))
+        plane.append(Plane("John", 180.0, -39.5, 4, [akl], kml))
+        plane.append(Plane("Joe", 172.0, -36.0, 4, [akl], kml))
+        plane.append(Plane("Anne", 173.0, -35.0, 2, [akl], kml))
         #plane.append(Plane("AKL-WLG1", 174.80759839999996, -41.3275941, 1, [akl,wlg,akl,wlg,akl], kml))
-        plane.append(Plane("AKL-WLG2", 174.78, -40, 1, [akl,wlg,akl,wlg,akl], kml))
+        #plane.append(Plane("AKL-WLG2", 174.78, -40, 1, [akl,wlg,akl,wlg,akl], kml))
     else:
         with open("./pkl/parsed_flights.pkl", "rb") as f:
             data = pickle.load(f)

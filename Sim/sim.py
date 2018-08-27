@@ -15,13 +15,13 @@ from loaddata import loadplane, loadsep
 
 ###################################################
 
-solver_name = "spp"
+solver_name = "dp"
 # solver_name = "mip"
 # solver_name = "dp"
 log_name = "log.txt"
 plotDuring = False
-plotAfter = True
-isManual = False  # Manual data entry or not
+plotAfter = False
+isManual = True  # Manual data entry or not
 
 ###################################################
 
@@ -56,23 +56,27 @@ while not all([pl.landed for pl in plane]):
         file.write("Minute "+str(minute)+": \n")
     minute += 1
 
-    id_arr, delay_cost, max_delay, class_num, proc_t = [], [], [], [], []
-    for pl in plane:
-        if not pl.landed and dist(pl, akl) <= 100000:
-            id_arr.append(pl.id_arr)
-            delay_cost.append(pl.delay_cost)
-            max_delay.append(pl.max_delay)
-            class_num.append(pl.class_num+1)
-            proc_row = []
-            for next in plane:
-                if not next.landed:
-                    proc_row.append(sep_t[pl.class_num, next.class_num])
-            proc_t.append(proc_row)
+    id_arr, delay_cost, max_delay, class_num, proc_t, depends = [], [], [], [], [], []
+    valid = [pl for pl in plane if not pl.landed and dist(pl, akl) <= 100000000]
+    for pl in valid:
+        id_arr.append(pl.id_arr)
+        delay_cost.append(pl.delay_cost)
+        max_delay.append(pl.max_delay)
+        class_num.append(pl.class_num)
+        proc_row = []
+        for next in plane:
+            if not next.landed:
+                proc_row.append(sep_t[pl.class_num-1, next.class_num-1])
+        proc_t.append(proc_row)
+        if pl.pred:
+            depends.append(valid.index(pl.pred)+1)
+        else:
+            depends.append(0)
 
     schedule = solve(id_arr, delay_cost, max_delay,
-                     class_num, proc_t, sep_t, solver_name)
+                     class_num, proc_t, sep_t, depends,solver_name)
     for pl in reversed(plane):
-        if not pl.landed and dist(pl, akl) <= 100000:
+        if not pl.landed and dist(pl, akl) <= 100000000:
             if not isinstance(schedule, float):
                 pl.eta = schedule.pop()
             else:

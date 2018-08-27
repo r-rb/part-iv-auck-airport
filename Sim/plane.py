@@ -8,7 +8,7 @@ tol = 1e-6 # Tolerance in floating point comparisons
 SEC_PER_MIN = 60 # Seconds per minute
 
 class Plane(Location):
-    def __init__(self, name, lng, lat, class_num,apt,kml,delay_cost = 1,speed=1300.0,max_delay = 1000,swap_time = 10):
+    def __init__(self, name, lng, lat, class_num,apt,kml,delay_cost = 1,speed=1300.0,max_delay = 1000,swap_time = 10,pred = None):
         Location.__init__(self, name, lng, lat)
         self.pt = kml.newpoint(name=name,coords = [(lng,lat)]) # Create the kml point entity
         self.ls = kml.newlinestring(name=name+"path",coords = [(lng,lat)]) # Create the list of points the plane has visited.
@@ -23,6 +23,7 @@ class Plane(Location):
             self.id_arr = dist(self, apt[-1])/self.speed # The ideal arrival time were we to travel at speed at the way to the airport
             self.eta = self.id_arr
         self.delay = 0
+        self.pred = None
 
     def update(self,log_name,minute):
         if not self.landed:
