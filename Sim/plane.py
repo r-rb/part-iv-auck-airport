@@ -35,11 +35,15 @@ class Plane(Location):
             self.arrived = True
         self.pred = pred
         if apt and self.pred:
-            self.eta += self.pred.eta
+            self.eta += self.pred.eta + 10
 
     def step(self, log_name, minute):
         if dist(self, self.apt) + tol >= self.eta * self.speed:
             step = self.speed
+
+            #Delay
+            #if np.random.rand() > 0.8:
+            #    step = 0.2*step
 
             if step <= tol + dist(self, self.apt):
                 self.rect += step * \
@@ -67,13 +71,12 @@ class Plane(Location):
         if not self.landed and self.arrived:
             if pred_landed:
                 self.step(log_name, minute)
-
                 pt = self.fol.newpoint(name=self.name, coords=[
                     (self.lng, self.lat)])
                 pt.timestamp.when = minute
                 ls = self.fol.newlinestring(
                     name=self.name, coords=self.coord_path)
-                ls.style.linestyle.width = 1
+                ls.style.linestyle.width = 2
                 ls.timestamp.when = minute
 
                 if self.arrived:

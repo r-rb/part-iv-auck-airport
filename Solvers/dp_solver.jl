@@ -22,7 +22,6 @@ classes = convert(Array{UInt8,1}, vec(readdlm("./tmp/class_num.txt", Float32)))
 #dependency = UInt8[0,0,0,0,0]
 dependency = convert(Array{UInt8,1}, vec(readdlm("./tmp/depends.txt", Float32)))
 
-
 #targets = Float32[t for t = 1:flights]
 #dependency = UInt8[0 for t = 1:flights]
 #proctimes = Float32.(rand(3:3, flights, flights))
@@ -49,10 +48,9 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
     S = F + 1   # number of stages
     R = runways # number of runways
     n = 1   # initialising stage counter
-    turnovertime = 3    # turnaround time for a plane before they can make another flight
-    #println(proctimes)
+    turnovertime = 10    # turnaround time for a plane before they can make another flight
     dependentflights = [dependency[i] for i = 1:F if dependency[i] != 0]
-
+    println("Inputted target times -> $targets \n")
     stagetable = Array{Dict{Int64,State}}(1, S)
 
     stagetable[1] = Dict(1 => State([(-1.0, -1) for i = 1:F], 0.0, [(-1.0, -1) for i = 1:R]))
@@ -146,8 +144,8 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
 
     min_cost_key = reduce((x, y) -> stagetable[end][x].cost <= stagetable[end][y].cost ? x : y, keys(stagetable[end]))
 
-    println(stagetable[end][min_cost_key])
-
+    println("Optimal schedule times -> $(stagetable[end][min_cost_key].schedule)")
+    println("Optimal schedule cost -> $(stagetable[end][min_cost_key].cost) \n")
     minsched = [x[1] for x in stagetable[end][min_cost_key].schedule]
 
     writedlm("./tmp/schedule.txt", minsched)
