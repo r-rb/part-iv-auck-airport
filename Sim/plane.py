@@ -3,6 +3,7 @@ import simplekml
 import math
 from coordinates import rect2earth, earth2rect
 from location import Location, dist
+from geopy.distance import lonlat, distance
 
 tol = 1e-6  # Tolerance in floating point comparisons
 SEC_PER_MIN = 60  # Seconds per minute
@@ -12,9 +13,8 @@ class Plane(Location):
     def __init__(self, name, lng, lat, class_num, apt, kml, delay_cost=1, speed=13000.0, max_delay=1000, swap_time=10, arr_time=None, pred=None):
         Location.__init__(self, name, lng, lat)
 
-        # Create the kml point entity
+        # Create the folder to store all the KML data
         self.fol = kml.newfolder(name=name)
-
         self.coord_path = [(lng, lat)]
 
         self.class_num = class_num
@@ -24,26 +24,23 @@ class Plane(Location):
         self.max_delay = max_delay
         self.swap_time = swap_time
         self.apt = apt
-        # The ideal arrival time were we to travel at speed at the way to the airport
-        if apt:
-            self.eta = dist(self, apt)/self.speed
-        self.delay = 0
+        self.pred = pred
         self.arr_time = arr_time
+
+        if apt:
+            self.eta = self.get_eta()
+            if self.pred:
+                self.eta += self.pred.eta + 10
+        self.delay = 0
+
         if arr_time != None and arr_time > 1:
             self.arrived = False
         else:
             self.arrived = True
-        self.pred = pred
-        if apt and self.pred:
-            self.eta += self.pred.eta + 10
 
     def step(self, log_name, minute):
         if dist(self, self.apt) + tol >= self.eta * self.speed:
             step = self.speed
-
-            #Delay
-            #if np.random.rand() > 0.8:
-            #    step = 0.2*step
 
             if step <= tol + dist(self, self.apt):
                 self.rect += step * \
@@ -59,9 +56,8 @@ class Plane(Location):
             self.coord_path.append((self.lng, self.lat))
             self.delay = 0
         else:
-            self.set_delay(
-                dist(self, self.apt)/self.speed - self.eta, log_name)
-    pass
+            self.set_delay(dist(self, self.apt) /
+                           self.speed - self.eta, log_name)
 
     def update(self, log_name, minute):
         if self.pred:
@@ -72,7 +68,7 @@ class Plane(Location):
             if pred_landed:
                 self.step(log_name, minute)
                 pt = self.fol.newpoint(name=self.name, coords=[
-                    (self.lng, self.lat)])
+                                       (self.lng, self.lat)])
                 pt.timestamp.when = minute
                 ls = self.fol.newlinestring(
                     name=self.name, coords=self.coord_path)
@@ -85,7 +81,6 @@ class Plane(Location):
                         pt.style.labelstyle.color = simplekml.Color.red
                     else:
                         ls.style.linestyle.color = simplekml.Color.green
-                        #pt.style.labelstyle.color = simplekml.Color.green
                         pt.style.iconstyle.scale = 0.8
                         pt.style.iconstyle.icon.href = "http://www.iconarchive.com/download/i91814/icons8/windows-8/Transport-Airplane-Mode-On.ico"
             self.eta -= 1
@@ -98,6 +93,11 @@ class Plane(Location):
         with open(log_name, 'a') as file:
             file.write(self.name+" is estimated to be delayed by " +
                        str(delay)+" minute(s)\n")
+
+    def get_eta(self):
+        return (distance((self.lat, self.lng), (self.apt.lat, self.apt.lng)).meters)/self.speed
+
+# Historical Data
 
 
 class Arrival(Plane):

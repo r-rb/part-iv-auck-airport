@@ -2,7 +2,6 @@ import numpy as np
 import os
 from subprocess import DEVNULL, STDOUT, check_call
 
-
 def solve(id_arr, delay_cost, max_delay, class_num, proc_t, sep_t, depends, solver_name):
     np.savetxt("./tmp/arrival_t.txt", id_arr, newline="\n")
     np.savetxt("./tmp/delay_cost.txt", delay_cost, newline="\n")
@@ -25,5 +24,6 @@ def solve(id_arr, delay_cost, max_delay, class_num, proc_t, sep_t, depends, solv
         print("Error: specified solver is not configured")
         exit()
 
-    schedule = np.loadtxt("./tmp/schedule.txt").tolist()
+    with open("./tmp/schedule.txt",'r') as f:
+        schedule =[float(x) for x in f.readlines()]
     return schedule

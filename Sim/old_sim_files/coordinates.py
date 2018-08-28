@@ -49,9 +49,8 @@ def airport_eta(lat,lng,distance,speed = False):
 
 	origin = geopy.Point(lat, lng)
 
-	destination = geopy.VincentyDistance(meters=distance).destination(origin, bearing
+	destination = geopy.VincentyDistance(meters = distance).destination(origin, bearing)
 
-	destination.
 	if speed:
 		new_eta = get_new_eta(new_lat,new_lng,speed)
 

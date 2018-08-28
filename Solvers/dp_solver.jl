@@ -50,6 +50,7 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
     n = 1   # initialising stage counter
     turnovertime = 10    # turnaround time for a plane before they can make another flight
     dependentflights = [dependency[i] for i = 1:F if dependency[i] != 0]
+    println("==============================================================================")
     println("Inputted target times -> $targets \n")
     stagetable = Array{Dict{Int64,State}}(1, S)
 
@@ -130,26 +131,21 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
         end
     end
 
-    statesexpanded = 1
     # Main loop
     for n = 1:F
         expand!()
         stagetable[n] = Dict{Int64,State}()
-        #println(length(stagetable[n]))
-        statesexpanded += length(stagetable[n + 1])
     end
-
-    #println(statesexpanded)
-    #println(length(stagetable[end]))
 
     min_cost_key = reduce((x, y) -> stagetable[end][x].cost <= stagetable[end][y].cost ? x : y, keys(stagetable[end]))
 
     println("Optimal schedule times -> $(stagetable[end][min_cost_key].schedule)")
     println("Optimal schedule cost -> $(stagetable[end][min_cost_key].cost) \n")
+
     minsched = [x[1] for x in stagetable[end][min_cost_key].schedule]
 
     writedlm("./tmp/schedule.txt", minsched)
 
 end
 
-solvedp(targets, dependency, proctimes, fcost, runways)
+@time solvedp(targets, dependency, proctimes, fcost, runways)
