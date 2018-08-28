@@ -25,28 +25,23 @@ class Plane(Location):
         self.swap_time = swap_time
         self.apt = apt
         self.pred = pred
+        self.delay = 0
         self.arr_time = arr_time
-
+        self.arrived = False if (arr_time != None and arr_time > 1) else True
         if apt:
             self.eta = self.get_eta()
             if self.pred:
                 self.eta += self.pred.eta + 10
-        self.delay = 0
-
-        if arr_time != None and arr_time > 1:
-            self.arrived = False
-        else:
-            self.arrived = True
 
     def step(self, log_name, minute):
         if dist(self, self.apt) + tol >= self.eta * self.speed:
             step = self.speed
 
-            if step <= tol + dist(self, self.apt):
-                self.rect += step * \
-                    (self.apt.rect - self.rect) / dist(self, self.apt)
+            if step <= tol + self.dist_to_apt():
+                self.rect += step * (self.apt.rect - self.rect) / dist(self, self.apt)
             else:
                 self.rect = self.apt.rect
+
                 self.landed = True
                 with open(log_name, 'a') as file:
                     file.write(self.name+" has landed\n")
@@ -60,18 +55,17 @@ class Plane(Location):
                            self.speed - self.eta, log_name)
 
     def update(self, log_name, minute):
-        if self.pred:
-            pred_landed = self.pred.landed
-        else:
-            pred_landed = True
+
+        pred_landed = self.pred.landed if self.pred else True
+
         if not self.landed and self.arrived:
             if pred_landed:
                 self.step(log_name, minute)
-                pt = self.fol.newpoint(name=self.name, coords=[
-                                       (self.lng, self.lat)])
+
+                pt = self.fol.newpoint(name=self.name, coords=[(self.lng, self.lat)])
                 pt.timestamp.when = minute
-                ls = self.fol.newlinestring(
-                    name=self.name, coords=self.coord_path)
+
+                ls = self.fol.newlinestring(name=self.name, coords=self.coord_path)
                 ls.style.linestyle.width = 2
                 ls.timestamp.when = minute
 
@@ -95,11 +89,11 @@ class Plane(Location):
                        str(delay)+" minute(s)\n")
 
     def get_eta(self):
-        return (distance((self.lat, self.lng), (self.apt.lat, self.apt.lng)).meters)/self.speed
+        return self.dist_to_apt()/self.speed
+    def dist_to_apt(self):
+        return (distance((self.lat, self.lng), (self.apt.lat, self.apt.lng)).meters)
 
 # Historical Data
-
-
 class Arrival(Plane):
     def __init__(self, name, lng, lat, class_num, trail, kml, delay_cost=1, speed=13000.0, max_delay=1000, arr_time=None):
         Plane.__init__(self, name, lng, lat, class_num, None,
