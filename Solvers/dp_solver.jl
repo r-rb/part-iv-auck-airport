@@ -21,20 +21,20 @@ proctimes = readdlm("./tmp/proc_t.txt", Float32)
 classes = convert(Array{UInt8,1}, vec(readdlm("./tmp/class_num.txt", Float32)))
 #dependency = UInt8[0,0,0,0,0]
 dependency = convert(Array{UInt8,1}, vec(readdlm("./tmp/depends.txt", Float32)))
+# flights =  70
+# targets = Float32[t for t = 1:flights]
+# dependency = UInt8[0 for t = 1:flights]
+# proctimes = Float32.(rand(3:3, flights, flights))
 
-#targets = Float32[t for t = 1:flights]
-#dependency = UInt8[0 for t = 1:flights]
-#proctimes = Float32.(rand(3:3, flights, flights))
-
-#for d = 1:flights
+# for d = 1:flights
 #    proctimes[d,d] = 0
-#end
+# end
 
 # Number of runways
 runways = convert(UInt8, 1)
 
 # Cost function
-fcost(t, target, coeff=1, deg=1, max_delay=1000) = t - target < max_delay ? coeff * (t - target)^deg : Inf32
+fcost(t, target, coeff=1, deg=1, max_delay=10000) = t - target < max_delay ? coeff * (t - target)^deg : Inf32
 
 struct State
     schedule::Array{Tuple{Float32,Int8}}
@@ -108,7 +108,7 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
         for f = 1:F
             for r = 1:R
                 setofstates = Dict{Int64,State}()
-                for i = 1:length(stagetable[n])
+                 for i = 1:length(stagetable[n])
                     t, new_state = generatestate(stagetable[n][i], f, r)
                     explored = false
                     if t != -1

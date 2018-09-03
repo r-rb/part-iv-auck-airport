@@ -23,7 +23,6 @@ plane = loadplane(kml, is_manual)
 sep_t = loadsep(kml)
 
 minute = 0
-
 while not all([pl.landed for pl in plane]):
     minute += 1
     with open(log_name, 'a') as f:

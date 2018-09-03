@@ -1,9 +1,10 @@
 import numpy as np
 import simplekml
+import geopy
 import math
-from coordinates import rect2earth, earth2rect
+from coordinates import rect2earth, earth2rect,get_bearing
 from location import Location, dist
-from geopy.distance import lonlat, distance
+from geopy.distance import lonlat, distance, VincentyDistance
 
 tol = 1e-6  # Tolerance in floating point comparisons
 SEC_PER_MIN = 60  # Seconds per minute
@@ -27,32 +28,42 @@ class Plane(Location):
         self.pred = pred
         self.delay = 0
         self.arr_time = arr_time
-        self.arrived = False if (arr_time != None and arr_time > 1) else True
+        self.arrived = False if ( arr_time != None and arr_time > 1 ) else True
         if apt:
             self.eta = self.get_eta()
             if self.pred:
                 self.eta += self.pred.eta + 10
+    def move_position(self):
+        apt_loc = (self.apt.lng,self.apt.lat)
+        plane_loc = (self.lng,self.lat)
+        bearing = get_bearing(plane_loc,apt_loc)
+        pt = lonlat(*plane_loc)
+        dest = VincentyDistance(meters = self.speed).destination(pt,bearing)
+
+        return dest.longitude,dest.latitude
+        # self.rect += step * (self.apt.rect - self.rect) / dist(self, self.apt)
 
     def step(self, log_name, minute):
-        if dist(self, self.apt) + tol >= self.eta * self.speed:
+        if dist(self, self.apt)/self.speed + tol >= self.eta:
             step = self.speed
 
-            if step <= tol + self.dist_to_apt():
-                self.rect += step * (self.apt.rect - self.rect) / dist(self, self.apt)
+            if step <= tol + dist(self, self.apt):
+                self.lng, self.lat = self.move_position()
+                self.rect = earth2rect(self.lng,self.lat)
             else:
                 self.rect = self.apt.rect
-
+                self.lng = self.apt.lng
+                self.lat = self.apt.lat
                 self.landed = True
                 with open(log_name, 'a') as file:
                     file.write(self.name+" has landed\n")
 
-            self.lng, self.lat = rect2earth(self.rect)
+            #self.lng, self.lat = rect2earth(self.rect)
             self.id_arr = dist(self, self.apt)/self.speed
             self.coord_path.append((self.lng, self.lat))
             self.delay = 0
         else:
-            self.set_delay(dist(self, self.apt) /
-                           self.speed - self.eta, log_name)
+            self.set_delay(dist(self, self.apt) /self.speed - self.eta, log_name)
 
     def update(self, log_name, minute):
 
@@ -89,9 +100,11 @@ class Plane(Location):
                        str(delay)+" minute(s)\n")
 
     def get_eta(self):
-        return self.dist_to_apt()/self.speed
-    def dist_to_apt(self):
-        return (distance((self.lat, self.lng), (self.apt.lat, self.apt.lng)).meters)
+        return dist(self,self.apt)/self.speed
+    
+    
+
+
 
 # Historical Data
 class Arrival(Plane):

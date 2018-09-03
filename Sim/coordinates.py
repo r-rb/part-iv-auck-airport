@@ -6,9 +6,9 @@ import geopy
 earth_radius = 6.371e6 # metres
 
 # Convert geospatial earth coordinates to cartesian rectangular coordinates
-def earth2rect(lon, lat):
+def earth2rect(lng, lat):
 	theta = np.deg2rad(lat)
-	phi = np.deg2rad(lon)
+	phi = np.deg2rad(lng)
 	R = earth_radius
 	x = R*np.cos(theta)*np.cos(phi)
 	y = R*np.cos(theta)*np.sin(phi)
@@ -26,7 +26,7 @@ def rect2earth(coords):
 	return (lng, lat)
 
 # Takes in tuples of (long,lat) returns bearing to B from A.
-def calculate_initial_compass_bearing(pointA, pointB):
+def get_bearing(pointA, pointB):
 
     lat1 = math.radians(pointA[1])
     lat2 = math.radians(pointB[1])

@@ -1,7 +1,8 @@
 import numpy as np
 import simplekml
-from coordinates import earth2rect
+from coordinates import earth2rect,get_bearing
 from polycircles import polycircles
+from geopy.distance import lonlat, distance
 
 class Location:
 	def __init__(self, name, lng, lat):
@@ -11,7 +12,14 @@ class Location:
 		self.rect = earth2rect(lng, lat)
 
 def dist(loc1, loc2):
-	return np.linalg.norm(loc1.rect - loc2.rect)
+	loc1_pos = (loc1.lng,loc1.lat)
+	loc2_pos = (loc2.lng,loc2.lat)
+	# bearing = get_bearing(loc1_pos,loc2_pos)
+
+	return distance(lonlat(*loc1_pos),lonlat(*loc2_pos)).meters
+
+
+	#return np.linalg.norm(loc1.rect - loc2.rect)
 
 class Landmark(Location):
 	def __init__(self, name, lon, lat, rad, kml):
