@@ -24,6 +24,21 @@ def solve(id_arr, delay_cost, max_delay, class_num, proc_t, sep_t, depends, solv
         print("Error: specified solver is not configured")
         exit()
 
-    with open("./tmp/schedule.txt",'r') as f:
-        schedule =[float(x) for x in f.readlines()]
+    schedule =[float(x) for x in open("./tmp/schedule.txt",'r').readlines()]
+
+    # Code to return the ending times of a schedule
+    # 0  1   2   3
+    # 3, 7 , 5 , 10 
+    # 
+    # Sort the list
+    # 
+    n_planes = len(id_arr)
+    stuff = [(schedule[i],class_num[i]-1,i) for i in range(n_planes)]
+    stuff.sort(key = lambda x:x[0])
+    end_times = [st[0] + proc_t[ st[2] ][ stuff[idx + 1 ][ 2 ] ] if (idx < n_planes -1) else st[0] + 1 for idx,st in enumerate(stuff)]
+
+    print(end_times)
+
+    
+
     return schedule

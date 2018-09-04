@@ -9,7 +9,6 @@ from geopy.distance import lonlat, distance, VincentyDistance
 tol = 1e-6  # Tolerance in floating point comparisons
 SEC_PER_MIN = 60  # Seconds per minute
 
-
 class Plane(Location):
     def __init__(self, name, lng, lat, class_num, apt, kml, delay_cost=1, speed=13000.0, max_delay=1000, swap_time=10, arr_time=None, pred=None):
         Location.__init__(self, name, lng, lat)
@@ -33,6 +32,7 @@ class Plane(Location):
             self.eta = self.get_eta()
             if self.pred:
                 self.eta += self.pred.eta + 10
+
     def move_position(self):
         apt_loc = (self.apt.lng,self.apt.lat)
         plane_loc = (self.lng,self.lat)
@@ -101,10 +101,6 @@ class Plane(Location):
 
     def get_eta(self):
         return dist(self,self.apt)/self.speed
-    
-    
-
-
 
 # Historical Data
 class Arrival(Plane):

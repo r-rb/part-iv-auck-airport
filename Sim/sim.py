@@ -35,7 +35,7 @@ while not all([pl.landed for pl in plane]):
             delay_cost = [pl.delay_cost for pl in valid]
             max_delay = [pl.max_delay for pl in valid]
             class_num = [pl.class_num for pl in valid]
-            depends = [valid.index(pl.pred) if pl.pred and not pl.pred.landed else 0 for pl in valid]
+            depends = [valid.index(pl.pred)+1 if pl.pred and not pl.pred.landed else 0 for pl in valid]
             proc_t = [[sep_t[i.class_num-1, k.class_num-1] if i.name != k.name else 0 for k in valid] for i in valid]
 
             if valid:
