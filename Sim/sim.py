@@ -23,14 +23,13 @@ plane = loadplane(kml, is_manual)
 sep_t = loadsep(kml)
 
 # Number of minutes to solve at
-skip = 100
+skip = 10
 
 minute = 0
 sch = []
 endtimes = []
 name_list = []
 while not all([pl.landed for pl in plane]):
-    minute += 1
     with open(log_name, 'a') as f:
         f.write("Minute "+str(minute)+": \n")
         
@@ -57,12 +56,13 @@ while not all([pl.landed for pl in plane]):
         for pl in plane:
             pl.update(log_name, minute)
 
+    minute += 1
+
     # Visualize the kml file
     if plot_during:
         visualize(kml)
 if plot_after:
     visualize(kml)
-
 gantt(sch,endtimes,name_list,skip) 
 
 

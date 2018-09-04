@@ -34,10 +34,10 @@ def gantt(start,finish,name,skip=1):
 
             if n not in colors:
                 seed(n)
-                clr = f'rgb({50*random()},{255*random()},{50*random()})'
+                clr = "rgb("+str(255*random())+","+str(255*random())+","+str(255*random())+")"
                 colors[n] = clr
 
             dt_str = '%Y-%m-%d %X'
             df.append(dict(Task="Minute "+str(skip*t), Start=start_dt.strftime(dt_str), Finish=end_dt.strftime(dt_str), Resource=n))
 
-    plot(ff.create_gantt(df, colors=colors, index_col='Resource', group_tasks=True))
+    plot(ff.create_gantt(df, colors=colors, index_col='Resource', show_colorbar=True, group_tasks=True))
