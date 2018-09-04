@@ -56,13 +56,13 @@ def loadplane(kml, isManual):
         #     plane.append(Plane("AKL-SYD"+str(i), akl.lng, akl.lat,
         #                        2, akl, kml, pred=plane[2+4*i]))
         #plane.append(Plane("Rayner", 175.0, -37.0, 3, akl, kml))
-        # plane.append(Plane("Nathan", 176.0, -39.0, 2, akl, kml))
-        # plane.append(Plane("John", 180.0, -39.5, 4, akl, kml))
+        #plane.append(Plane("Nathan", 176.0, -39.0, 2, akl, kml))
+        #plane.append(Plane("John", 180.0, -39.5, 4, akl, kml))
         # plane.append(Plane("Joe", 172.0, -36.0, 4, akl, kml))
         # plane.append(Plane("Anne", 173.0, -35.0, 2, akl, kml))
         # plane.append(Plane("Rayner", 174.0, -37.0, 3, akl, kml))
         # plane.append(Plane("Bob", 175.0, -33.0, 4, akl, kml))
-        # plane.append(Plane("Emma", 176.4, -38.4, 3, akl, kml))
+        #plane.append(Plane("Emma", 176.4, -38.4, 3, akl, kml))
 
         #plane.append(Plane("AKL-WLG1", 174.80759839999996, -41.3275941, 1, [akl,wlg,akl,wlg,akl], kml))
         #plane.append(Plane("AKL-WLG2", 174.78, -40, 1, [akl,wlg,akl,wlg,akl], kml))

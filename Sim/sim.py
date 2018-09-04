@@ -4,7 +4,7 @@ import os
 import math
 from subprocess import DEVNULL, STDOUT, check_call
 from solve import solve
-from visualize import visualize
+from visualize import visualize,gantt
 from location import Location, dist, Landmark
 from plane import Plane
 from loaddata import loadplane, loadsep
@@ -22,13 +22,17 @@ akl = Landmark("Auckland Airport", 174.779962, -37.013383, 4000, kml)
 plane = loadplane(kml, is_manual)
 sep_t = loadsep(kml)
 
+# Number of minutes to solve at
+skip = 5
+
 minute = 0
+sch = []
 while not all([pl.landed for pl in plane]):
     minute += 1
     with open(log_name, 'a') as f:
         f.write("Minute "+str(minute)+": \n")
         
-        if (minute % 5 == 0):
+        if (minute % skip == 0):
 
             valid = [pl for pl in plane if not pl.landed and pl.arrived]
             eta = [pl.eta for pl in valid]
@@ -40,6 +44,7 @@ while not all([pl.landed for pl in plane]):
 
             if valid:
                 schedule = solve(eta, delay_cost, max_delay,class_num, proc_t, sep_t, depends, solver_name)
+                sch.append(schedule)
                 for pl,sched in zip(valid,schedule):
                     if not pl.pred:
                         pl.eta = sched
@@ -52,3 +57,13 @@ while not all([pl.landed for pl in plane]):
         visualize(kml)
 if plot_after:
     visualize(kml)
+
+fin = []
+for s in sch:
+    f = []
+    for i in s:
+        f.append(i+1)
+    fin.append(f)
+gantt(sch,fin,skip)
+
+
