@@ -4,6 +4,7 @@ import datetime as dt
 from plotly.offline import plot
 import plotly.figure_factory as ff
 import numpy as np
+from random import seed, random
 from subprocess import DEVNULL, STDOUT, check_call
 
 MIN_PER_HOUR = 60
@@ -23,28 +24,20 @@ def minute2dt(minute,year = 2018,month=9,day=4):
     minute = int(np.floor(minute))
     return dt.datetime(year,month,day,hour,minute,second)
 
-def gantt(start,finish,skip=1):
+def gantt(start,finish,name,skip=1):
     df=[]
-    for t,(st,fin) in enumerate(zip(start,finish)):
-        for idx,(pl_st,pl_fin) in enumerate(zip(st,fin)):
+    colors = {}
+    for t,(st,fin,nm) in enumerate(zip(start,finish,name)):
+        for pl_st,pl_fin,n in zip(st,fin,nm):
             start_dt = minute2dt(skip*t+pl_st)
             end_dt = minute2dt(skip*t+pl_fin)
 
-            if idx%4 == 0:
-                res = 'Red'
-            elif idx%4 == 1:
-                res = 'Yellow'
-            elif idx%4 == 2:
-                res = 'Blue'
-            else:
-                res = 'Green'
+            if n not in colors:
+                seed(n)
+                clr = f'rgb({50*random()},{255*random()},{50*random()})'
+                colors[n] = clr
 
             dt_str = '%Y-%m-%d %X'
-            df.append(dict(Task="Minute "+str(skip*t), Start=start_dt.strftime(dt_str), Finish=end_dt.strftime(dt_str), Resource=res))
-		
-    colors = {'Red': 'rgb(220, 0, 0)',
-                'Yellow': (1, 0.9, 0.16),
-                'Green': 'rgb(0, 255, 100)',
-                'Blue': 'rgb(40, 20, 255)'}
+            df.append(dict(Task="Minute "+str(skip*t), Start=start_dt.strftime(dt_str), Finish=end_dt.strftime(dt_str), Resource=n))
 
     plot(ff.create_gantt(df, colors=colors, index_col='Resource', group_tasks=True))

@@ -41,6 +41,7 @@ while not all([pl.landed for pl in plane]):
             depends = [valid.index(pl.pred) if pl.pred else 0 for pl in valid]
             proc_t = [[sep_t[i.class_num-1, k.class_num-1]
                        if i.name != k.name else 0 for k in valid] for i in valid]
+            names = [pl.name for pl in valid]
 
             schedule = solve(id_arr, delay_cost, max_delay,
                              class_num, proc_t, sep_t, depends, solver_name)

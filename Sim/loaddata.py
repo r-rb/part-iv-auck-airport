@@ -22,11 +22,11 @@ def loadplane(kml, isManual):
         #plane.append(Plane(name, lng, lat, class_num,apt,kml))
         plane.append(Plane("WLG-AKL0", wlg.lng, wlg.lat, 3, akl, kml))
         plane.append(Plane("AKL-WLG0", akl.lng, akl.lat,3, wlg, kml, pred=plane[0]))
-        # plane.append(Plane("WLG-AKL1", wlg.lng, wlg.lat, 3, akl, kml, pred=plane[1]))
-        # plane.append(Plane("AKL-WLG1", akl.lng, akl.lat,3, wlg, kml, pred=plane[2]))
-        # plane.append(Plane("WLG-AKL2", wlg.lng, wlg.lat, 3, akl, kml, pred=plane[3]))
-        # plane.append(Plane("AKL-WLG2", akl.lng, akl.lat,3, wlg, kml, pred=plane[4]))
-        # plane.append(Plane("WLG-AKL3", wlg.lng, wlg.lat, 3, akl, kml, pred=plane[5]))
+        plane.append(Plane("WLG-AKL1", wlg.lng, wlg.lat, 3, akl, kml, pred=plane[1]))
+        plane.append(Plane("AKL-WLG1", akl.lng, akl.lat,3, wlg, kml, pred=plane[2]))
+        plane.append(Plane("WLG-AKL2", wlg.lng, wlg.lat, 3, akl, kml, pred=plane[3]))
+        plane.append(Plane("AKL-WLG2", akl.lng, akl.lat,3, wlg, kml, pred=plane[4]))
+        plane.append(Plane("WLG-AKL3", wlg.lng, wlg.lat, 3, akl, kml, pred=plane[5]))
 
         # plane.append(Plane("SYD-AKL0", syd.lng, syd.lat, 2, akl, kml))
         # plane.append(Plane("AKL-SYD0", akl.lng, akl.lat, 2, syd, kml, pred=plane[7]))
@@ -97,4 +97,5 @@ def loadsep(kml):
                   [2, 2, 2, 3],
                   [1, 1, 1, 3],
                   [1, 1, 1, 1]])
+    S = S * 10
     return S

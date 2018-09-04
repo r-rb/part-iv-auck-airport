@@ -23,10 +23,12 @@ plane = loadplane(kml, is_manual)
 sep_t = loadsep(kml)
 
 # Number of minutes to solve at
-skip = 5
+skip = 100
 
 minute = 0
 sch = []
+endtimes = []
+name_list = []
 while not all([pl.landed for pl in plane]):
     minute += 1
     with open(log_name, 'a') as f:
@@ -41,10 +43,13 @@ while not all([pl.landed for pl in plane]):
             class_num = [pl.class_num for pl in valid]
             depends = [valid.index(pl.pred)+1 if pl.pred and not pl.pred.landed else 0 for pl in valid]
             proc_t = [[sep_t[i.class_num-1, k.class_num-1] if i.name != k.name else 0 for k in valid] for i in valid]
-
+            names = [pl.name for pl in valid]
             if valid:
-                schedule = solve(eta, delay_cost, max_delay,class_num, proc_t, sep_t, depends, solver_name)
+                schedule,endtime = solve(eta, delay_cost, max_delay,class_num, proc_t, sep_t, depends, solver_name)
                 sch.append(schedule)
+                endtimes.append(endtime)
+                name_list.append(names)
+
                 for pl,sched in zip(valid,schedule):
                     if not pl.pred:
                         pl.eta = sched
@@ -58,12 +63,6 @@ while not all([pl.landed for pl in plane]):
 if plot_after:
     visualize(kml)
 
-fin = []
-for s in sch:
-    f = []
-    for i in s:
-        f.append(i+1)
-    fin.append(f)
-gantt(sch,fin,skip)
+gantt(sch,endtimes,name_list,skip) 
 
 

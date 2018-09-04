@@ -1,0 +1,2251 @@
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+WLG-AKL0 has landed
+AKL-WLG0 is estimated to be delayed by -10.843437657499209 minute(s)
+Minute 37: 
+AKL-WLG0 is estimated to be delayed by -9.843437657499209 minute(s)
+Minute 38: 
+AKL-WLG0 is estimated to be delayed by -8.843437657499209 minute(s)
+Minute 39: 
+AKL-WLG0 is estimated to be delayed by -7.843437657499209 minute(s)
+Minute 40: 
+AKL-WLG0 is estimated to be delayed by -6.843437657499209 minute(s)
+Minute 41: 
+AKL-WLG0 is estimated to be delayed by -5.843437657499209 minute(s)
+Minute 42: 
+AKL-WLG0 is estimated to be delayed by -4.843437657499209 minute(s)
+Minute 43: 
+AKL-WLG0 is estimated to be delayed by -3.8434376574992086 minute(s)
+Minute 44: 
+AKL-WLG0 is estimated to be delayed by -2.8434376574992086 minute(s)
+Minute 45: 
+AKL-WLG0 is estimated to be delayed by -1.8434376574992086 minute(s)
+Minute 46: 
+AKL-WLG0 is estimated to be delayed by -0.8434376574992086 minute(s)
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+Minute 74: 
+Minute 75: 
+Minute 76: 
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+Minute 83: 
+AKL-WLG0 has landed
+Minute 84: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+WLG-AKL0 has landed
+AKL-WLG0 is estimated to be delayed by -10.843437657499209 minute(s)
+Minute 37: 
+AKL-WLG0 is estimated to be delayed by -9.843437657499209 minute(s)
+Minute 38: 
+AKL-WLG0 is estimated to be delayed by -8.843437657499209 minute(s)
+Minute 39: 
+AKL-WLG0 is estimated to be delayed by -7.843437657499209 minute(s)
+Minute 40: 
+AKL-WLG0 is estimated to be delayed by -6.843437657499209 minute(s)
+Minute 41: 
+AKL-WLG0 is estimated to be delayed by -5.843437657499209 minute(s)
+Minute 42: 
+AKL-WLG0 is estimated to be delayed by -4.843437657499209 minute(s)
+Minute 43: 
+AKL-WLG0 is estimated to be delayed by -3.8434376574992086 minute(s)
+Minute 44: 
+AKL-WLG0 is estimated to be delayed by -2.8434376574992086 minute(s)
+Minute 45: 
+AKL-WLG0 is estimated to be delayed by -1.8434376574992086 minute(s)
+Minute 46: 
+AKL-WLG0 is estimated to be delayed by -0.8434376574992086 minute(s)
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+Minute 74: 
+Minute 75: 
+Minute 76: 
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+Minute 83: 
+AKL-WLG0 has landed
+Minute 84: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+WLG-AKL0 has landed
+AKL-WLG0 is estimated to be delayed by -10.843437657499209 minute(s)
+Minute 37: 
+AKL-WLG0 is estimated to be delayed by -9.843437657499209 minute(s)
+Minute 38: 
+AKL-WLG0 is estimated to be delayed by -8.843437657499209 minute(s)
+Minute 39: 
+AKL-WLG0 is estimated to be delayed by -7.843437657499209 minute(s)
+Minute 40: 
+AKL-WLG0 is estimated to be delayed by -6.843437657499209 minute(s)
+Minute 41: 
+AKL-WLG0 is estimated to be delayed by -5.843437657499209 minute(s)
+Minute 42: 
+AKL-WLG0 is estimated to be delayed by -4.843437657499209 minute(s)
+Minute 43: 
+AKL-WLG0 is estimated to be delayed by -3.8434376574992086 minute(s)
+Minute 44: 
+AKL-WLG0 is estimated to be delayed by -2.8434376574992086 minute(s)
+Minute 45: 
+AKL-WLG0 is estimated to be delayed by -1.8434376574992086 minute(s)
+Minute 46: 
+AKL-WLG0 is estimated to be delayed by -0.8434376574992086 minute(s)
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+Minute 74: 
+Minute 75: 
+Minute 76: 
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+Minute 83: 
+AKL-WLG0 has landed
+Minute 84: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+WLG-AKL0 has landed
+AKL-WLG0 is estimated to be delayed by -10.843437657499209 minute(s)
+Minute 37: 
+AKL-WLG0 is estimated to be delayed by -9.843437657499209 minute(s)
+Minute 38: 
+AKL-WLG0 is estimated to be delayed by -8.843437657499209 minute(s)
+Minute 39: 
+AKL-WLG0 is estimated to be delayed by -7.843437657499209 minute(s)
+Minute 40: 
+AKL-WLG0 is estimated to be delayed by -6.843437657499209 minute(s)
+Minute 41: 
+AKL-WLG0 is estimated to be delayed by -5.843437657499209 minute(s)
+Minute 42: 
+AKL-WLG0 is estimated to be delayed by -4.843437657499209 minute(s)
+Minute 43: 
+AKL-WLG0 is estimated to be delayed by -3.8434376574992086 minute(s)
+Minute 44: 
+AKL-WLG0 is estimated to be delayed by -2.8434376574992086 minute(s)
+Minute 45: 
+AKL-WLG0 is estimated to be delayed by -1.8434376574992086 minute(s)
+Minute 46: 
+AKL-WLG0 is estimated to be delayed by -0.8434376574992086 minute(s)
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+Minute 74: 
+Minute 75: 
+Minute 76: 
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+Minute 83: 
+AKL-WLG0 has landed
+WLG-AKL1 is estimated to be delayed by -10.686875314998417 minute(s)
+Minute 84: 
+WLG-AKL1 is estimated to be delayed by -9.686875314998417 minute(s)
+Minute 85: 
+WLG-AKL1 is estimated to be delayed by -8.686875314998417 minute(s)
+Minute 86: 
+WLG-AKL1 is estimated to be delayed by -7.686875314998417 minute(s)
+Minute 87: 
+WLG-AKL1 is estimated to be delayed by -6.686875314998417 minute(s)
+Minute 88: 
+WLG-AKL1 is estimated to be delayed by -5.686875314998417 minute(s)
+Minute 89: 
+WLG-AKL1 is estimated to be delayed by -4.686875314998417 minute(s)
+Minute 90: 
+WLG-AKL1 is estimated to be delayed by -3.6868753149984173 minute(s)
+Minute 91: 
+WLG-AKL1 is estimated to be delayed by -2.6868753149984173 minute(s)
+Minute 92: 
+WLG-AKL1 is estimated to be delayed by -1.6868753149984173 minute(s)
+Minute 93: 
+WLG-AKL1 is estimated to be delayed by -0.6868753149984173 minute(s)
+Minute 94: 
+Minute 95: 
+Minute 96: 
+Minute 97: 
+Minute 98: 
+Minute 99: 
+Minute 100: 
+Minute 101: 
+Minute 102: 
+Minute 103: 
+Minute 104: 
+Minute 105: 
+Minute 106: 
+Minute 107: 
+Minute 108: 
+Minute 109: 
+Minute 110: 
+Minute 111: 
+Minute 112: 
+Minute 113: 
+Minute 114: 
+Minute 115: 
+Minute 116: 
+Minute 117: 
+Minute 118: 
+Minute 119: 
+Minute 120: 
+Minute 121: 
+Minute 122: 
+Minute 123: 
+Minute 124: 
+Minute 125: 
+Minute 126: 
+Minute 127: 
+Minute 128: 
+Minute 129: 
+Minute 130: 
+WLG-AKL1 has landed
+AKL-WLG1 is estimated to be delayed by -10.530312972497626 minute(s)
+Minute 131: 
+AKL-WLG1 is estimated to be delayed by -9.530312972497626 minute(s)
+Minute 132: 
+AKL-WLG1 is estimated to be delayed by -8.530312972497626 minute(s)
+Minute 133: 
+AKL-WLG1 is estimated to be delayed by -7.530312972497626 minute(s)
+Minute 134: 
+AKL-WLG1 is estimated to be delayed by -6.530312972497626 minute(s)
+Minute 135: 
+AKL-WLG1 is estimated to be delayed by -5.530312972497626 minute(s)
+Minute 136: 
+AKL-WLG1 is estimated to be delayed by -4.530312972497626 minute(s)
+Minute 137: 
+AKL-WLG1 is estimated to be delayed by -3.530312972497626 minute(s)
+Minute 138: 
+AKL-WLG1 is estimated to be delayed by -2.530312972497626 minute(s)
+Minute 139: 
+AKL-WLG1 is estimated to be delayed by -1.5303129724976259 minute(s)
+Minute 140: 
+AKL-WLG1 is estimated to be delayed by -0.5303129724976259 minute(s)
+Minute 141: 
+Minute 142: 
+Minute 143: 
+Minute 144: 
+Minute 145: 
+Minute 146: 
+Minute 147: 
+Minute 148: 
+Minute 149: 
+Minute 150: 
+Minute 151: 
+Minute 152: 
+Minute 153: 
+Minute 154: 
+Minute 155: 
+Minute 156: 
+Minute 157: 
+Minute 158: 
+Minute 159: 
+Minute 160: 
+Minute 161: 
+Minute 162: 
+Minute 163: 
+Minute 164: 
+Minute 165: 
+Minute 166: 
+Minute 167: 
+Minute 168: 
+Minute 169: 
+Minute 170: 
+Minute 171: 
+Minute 172: 
+Minute 173: 
+Minute 174: 
+Minute 175: 
+Minute 176: 
+Minute 177: 
+AKL-WLG1 has landed
+WLG-AKL2 is estimated to be delayed by -10.373750629996835 minute(s)
+Minute 178: 
+WLG-AKL2 is estimated to be delayed by -9.373750629996835 minute(s)
+Minute 179: 
+WLG-AKL2 is estimated to be delayed by -8.373750629996835 minute(s)
+Minute 180: 
+WLG-AKL2 is estimated to be delayed by -7.3737506299968345 minute(s)
+Minute 181: 
+WLG-AKL2 is estimated to be delayed by -6.3737506299968345 minute(s)
+Minute 182: 
+WLG-AKL2 is estimated to be delayed by -5.3737506299968345 minute(s)
+Minute 183: 
+WLG-AKL2 is estimated to be delayed by -4.3737506299968345 minute(s)
+Minute 184: 
+WLG-AKL2 is estimated to be delayed by -3.3737506299968345 minute(s)
+Minute 185: 
+WLG-AKL2 is estimated to be delayed by -2.3737506299968345 minute(s)
+Minute 186: 
+WLG-AKL2 is estimated to be delayed by -1.3737506299968345 minute(s)
+Minute 187: 
+WLG-AKL2 is estimated to be delayed by -0.3737506299968345 minute(s)
+Minute 188: 
+Minute 189: 
+Minute 190: 
+Minute 191: 
+Minute 192: 
+Minute 193: 
+Minute 194: 
+Minute 195: 
+Minute 196: 
+Minute 197: 
+Minute 198: 
+Minute 199: 
+Minute 200: 
+Minute 201: 
+Minute 202: 
+Minute 203: 
+Minute 204: 
+Minute 205: 
+Minute 206: 
+Minute 207: 
+Minute 208: 
+Minute 209: 
+Minute 210: 
+Minute 211: 
+Minute 212: 
+Minute 213: 
+Minute 214: 
+Minute 215: 
+Minute 216: 
+Minute 217: 
+Minute 218: 
+Minute 219: 
+Minute 220: 
+Minute 221: 
+Minute 222: 
+Minute 223: 
+Minute 224: 
+WLG-AKL2 has landed
+AKL-WLG2 is estimated to be delayed by -10.217188287496043 minute(s)
+Minute 225: 
+AKL-WLG2 is estimated to be delayed by -9.217188287496043 minute(s)
+Minute 226: 
+AKL-WLG2 is estimated to be delayed by -8.217188287496043 minute(s)
+Minute 227: 
+AKL-WLG2 is estimated to be delayed by -7.217188287496043 minute(s)
+Minute 228: 
+AKL-WLG2 is estimated to be delayed by -6.217188287496043 minute(s)
+Minute 229: 
+AKL-WLG2 is estimated to be delayed by -5.217188287496043 minute(s)
+Minute 230: 
+AKL-WLG2 is estimated to be delayed by -4.217188287496043 minute(s)
+Minute 231: 
+AKL-WLG2 is estimated to be delayed by -3.217188287496043 minute(s)
+Minute 232: 
+AKL-WLG2 is estimated to be delayed by -2.217188287496043 minute(s)
+Minute 233: 
+AKL-WLG2 is estimated to be delayed by -1.2171882874960431 minute(s)
+Minute 234: 
+AKL-WLG2 is estimated to be delayed by -0.21718828749604313 minute(s)
+Minute 235: 
+Minute 236: 
+Minute 237: 
+Minute 238: 
+Minute 239: 
+Minute 240: 
+Minute 241: 
+Minute 242: 
+Minute 243: 
+Minute 244: 
+Minute 245: 
+Minute 246: 
+Minute 247: 
+Minute 248: 
+Minute 249: 
+Minute 250: 
+Minute 251: 
+Minute 252: 
+Minute 253: 
+Minute 254: 
+Minute 255: 
+Minute 256: 
+Minute 257: 
+Minute 258: 
+Minute 259: 
+Minute 260: 
+Minute 261: 
+Minute 262: 
+Minute 263: 
+Minute 264: 
+Minute 265: 
+Minute 266: 
+Minute 267: 
+Minute 268: 
+Minute 269: 
+Minute 270: 
+Minute 271: 
+AKL-WLG2 has landed
+WLG-AKL3 is estimated to be delayed by -10.06062594499528 minute(s)
+Minute 272: 
+WLG-AKL3 is estimated to be delayed by -9.06062594499528 minute(s)
+Minute 273: 
+WLG-AKL3 is estimated to be delayed by -8.06062594499528 minute(s)
+Minute 274: 
+WLG-AKL3 is estimated to be delayed by -7.06062594499528 minute(s)
+Minute 275: 
+WLG-AKL3 is estimated to be delayed by -6.06062594499528 minute(s)
+Minute 276: 
+WLG-AKL3 is estimated to be delayed by -5.06062594499528 minute(s)
+Minute 277: 
+WLG-AKL3 is estimated to be delayed by -4.06062594499528 minute(s)
+Minute 278: 
+WLG-AKL3 is estimated to be delayed by -3.06062594499528 minute(s)
+Minute 279: 
+WLG-AKL3 is estimated to be delayed by -2.06062594499528 minute(s)
+Minute 280: 
+WLG-AKL3 is estimated to be delayed by -1.0606259449952802 minute(s)
+Minute 281: 
+WLG-AKL3 is estimated to be delayed by -0.06062594499528018 minute(s)
+Minute 282: 
+Minute 283: 
+Minute 284: 
+Minute 285: 
+Minute 286: 
+Minute 287: 
+Minute 288: 
+Minute 289: 
+Minute 290: 
+Minute 291: 
+Minute 292: 
+Minute 293: 
+Minute 294: 
+Minute 295: 
+Minute 296: 
+Minute 297: 
+Minute 298: 
+Minute 299: 
+Minute 300: 
+Minute 301: 
+Minute 302: 
+Minute 303: 
+Minute 304: 
+Minute 305: 
+Minute 306: 
+Minute 307: 
+Minute 308: 
+Minute 309: 
+Minute 310: 
+Minute 311: 
+Minute 312: 
+Minute 313: 
+Minute 314: 
+Minute 315: 
+Minute 316: 
+Minute 317: 
+Minute 318: 
+WLG-AKL3 has landed
+Minute 319: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+WLG-AKL0 has landed
+AKL-WLG0 is estimated to be delayed by -10.843437657499209 minute(s)
+Minute 37: 
+AKL-WLG0 is estimated to be delayed by -9.843437657499209 minute(s)
+Minute 38: 
+AKL-WLG0 is estimated to be delayed by -8.843437657499209 minute(s)
+Minute 39: 
+AKL-WLG0 is estimated to be delayed by -7.843437657499209 minute(s)
+Minute 40: 
+AKL-WLG0 is estimated to be delayed by -6.843437657499209 minute(s)
+Minute 41: 
+AKL-WLG0 is estimated to be delayed by -5.843437657499209 minute(s)
+Minute 42: 
+AKL-WLG0 is estimated to be delayed by -4.843437657499209 minute(s)
+Minute 43: 
+AKL-WLG0 is estimated to be delayed by -3.8434376574992086 minute(s)
+Minute 44: 
+AKL-WLG0 is estimated to be delayed by -2.8434376574992086 minute(s)
+Minute 45: 
+AKL-WLG0 is estimated to be delayed by -1.8434376574992086 minute(s)
+Minute 46: 
+AKL-WLG0 is estimated to be delayed by -0.8434376574992086 minute(s)
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+Minute 74: 
+Minute 75: 
+Minute 76: 
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+Minute 83: 
+AKL-WLG0 has landed
+WLG-AKL1 is estimated to be delayed by -10.686875314998417 minute(s)
+Minute 84: 
+WLG-AKL1 is estimated to be delayed by -9.686875314998417 minute(s)
+Minute 85: 
+WLG-AKL1 is estimated to be delayed by -8.686875314998417 minute(s)
+Minute 86: 
+WLG-AKL1 is estimated to be delayed by -7.686875314998417 minute(s)
+Minute 87: 
+WLG-AKL1 is estimated to be delayed by -6.686875314998417 minute(s)
+Minute 88: 
+WLG-AKL1 is estimated to be delayed by -5.686875314998417 minute(s)
+Minute 89: 
+WLG-AKL1 is estimated to be delayed by -4.686875314998417 minute(s)
+Minute 90: 
+WLG-AKL1 is estimated to be delayed by -3.6868753149984173 minute(s)
+Minute 91: 
+WLG-AKL1 is estimated to be delayed by -2.6868753149984173 minute(s)
+Minute 92: 
+WLG-AKL1 is estimated to be delayed by -1.6868753149984173 minute(s)
+Minute 93: 
+WLG-AKL1 is estimated to be delayed by -0.6868753149984173 minute(s)
+Minute 94: 
+Minute 95: 
+Minute 96: 
+Minute 97: 
+Minute 98: 
+Minute 99: 
+Minute 100: 
+Minute 101: 
+Minute 102: 
+Minute 103: 
+Minute 104: 
+Minute 105: 
+Minute 106: 
+Minute 107: 
+Minute 108: 
+Minute 109: 
+Minute 110: 
+Minute 111: 
+Minute 112: 
+Minute 113: 
+Minute 114: 
+Minute 115: 
+Minute 116: 
+Minute 117: 
+Minute 118: 
+Minute 119: 
+Minute 120: 
+Minute 121: 
+Minute 122: 
+Minute 123: 
+Minute 124: 
+Minute 125: 
+Minute 126: 
+Minute 127: 
+Minute 128: 
+Minute 129: 
+Minute 130: 
+WLG-AKL1 has landed
+AKL-WLG1 is estimated to be delayed by -10.530312972497626 minute(s)
+Minute 131: 
+AKL-WLG1 is estimated to be delayed by -9.530312972497626 minute(s)
+Minute 132: 
+AKL-WLG1 is estimated to be delayed by -8.530312972497626 minute(s)
+Minute 133: 
+AKL-WLG1 is estimated to be delayed by -7.530312972497626 minute(s)
+Minute 134: 
+AKL-WLG1 is estimated to be delayed by -6.530312972497626 minute(s)
+Minute 135: 
+AKL-WLG1 is estimated to be delayed by -5.530312972497626 minute(s)
+Minute 136: 
+AKL-WLG1 is estimated to be delayed by -4.530312972497626 minute(s)
+Minute 137: 
+AKL-WLG1 is estimated to be delayed by -3.530312972497626 minute(s)
+Minute 138: 
+AKL-WLG1 is estimated to be delayed by -2.530312972497626 minute(s)
+Minute 139: 
+AKL-WLG1 is estimated to be delayed by -1.5303129724976259 minute(s)
+Minute 140: 
+AKL-WLG1 is estimated to be delayed by -0.5303129724976259 minute(s)
+Minute 141: 
+Minute 142: 
+Minute 143: 
+Minute 144: 
+Minute 145: 
+Minute 146: 
+Minute 147: 
+Minute 148: 
+Minute 149: 
+Minute 150: 
+Minute 151: 
+Minute 152: 
+Minute 153: 
+Minute 154: 
+Minute 155: 
+Minute 156: 
+Minute 157: 
+Minute 158: 
+Minute 159: 
+Minute 160: 
+Minute 161: 
+Minute 162: 
+Minute 163: 
+Minute 164: 
+Minute 165: 
+Minute 166: 
+Minute 167: 
+Minute 168: 
+Minute 169: 
+Minute 170: 
+Minute 171: 
+Minute 172: 
+Minute 173: 
+Minute 174: 
+Minute 175: 
+Minute 176: 
+Minute 177: 
+AKL-WLG1 has landed
+WLG-AKL2 is estimated to be delayed by -10.373750629996835 minute(s)
+Minute 178: 
+WLG-AKL2 is estimated to be delayed by -9.373750629996835 minute(s)
+Minute 179: 
+WLG-AKL2 is estimated to be delayed by -8.373750629996835 minute(s)
+Minute 180: 
+WLG-AKL2 is estimated to be delayed by -7.3737506299968345 minute(s)
+Minute 181: 
+WLG-AKL2 is estimated to be delayed by -6.3737506299968345 minute(s)
+Minute 182: 
+WLG-AKL2 is estimated to be delayed by -5.3737506299968345 minute(s)
+Minute 183: 
+WLG-AKL2 is estimated to be delayed by -4.3737506299968345 minute(s)
+Minute 184: 
+WLG-AKL2 is estimated to be delayed by -3.3737506299968345 minute(s)
+Minute 185: 
+WLG-AKL2 is estimated to be delayed by -2.3737506299968345 minute(s)
+Minute 186: 
+WLG-AKL2 is estimated to be delayed by -1.3737506299968345 minute(s)
+Minute 187: 
+WLG-AKL2 is estimated to be delayed by -0.3737506299968345 minute(s)
+Minute 188: 
+Minute 189: 
+Minute 190: 
+Minute 191: 
+Minute 192: 
+Minute 193: 
+Minute 194: 
+Minute 195: 
+Minute 196: 
+Minute 197: 
+Minute 198: 
+Minute 199: 
+Minute 200: 
+Minute 201: 
+Minute 202: 
+Minute 203: 
+Minute 204: 
+Minute 205: 
+Minute 206: 
+Minute 207: 
+Minute 208: 
+Minute 209: 
+Minute 210: 
+Minute 211: 
+Minute 212: 
+Minute 213: 
+Minute 214: 
+Minute 215: 
+Minute 216: 
+Minute 217: 
+Minute 218: 
+Minute 219: 
+Minute 220: 
+Minute 221: 
+Minute 222: 
+Minute 223: 
+Minute 224: 
+WLG-AKL2 has landed
+AKL-WLG2 is estimated to be delayed by -10.217188287496043 minute(s)
+Minute 225: 
+AKL-WLG2 is estimated to be delayed by -9.217188287496043 minute(s)
+Minute 226: 
+AKL-WLG2 is estimated to be delayed by -8.217188287496043 minute(s)
+Minute 227: 
+AKL-WLG2 is estimated to be delayed by -7.217188287496043 minute(s)
+Minute 228: 
+AKL-WLG2 is estimated to be delayed by -6.217188287496043 minute(s)
+Minute 229: 
+AKL-WLG2 is estimated to be delayed by -5.217188287496043 minute(s)
+Minute 230: 
+AKL-WLG2 is estimated to be delayed by -4.217188287496043 minute(s)
+Minute 231: 
+AKL-WLG2 is estimated to be delayed by -3.217188287496043 minute(s)
+Minute 232: 
+AKL-WLG2 is estimated to be delayed by -2.217188287496043 minute(s)
+Minute 233: 
+AKL-WLG2 is estimated to be delayed by -1.2171882874960431 minute(s)
+Minute 234: 
+AKL-WLG2 is estimated to be delayed by -0.21718828749604313 minute(s)
+Minute 235: 
+Minute 236: 
+Minute 237: 
+Minute 238: 
+Minute 239: 
+Minute 240: 
+Minute 241: 
+Minute 242: 
+Minute 243: 
+Minute 244: 
+Minute 245: 
+Minute 246: 
+Minute 247: 
+Minute 248: 
+Minute 249: 
+Minute 250: 
+Minute 251: 
+Minute 252: 
+Minute 253: 
+Minute 254: 
+Minute 255: 
+Minute 256: 
+Minute 257: 
+Minute 258: 
+Minute 259: 
+Minute 260: 
+Minute 261: 
+Minute 262: 
+Minute 263: 
+Minute 264: 
+Minute 265: 
+Minute 266: 
+Minute 267: 
+Minute 268: 
+Minute 269: 
+Minute 270: 
+Minute 271: 
+AKL-WLG2 has landed
+WLG-AKL3 is estimated to be delayed by -10.06062594499528 minute(s)
+Minute 272: 
+WLG-AKL3 is estimated to be delayed by -9.06062594499528 minute(s)
+Minute 273: 
+WLG-AKL3 is estimated to be delayed by -8.06062594499528 minute(s)
+Minute 274: 
+WLG-AKL3 is estimated to be delayed by -7.06062594499528 minute(s)
+Minute 275: 
+WLG-AKL3 is estimated to be delayed by -6.06062594499528 minute(s)
+Minute 276: 
+WLG-AKL3 is estimated to be delayed by -5.06062594499528 minute(s)
+Minute 277: 
+WLG-AKL3 is estimated to be delayed by -4.06062594499528 minute(s)
+Minute 278: 
+WLG-AKL3 is estimated to be delayed by -3.06062594499528 minute(s)
+Minute 279: 
+WLG-AKL3 is estimated to be delayed by -2.06062594499528 minute(s)
+Minute 280: 
+WLG-AKL3 is estimated to be delayed by -1.0606259449952802 minute(s)
+Minute 281: 
+WLG-AKL3 is estimated to be delayed by -0.06062594499528018 minute(s)
+Minute 282: 
+Minute 283: 
+Minute 284: 
+Minute 285: 
+Minute 286: 
+Minute 287: 
+Minute 288: 
+Minute 289: 
+Minute 290: 
+Minute 291: 
+Minute 292: 
+Minute 293: 
+Minute 294: 
+Minute 295: 
+Minute 296: 
+Minute 297: 
+Minute 298: 
+Minute 299: 
+Minute 300: 
+Minute 301: 
+Minute 302: 
+Minute 303: 
+Minute 304: 
+Minute 305: 
+Minute 306: 
+Minute 307: 
+Minute 308: 
+Minute 309: 
+Minute 310: 
+Minute 311: 
+Minute 312: 
+Minute 313: 
+Minute 314: 
+Minute 315: 
+Minute 316: 
+Minute 317: 
+Minute 318: 
+WLG-AKL3 has landed
+Minute 319: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+WLG-AKL0 has landed
+AKL-WLG0 is estimated to be delayed by -10.843437657499209 minute(s)
+Minute 37: 
+AKL-WLG0 is estimated to be delayed by -9.843437657499209 minute(s)
+Minute 38: 
+AKL-WLG0 is estimated to be delayed by -8.843437657499209 minute(s)
+Minute 39: 
+AKL-WLG0 is estimated to be delayed by -7.843437657499209 minute(s)
+Minute 40: 
+AKL-WLG0 is estimated to be delayed by -6.843437657499209 minute(s)
+Minute 41: 
+AKL-WLG0 is estimated to be delayed by -5.843437657499209 minute(s)
+Minute 42: 
+AKL-WLG0 is estimated to be delayed by -4.843437657499209 minute(s)
+Minute 43: 
+AKL-WLG0 is estimated to be delayed by -3.8434376574992086 minute(s)
+Minute 44: 
+AKL-WLG0 is estimated to be delayed by -2.8434376574992086 minute(s)
+Minute 45: 
+AKL-WLG0 is estimated to be delayed by -1.8434376574992086 minute(s)
+Minute 46: 
+AKL-WLG0 is estimated to be delayed by -0.8434376574992086 minute(s)
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+Minute 74: 
+Minute 75: 
+Minute 76: 
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+Minute 83: 
+AKL-WLG0 has landed
+WLG-AKL1 is estimated to be delayed by -10.686875314998417 minute(s)
+Minute 84: 
+WLG-AKL1 is estimated to be delayed by -9.686875314998417 minute(s)
+Minute 85: 
+WLG-AKL1 is estimated to be delayed by -8.686875314998417 minute(s)
+Minute 86: 
+WLG-AKL1 is estimated to be delayed by -7.686875314998417 minute(s)
+Minute 87: 
+WLG-AKL1 is estimated to be delayed by -6.686875314998417 minute(s)
+Minute 88: 
+WLG-AKL1 is estimated to be delayed by -5.686875314998417 minute(s)
+Minute 89: 
+WLG-AKL1 is estimated to be delayed by -4.686875314998417 minute(s)
+Minute 90: 
+WLG-AKL1 is estimated to be delayed by -3.6868753149984173 minute(s)
+Minute 91: 
+WLG-AKL1 is estimated to be delayed by -2.6868753149984173 minute(s)
+Minute 92: 
+WLG-AKL1 is estimated to be delayed by -1.6868753149984173 minute(s)
+Minute 93: 
+WLG-AKL1 is estimated to be delayed by -0.6868753149984173 minute(s)
+Minute 94: 
+Minute 95: 
+Minute 96: 
+Minute 97: 
+Minute 98: 
+Minute 99: 
+Minute 100: 
+Minute 101: 
+Minute 102: 
+Minute 103: 
+Minute 104: 
+Minute 105: 
+Minute 106: 
+Minute 107: 
+Minute 108: 
+Minute 109: 
+Minute 110: 
+Minute 111: 
+Minute 112: 
+Minute 113: 
+Minute 114: 
+Minute 115: 
+Minute 116: 
+Minute 117: 
+Minute 118: 
+Minute 119: 
+Minute 120: 
+Minute 121: 
+Minute 122: 
+Minute 123: 
+Minute 124: 
+Minute 125: 
+Minute 126: 
+Minute 127: 
+Minute 128: 
+Minute 129: 
+Minute 130: 
+WLG-AKL1 has landed
+AKL-WLG1 is estimated to be delayed by -10.530312972497626 minute(s)
+Minute 131: 
+AKL-WLG1 is estimated to be delayed by -9.530312972497626 minute(s)
+Minute 132: 
+AKL-WLG1 is estimated to be delayed by -8.530312972497626 minute(s)
+Minute 133: 
+AKL-WLG1 is estimated to be delayed by -7.530312972497626 minute(s)
+Minute 134: 
+AKL-WLG1 is estimated to be delayed by -6.530312972497626 minute(s)
+Minute 135: 
+AKL-WLG1 is estimated to be delayed by -5.530312972497626 minute(s)
+Minute 136: 
+AKL-WLG1 is estimated to be delayed by -4.530312972497626 minute(s)
+Minute 137: 
+AKL-WLG1 is estimated to be delayed by -3.530312972497626 minute(s)
+Minute 138: 
+AKL-WLG1 is estimated to be delayed by -2.530312972497626 minute(s)
+Minute 139: 
+AKL-WLG1 is estimated to be delayed by -1.5303129724976259 minute(s)
+Minute 140: 
+AKL-WLG1 is estimated to be delayed by -0.5303129724976259 minute(s)
+Minute 141: 
+Minute 142: 
+Minute 143: 
+Minute 144: 
+Minute 145: 
+Minute 146: 
+Minute 147: 
+Minute 148: 
+Minute 149: 
+Minute 150: 
+Minute 151: 
+Minute 152: 
+Minute 153: 
+Minute 154: 
+Minute 155: 
+Minute 156: 
+Minute 157: 
+Minute 158: 
+Minute 159: 
+Minute 160: 
+Minute 161: 
+Minute 162: 
+Minute 163: 
+Minute 164: 
+Minute 165: 
+Minute 166: 
+Minute 167: 
+Minute 168: 
+Minute 169: 
+Minute 170: 
+Minute 171: 
+Minute 172: 
+Minute 173: 
+Minute 174: 
+Minute 175: 
+Minute 176: 
+Minute 177: 
+AKL-WLG1 has landed
+WLG-AKL2 is estimated to be delayed by -10.373750629996835 minute(s)
+Minute 178: 
+WLG-AKL2 is estimated to be delayed by -9.373750629996835 minute(s)
+Minute 179: 
+WLG-AKL2 is estimated to be delayed by -8.373750629996835 minute(s)
+Minute 180: 
+WLG-AKL2 is estimated to be delayed by -7.3737506299968345 minute(s)
+Minute 181: 
+WLG-AKL2 is estimated to be delayed by -6.3737506299968345 minute(s)
+Minute 182: 
+WLG-AKL2 is estimated to be delayed by -5.3737506299968345 minute(s)
+Minute 183: 
+WLG-AKL2 is estimated to be delayed by -4.3737506299968345 minute(s)
+Minute 184: 
+WLG-AKL2 is estimated to be delayed by -3.3737506299968345 minute(s)
+Minute 185: 
+WLG-AKL2 is estimated to be delayed by -2.3737506299968345 minute(s)
+Minute 186: 
+WLG-AKL2 is estimated to be delayed by -1.3737506299968345 minute(s)
+Minute 187: 
+WLG-AKL2 is estimated to be delayed by -0.3737506299968345 minute(s)
+Minute 188: 
+Minute 189: 
+Minute 190: 
+Minute 191: 
+Minute 192: 
+Minute 193: 
+Minute 194: 
+Minute 195: 
+Minute 196: 
+Minute 197: 
+Minute 198: 
+Minute 199: 
+Minute 200: 
+Minute 201: 
+Minute 202: 
+Minute 203: 
+Minute 204: 
+Minute 205: 
+Minute 206: 
+Minute 207: 
+Minute 208: 
+Minute 209: 
+Minute 210: 
+Minute 211: 
+Minute 212: 
+Minute 213: 
+Minute 214: 
+Minute 215: 
+Minute 216: 
+Minute 217: 
+Minute 218: 
+Minute 219: 
+Minute 220: 
+Minute 221: 
+Minute 222: 
+Minute 223: 
+Minute 224: 
+WLG-AKL2 has landed
+AKL-WLG2 is estimated to be delayed by -10.217188287496043 minute(s)
+Minute 225: 
+AKL-WLG2 is estimated to be delayed by -9.217188287496043 minute(s)
+Minute 226: 
+AKL-WLG2 is estimated to be delayed by -8.217188287496043 minute(s)
+Minute 227: 
+AKL-WLG2 is estimated to be delayed by -7.217188287496043 minute(s)
+Minute 228: 
+AKL-WLG2 is estimated to be delayed by -6.217188287496043 minute(s)
+Minute 229: 
+AKL-WLG2 is estimated to be delayed by -5.217188287496043 minute(s)
+Minute 230: 
+AKL-WLG2 is estimated to be delayed by -4.217188287496043 minute(s)
+Minute 231: 
+AKL-WLG2 is estimated to be delayed by -3.217188287496043 minute(s)
+Minute 232: 
+AKL-WLG2 is estimated to be delayed by -2.217188287496043 minute(s)
+Minute 233: 
+AKL-WLG2 is estimated to be delayed by -1.2171882874960431 minute(s)
+Minute 234: 
+AKL-WLG2 is estimated to be delayed by -0.21718828749604313 minute(s)
+Minute 235: 
+Minute 236: 
+Minute 237: 
+Minute 238: 
+Minute 239: 
+Minute 240: 
+Minute 241: 
+Minute 242: 
+Minute 243: 
+Minute 244: 
+Minute 245: 
+Minute 246: 
+Minute 247: 
+Minute 248: 
+Minute 249: 
+Minute 250: 
+Minute 251: 
+Minute 252: 
+Minute 253: 
+Minute 254: 
+Minute 255: 
+Minute 256: 
+Minute 257: 
+Minute 258: 
+Minute 259: 
+Minute 260: 
+Minute 261: 
+Minute 262: 
+Minute 263: 
+Minute 264: 
+Minute 265: 
+Minute 266: 
+Minute 267: 
+Minute 268: 
+Minute 269: 
+Minute 270: 
+Minute 271: 
+AKL-WLG2 has landed
+WLG-AKL3 is estimated to be delayed by -10.06062594499528 minute(s)
+Minute 272: 
+WLG-AKL3 is estimated to be delayed by -9.06062594499528 minute(s)
+Minute 273: 
+WLG-AKL3 is estimated to be delayed by -8.06062594499528 minute(s)
+Minute 274: 
+WLG-AKL3 is estimated to be delayed by -7.06062594499528 minute(s)
+Minute 275: 
+WLG-AKL3 is estimated to be delayed by -6.06062594499528 minute(s)
+Minute 276: 
+WLG-AKL3 is estimated to be delayed by -5.06062594499528 minute(s)
+Minute 277: 
+WLG-AKL3 is estimated to be delayed by -4.06062594499528 minute(s)
+Minute 278: 
+WLG-AKL3 is estimated to be delayed by -3.06062594499528 minute(s)
+Minute 279: 
+WLG-AKL3 is estimated to be delayed by -2.06062594499528 minute(s)
+Minute 280: 
+WLG-AKL3 is estimated to be delayed by -1.0606259449952802 minute(s)
+Minute 281: 
+WLG-AKL3 is estimated to be delayed by -0.06062594499528018 minute(s)
+Minute 282: 
+Minute 283: 
+Minute 284: 
+Minute 285: 
+Minute 286: 
+Minute 287: 
+Minute 288: 
+Minute 289: 
+Minute 290: 
+Minute 291: 
+Minute 292: 
+Minute 293: 
+Minute 294: 
+Minute 295: 
+Minute 296: 
+Minute 297: 
+Minute 298: 
+Minute 299: 
+Minute 300: 
+Minute 301: 
+Minute 302: 
+Minute 303: 
+Minute 304: 
+Minute 305: 
+Minute 306: 
+Minute 307: 
+Minute 308: 
+Minute 309: 
+Minute 310: 
+Minute 311: 
+Minute 312: 
+Minute 313: 
+Minute 314: 
+Minute 315: 
+Minute 316: 
+Minute 317: 
+Minute 318: 
+WLG-AKL3 has landed
+Minute 319: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+WLG-AKL0 has landed
+AKL-WLG0 is estimated to be delayed by -10.843437657499209 minute(s)
+Minute 37: 
+AKL-WLG0 is estimated to be delayed by -9.843437657499209 minute(s)
+Minute 38: 
+AKL-WLG0 is estimated to be delayed by -8.843437657499209 minute(s)
+Minute 39: 
+AKL-WLG0 is estimated to be delayed by -7.843437657499209 minute(s)
+Minute 40: 
+AKL-WLG0 is estimated to be delayed by -6.843437657499209 minute(s)
+Minute 41: 
+AKL-WLG0 is estimated to be delayed by -5.843437657499209 minute(s)
+Minute 42: 
+AKL-WLG0 is estimated to be delayed by -4.843437657499209 minute(s)
+Minute 43: 
+AKL-WLG0 is estimated to be delayed by -3.8434376574992086 minute(s)
+Minute 44: 
+AKL-WLG0 is estimated to be delayed by -2.8434376574992086 minute(s)
+Minute 45: 
+AKL-WLG0 is estimated to be delayed by -1.8434376574992086 minute(s)
+Minute 46: 
+AKL-WLG0 is estimated to be delayed by -0.8434376574992086 minute(s)
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+Minute 74: 
+Minute 75: 
+Minute 76: 
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+Minute 83: 
+AKL-WLG0 has landed
+WLG-AKL1 is estimated to be delayed by -10.686875314998417 minute(s)
+Minute 84: 
+WLG-AKL1 is estimated to be delayed by -9.686875314998417 minute(s)
+Minute 85: 
+WLG-AKL1 is estimated to be delayed by -8.686875314998417 minute(s)
+Minute 86: 
+WLG-AKL1 is estimated to be delayed by -7.686875314998417 minute(s)
+Minute 87: 
+WLG-AKL1 is estimated to be delayed by -6.686875314998417 minute(s)
+Minute 88: 
+WLG-AKL1 is estimated to be delayed by -5.686875314998417 minute(s)
+Minute 89: 
+WLG-AKL1 is estimated to be delayed by -4.686875314998417 minute(s)
+Minute 90: 
+WLG-AKL1 is estimated to be delayed by -3.6868753149984173 minute(s)
+Minute 91: 
+WLG-AKL1 is estimated to be delayed by -2.6868753149984173 minute(s)
+Minute 92: 
+WLG-AKL1 is estimated to be delayed by -1.6868753149984173 minute(s)
+Minute 93: 
+WLG-AKL1 is estimated to be delayed by -0.6868753149984173 minute(s)
+Minute 94: 
+Minute 95: 
+Minute 96: 
+Minute 97: 
+Minute 98: 
+Minute 99: 
+Minute 100: 
+Minute 101: 
+Minute 102: 
+Minute 103: 
+Minute 104: 
+Minute 105: 
+Minute 106: 
+Minute 107: 
+Minute 108: 
+Minute 109: 
+Minute 110: 
+Minute 111: 
+Minute 112: 
+Minute 113: 
+Minute 114: 
+Minute 115: 
+Minute 116: 
+Minute 117: 
+Minute 118: 
+Minute 119: 
+Minute 120: 
+Minute 121: 
+Minute 122: 
+Minute 123: 
+Minute 124: 
+Minute 125: 
+Minute 126: 
+Minute 127: 
+Minute 128: 
+Minute 129: 
+Minute 130: 
+WLG-AKL1 has landed
+AKL-WLG1 is estimated to be delayed by -10.530312972497626 minute(s)
+Minute 131: 
+AKL-WLG1 is estimated to be delayed by -9.530312972497626 minute(s)
+Minute 132: 
+AKL-WLG1 is estimated to be delayed by -8.530312972497626 minute(s)
+Minute 133: 
+AKL-WLG1 is estimated to be delayed by -7.530312972497626 minute(s)
+Minute 134: 
+AKL-WLG1 is estimated to be delayed by -6.530312972497626 minute(s)
+Minute 135: 
+AKL-WLG1 is estimated to be delayed by -5.530312972497626 minute(s)
+Minute 136: 
+AKL-WLG1 is estimated to be delayed by -4.530312972497626 minute(s)
+Minute 137: 
+AKL-WLG1 is estimated to be delayed by -3.530312972497626 minute(s)
+Minute 138: 
+AKL-WLG1 is estimated to be delayed by -2.530312972497626 minute(s)
+Minute 139: 
+AKL-WLG1 is estimated to be delayed by -1.5303129724976259 minute(s)
+Minute 140: 
+AKL-WLG1 is estimated to be delayed by -0.5303129724976259 minute(s)
+Minute 141: 
+Minute 142: 
+Minute 143: 
+Minute 144: 
+Minute 145: 
+Minute 146: 
+Minute 147: 
+Minute 148: 
+Minute 149: 
+Minute 150: 
+Minute 151: 
+Minute 152: 
+Minute 153: 
+Minute 154: 
+Minute 155: 
+Minute 156: 
+Minute 157: 
+Minute 158: 
+Minute 159: 
+Minute 160: 
+Minute 161: 
+Minute 162: 
+Minute 163: 
+Minute 164: 
+Minute 165: 
+Minute 166: 
+Minute 167: 
+Minute 168: 
+Minute 169: 
+Minute 170: 
+Minute 171: 
+Minute 172: 
+Minute 173: 
+Minute 174: 
+Minute 175: 
+Minute 176: 
+Minute 177: 
+AKL-WLG1 has landed
+WLG-AKL2 is estimated to be delayed by -10.373750629996835 minute(s)
+Minute 178: 
+WLG-AKL2 is estimated to be delayed by -9.373750629996835 minute(s)
+Minute 179: 
+WLG-AKL2 is estimated to be delayed by -8.373750629996835 minute(s)
+Minute 180: 
+WLG-AKL2 is estimated to be delayed by -7.3737506299968345 minute(s)
+Minute 181: 
+WLG-AKL2 is estimated to be delayed by -6.3737506299968345 minute(s)
+Minute 182: 
+WLG-AKL2 is estimated to be delayed by -5.3737506299968345 minute(s)
+Minute 183: 
+WLG-AKL2 is estimated to be delayed by -4.3737506299968345 minute(s)
+Minute 184: 
+WLG-AKL2 is estimated to be delayed by -3.3737506299968345 minute(s)
+Minute 185: 
+WLG-AKL2 is estimated to be delayed by -2.3737506299968345 minute(s)
+Minute 186: 
+WLG-AKL2 is estimated to be delayed by -1.3737506299968345 minute(s)
+Minute 187: 
+WLG-AKL2 is estimated to be delayed by -0.3737506299968345 minute(s)
+Minute 188: 
+Minute 189: 
+Minute 190: 
+Minute 191: 
+Minute 192: 
+Minute 193: 
+Minute 194: 
+Minute 195: 
+Minute 196: 
+Minute 197: 
+Minute 198: 
+Minute 199: 
+Minute 200: 
+Minute 201: 
+Minute 202: 
+Minute 203: 
+Minute 204: 
+Minute 205: 
+Minute 206: 
+Minute 207: 
+Minute 208: 
+Minute 209: 
+Minute 210: 
+Minute 211: 
+Minute 212: 
+Minute 213: 
+Minute 214: 
+Minute 215: 
+Minute 216: 
+Minute 217: 
+Minute 218: 
+Minute 219: 
+Minute 220: 
+Minute 221: 
+Minute 222: 
+Minute 223: 
+Minute 224: 
+WLG-AKL2 has landed
+AKL-WLG2 is estimated to be delayed by -10.217188287496043 minute(s)
+Minute 225: 
+AKL-WLG2 is estimated to be delayed by -9.217188287496043 minute(s)
+Minute 226: 
+AKL-WLG2 is estimated to be delayed by -8.217188287496043 minute(s)
+Minute 227: 
+AKL-WLG2 is estimated to be delayed by -7.217188287496043 minute(s)
+Minute 228: 
+AKL-WLG2 is estimated to be delayed by -6.217188287496043 minute(s)
+Minute 229: 
+AKL-WLG2 is estimated to be delayed by -5.217188287496043 minute(s)
+Minute 230: 
+AKL-WLG2 is estimated to be delayed by -4.217188287496043 minute(s)
+Minute 231: 
+AKL-WLG2 is estimated to be delayed by -3.217188287496043 minute(s)
+Minute 232: 
+AKL-WLG2 is estimated to be delayed by -2.217188287496043 minute(s)
+Minute 233: 
+AKL-WLG2 is estimated to be delayed by -1.2171882874960431 minute(s)
+Minute 234: 
+AKL-WLG2 is estimated to be delayed by -0.21718828749604313 minute(s)
+Minute 235: 
+Minute 236: 
+Minute 237: 
+Minute 238: 
+Minute 239: 
+Minute 240: 
+Minute 241: 
+Minute 242: 
+Minute 243: 
+Minute 244: 
+Minute 245: 
+Minute 246: 
+Minute 247: 
+Minute 248: 
+Minute 249: 
+Minute 250: 
+Minute 251: 
+Minute 252: 
+Minute 253: 
+Minute 254: 
+Minute 255: 
+Minute 256: 
+Minute 257: 
+Minute 258: 
+Minute 259: 
+Minute 260: 
+Minute 261: 
+Minute 262: 
+Minute 263: 
+Minute 264: 
+Minute 265: 
+Minute 266: 
+Minute 267: 
+Minute 268: 
+Minute 269: 
+Minute 270: 
+Minute 271: 
+AKL-WLG2 has landed
+WLG-AKL3 is estimated to be delayed by -10.06062594499528 minute(s)
+Minute 272: 
+WLG-AKL3 is estimated to be delayed by -9.06062594499528 minute(s)
+Minute 273: 
+WLG-AKL3 is estimated to be delayed by -8.06062594499528 minute(s)
+Minute 274: 
+WLG-AKL3 is estimated to be delayed by -7.06062594499528 minute(s)
+Minute 275: 
+WLG-AKL3 is estimated to be delayed by -6.06062594499528 minute(s)
+Minute 276: 
+WLG-AKL3 is estimated to be delayed by -5.06062594499528 minute(s)
+Minute 277: 
+WLG-AKL3 is estimated to be delayed by -4.06062594499528 minute(s)
+Minute 278: 
+WLG-AKL3 is estimated to be delayed by -3.06062594499528 minute(s)
+Minute 279: 
+WLG-AKL3 is estimated to be delayed by -2.06062594499528 minute(s)
+Minute 280: 
+WLG-AKL3 is estimated to be delayed by -1.0606259449952802 minute(s)
+Minute 281: 
+WLG-AKL3 is estimated to be delayed by -0.06062594499528018 minute(s)
+Minute 282: 
+Minute 283: 
+Minute 284: 
+Minute 285: 
+Minute 286: 
+Minute 287: 
+Minute 288: 
+Minute 289: 
+Minute 290: 
+Minute 291: 
+Minute 292: 
+Minute 293: 
+Minute 294: 
+Minute 295: 
+Minute 296: 
+Minute 297: 
+Minute 298: 
+Minute 299: 
+Minute 300: 
+Minute 301: 
+Minute 302: 
+Minute 303: 
+Minute 304: 
+Minute 305: 
+Minute 306: 
+Minute 307: 
+Minute 308: 
+Minute 309: 
+Minute 310: 
+Minute 311: 
+Minute 312: 
+Minute 313: 
+Minute 314: 
+Minute 315: 
+Minute 316: 
+Minute 317: 
+Minute 318: 
+WLG-AKL3 has landed
+Minute 319: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+WLG-AKL0 has landed
+AKL-WLG0 is estimated to be delayed by -10.843437657499209 minute(s)
+Minute 37: 
+AKL-WLG0 is estimated to be delayed by -9.843437657499209 minute(s)
+Minute 38: 
+AKL-WLG0 is estimated to be delayed by -8.843437657499209 minute(s)
+Minute 39: 
+AKL-WLG0 is estimated to be delayed by -7.843437657499209 minute(s)
+Minute 40: 
+AKL-WLG0 is estimated to be delayed by -6.843437657499209 minute(s)
+Minute 41: 
+AKL-WLG0 is estimated to be delayed by -5.843437657499209 minute(s)
+Minute 42: 
+AKL-WLG0 is estimated to be delayed by -4.843437657499209 minute(s)
+Minute 43: 
+AKL-WLG0 is estimated to be delayed by -3.8434376574992086 minute(s)
+Minute 44: 
+AKL-WLG0 is estimated to be delayed by -2.8434376574992086 minute(s)
+Minute 45: 
+AKL-WLG0 is estimated to be delayed by -1.8434376574992086 minute(s)
+Minute 46: 
+AKL-WLG0 is estimated to be delayed by -0.8434376574992086 minute(s)
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+Minute 74: 
+Minute 75: 
+Minute 76: 
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+Minute 83: 
+AKL-WLG0 has landed
+WLG-AKL1 is estimated to be delayed by -10.686875314998417 minute(s)
+Minute 84: 
+WLG-AKL1 is estimated to be delayed by -9.686875314998417 minute(s)
+Minute 85: 
+WLG-AKL1 is estimated to be delayed by -8.686875314998417 minute(s)
+Minute 86: 
+WLG-AKL1 is estimated to be delayed by -7.686875314998417 minute(s)
+Minute 87: 
+WLG-AKL1 is estimated to be delayed by -6.686875314998417 minute(s)
+Minute 88: 
+WLG-AKL1 is estimated to be delayed by -5.686875314998417 minute(s)
+Minute 89: 
+WLG-AKL1 is estimated to be delayed by -4.686875314998417 minute(s)
+Minute 90: 
+WLG-AKL1 is estimated to be delayed by -3.6868753149984173 minute(s)
+Minute 91: 
+WLG-AKL1 is estimated to be delayed by -2.6868753149984173 minute(s)
+Minute 92: 
+WLG-AKL1 is estimated to be delayed by -1.6868753149984173 minute(s)
+Minute 93: 
+WLG-AKL1 is estimated to be delayed by -0.6868753149984173 minute(s)
+Minute 94: 
+Minute 95: 
+Minute 96: 
+Minute 97: 
+Minute 98: 
+Minute 99: 
+Minute 100: 
+Minute 101: 
+Minute 102: 
+Minute 103: 
+Minute 104: 
+Minute 105: 
+Minute 106: 
+Minute 107: 
+Minute 108: 
+Minute 109: 
+Minute 110: 
+Minute 111: 
+Minute 112: 
+Minute 113: 
+Minute 114: 
+Minute 115: 
+Minute 116: 
+Minute 117: 
+Minute 118: 
+Minute 119: 
+Minute 120: 
+Minute 121: 
+Minute 122: 
+Minute 123: 
+Minute 124: 
+Minute 125: 
+Minute 126: 
+Minute 127: 
+Minute 128: 
+Minute 129: 
+Minute 130: 
+WLG-AKL1 has landed
+AKL-WLG1 is estimated to be delayed by -10.530312972497626 minute(s)
+Minute 131: 
+AKL-WLG1 is estimated to be delayed by -9.530312972497626 minute(s)
+Minute 132: 
+AKL-WLG1 is estimated to be delayed by -8.530312972497626 minute(s)
+Minute 133: 
+AKL-WLG1 is estimated to be delayed by -7.530312972497626 minute(s)
+Minute 134: 
+AKL-WLG1 is estimated to be delayed by -6.530312972497626 minute(s)
+Minute 135: 
+AKL-WLG1 is estimated to be delayed by -5.530312972497626 minute(s)
+Minute 136: 
+AKL-WLG1 is estimated to be delayed by -4.530312972497626 minute(s)
+Minute 137: 
+AKL-WLG1 is estimated to be delayed by -3.530312972497626 minute(s)
+Minute 138: 
+AKL-WLG1 is estimated to be delayed by -2.530312972497626 minute(s)
+Minute 139: 
+AKL-WLG1 is estimated to be delayed by -1.5303129724976259 minute(s)
+Minute 140: 
+AKL-WLG1 is estimated to be delayed by -0.5303129724976259 minute(s)
+Minute 141: 
+Minute 142: 
+Minute 143: 
+Minute 144: 
+Minute 145: 
+Minute 146: 
+Minute 147: 
+Minute 148: 
+Minute 149: 
+Minute 150: 
+Minute 151: 
+Minute 152: 
+Minute 153: 
+Minute 154: 
+Minute 155: 
+Minute 156: 
+Minute 157: 
+Minute 158: 
+Minute 159: 
+Minute 160: 
+Minute 161: 
+Minute 162: 
+Minute 163: 
+Minute 164: 
+Minute 165: 
+Minute 166: 
+Minute 167: 
+Minute 168: 
+Minute 169: 
+Minute 170: 
+Minute 171: 
+Minute 172: 
+Minute 173: 
+Minute 174: 
+Minute 175: 
+Minute 176: 
+Minute 177: 
+AKL-WLG1 has landed
+WLG-AKL2 is estimated to be delayed by -10.373750629996835 minute(s)
+Minute 178: 
+WLG-AKL2 is estimated to be delayed by -9.373750629996835 minute(s)
+Minute 179: 
+WLG-AKL2 is estimated to be delayed by -8.373750629996835 minute(s)
+Minute 180: 
+WLG-AKL2 is estimated to be delayed by -7.3737506299968345 minute(s)
+Minute 181: 
+WLG-AKL2 is estimated to be delayed by -6.3737506299968345 minute(s)
+Minute 182: 
+WLG-AKL2 is estimated to be delayed by -5.3737506299968345 minute(s)
+Minute 183: 
+WLG-AKL2 is estimated to be delayed by -4.3737506299968345 minute(s)
+Minute 184: 
+WLG-AKL2 is estimated to be delayed by -3.3737506299968345 minute(s)
+Minute 185: 
+WLG-AKL2 is estimated to be delayed by -2.3737506299968345 minute(s)
+Minute 186: 
+WLG-AKL2 is estimated to be delayed by -1.3737506299968345 minute(s)
+Minute 187: 
+WLG-AKL2 is estimated to be delayed by -0.3737506299968345 minute(s)
+Minute 188: 
+Minute 189: 
+Minute 190: 
+Minute 191: 
+Minute 192: 
+Minute 193: 
+Minute 194: 
+Minute 195: 
+Minute 196: 
+Minute 197: 
+Minute 198: 
+Minute 199: 
+Minute 200: 
+Minute 201: 
+Minute 202: 
+Minute 203: 
+Minute 204: 
+Minute 205: 
+Minute 206: 
+Minute 207: 
+Minute 208: 
+Minute 209: 
+Minute 210: 
+Minute 211: 
+Minute 212: 
+Minute 213: 
+Minute 214: 
+Minute 215: 
+Minute 216: 
+Minute 217: 
+Minute 218: 
+Minute 219: 
+Minute 220: 
+Minute 221: 
+Minute 222: 
+Minute 223: 
+Minute 224: 
+WLG-AKL2 has landed
+AKL-WLG2 is estimated to be delayed by -10.217188287496043 minute(s)
+Minute 225: 
+AKL-WLG2 is estimated to be delayed by -9.217188287496043 minute(s)
+Minute 226: 
+AKL-WLG2 is estimated to be delayed by -8.217188287496043 minute(s)
+Minute 227: 
+AKL-WLG2 is estimated to be delayed by -7.217188287496043 minute(s)
+Minute 228: 
+AKL-WLG2 is estimated to be delayed by -6.217188287496043 minute(s)
+Minute 229: 
+AKL-WLG2 is estimated to be delayed by -5.217188287496043 minute(s)
+Minute 230: 
+AKL-WLG2 is estimated to be delayed by -4.217188287496043 minute(s)
+Minute 231: 
+AKL-WLG2 is estimated to be delayed by -3.217188287496043 minute(s)
+Minute 232: 
+AKL-WLG2 is estimated to be delayed by -2.217188287496043 minute(s)
+Minute 233: 
+AKL-WLG2 is estimated to be delayed by -1.2171882874960431 minute(s)
+Minute 234: 
+AKL-WLG2 is estimated to be delayed by -0.21718828749604313 minute(s)
+Minute 235: 
+Minute 236: 
+Minute 237: 
+Minute 238: 
+Minute 239: 
+Minute 240: 
+Minute 241: 
+Minute 242: 
+Minute 243: 
+Minute 244: 
+Minute 245: 
+Minute 246: 
+Minute 247: 
+Minute 248: 
+Minute 249: 
+Minute 250: 
+Minute 251: 
+Minute 252: 
+Minute 253: 
+Minute 254: 
+Minute 255: 
+Minute 256: 
+Minute 257: 
+Minute 258: 
+Minute 259: 
+Minute 260: 
+Minute 261: 
+Minute 262: 
+Minute 263: 
+Minute 264: 
+Minute 265: 
+Minute 266: 
+Minute 267: 
+Minute 268: 
+Minute 269: 
+Minute 270: 
+Minute 271: 
+AKL-WLG2 has landed
+WLG-AKL3 is estimated to be delayed by -10.06062594499528 minute(s)
+Minute 272: 
+WLG-AKL3 is estimated to be delayed by -9.06062594499528 minute(s)
+Minute 273: 
+WLG-AKL3 is estimated to be delayed by -8.06062594499528 minute(s)
+Minute 274: 
+WLG-AKL3 is estimated to be delayed by -7.06062594499528 minute(s)
+Minute 275: 
+WLG-AKL3 is estimated to be delayed by -6.06062594499528 minute(s)
+Minute 276: 
+WLG-AKL3 is estimated to be delayed by -5.06062594499528 minute(s)
+Minute 277: 
+WLG-AKL3 is estimated to be delayed by -4.06062594499528 minute(s)
+Minute 278: 
+WLG-AKL3 is estimated to be delayed by -3.06062594499528 minute(s)
+Minute 279: 
+WLG-AKL3 is estimated to be delayed by -2.06062594499528 minute(s)
+Minute 280: 
+WLG-AKL3 is estimated to be delayed by -1.0606259449952802 minute(s)
+Minute 281: 
+WLG-AKL3 is estimated to be delayed by -0.06062594499528018 minute(s)
+Minute 282: 
+Minute 283: 
+Minute 284: 
+Minute 285: 
+Minute 286: 
+Minute 287: 
+Minute 288: 
+Minute 289: 
+Minute 290: 
+Minute 291: 
+Minute 292: 
+Minute 293: 
+Minute 294: 
+Minute 295: 
+Minute 296: 
+Minute 297: 
+Minute 298: 
+Minute 299: 
+Minute 300: 
+Minute 301: 
+Minute 302: 
+Minute 303: 
+Minute 304: 
+Minute 305: 
+Minute 306: 
+Minute 307: 
+Minute 308: 
+Minute 309: 
+Minute 310: 
+Minute 311: 
+Minute 312: 
+Minute 313: 
+Minute 314: 
+Minute 315: 
+Minute 316: 
+Minute 317: 
+Minute 318: 
+WLG-AKL3 has landed
+Minute 319: 
