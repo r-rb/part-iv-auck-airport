@@ -1,43 +1,41 @@
-# targets = readdlm("../Sim/tmp/arrival_t.txt", Float32)
-# maxdelay = readdlm("../Sim/tmp/max_delay.txt", Float32)
-# classes = readdlm("../Sim/tmp/class_num.txt", UInt8)
+# Unit Arrival Test Case
+# flights = 20
+# runways = convert(UInt8, 1)
+# fcost(t, target, early, max_delay=100, coeff =1 , coeff_late = 1, deg=1) = t - target < max_delay ? coeff * abs(t - target)^deg : Inf32
 
-# Targets for the flights
-# planes = 10
-# targets = Float32[i for i = 1:planes]
+# targets = Float32[t for t = 1:flights]
+# dependency = UInt8[0 for t = 1:flights]
+# earlytimes = Float32[max(0,t-10) for t = 1:flights]
+# maxdelays = Float32[100.0 for t = 1:flights]
+# proctimes = Float32.(rand(3:3, flights, flights))
 
-# # Index of flights that to be processed before the corresponding flight as the same plane is being used.
-# dependency = UInt8[0,1,0,0]
+# for d = 1:flights
+#    proctimes[d,d] = 0
+# end
 
-# # Processing times
-# proctimes = convert(Array{Float32,2},  [0 3 3 3;
-#                                         3 0 3 3;
-#                                         3 3 0 3;
-#                                         3 3 3 0])
-
-# targets = vec(readdlm("./tmp/arrival_t.txt", Float32))
-# proctimes = readdlm("./tmp/proc_t.txt", Float32)
-# println(proctimes)
-# classes = convert(Array{UInt8,1}, vec(readdlm("./tmp/class_num.txt", Float32)))
-#dependency = UInt8[0,0,0,0,0]
-#dependency = convert(Array{UInt8,1}, vec(readdlm("./tmp/depends.txt", Float32)))
-flights =  3
+# OR Library Cases
+targets = vec(readdlm("./tests/target_t.txt", Float32))
+proctimes = readdlm("./tests/proc_t.txt", Float32)
+dependency = UInt8[0 for t = 1:length(targets)]
+earlytimes = vec(readdlm("./tests/early_t.txt", Float32))
+maxdelays = vec(readdlm("./tests/max_delays.txt", Float32))
+cost_early = vec(readdlm("./tests/cost_early.txt", Float32))
+cost_late = vec(readdlm("./tests/cost_late.txt", Float32))
 runways = convert(UInt8, 1)
 
-targets = Float32[t for t = 1:flights]
-dependency = UInt8[0 for t = 1:flights]
+function fcost(t, target, earliest, max_delay=100, coeff_early=1, coeff_late= 1, deg=1)
 
-earlytimes = Float32[max(0,t-3) for t = 1:flights]
-maxdelays = Float32[100.0 for t = 1:flights]
+    if (t > target + max_delay) | (t < earliest)
+        return Inf32
+    end
 
-proctimes = Float32.(rand(3:3, flights, flights))
+    if t <= target
+        return coeff_early * (target - t)
+    else
+        return coeff_late * (t - target)
+    end
 
-for d = 1:flights
-   proctimes[d,d] = 0
 end
-
-# Cost function
-fcost(t, target, early, max_delay=100, coeff=1, deg=4) = t - target < max_delay ? coeff * abs(t - target)^deg : Inf32
 
 struct State
     schedule::Array{Tuple{Float32,Int8}}
@@ -45,7 +43,7 @@ struct State
     rop::Array{Tuple{Float32,Int8}}
 end
 
-function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency::Array{UInt8}, proctimes::Array{Float32,2},maxdelays::Array{Float32},fcost::Function, runways=1::UInt8)
+function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency::Array{UInt8}, proctimes::Array{Float32,2},maxdelays::Array{Float32},fcost::Function,cost_early::Array{Float32},cost_late::Array{Float32},runways=1::UInt8)
     println("in")
     F = length(targets) # number of flights
     S = F + 1   # number of stages
@@ -92,8 +90,8 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
             for k = 0:floor(Int,delaywidth)
                 new_schedule, new_rop, new_cost  = copy(state.schedule), copy(state.rop), copy(state.cost)
                 new_assigntime = max(assigntime, targets[f] - k, prev + proctimes[f,precedingflight])
-                println("$k offset gives assigntime of  $(new_assigntime), $(prev + proctimes[f,precedingflight])")
-                addedcost = fcost(new_assigntime, targets[f], earlytimes[f], maxdelays[f])
+                # println("$k offset gives assigntime of  $(new_assigntime), $(prev + proctimes[f,precedingflight])")
+                addedcost = fcost(new_assigntime, targets[f], earlytimes[f], maxdelays[f],cost_early[f],cost_late[f])
                 if addedcost == Inf32
                     push!(newstates,(new_assigntime,(-1,-1)))
                     continue
@@ -104,7 +102,7 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
                 new_state = State(new_schedule, new_cost, new_rop)
                 push!(newstates,(new_assigntime,new_state))
             end
-            println(newstates)
+            #println(newstates)
             return newstates
         end
 
@@ -146,13 +144,13 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
 
     # Main loop
     for n = 1:F
-        println("Loop $(n) of $(F) ")
+        # println("Loop $(n) of $(F) ")
         expand!()
         stagetable[n] = Dict{Int64,State}()
 
-        for v in stagetable[n+1]
-            println(v[2])
-        end
+        # for v in stagetable[n+1]
+        #     println(v[2])
+        # end
         
     end
 
@@ -167,4 +165,4 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
 
 end
 
-@time solvedp(earlytimes,targets,dependency,proctimes,maxdelays,fcost,runways)
+@time solvedp(earlytimes,targets,dependency,proctimes,maxdelays,fcost,cost_early,cost_late,runways)
