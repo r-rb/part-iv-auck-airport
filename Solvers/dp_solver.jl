@@ -34,7 +34,7 @@ dependency = convert(Array{UInt8,1}, vec(readdlm("./tmp/depends.txt", Float32)))
 runways = convert(UInt8, 1)
 
 # Cost function
-fcost(t, target, coeff=1, deg=1, max_delay=10000) = t - target < max_delay ? coeff * (t - target)^deg : Inf32
+fcost(t, target, coeff=1, deg=1, max_delay=100) = t - target < max_delay ? coeff * (t - target)^deg : Inf32
 
 struct State
     schedule::Array{Tuple{Float32,Int8}}
@@ -133,6 +133,7 @@ function solvedp(targets::Array{Float32}, dependency::Array{UInt8}, proctimes::A
 
     # Main loop
     for n = 1:F
+        println("Loop $(n) of $(F) ")
         expand!()
         stagetable[n] = Dict{Int64,State}()
     end

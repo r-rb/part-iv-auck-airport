@@ -26,11 +26,16 @@ def solve(id_arr, delay_cost, max_delay, class_num, proc_t, sep_t, depends, solv
 
     schedule =[float(x) for x in open("./tmp/schedule.txt",'r').readlines()]
 
-    n_planes = len(id_arr)
-    stuff = [(schedule[i],class_num[i]-1,i) for i in range(n_planes)]
+    n_flights = len(id_arr)
+    endtimes = [None] * n_flights
+
+    stuff = [(schedule[i],class_num[i]-1,i) for i in range(n_flights)]
     stuff.sort(key = lambda x:x[0])
-    endtimes = [st[0] + proc_t[ st[2] ][ stuff[idx + 1 ][ 2 ] ] if (idx < n_planes -1) else st[0] + 1 for idx,st in enumerate(stuff)]
 
-    endtimes
-
+    
+    for idx,st in enumerate(stuff):
+        if (idx < n_flights -1):
+            endtimes[st[-1]] = st[0]+ proc_t[st[2]][stuff[idx + 1][2]]
+        else:
+           endtimes[st[-1]] =  st[0] + 1
     return schedule,endtimes
