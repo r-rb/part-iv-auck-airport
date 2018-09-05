@@ -87,13 +87,17 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
             delaywidth = targets[f] - max(assigntime,prev + proctimes[f,precedingflight],earlytimes[f])
             delaywidth = delaywidth < 0 ? 0 : delaywidth
             
-            for k = 0:floor(Int,delaywidth)
+            kvals = Float32[k for k = 0:floor(Int,delaywidth)]
+
+            append!(kvals,delaywidth)
+
+            for k in kvals
                 new_schedule, new_rop, new_cost  = copy(state.schedule), copy(state.rop), copy(state.cost)
                 new_assigntime = max(assigntime, targets[f] - k, prev + proctimes[f,precedingflight])
                 # println("$k offset gives assigntime of  $(new_assigntime), $(prev + proctimes[f,precedingflight])")
                 addedcost = fcost(new_assigntime, targets[f], earlytimes[f], maxdelays[f],cost_early[f],cost_late[f])
                 if addedcost == Inf32
-                    push!(newstates,(new_assigntime,(-1,-1)))
+                    push!(newstates,(new_assigntime,State(-1,-1,new_rop)))
                     continue
                 end
                 new_schedule[f] = (new_assigntime, r)
