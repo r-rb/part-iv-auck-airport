@@ -13,22 +13,37 @@
 #    proctimes[d,d] = 0
 # end
 
-# OR Library Cases
+# # OR Library Cases
 # targets = vec(readdlm("./tests/target_t.txt", Float32))
 # proctimes = readdlm("./tests/proc_t.txt", Float32)
+# println(proctimes)
+# proctimes = proctimes'
+# println(proctimes)
+
+# # assert for symmetric proctimes
+# assert(proctimes == proctimes')
+
 # dependency = UInt8[0 for t = 1:length(targets)]
 # earlytimes = vec(readdlm("./tests/early_t.txt", Float32))
 # maxdelays = vec(readdlm("./tests/max_delays.txt", Float32))
 # cost_early = vec(readdlm("./tests/cost_early.txt", Float32))
 # cost_late = vec(readdlm("./tests/cost_late.txt", Float32))
+
+# number of runways
 runways = convert(UInt8, 1)
 
-targets = Float32[1 4 4 5]
+targets = Float32[1 5 6 10]
 flights = length(targets)
-proctimes = Float32[0 2 2 1 ; 2 0 2 2 ; 2 1 0 2 ;2 2 2 0]
-earlytimes = Float32[max(0,targets[t]-2) for t = 1:flights]
-maxdelays = Float32[100 for t = 1:flights]
-cost_early = Float32[0 for t = 1:flights]
+proctimes = Float32[0 3 2 4;
+                     2 0 1 3;
+                     5 6 0 2;
+                     0 3 1 0]
+
+earlytimes = Float32[0 3 2 7]
+#Float32[max(0,targets[t]-2) for t = 1:flights]
+maxdelays = Float32[4 5 5 5]
+#Float32[100 for t = 1:flights]
+cost_early = Float32[1 for t = 1:flights]
 cost_late = Float32[1 for t = 1:flights]
 dependency = UInt8[0 for t = 1:flights]
 
@@ -53,7 +68,6 @@ struct State
 end
 
 function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency::Array{UInt8}, proctimes::Array{Float32,2},maxdelays::Array{Float32},fcost::Function,cost_early::Array{Float32},cost_late::Array{Float32},runways=1::UInt8)
-    println("in")
     F = length(targets) # number of flights
     S = F + 1   # number of stages
     R = runways # number of runways
@@ -77,33 +91,32 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
 
     function generatestates(state::State, f, r)
         if state.schedule[f][2] == -1
-            assigntime = 0
+
+            dependencytime = 0
             # Check if there is an dependency
             if dependency[f] != 0
                 # Check if the dependency has been satisfied
                 if state.schedule[dependency[f]][1] == -1
                     return [(-1, -1)]
                 end
-                assigntime = state.schedule[dependency[f]][1] + turnovertime
+                dependencytime = state.schedule[dependency[f]][1] + turnovertime
+                println("shouldnt be here")
             end
             
             newstates = Array{Tuple{Float32,State}}(0)
             
             prev, precedingflight = state.rop[r]
-2
             precedingflight = precedingflight == -1 ? f : precedingflight
 
-            delaywidth = targets[f] - max(assigntime,prev + proctimes[f,precedingflight],earlytimes[f])
+            delaywidth = targets[f] - max(dependencytime,prev + proctimes[f,precedingflight],earlytimes[f])
             delaywidth = delaywidth < 0 ? 0 : delaywidth
             
             kvals = Float32[k for k = 0:floor(Int,delaywidth)]
-
             append!(kvals,delaywidth)
 
             for k in kvals
                 new_schedule, new_rop, new_cost  = copy(state.schedule), copy(state.rop), copy(state.cost)
-                new_assigntime = max(assigntime, targets[f] - k, prev + proctimes[f,precedingflight])
-                # println("$k offset gives assigntime of  $(new_assigntime), $(prev + proctimes[f,precedingflight])")
+                new_assigntime = max(dependencytime, targets[f] - k, prev + proctimes[f,precedingflight])
                 addedcost = fcost(new_assigntime, targets[f], earlytimes[f], maxdelays[f],cost_early[f],cost_late[f])
                 if addedcost == Inf32
                     push!(newstates,(-1.0,State(new_schedule,Inf32,new_rop)))
@@ -115,7 +128,6 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
                 new_state = State(new_schedule, new_cost, new_rop)
                 push!(newstates,(new_assigntime,new_state))
             end
-            #println(newstates)
             return newstates
         end
 
@@ -157,16 +169,10 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
 
     # Main loop
     for n = 1:F
-        # println("Loop $(n) of $(F) ")
         expand!()
-        stagetable[n] = Dict{Int64,State}()
-
-        # for v in stagetable[n+1]
-        #     println(v[2])
-        # end
-        
+        stagetable[n] = Dict{Int64,State}()        
     end
-
+    println(stagetable[end])
     min_cost_key = reduce((x, y) -> stagetable[end][x].cost <= stagetable[end][y].cost ? x : y, keys(stagetable[end]))
 
     println("Optimal schedule times -> $(stagetable[end][min_cost_key].schedule)")
