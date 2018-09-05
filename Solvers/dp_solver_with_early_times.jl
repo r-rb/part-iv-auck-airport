@@ -14,14 +14,23 @@
 # end
 
 # OR Library Cases
-targets = vec(readdlm("./tests/target_t.txt", Float32))
-proctimes = readdlm("./tests/proc_t.txt", Float32)
-dependency = UInt8[0 for t = 1:length(targets)]
-earlytimes = vec(readdlm("./tests/early_t.txt", Float32))
-maxdelays = vec(readdlm("./tests/max_delays.txt", Float32))
-cost_early = vec(readdlm("./tests/cost_early.txt", Float32))
-cost_late = vec(readdlm("./tests/cost_late.txt", Float32))
+# targets = vec(readdlm("./tests/target_t.txt", Float32))
+# proctimes = readdlm("./tests/proc_t.txt", Float32)
+# dependency = UInt8[0 for t = 1:length(targets)]
+# earlytimes = vec(readdlm("./tests/early_t.txt", Float32))
+# maxdelays = vec(readdlm("./tests/max_delays.txt", Float32))
+# cost_early = vec(readdlm("./tests/cost_early.txt", Float32))
+# cost_late = vec(readdlm("./tests/cost_late.txt", Float32))
 runways = convert(UInt8, 1)
+
+targets = Float32[1 4 4 5]
+flights = length(targets)
+proctimes = Float32[0 2 2 1 ; 2 0 2 2 ; 2 1 0 2 ;2 2 2 0]
+earlytimes = Float32[max(0,targets[t]-2) for t = 1:flights]
+maxdelays = Float32[100 for t = 1:flights]
+cost_early = Float32[0 for t = 1:flights]
+cost_late = Float32[1 for t = 1:flights]
+dependency = UInt8[0 for t = 1:flights]
 
 function fcost(t, target, earliest, max_delay=100, coeff_early=1, coeff_late= 1, deg=1)
 
@@ -81,7 +90,7 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
             newstates = Array{Tuple{Float32,State}}(0)
             
             prev, precedingflight = state.rop[r]
-
+2
             precedingflight = precedingflight == -1 ? f : precedingflight
 
             delaywidth = targets[f] - max(assigntime,prev + proctimes[f,precedingflight],earlytimes[f])
