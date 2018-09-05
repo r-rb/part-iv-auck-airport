@@ -97,7 +97,7 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
                 # println("$k offset gives assigntime of  $(new_assigntime), $(prev + proctimes[f,precedingflight])")
                 addedcost = fcost(new_assigntime, targets[f], earlytimes[f], maxdelays[f],cost_early[f],cost_late[f])
                 if addedcost == Inf32
-                    push!(newstates,(new_assigntime,State(-1,-1,new_rop)))
+                    push!(newstates,(-1.0,State(new_schedule,Inf32,new_rop)))
                     continue
                 end
                 new_schedule[f] = (new_assigntime, r)
