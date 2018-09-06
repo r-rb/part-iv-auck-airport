@@ -12,6 +12,9 @@ runways = convert(UInt8, 1)
 
 # Objective function
 function fcost(t, target, earliest, max_delay=100, coeff_early=1, coeff_late= 1, deg=1)
+    if (t < earliest)
+        println("beep")
+    end
     if (t > target + max_delay) | (t < earliest)
         # Just a flag to show that the cost function is undefined/infinite
         return -1
@@ -36,11 +39,32 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
     S = F + 1   # Number of stages. Initial stage only has initial state
     R = runways # Number of runways
     n = 1   # Initialising stage counter
+    maxcps = 1 # Maximum position shift from FCFS
+    maxseptimes = [maximum(proctimes[f,:]) for f = 1:F]
     turnovertime = 10    # Turnaround time for a plane before they can make another flight
-    dependentflights = [dependency[i] for i = 1:F if dependency[i] != 0] # Storing flights which do have successors, could have duplicates.
+    dependentflights = [dependency[f] for f = 1:F if dependency[f] != 0] # Storing flights which do have successors, could have duplicates.
     stagetable = Array{Array{State}}(1, S) # All the valid and non-dominated states for this stage
     println("==============================================================================")
     println("Inputted target times  -> $targets \n")
+
+    # Find a FCFS for domination
+    order = sortperm(targets)
+    println(order)
+    t = earlytimes[order[1]]
+    fcfscost = 0
+    for (idx,pl) in enumerate(order)
+        addedcost = fcost(t,targets[order[idx]],earlytimes[order[idx]],maxdelays[order[idx]], cost_early[order[idx]], cost_late[order[idx]])
+        fcfscost += addedcost
+        if addedcost < 0
+            fcfscost = Inf32
+            break
+        end
+
+        if idx < F
+            t = max(t + proctimes[pl,order[idx+1]],earlytimes[order[idx+1]])
+        end
+    end
+    println("FCFS Cost: $fcfscost")
 
     function sameflights(s1, s2)
         for f in 1:F
@@ -73,6 +97,11 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
                 # Enforce dependencies with turnover time
                 mintime = max(mintime,state.schedule[dep][1] + turnovertime)
             end
+
+            # Enforce constrained position shifting
+            if abs(n-sortperm(order)[f]) > maxcps
+                return [(-1,-1)]
+            end
             
             # The successors
             successors = Array{Tuple{Float32,State}}(0)
@@ -95,12 +124,22 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
                 delaywidth = 0
             end
             
-            # Integer values to offset target time by to early arrvials.
-            # Check them in decreasing order (which is increasing arrival time order).
-            earlyoffsets = Float32[k for k = delaywidth:-5:0]
-            if delaywidth%1 > 0
-                earlyoffsets = append!([delaywidth],earlyoffsets) # Add the endpoint, too, if it's fractional
+            # We only need to consider earliness if we know that it will help later flights.
+            yettoland = [i for (i,x) in enumerate(state.schedule) if x[1] < 0 && x != f]
+            if mintime + maxseptimes[f] > minimum([earlytimes[i] for i in yettoland])
+                # Integer values to offset target time by to early arrvials.
+                # Check them in decreasing order (which is increasing arrival time order).
+                
+                #earlyoffsets = Float32[k for k = delaywidth:-1:0]
+                earlyoffsets = Float32[k for k in linspace(delaywidth,0,5)]
+                if delaywidth%1 > 0
+                    earlyoffsets = append!([delaywidth],earlyoffsets) # Add the endpoint, too, if it's fractional
+                end
+            else
+                earlyoffsets = [0]
             end
+
+            
 
             # Consider each possible earliness by considering the earlyoffsets
             for e in earlyoffsets
@@ -123,10 +162,15 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
                 newschedule[f] = (newtime, r)
                 newcost += addedcost
                 newrop[r] = (newtime, f)
-                newstate = State(newschedule, newcost, newrop)
 
-                # Add new state (with new time)
-                push!(successors,(newtime,newstate))
+                # If this partial state has exceeded the FCFS solution, it is exceptionally bad and guarenteed to be non-optimal
+                if newcost <= fcfscost
+                    # Add new state (with new time)
+                    newstate = State(newschedule, newcost, newrop)
+                    push!(successors,(newtime,newstate))
+                end
+
+                
             end
 
             # Return the statelist, unless it's empty in which case return the invalid state list "flag" with -1s
@@ -167,10 +211,11 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
 
                             # Check for domination in each of the candidates
                             for (idx, rivalstate) in enumerate(candidates)
-                                # newstate dominates rivalstate when the newstate time is earlier than t, with better cost for the same flights scheduled
-                                if newtime < rivalstate.rop[r][1] && sameflights(newstate, rivalstate) && newstate.cost <= rivalstate.cost
+                                # newstate dominates rivalstate when the newstate time is earlier than t, 
+                                # with better cost for the same flights scheduled
+                                if newtime < rivalstate.rop[r][1] && sameflights(newstate, rivalstate) && newstate.cost <= rivalstate.cost 
                                     # There are no successors to a deadend state under the generatesuccessors function
-                                    deadend = State([(-1.0, 1) for i = 1:F], 0.0, [(-1.0, -1) for i = 1:R])
+                                    deadend = State([(-1.0, 1) for i = 1:F], Inf32, [(-1.0, -1) for i = 1:R])
 
                                     # If we've dominated before, we don't want to explore the dominating state (newstate) twice, so make a deadend.
                                     # Otherwise, do replace the dominated state, with this new one.
@@ -200,6 +245,7 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
     # Main loop
     for n = 1:F
         println(n) # Stage number report
+        println(length(stagetable[n]))
         expand!()
         stagetable[n] = Array{State}(0) # We don't need to keep old stages in memory    
     end
