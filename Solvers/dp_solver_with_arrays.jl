@@ -39,7 +39,7 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
     S = F + 1   # Number of stages. Initial stage only has initial state
     R = runways # Number of runways
     n = 1   # Initialising stage counter
-    maxcps = 1 # Maximum position shift from FCFS
+    maxcps = 3 # Maximum position shift from FCFS
     maxseptimes = [maximum(proctimes[f,:]) for f = 1:F]
     turnovertime = 10    # Turnaround time for a plane before they can make another flight
     dependentflights = [dependency[f] for f = 1:F if dependency[f] != 0] # Storing flights which do have successors, could have duplicates.
@@ -164,7 +164,7 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
                 newrop[r] = (newtime, f)
 
                 # If this partial state has exceeded the FCFS solution, it is exceptionally bad and guarenteed to be non-optimal
-                if newcost <= fcfscost
+                if newcost <= fcfscost && addedcost <= fcfscost/F
                     # Add new state (with new time)
                     newstate = State(newschedule, newcost, newrop)
                     push!(successors,(newtime,newstate))
