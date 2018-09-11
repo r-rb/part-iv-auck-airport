@@ -27,7 +27,7 @@ C = size(p,1) # Number of classes
 #assert(length(d_max)==P)
 #assert(maximum(s)==C)
 min_p = minimum(p,2)
-max_p = maximum(p,2)
+max_p = maximum(p,2)s\
 #for cl = 1:C
 #	assert(minimum(p[cl,:]+min_p).>=max_p[cl])
 #end
