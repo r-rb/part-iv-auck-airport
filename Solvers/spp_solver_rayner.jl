@@ -9,6 +9,9 @@ res = 1
 # MIP Solver
 solver = GurobiSolver(OutputFlag = 1)
 
+# OR Case?
+orcase = true
+
 # Load in data
 clate = vec( readdlm("./tests/cost_late.txt") )
 cearly = vec( readdlm("./tests/cost_early.txt") )
@@ -17,8 +20,12 @@ rmin = minimum(readdlm("./tests/early_t.txt"))
 r = floor.(Int,  res*( vec(readdlm("./tests/early_t.txt"))-rmin ) )
 dmax = floor.(Int, res*vec(readdlm("./tests/max_delays.txt"))) + xbar - r
 p = round.(Int, res*readdlm("./tests/proc_t.txt"))
-c = round.(Int, vec(readdlm("./tmp/class_num.txt")))
 
+if !orcase
+	c = round.(Int, vec(readdlm("./tmp/class_num.txt")))
+else
+	c = Int[i for i in 1:length(clate)]
+end
 
 F = length(clate) # Number of flights
 C = length(c) # Number of classes
@@ -39,6 +46,7 @@ row_num = F + K
 # Each column corresponds to a single flight, with a given delay.
 # So the number of columns to consider for each flight is just the maximum delay.
 col_num = sum(dmax)
+println(col_num)
 
 # Objective function
 function fcost(t, target, earliest, max_delay=100, coeff_early=1, coeff_late= 1, deg=1)
@@ -61,6 +69,8 @@ cost = zeros(Float64, col_num)
 plane = zeros(Int, col_num)
 scht = zeros(Float64, col_num)
 
+println(length(plane))
+
 # Column index (how many columns we have generated so far)
 j = 1
 println("Generating SPP array...")
@@ -74,7 +84,7 @@ for f = 1:F
 		for cl = 1:C
 			# We need to fill in ones to enforce separation times.
 			# We will step through time units up to the separation time.
-			for pr = 1:p[s[f],cl]
+			for pr = 1:p[c[f],cl]
 
 				# We are considering the pair (s[f],cl) to be equivalent to (cl,s[f]).
 				# WLOG, we will set the first "coordinate" to be the smaller one.
