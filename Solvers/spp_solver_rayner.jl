@@ -45,8 +45,8 @@ K = N * C*(C+1)/2
 row_num = F + K
 # Each column corresponds to a single flight, with a given delay.
 # So the number of columns to consider for each flight is just the maximum delay.
-col_num = sum(dmax)
-println(col_num)
+col_num = Int(sum(dmax))
+println(" The number of columns are: $col_num")
 
 # Objective function
 function fcost(t, target, earliest, max_delay=100, coeff_early=1, coeff_late= 1, deg=1)
@@ -69,7 +69,7 @@ cost = zeros(Float64, col_num)
 plane = zeros(Int, col_num)
 scht = zeros(Float64, col_num)
 
-println(length(plane))
+println("The length of the plane vector is  $(length(cost))")
 
 # Column index (how many columns we have generated so far)
 j = 1
@@ -123,30 +123,50 @@ for f = 1:F
 	end
 end
 
-# Solve
 println("Building model...")
 
-m = Model(solver = solver)
-@variable(m, x[1:col_num], Bin)
-@objective(m, Min, dot(cost,x))
-@constraint(m, A*x .<= 1)
-@constraint(m, A[1:F,:]*x .== 1)
-println("Solving...")
-status = solve(m)
-X = getvalue(x)
-
-println("Cost is $(dot(cost,X))")
-
-# Generate the schedule
-schedule = zeros(Float64, F)
-# Check each column,
-for j=1:size(X,1)
-	# If the column is selected,
-	if X[j]+tol>=1
-		# Record that this plane is scheduled
-		schedule[plane[j]] = scht[j]/res + rmin
-	end
+env = Gurobi.Env()
+setparam!(env,"Presolve",1)
+model = Gurobi.Model(env,"spp",:minimize)
+add_bvars!(model,cost)
+for rw in 1:F
+	add_constr!(model,A[rw,:],'=', 1.0)
 end
+for rw in F+1:row_num
+	rw = convert(Int,rw)
+	add_constr!(model, A[rw,:], '<', 1.0)
+end
+update_model!(model)
+
+println("Building model...")
+optimize(model)
+objv  = get_objval(model)
+println("The objective is $(objv)")
+
+# Solve
+# 
+
+# m = Model(solver = solver)
+# @variable(m, x[1:col_num], Bin)
+# @objective(m, Min, dot(cost,x))
+# @constraint(m, A*x .<= 1)
+# @constraint(m, A[1:F,:]*x .== 1)
+# println("Solving...")
+# status = solve(m)
+# X = getvalue(x)
+
+# println("Cost is $(dot(cost,X))")
+
+# # Generate the schedule
+# schedule = zeros(Float64, F)
+# # Check each column,
+# for j=1:size(X,1)
+# 	# If the column is selected,
+# 	if X[j]+tol>=1
+# 		# Record that this plane is scheduled
+# 		schedule[plane[j]] = scht[j]/res + rmin
+# 	end
+# end
 
 #writedlm("./tmp/spp_mat.txt", A, ",")
 #writedlm("./tmp/schedule.txt", schedule, ",")

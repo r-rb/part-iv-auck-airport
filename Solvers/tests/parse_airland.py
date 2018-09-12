@@ -33,7 +33,7 @@ def parse_airland(which,line_width = 8):
 
     max_delays = [l-t for t,l in zip(target_times,latest_times)]
 
-    pp.pprint(proc_times)
+    pp.pprint(n_flights)
 
     np.savetxt("./appearance_t.txt", appearance_times, newline="\n")
     np.savetxt("./early_t.txt", early_times, newline="\n")
@@ -44,4 +44,4 @@ def parse_airland(which,line_width = 8):
     np.savetxt("./proc_t.txt", proc_times, newline="\n")
     np.savetxt("./max_delays.txt", max_delays, newline="\n")
 
-parse_airland(1)
+parse_airland(6)
