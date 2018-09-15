@@ -179,6 +179,8 @@ end
 
 if !isnan(mipcost)
 	ub = min(ub, mipcost)
+	r = Int.(max.(r, ceil.(xbar-ub./cearly)))
+	l = Int.(min.(l, ceil.(xbar+ub./clate)))
 end
 
 # Initialise arrays
