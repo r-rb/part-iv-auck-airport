@@ -3,7 +3,7 @@ import pprint as pp
 import numpy as np
 
 def parse_airland(which,line_width = 8):    
-    with open(f"./airland_files/airland{which}.txt",'r') as f:
+    with open("./airland_files/airland"+str(which)+".txt",'r') as f:
         n_flights = int(f.readline().split()[0])
         rest = [s.strip() for s in f.readlines()]
 
@@ -44,4 +44,4 @@ def parse_airland(which,line_width = 8):
     np.savetxt("./proc_t.txt", proc_times, newline="\n")
     np.savetxt("./max_delays.txt", max_delays, newline="\n")
 
-parse_airland(1)
+parse_airland(4)
