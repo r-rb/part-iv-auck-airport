@@ -78,7 +78,6 @@ function solvemip(xbar,p,dep,r,l,ce,cl,F,ub=Inf)
 	# Preprocessing
 	r = max.(r, xbar-ub./ce)
 	l = min.(l, xbar+ub./cl)
-
 	## Model
 	m = Model(solver=solver)
 
@@ -118,7 +117,7 @@ function solvemip(xbar,p,dep,r,l,ce,cl,F,ub=Inf)
 			end
 		end
 		if dep[f] > 0
-			#@constraint(m, delta[dep[f],f] == 1) # Dependencies
+			@constraint(m, delta[dep[f],f] == 1) # Dependencies
 		end
 	end
 	@constraint(m, earliness .>= xbar - x) # Earliness
@@ -130,7 +129,6 @@ function solvemip(xbar,p,dep,r,l,ce,cl,F,ub=Inf)
 	@constraint(m, 2*sum(delta) == F*(F-1)) # STRENGTHENING: Delta sum
 
 	@constraint(m, dot(ce,earliness) + dot(cl,lateness) <= ub) #Upper bound
-
 
 	## Solve
 	status = solve(m)
@@ -148,7 +146,9 @@ for (idx,f) in enumerate(order)
 end
 (mipcost,~) = solvemip(xbar,p,fcfsdep,r,l,ce,cl,F,ub)
 
-ub = min(ub, mipcost)
+if !isnan(mipcost)
+	ub = min(ub, mipcost)
+end
 
 (obj,arrivals) = solvemip(xbar,p,dep,r,l,ce,cl,F,ub)
 println(arrivals)

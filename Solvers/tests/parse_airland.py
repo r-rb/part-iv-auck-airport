@@ -44,4 +44,4 @@ def parse_airland(which,line_width = 8):
     np.savetxt("./proc_t.txt", proc_times, newline="\n")
     np.savetxt("./max_delays.txt", max_delays, newline="\n")
 
-parse_airland(4)
+parse_airland(6)

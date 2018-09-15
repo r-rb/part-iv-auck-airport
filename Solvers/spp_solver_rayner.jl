@@ -45,7 +45,7 @@ K = N * C*(C+1)/2
 row_num = F + K
 # Each column corresponds to a single flight, with a given delay.
 # So the number of columns to consider for each flight is just the maximum delay.
-col_num = Int(sum(dmax))
+col_num = F+Int(sum(dmax))
 println(" The number of columns are: $col_num")
 
 # Objective function
@@ -77,7 +77,7 @@ println("Generating SPP array...")
 # Generate each flight's columns
 for f = 1:F
 	# Generate a column for each possible delay
-	for d = 1:dmax[f]
+	for d = 1:(dmax[f]+1)
 		# Fill each class block.
 		# We consider every class-pair between this flight f's class and every class, s
 		# This should be considered to be the class
