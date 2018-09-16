@@ -31,6 +31,8 @@ end
 F = length(clate) # Number of flights
 C = length(c) # Number of classes
 
+println(dmax)
+
 # Minimum and maximum separation time between each plane and any subsequent plane.
 # "For any plane, what is the min/max separation time between a given plane and any subsequent plane.?"
 minp = minimum(p,2)

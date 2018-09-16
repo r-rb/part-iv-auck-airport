@@ -9,12 +9,14 @@ p = readdlm("./tests/proc_t.txt", Float32)
 
 dep = UInt8[0 for t = 1:length(xbar)]
 r = vec(readdlm("./tests/early_t.txt", Float32))
-dmax = vec(readdlm("./tests/max_delays.txt", Float32))
+dmax = vec(readdlm("./tests/max_delays.txt", Float32)) + xbar - r
 ce = vec(readdlm("./tests/cost_early.txt", Float32))
 cl = vec(readdlm("./tests/cost_late.txt", Float32))
 
 F = length(xbar) # Number of flights
 l = r + dmax # Latest arrival time
+
+println(dmax)
 
 # Objective function
 function fcost(t, target, earliest, max_delay=100, coeff_early=1, coeff_late= 1, deg=1)
@@ -36,8 +38,6 @@ end
 
 # Find a FCFS for upper bound
 order = sortperm(xbar)
-println(xbar)
-println(order)
 t = r[order[1]]
 fcfscost = 0
 for (idx,f) in enumerate(order)
