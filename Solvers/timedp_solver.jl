@@ -129,7 +129,7 @@ for idx in n
 		idxbest = idx
 	end
 end
-println("Best schedule:")
+println("Bestkkk schedule:")
 println(x[idxbest,:])
 println("Best objective: "*string(Vbest))
 println("Number of states explored: "*string(k))
