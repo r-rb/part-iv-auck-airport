@@ -4,9 +4,10 @@ proctimes = readdlm("./tests/proc_t.txt", Float32)
 
 dependency = UInt8[0 for t = 1:length(targets)]
 earlytimes = vec(readdlm("./tests/early_t.txt", Float32))
-maxdelays = vec(readdlm("./tests/max_delays.txt", Float32))
+maxdelays = vec(readdlm("./tests/max_delays.txt", Float32)) + (targets - earlytimes)
 cost_early = vec(readdlm("./tests/cost_early.txt", Float32))
 cost_late = vec(readdlm("./tests/cost_late.txt", Float32))
+targets = earlytimes
 
 runways = convert(UInt8, 1)
 
@@ -35,17 +36,21 @@ struct State
 end
 
 function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency::Array{UInt8}, proctimes::Array{Float32,2},maxdelays::Array{Float32},fcost::Function,cost_early::Array{Float32},cost_late::Array{Float32},runways=1::UInt8)
+    
     F = length(targets) # Number of flights
     S = F + 1   # Number of stages. Initial stage only has initial state
     R = runways # Number of runways
     n = 1   # Initialising stage counter
-    maxcps = 3 # Maximum position shift from FCFS
+    maxcps = F # Maximum position shift from FCFS
     maxseptimes = [maximum(proctimes[f,:]) for f = 1:F]
     turnovertime = 10    # Turnaround time for a plane before they can make another flight
     dependentflights = [dependency[f] for f = 1:F if dependency[f] != 0] # Storing flights which do have successors, could have duplicates.
     stagetable = Array{Array{State}}(1, S) # All the valid and non-dominated states for this stage
+
     println("==============================================================================")
     println("Inputted target times  -> $targets \n")
+
+    dc = 0
 
     # Find a FCFS for domination
     order = sortperm(targets)
@@ -213,7 +218,7 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
                             for (idx, rivalstate) in enumerate(candidates)
                                 # newstate dominates rivalstate when the newstate time is earlier than t, 
                                 # with better cost for the same flights scheduled
-                                if newtime < rivalstate.rop[r][1] && sameflights(newstate, rivalstate) && newstate.cost <= rivalstate.cost 
+                                if newtime <= rivalstate.rop[r][1] && sameflights(newstate, rivalstate) && newstate.cost <= rivalstate.cost 
                                     # There are no successors to a deadend state under the generatesuccessors function
                                     deadend = State([(-1.0, 1) for i = 1:F], Inf32, [(-1.0, -1) for i = 1:R])
 
@@ -223,14 +228,19 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
 
                                     # We have dominated.
                                     dominates = true
+                                    if dominates
+                                        dc+=1
+                                    end
                                 end
                             end
+
                             if !dominates
                                 # If there is no domination, this is a new state to add to the candidate list.
                                 push!(candidates,newstate)
                             end
                         end
-                    end          
+                    end
+             
                 end
                 # Add the successful candidates (which have not been dominated) to the list of states for stage n+1
                 append!(stagetable[n + 1], candidates)
@@ -244,8 +254,8 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
 
     # Main loop
     for n = 1:F
-        println(n) # Stage number report
-        println(length(stagetable[n]))
+        println(" At stage $n there are $(length(stagetable[n])) states of which $(dc) are deadends!")
+        dc = 0
         expand!()
         stagetable[n] = Array{State}(0) # We don't need to keep old stages in memory    
     end
