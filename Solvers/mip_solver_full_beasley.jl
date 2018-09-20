@@ -2,7 +2,7 @@ using JuMP, Gurobi
 
 
 ## MIP Solver
-solver = GurobiSolver(OutputFlag=1)
+solver = GurobiSolver(OutputFlag=0)
 
 # OR Library Case
 xbar = vec(readdlm("./tests/target_t.txt", Float32))
@@ -25,6 +25,8 @@ xbar = r
 
 F = length(xbar) # Number of flights
 l = r + dmax # Latest arrival time
+
+turnover = 5
 
 println(dmax)
 tic()
@@ -128,6 +130,7 @@ function solvemip(xbar,p,dep,r,l,ce,cl,F,ub=Inf)
 		end
 		if dep[f] > 0
 			@constraint(m, delta[dep[f],f] == 1) # Dependencies
+			@constraint(m, x[dep[f]] + turnover <= x[f])
 		end
 	end
 	@constraint(m, earliness .>= xbar - x) # Earliness

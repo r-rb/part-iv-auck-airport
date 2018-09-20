@@ -10978,3 +10978,1068 @@ Minute 870:
 Minute 871: 
 SYD-AKL2 has landed
 Minute 872: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+WLG-AKL0 has landed
+AKL-WLG0 is estimated to be delayed by -10.843437657499138 minute(s)
+Minute 36: 
+AKL-WLG0 is estimated to be delayed by -9.843437657499138 minute(s)
+Minute 37: 
+AKL-WLG0 is estimated to be delayed by -8.843437657499138 minute(s)
+Minute 38: 
+AKL-WLG0 is estimated to be delayed by -7.843437657499138 minute(s)
+Minute 39: 
+AKL-WLG0 is estimated to be delayed by -6.843437657499138 minute(s)
+Minute 40: 
+AKL-WLG0 is estimated to be delayed by -5.843437657499138 minute(s)
+Minute 41: 
+AKL-WLG0 is estimated to be delayed by -4.843437657499138 minute(s)
+Minute 42: 
+AKL-WLG0 is estimated to be delayed by -3.8434376574991376 minute(s)
+Minute 43: 
+AKL-WLG0 is estimated to be delayed by -2.8434376574991376 minute(s)
+Minute 44: 
+AKL-WLG0 is estimated to be delayed by -1.8434376574991376 minute(s)
+Minute 45: 
+AKL-WLG0 is estimated to be delayed by -0.8434376574991376 minute(s)
+Minute 46: 
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+Minute 74: 
+Minute 75: 
+Minute 76: 
+Minute 77: 
+Minute 78: 
+Minute 79: 
+Minute 80: 
+Minute 81: 
+Minute 82: 
+AKL-WLG0 has landed
+WLG-AKL1 is estimated to be delayed by -10.68687531499829 minute(s)
+Minute 83: 
+WLG-AKL1 is estimated to be delayed by -9.68687531499829 minute(s)
+Minute 84: 
+WLG-AKL1 is estimated to be delayed by -8.68687531499829 minute(s)
+Minute 85: 
+WLG-AKL1 is estimated to be delayed by -7.686875314998289 minute(s)
+Minute 86: 
+WLG-AKL1 is estimated to be delayed by -6.686875314998289 minute(s)
+Minute 87: 
+WLG-AKL1 is estimated to be delayed by -5.686875314998289 minute(s)
+Minute 88: 
+WLG-AKL1 is estimated to be delayed by -4.686875314998289 minute(s)
+Minute 89: 
+WLG-AKL1 is estimated to be delayed by -3.6868753149982894 minute(s)
+Minute 90: 
+WLG-AKL1 is estimated to be delayed by -2.6868753149982894 minute(s)
+Minute 91: 
+WLG-AKL1 is estimated to be delayed by -1.6868753149982894 minute(s)
+Minute 92: 
+WLG-AKL1 is estimated to be delayed by -0.6868753149982894 minute(s)
+Minute 93: 
+Minute 94: 
+Minute 95: 
+Minute 96: 
+Minute 97: 
+Minute 98: 
+Minute 99: 
+Minute 100: 
+Minute 101: 
+Minute 102: 
+Minute 103: 
+Minute 104: 
+Minute 105: 
+Minute 106: 
+Minute 107: 
+Minute 108: 
+Minute 109: 
+Minute 110: 
+Minute 111: 
+Minute 112: 
+Minute 113: 
+Minute 114: 
+Minute 115: 
+Minute 116: 
+Minute 117: 
+Minute 118: 
+Minute 119: 
+Minute 120: 
+Minute 121: 
+Minute 122: 
+Minute 123: 
+Minute 124: 
+Minute 125: 
+Minute 126: 
+Minute 127: 
+Minute 128: 
+Minute 129: 
+WLG-AKL1 has landed
+Minute 130: 
+Flight D is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight E is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 0: 
+Flight A has landed
+Flight E is estimated to be delayed by -0.7002846526553981 minute(s)
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Flight F has landed
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Flight H has landed
+Minute 16: 
+Minute 17: 
+Flight B has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Flight D has landed
+Minute 22: 
+Flight E has landed
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Flight G has landed
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Flight C has landed
+Minute 41: 
+Flight D is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight E is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 0: 
+Flight A has landed
+Flight E is estimated to be delayed by -0.7002846526553981 minute(s)
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Flight F has landed
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Flight H has landed
+Minute 16: 
+Minute 17: 
+Flight B has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Flight D has landed
+Minute 22: 
+Flight E has landed
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Flight G has landed
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Flight C has landed
+Minute 41: 
+Minute 0: 
+Flight D is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight E is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 0: 
+Flight E is estimated to be delayed by -0.7002846526553981 minute(s)
+Minute 1: 
+Flight A has landed
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Flight F has landed
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Flight H has landed
+Minute 16: 
+Minute 17: 
+Flight B has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Flight D has landed
+Minute 22: 
+Flight E has landed
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Flight G has landed
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Flight C has landed
+Minute 41: 
+Flight D is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight E is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 0: 
+Flight A has landed
+Flight E is estimated to be delayed by -0.7002846526553981 minute(s)
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Flight F has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Flight H has landed
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Flight E has landed
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Flight B has landed
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Flight D is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight E is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 0: 
+Flight E is estimated to be delayed by -0.7002846526553981 minute(s)
+Minute 1: 
+Minute 2: 
+Flight A has landed
+Minute 3: 
+Minute 4: 
+Flight F has landed
+Minute 5: 
+Minute 6: 
+Flight D is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight E is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 0: 
+Flight E is estimated to be delayed by -0.7002846526553981 minute(s)
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Flight A has landed
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Flight D is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight E is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 0: 
+Flight E is estimated to be delayed by -0.7002846526553981 minute(s)
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Flight A has landed
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Flight D is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight E is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 0: 
+Flight E is estimated to be delayed by -0.7002846526553981 minute(s)
+Minute 1: 
+Flight A has landed
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Minute 5: 
+Minute 6: 
+Flight F has landed
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Flight H has landed
+Minute 20: 
+Flight B has landed
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Flight E has landed
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Flight D has landed
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Flight G has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Minute 43: 
+Minute 44: 
+Minute 45: 
+Minute 46: 
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Flight C has landed
+Minute 54: 
+Flight D is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight E is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 0: 
+Flight A has landed
+Flight E is estimated to be delayed by -0.7002846526553981 minute(s)
+Minute 1: 
+Minute 2: 
+Minute 3: 
+Minute 4: 
+Flight F has landed
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Flight H has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Flight B has landed
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Minute 43: 
+Flight D has landed
+Minute 44: 
+Flight E has landed
+Minute 45: 
+Minute 46: 
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Flight G has landed
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Minute 68: 
+Minute 69: 
+Minute 70: 
+Minute 71: 
+Minute 72: 
+Minute 73: 
+Minute 74: 
+Minute 75: 
+Minute 76: 
+Flight C has landed
+Minute 77: 
+Flight D is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight E is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 0: 
+Minute 1: 
+Minute 2: 
+Flight A has landed
+Minute 3: 
+Minute 4: 
+Flight B is estimated to be delayed by -0.29400570762102163 minute(s)
+Flight E is estimated to be delayed by -0.8602440187221454 minute(s)
+Flight F has landed
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Flight C is estimated to be delayed by -0.23470503696565004 minute(s)
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Flight E is estimated to be delayed by -1.86024034264112 minute(s)
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Flight E is estimated to be delayed by -0.8602378517406581 minute(s)
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Flight H has landed
+Minute 24: 
+Flight E is estimated to be delayed by -1.860233322088531 minute(s)
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Flight B has landed
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Flight D has landed
+Minute 36: 
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Flight E has landed
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Minute 43: 
+Minute 44: 
+Minute 45: 
+Minute 46: 
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Minute 50: 
+Minute 51: 
+Minute 52: 
+Minute 53: 
+Minute 54: 
+Minute 55: 
+Minute 56: 
+Minute 57: 
+Minute 58: 
+Minute 59: 
+Minute 60: 
+Minute 61: 
+Minute 62: 
+Minute 63: 
+Minute 64: 
+Minute 65: 
+Minute 66: 
+Minute 67: 
+Flight C has landed
+Flight G has landed
+Minute 68: 
+Flight D is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight E is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 5: 
+Flight A has landed
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Flight E is estimated to be delayed by -0.30309146062209535 minute(s)
+Flight F has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Flight E is estimated to be delayed by -0.26072294030131715 minute(s)
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Flight H has landed
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Flight B has landed
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Flight D has landed
+Minute 29: 
+Minute 30: 
+Minute 31: 
+Flight E has landed
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Flight G has landed
+Minute 43: 
+Minute 44: 
+Minute 45: 
+Minute 46: 
+Minute 47: 
+Minute 48: 
+Minute 49: 
+Flight C has landed
+Minute 50: 
+Flight D is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight E is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 5: 
+Flight A has landed
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Flight E is estimated to be delayed by -1.7565594781343457 minute(s)
+Flight F has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Flight D is estimated to be delayed by -1.2486957138219488 minute(s)
+Minute 15: 
+Minute 16: 
+Flight H has landed
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Flight D is estimated to be delayed by -0.16219085614091178 minute(s)
+Flight E is estimated to be delayed by -0.09982297630004044 minute(s)
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Flight B has landed
+Minute 23: 
+Minute 24: 
+Flight D is estimated to be delayed by -0.8118898356106126 minute(s)
+Minute 25: 
+Flight E has landed
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Minute 29: 
+Flight D has landed
+Minute 30: 
+Minute 31: 
+Minute 32: 
+Minute 33: 
+Minute 34: 
+Minute 35: 
+Minute 36: 
+Minute 37: 
+Flight G has landed
+Minute 38: 
+Minute 39: 
+Minute 40: 
+Minute 41: 
+Minute 42: 
+Minute 43: 
+Minute 44: 
+Flight C has landed
+Minute 45: 
+Flight A has landed
+Flight C is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight D is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 5: 
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Flight C is estimated to be delayed by -1.6022068224089967 minute(s)
+Flight D is estimated to be delayed by -2.021567980128859 minute(s)
+Flight E has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Flight F has landed
+Minute 18: 
+Minute 19: 
+Flight B has landed
+Flight C is estimated to be delayed by -0.3419369736213076 minute(s)
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Flight C has landed
+Minute 25: 
+Flight D has landed
+Minute 26: 
+Flight C is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight D is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 5: 
+Flight A has landed
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Flight C is estimated to be delayed by -1.9474764705011083 minute(s)
+Flight E has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Flight C is estimated to be delayed by -0.840043303488434 minute(s)
+Flight D is estimated to be delayed by -0.3037068177699229 minute(s)
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Flight F has landed
+Minute 18: 
+Minute 19: 
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Flight B has landed
+Minute 23: 
+Minute 24: 
+Flight D has landed
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Minute 28: 
+Flight C has landed
+Minute 29: 
+Flight C is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight D is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 5: 
+Flight A has landed
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Flight C is estimated to be delayed by -1.0358270395161213 minute(s)
+Flight E has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Flight C is estimated to be delayed by -1.734707730568589 minute(s)
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Flight F has landed
+Minute 19: 
+Flight C is estimated to be delayed by -1.1282428546195602 minute(s)
+Flight D is estimated to be delayed by -2.0361106623770002 minute(s)
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Minute 23: 
+Flight B has landed
+Minute 24: 
+Flight D is estimated to be delayed by -0.44263884910528484 minute(s)
+Minute 25: 
+Minute 26: 
+Flight C has landed
+Minute 27: 
+Flight D has landed
+Minute 28: 
+Flight C is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight D is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 5: 
+Flight A has landed
+Minute 6: 
+Flight E has landed
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Flight D is estimated to be delayed by -1.6976535471286418 minute(s)
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Flight B is estimated to be delayed by -1.689601433823345 minute(s)
+Flight C is estimated to be delayed by -1.5296438055417294 minute(s)
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Flight B is estimated to be delayed by -0.9536736459034207 minute(s)
+Flight C is estimated to be delayed by -0.7937167787227661 minute(s)
+Minute 20: 
+Flight F has landed
+Minute 21: 
+Minute 22: 
+Flight D has landed
+Minute 23: 
+Minute 24: 
+Flight B has landed
+Minute 25: 
+Minute 26: 
+Minute 27: 
+Flight C has landed
+Minute 28: 
+Flight C is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight D is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 5: 
+Flight A has landed
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Flight D is estimated to be delayed by -0.8602410456027982 minute(s)
+Flight E has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Flight C is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight D is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 5: 
+Flight A has landed
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Flight B is estimated to be delayed by -0.8848322124056036 minute(s)
+Flight D is estimated to be delayed by -0.8602410456027982 minute(s)
+Flight E has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Minute 19: 
+Flight B is estimated to be delayed by -0.47225151759323003 minute(s)
+Flight D is estimated to be delayed by -0.5080500214254275 minute(s)
+Flight F has landed
+Minute 20: 
+Minute 21: 
+Flight B has landed
+Minute 22: 
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Flight C has landed
+Minute 27: 
+Flight D has landed
+Minute 28: 
+Flight C is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight D is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 5: 
+Flight A has landed
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Flight D is estimated to be delayed by -0.5437636969053656 minute(s)
+Flight E has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Flight C is estimated to be delayed by -0.07447889617893644 minute(s)
+Flight D is estimated to be delayed by -1.022388088178113 minute(s)
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Flight F has landed
+Minute 18: 
+Minute 19: 
+Flight C is estimated to be delayed by -0.7710588477690736 minute(s)
+Flight D is estimated to be delayed by -0.02238723935523801 minute(s)
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Flight B has landed
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Flight C has landed
+Flight D has landed
+Minute 27: 
+Flight C is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight D is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 5: 
+Flight A has landed
+Minute 6: 
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Flight B is estimated to be delayed by -0.9191230383403841 minute(s)
+Flight C is estimated to be delayed by -0.11136635544983875 minute(s)
+Flight E has landed
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Flight B is estimated to be delayed by -1.9976720120316278 minute(s)
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Minute 18: 
+Flight F has landed
+Minute 19: 
+Flight D has landed
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Flight B has landed
+Minute 23: 
+Minute 24: 
+Minute 25: 
+Minute 26: 
+Flight C has landed
+Minute 27: 
+Flight C is estimated to be delayed by -0.8400401488730864 minute(s)
+Flight D is estimated to be delayed by -1.700284652655398 minute(s)
+Minute 5: 
+Flight A has landed
+Minute 6: 
+Flight E has landed
+Minute 7: 
+Minute 8: 
+Minute 9: 
+Flight B is estimated to be delayed by -0.1132143979777549 minute(s)
+Flight D is estimated to be delayed by -0.8602410456027982 minute(s)
+Minute 10: 
+Minute 11: 
+Minute 12: 
+Minute 13: 
+Minute 14: 
+Flight D is estimated to be delayed by -1.7698856104066287 minute(s)
+Minute 15: 
+Minute 16: 
+Minute 17: 
+Flight F has landed
+Minute 18: 
+Minute 19: 
+Flight C is estimated to be delayed by -0.7241837927215995 minute(s)
+Flight D is estimated to be delayed by -0.3058896328090661 minute(s)
+Minute 20: 
+Minute 21: 
+Minute 22: 
+Flight B has landed
+Minute 23: 
+Minute 24: 
+Flight C has landed
+Minute 25: 
+Flight D has landed
+Minute 26: 

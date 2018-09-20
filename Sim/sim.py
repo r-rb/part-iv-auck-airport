@@ -23,9 +23,9 @@ plane = loadplane(kml, is_manual)
 sep_t = loadsep(kml)
 
 # Number of minutes to solve at
-skip = 50
+skip = 5
 
-minute = 0
+minute = 5
 sch = []
 endtimes = []
 name_list = []
