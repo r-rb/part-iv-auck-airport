@@ -7,7 +7,7 @@ tol = 1e-6
 res = 1
 
 # MIP Solver
-solver = GurobiSolver(OutputFlag = 1)
+solver = GurobiSolver(OutputFlag = 0)
 
 # OR Case?
 orcase = true
@@ -25,7 +25,6 @@ dmax = floor.(Int, res*vec(readdlm("./tests/max_delays.txt"))) + xbar - r
 p = round.(Int, res*readdlm("./tests/proc_t.txt"))
 
 # pred
-
 
 if !orcase
 	c = round.(Int, vec(readdlm("./tmp/class_num.txt")))

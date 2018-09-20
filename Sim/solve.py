@@ -16,7 +16,7 @@ def solve(id_arr, delay_cost, max_delay, class_num, proc_t, sep_t, depends, solv
             check_call(['julia', '../Solvers/spp_solver.jl'], stderr=STDOUT)
     elif solver_name == "mip":
         with open(os.devnull, 'wb') as devnull:
-            check_call(['julia', '../Solvers/mip_solver.jl'], stderr=STDOUT)
+            check_call(['julia', '../Solvers/mip_solver_full_beasley.jl'], stderr=STDOUT)
     elif solver_name == "dp":
         with open(os.devnull, 'wb') as devnull:
             check_call(['julia', '../Solvers/dp_solver.jl'], stderr=STDOUT)
@@ -31,7 +31,6 @@ def solve(id_arr, delay_cost, max_delay, class_num, proc_t, sep_t, depends, solv
 
     stuff = [(schedule[i],class_num[i]-1,i) for i in range(n_flights)]
     stuff.sort(key = lambda x:x[0])
-
     
     for idx,st in enumerate(stuff):
         if (idx < n_flights -1):

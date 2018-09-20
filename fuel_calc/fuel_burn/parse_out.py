@@ -43,6 +43,16 @@ ax.scatter(dist,mass,fuel_per_minute)
 
 plt.show()
 
+points = np.concatenate((dist, mass), axis=0)
+xi = np.linspace(0,9000,len(dist))
+yi = np.linspace(0,300000,len(dist))
+
+zi = griddata(points, fuel_per_minute, (xi,yi), method='linear', fill_value=np.nan, rescale=False)
+
+plt.contour(xi,yi,zi)
+
+plt.show()
+
 
 # first create a 
         

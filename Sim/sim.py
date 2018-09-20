@@ -9,7 +9,7 @@ from location import Location, dist, Landmark
 from plane import Plane
 from loaddata import loadplane, loadsep
 
-solver_name = "dp"
+solver_name = "mip"
 log_name = "log.txt"
 plot_during = False
 plot_after = True
@@ -32,9 +32,7 @@ name_list = []
 while not all([pl.landed for pl in plane]):
     with open(log_name, 'a') as f:
         f.write("Minute "+str(minute)+": \n")
-        
         if (minute % skip == 0):
-
             valid = [pl for pl in plane if not pl.landed and pl.arrived]
             eta = [pl.eta for pl in valid]
             delay_cost = [pl.delay_cost for pl in valid]
@@ -48,7 +46,6 @@ while not all([pl.landed for pl in plane]):
                 sch.append(schedule)
                 endtimes.append(endtime)
                 name_list.append(names)
-
                 for pl,sched in zip(valid,schedule):
                     if not pl.pred:
                         pl.eta = sched

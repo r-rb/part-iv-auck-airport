@@ -4,14 +4,22 @@ using JuMP, Gurobi
 solver = GurobiSolver(OutputFlag=1)
 
 # OR Library Case
-xbar = vec(readdlm("./tests/target_t.txt", Float32))
-p = readdlm("./tests/proc_t.txt", Float32)
+# xbar = vec(readdlm("./tests/target_t.txt", Float32))
+# p = readdlm("./tests/proc_t.txt", Float32)
 
+# dep = UInt8[0 for t = 1:length(xbar)]
+# r = vec(readdlm("./tests/early_t.txt", Float32))
+# dmax = vec(readdlm("./tests/max_delays.txt", Float32)) + xbar - r
+# ce = vec(readdlm("./tests/cost_early.txt", Float32))
+# cl = vec(readdlm("./tests/cost_late.txt", Float32))
+
+xbar = vec(readdlm("./tmp/arrival_t.txt", Float32))
+p = readdlm("./tmp/proc_t.txt", Float32)
 dep = UInt8[0 for t = 1:length(xbar)]
-r = vec(readdlm("./tests/early_t.txt", Float32))
-dmax = vec(readdlm("./tests/max_delays.txt", Float32)) + xbar - r
-ce = vec(readdlm("./tests/cost_early.txt", Float32))
-cl = vec(readdlm("./tests/cost_late.txt", Float32))
+r = vec(readdlm("./tmp/arrival_t.txt", Float32))
+dmax = vec(readdlm("./tmp/max_delay.txt", Float32)) + xbar - r
+ce = vec(readdlm("./tmp/delay_cost.txt", Float32))
+cl = vec(readdlm("./tmp/delay_cost.txt", Float32))
 
 F = length(xbar) # Number of flights
 l = r + dmax # Latest arrival time
@@ -154,3 +162,5 @@ end
 println(arrivals)
 println(xbar)
 
+
+writedlm("./tmp/schedule.txt", arrivals, "\n")
