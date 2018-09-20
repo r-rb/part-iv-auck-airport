@@ -34,22 +34,26 @@ class Plane(Location):
             if self.pred:
                 self.eta += self.pred.eta + 10
 
-    def move_position(self):
+    def move_position(self,step):
         apt_loc = (self.apt.lng,self.apt.lat)
         plane_loc = (self.lng,self.lat)
         bearing = get_bearing(plane_loc,apt_loc)
         pt = lonlat(*plane_loc)
-        dest = VincentyDistance(meters = self.speed).destination(pt,bearing)
+        dest = VincentyDistance(meters = step).destination(pt,bearing)
 
         return dest.longitude,dest.latitude
         # self.rect += step * (self.apt.rect - self.rect) / dist(self, self.apt)
 
     def step(self, log_name, minute):
         if dist(self, self.apt)/self.speed + tol >= self.eta:
+
             step = self.speed
 
+            if np.random.rand()<0.1:
+                step *= 5*np.random.rand()
+
             if step <= tol + dist(self, self.apt):
-                self.lng, self.lat = self.move_position()
+                self.lng, self.lat = self.move_position(step)
                 self.rect = earth2rect(self.lng,self.lat)
             else:
                 self.rect = self.apt.rect
@@ -78,7 +82,7 @@ class Plane(Location):
                 pt.timestamp.when = minute
 
                 ls = self.fol.newlinestring(name=self.name, coords=self.coord_path)
-                ls.style.linestyle.width = 2
+                ls.style.linestyle.width = 5
                 ls.timestamp.when = minute
 
                 if self.arrived:
@@ -89,7 +93,7 @@ class Plane(Location):
                         ls.style.linestyle.color = simplekml.Color.green
                         pt.style.iconstyle.scale = 0.8
                         pt.style.iconstyle.icon.href = "http://www.iconarchive.com/download/i91814/icons8/windows-8/Transport-Airplane-Mode-On.ico"
-            self.eta -= 1
+            self.eta = self.get_eta()
         elif not self.arrived and self.arr_time != None:
             if minute+1 >= self.arr_time:
                 self.arrived = True

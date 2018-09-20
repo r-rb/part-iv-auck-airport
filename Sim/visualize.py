@@ -40,4 +40,4 @@ def gantt(start,finish,name,skip=1):
             dt_str = '%Y-%m-%d %X'
             df.append(dict(Task="Minute "+str(skip*t), Start=start_dt.strftime(dt_str), Finish=end_dt.strftime(dt_str), Resource=n))
 
-    plot(ff.create_gantt(df, colors=colors, index_col='Resource', show_colorbar=True, group_tasks=True))
+    plot(ff.create_gantt(df, colors=colors, index_col='Resource', show_colorbar=True, group_tasks=True,showgrid_x=True))
