@@ -41,7 +41,7 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
     S = F + 1   # Number of stages. Initial stage only has initial state
     R = runways # Number of runways
     n = 1   # Initialising stage counter
-    maxcps = F # Maximum position shift from FCFS
+    maxcps = F+1 # Maximum position shift from FCFS
     maxseptimes = [maximum(proctimes[f,:]) for f = 1:F]
     turnovertime = 10    # Turnaround time for a plane before they can make another flight
     dependentflights = [dependency[f] for f = 1:F if dependency[f] != 0] # Storing flights which do have successors, could have duplicates.
@@ -218,7 +218,7 @@ function solvedp(earlytimes::Array{Float32},targets::Array{Float32}, dependency:
                             for (idx, rivalstate) in enumerate(candidates)
                                 # newstate dominates rivalstate when the newstate time is earlier than t, 
                                 # with better cost for the same flights scheduled
-                                if newtime <= rivalstate.rop[r][1] && sameflights(newstate, rivalstate) && newstate.cost <= rivalstate.cost 
+                                if newtime <= rivalstate.rop[r][1]  && newstate.cost <= rivalstate.cost 
                                     # There are no successors to a deadend state under the generatesuccessors function
                                     deadend = State([(-1.0, 1) for i = 1:F], Inf32, [(-1.0, -1) for i = 1:R])
 
